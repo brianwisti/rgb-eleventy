@@ -21,6 +21,9 @@ A reminder for when I'm staring at `package.json` in the middle of the night.
 `npm-run-all`
 : so can build styles and site pages at the same time
 
+`browser-sync`
+: so I don't need to manually refresh the browser during dev
+
 ## Resources
 
 Sites and posts that I'm leaning on heavily while I assemble this thing.

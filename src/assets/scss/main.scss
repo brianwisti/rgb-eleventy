@@ -1,6 +1,38 @@
 // styles for randomgeekery.org
 
+:root {
+    --prose-width: 68ch;
+    --prose-font: "Kanit", sans-serif;
+    --code-font: "Courier Prime", monospace;
+}
+
+body {
+    font-family: var(--prose-font);
+    font-size: 22px;
+}
+
 article {
-    max-width: min(68ch, 100%);
+    max-width: min(var(--prose-width), 100%);
     margin: 0 auto;
+}
+
+header.siteheader {
+    font-size: large;
+    padding: 1em;
+}
+
+.sitesplash {
+    display: grid;
+    grid-template-columns: 1fr min(var(--prose-width), 33%) min(var(--prose-width), 33%);
+    grid-gap: 1em;
+}
+
+.card {
+    border: thin solid black;
+    padding: 0.5em;
+    margin: 0.5em;
+}
+
+pre, code, tt {
+    font-family: var(--code-font);
 }

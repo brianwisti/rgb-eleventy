@@ -1,7 +1,7 @@
 {% from "macros/date_stamp.njk" import date_stamp %}
 
-{% macro article_card(article, card_content) %}
-    <section>
+{% macro article_card(article, card_content, class_name="article") %}
+    <section class="card {{ class_name }}">
         <header>
             <strong>
                 <a href="{{ article.url | url }}">{{ article.data.title }}</a>
@@ -21,6 +21,7 @@
 {% macro note_card(note) %}
     {{ article_card(
         article = note,
+        class_name = "note",
         card_content = note.templateContent
     ) }}
 {% endmacro %}
@@ -28,6 +29,7 @@
 {% macro post_card(post) %}
     {{ article_card(
         article = post,
+        class_name = "post",
         card_content = post.data.description
     ) }}
 {% endmacro %}

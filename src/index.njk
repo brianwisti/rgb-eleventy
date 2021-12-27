@@ -3,16 +3,20 @@
 {% from "macros/cards.njk" import note_card, post_card %}
 
 {% block content %}
-  <p>Yo, welcome!</p>
+  <section class="sitesplash">
+    <div>
+      <p>Yo, welcome!</p>
+    </div>
 
-  <div>
-    {% set note = collections.notes | first %}
-    {{ note_card(note = note)}}
-  </div>
+    <div>
+      {% set note = collections.notes | first %}
+      {{ note_card(note = note)}}
+    </div>
 
-  <div>
-    {% for post in collections.posts | slice(5) | first %}
-      {{ post_card(post = post) }}
-    {% endfor %}
-  </div>
+    <div class="card-list">
+      {% for post in collections.posts | slice(5) | first %}
+        {{ post_card(post = post) }}
+      {% endfor %}
+    </div>
+  </section>
 {% endblock content %}
