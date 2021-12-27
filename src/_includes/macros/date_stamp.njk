@@ -1,0 +1,3 @@
+{% macro date_stamp(date) %}
+    <time datetime="{{ date | dateFormat('yyyy-MM-dd')}}">{{ date | dateFormat("DDD") }}</time>
+{% endmacro %}

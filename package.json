@@ -1,0 +1,15 @@
+{
+  "name": "rgb-eleventy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Brian Wisti <brianwisti@pobox.com>",
+  "license": "MIT",
+  "scripts": {
+    "eleventy": "npx eleventy",
+    "watch:eleventy": "npx eleventy --watch"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1",
+    "luxon": "^2.2.0"
+  }
+}
