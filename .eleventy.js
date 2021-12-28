@@ -15,11 +15,6 @@ module.exports = function (config) {
     require("./src/_11ty/collections/featuredPosts.js")
   );
 
-  config.addCollection(
-    "latestNotes",
-    require("./src/_11ty/collections/latestNotes.js")
-  );
-
   // Add filters for the things Nunjucks won't do by itself.
   config.addFilter(
     "byYear",
@@ -30,6 +25,16 @@ module.exports = function (config) {
     "dateFormat",
     require("./src/_11ty/filters/dateFormat.js")
   );
+
+  config.addFilter(
+    "forYear",
+    require("./src/_11ty/filters/forYear.js")
+  )
+
+  config.addFilter(
+    "newestEntries",
+    require("./src/_11ty/filters/newestEntries.js")
+  )
 
   config.setDataDeepMerge(true);
 

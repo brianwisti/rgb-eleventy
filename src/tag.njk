@@ -4,23 +4,14 @@ pagination:
     size: 1
     alias: tag
     addAllPagesToCollections: true
-layout: layouts/article.njk
+layout: layouts/article_listing.njk
 eleventyComputed:
     title: Articles tagged "{{ tag }}"
 permalink: /tag/{{ tag | slug }}/index.html
 ---
-{% from "macros/date_stamp.njk" import date_stamp %}
+{% from "macros/article_entries.njk" import article_entries %}
 
-<ul>
-{% for post in collections[tag] | reverse %}
-  <li>
-    {{ date_stamp(post.date) }}
-    <a href="{{ post.url | url }}">
-        {% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}
-    </a>
-    {% for tag in post.data.tags %}
-      <a href="/tag/{{ tag | slug }}">{{ tag }}</a>
-    {% endfor %}
-  </li>
-{% endfor %}
-</ul>
+{% block listing %}
+  {% set articles = collections[tag] | reverse %}
+  {{ article_entries(articles=articles) }}
+{% endblock listing %}

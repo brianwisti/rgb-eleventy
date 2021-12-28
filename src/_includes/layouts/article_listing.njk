@@ -1,0 +1,10 @@
+{% extends "layouts/article.njk" %}
+
+{% block article_content %}
+    <section>
+        {{ content | safe }}
+        <div>
+            {% block listing %}{% endblock %}
+        </div>
+    </section>
+{% endblock article_content %}

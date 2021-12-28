@@ -1,0 +1,25 @@
+{% extends "layouts/base.njk" %}
+
+{% from "macros/cards.njk" import post_card %}
+
+{% block content %}
+<section class="card-columns">
+    <div>Explanation!</div>
+    {% set posts = collections.posts | newestEntries(10) %}
+    <div>
+        {% for post in posts %}
+            {{ post_card(post)}}
+        {% endfor %}
+    </div>
+    <div>
+        <ul>
+            {% for year, posts in collections.posts | byYear %}
+                <li>
+                    <a href="/post/{{ year }}">{{ year }}</a>:
+                    {{ posts | length }}
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+</section>
+{% endblock content %}

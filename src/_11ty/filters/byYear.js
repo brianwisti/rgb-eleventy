@@ -11,6 +11,5 @@ module.exports = function (collection) {
         byYear.get(articleYear).push(article);
     });
 
-    console.table(byYear);
     return byYear;
 };

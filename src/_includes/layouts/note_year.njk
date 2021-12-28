@@ -1,0 +1,12 @@
+---
+eleventyComputed:
+    title: Notes added in {{ year }}
+---
+{% extends "layouts/article_listing.njk" %}
+
+{% from "macros/article_entries.njk" import article_entries %}
+
+{% block listing %}
+    {% set articles = collections.notes | byYear | forYear(year) %}
+    {{ article_entries(articles=articles) }}
+{% endblock %}

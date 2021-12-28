@@ -6,14 +6,17 @@
 <section class="card-columns">
     <div>Explanation!</div>
     <div>
-        {% for note in collections.latestNotes %}
+        {% for note in collections.notes | newestEntries(10) %}
             {{ note_card(note = note)}}
         {% endfor %}
     </div>
     <div>
         <ul>
             {% for year, notes in collections.notes | byYear %}
-                <li>{{ year }}: {{ notes | length }}</li>
+                <li>
+                    <a href="/note/{{ year }}">{{ year }}</a>:
+                    {{ notes | length }}
+                </li>
             {% endfor %}
         </ul>
     </div>
