@@ -1,0 +1,21 @@
+{% extends "layouts/base.njk" %}
+
+{% from "macros/cards.njk" import note_card %}
+
+{% block content %}
+<section class="card-columns">
+    <div>Explanation!</div>
+    <div>
+        {% for note in collections.latestNotes %}
+            {{ note_card(note = note)}}
+        {% endfor %}
+    </div>
+    <div>
+        <ul>
+            {% for year, notes in collections.notes | byYear %}
+                <li>{{ year }}: {{ notes | length }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+</section>
+{% endblock content %}

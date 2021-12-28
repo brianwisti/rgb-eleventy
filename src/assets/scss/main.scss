@@ -8,7 +8,7 @@
 
 body {
     font-family: var(--prose-font);
-    font-size: 22px;
+    font-size: 20px;
 }
 
 article {
@@ -16,23 +16,40 @@ article {
     margin: 0 auto;
 }
 
+footer {
+    font-size: smaller;
+}
+
 header.siteheader {
     font-size: large;
     padding: 1em;
 }
 
-.sitesplash {
+.card-columns {
     display: grid;
-    grid-template-columns: 1fr min(var(--prose-width), 33%) min(var(--prose-width), 33%);
+    grid-template-columns:
+        1fr
+        min(var(--prose-width), 33%)
+        min(var(--prose-width), 33%);
     grid-gap: 1em;
+}
+
+pre, code, tt {
+    font-family: var(--code-font);
 }
 
 .card {
     border: thin solid black;
     padding: 0.5em;
-    margin: 0.5em;
+    margin: .5em 0;
+
+    footer {
+        text-align: right;
+    }
 }
 
-pre, code, tt {
-    font-family: var(--code-font);
+a.tag {
+    &::before {
+        content: '#';
+    }
 }

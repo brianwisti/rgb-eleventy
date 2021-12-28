@@ -10,7 +10,22 @@ module.exports = function (config) {
     require("./src/_11ty/collections/posts.js")
   );
 
+  config.addCollection(
+    "featuredPosts",
+    require("./src/_11ty/collections/featuredPosts.js")
+  );
+
+  config.addCollection(
+    "latestNotes",
+    require("./src/_11ty/collections/latestNotes.js")
+  );
+
   // Add filters for the things Nunjucks won't do by itself.
+  config.addFilter(
+    "byYear",
+    require("./src/_11ty/filters/byYear.js")
+  );
+
   config.addFilter(
     "dateFormat",
     require("./src/_11ty/filters/dateFormat.js")

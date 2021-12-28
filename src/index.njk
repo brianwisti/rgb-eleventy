@@ -3,7 +3,7 @@
 {% from "macros/cards.njk" import note_card, post_card %}
 
 {% block content %}
-  <section class="sitesplash">
+  <section class="card-columns">
     <div>
       <p>Yo, welcome!</p>
     </div>
@@ -14,7 +14,7 @@
     </div>
 
     <div class="card-list">
-      {% for post in collections.posts | slice(5) | first %}
+      {% for post in collections.featuredPosts %}
         {{ post_card(post = post) }}
       {% endfor %}
     </div>

@@ -10,7 +10,7 @@ uuid: fe96a0b8-dda8-4b3c-a4a7-a5cebd353ac0
 
 Trying an experiment with setting up a [capture template](https://orgmode.org/manual/Capture-templates.html) so [ox-hugo](https://ox-hugo.scripter.co/) can add short notes to the site.
 
-I built up the [ox-hugo capture sample](https://ox-hugo.scripter.co/doc/org-capture-setup/) to get my preferred `SECTION/YEAR/MONTH/STUB` folder layout.
+I built up the [ox-hugo capture sample](https://ox-hugo.scripter.co/doc/org-capture-setup/) to get my preferred `SECTION/YEAR/MONTH/STUB` folder layout.  
 
 ```elisp
 (defun org-hugo-note-capture-template ()

@@ -1,0 +1,26 @@
+---
+pagination:
+    data: collections
+    size: 1
+    alias: tag
+    addAllPagesToCollections: true
+layout: layouts/article.njk
+eleventyComputed:
+    title: Articles tagged "{{ tag }}"
+permalink: /tag/{{ tag | slug }}/index.html
+---
+{% from "macros/date_stamp.njk" import date_stamp %}
+
+<ul>
+{% for post in collections[tag] | reverse %}
+  <li>
+    {{ date_stamp(post.date) }}
+    <a href="{{ post.url | url }}">
+        {% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}
+    </a>
+    {% for tag in post.data.tags %}
+      <a href="/tag/{{ tag | slug }}">{{ tag }}</a>
+    {% endfor %}
+  </li>
+{% endfor %}
+</ul>
