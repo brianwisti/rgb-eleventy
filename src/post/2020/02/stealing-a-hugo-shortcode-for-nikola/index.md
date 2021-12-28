@@ -8,7 +8,7 @@ description: I needed a YouTube shortcode for Nikola, so I adapted Hugo's.
 draft: false
 slug: stealing-a-hugo-shortcode-for-nikola
 tags:
-- nikola
+- Nikola
 - mako
 - site
 - hugo

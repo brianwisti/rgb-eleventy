@@ -6,7 +6,7 @@ cover_image: cover.png
 date: 2020-02-19 05:41:44
 slug: i-have-one-like-somewhere
 tags:
-- indieweb
+- IndieWeb
 - site
 title: I have one like somewhere
 uuid: 120b0459-4bd7-4ef7-9778-5618ec3c76e5

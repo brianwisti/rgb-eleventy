@@ -6,7 +6,7 @@ cover_image: cover.jpg
 date: 2019-08-10 16:38:46
 slug: sweep-leaves-not-lives
 tags:
-- seattle
+- Seattle
 - graffiti
 - art
 - homelessness

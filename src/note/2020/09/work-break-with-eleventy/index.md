@@ -4,7 +4,7 @@ cover_image: cover.png
 date: 2020-09-19 20:10:16
 slug: work-break-with-eleventy
 tags:
-- eleventy
+- Eleventy
 - site
 title: Work Break with Eleventy
 uuid: 62b544c6-6a78-496b-9392-ef1f767a4bbf

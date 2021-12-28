@@ -8,7 +8,8 @@ source:
   url: https://p6weekly.wordpress.com/2019/07/22/2019-29-released/
 tags:
 - perl6
-- yeah i know
+- Raku Lang
+- yeah I know
 - just when I thought I was out
 - they pull me back in
 title: Saving some links from Perl 6 Weekly

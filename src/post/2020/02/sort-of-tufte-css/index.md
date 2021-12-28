@@ -8,7 +8,7 @@ description: I tried something new with my site style.
 draft: false
 slug: sort-of-tufte-css
 tags:
-- css
+- CSS
 - site
 title: Sort of Tufte CSS
 uuid: 44f11113-d125-4f10-bb60-03434d54d355

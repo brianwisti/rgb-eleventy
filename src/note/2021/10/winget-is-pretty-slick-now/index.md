@@ -3,8 +3,8 @@ date: 2021-10-16
 format: md
 tags:
 - windows
-- package-manager
-- respect-the-command-line
+- package manager
+- respect the command line
 title: winget is pretty slick now
 ---
 

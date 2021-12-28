@@ -2,8 +2,8 @@
 date: 2020-10-25 01:26:00
 slug: i-added-this-note-from-org-mode
 tags:
-- Emacs
-- OrgMode
+- emacs
+- org-mode
 title: I added this note from org mode
 uuid: fe96a0b8-dda8-4b3c-a4a7-a5cebd353ac0
 ---

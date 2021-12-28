@@ -5,7 +5,7 @@ date: 2020-05-01 06:30:00
 slug: sorry-if-i-broke-your-rss-feed
 tags:
 - site
-- i fixed it!
+- I fixed it!
 - damstack
 - did i make a buzzword yet
 title: Sorry if I Broke Your Rss Feed

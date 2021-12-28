@@ -8,7 +8,7 @@ draft: false
 slug: purple-symmetry
 tags:
 - drawing
-- sketchbook mobile
+- Sketchbook Mobile
 - celtic
 - zentangle
 title: Purple Symmetry

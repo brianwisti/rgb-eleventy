@@ -9,10 +9,10 @@ format: md
 slug: tangling-code-from-hugo-content-with-raku
 tags:
 - Raku Lang
-- LiterateProgramming
-- Files
-- Hugo
-- SortOf
+- literate programming
+- files
+- hugo
+- sort of
 title: Tangling code from Hugo content with Raku
 updated: 2020-09-03 16:29:00
 uuid: cb551673-2d0d-4801-b02c-26003b52026c

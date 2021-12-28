@@ -8,9 +8,9 @@ draft: false
 slug: my-first-julia-script
 tags:
 - JuliaLang
-- LiterateProgramming
-- LiterateBlogging
-- Site
+- literate programming
+- literate blogging
+- site
 title: My first Julia script
 ---
 

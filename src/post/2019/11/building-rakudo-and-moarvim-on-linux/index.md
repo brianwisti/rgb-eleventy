@@ -6,7 +6,7 @@ date: 2019-11-03
 description: In which I rediscover `make && make test && make install`
 slug: building-rakudo-and-moarvim-on-linux
 tags:
-- raku lang
+- Raku Lang
 - perl6
 - linux
 title: Building Rakudo and Moarvm on Linux

@@ -7,7 +7,7 @@ slug: somebody-discovered-fork-awesome
 tags:
 - site
 - fun
-- nikola
+- Nikola
 title: Somebody Discovered Fork Awesome
 uuid: 965e7a7c-b02a-4085-84fa-8ce13cc8c2b0
 ---

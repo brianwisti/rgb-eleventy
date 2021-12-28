@@ -8,7 +8,7 @@ draft: false
 slug: vegvisir
 tags:
 - drawing
-- procreate
+- Procreate
 - buy me
 title: Vegvisir
 uuid: be58be47-bd53-4cca-a977-54c8d7584b02

@@ -7,7 +7,7 @@ date: 2020-04-06 06:15:00
 slug: sign-of-the-times
 tags:
 - seen
-- seattle
+- Seattle
 title: Sign of the Times
 uuid: 99d40887-bb00-48ea-8300-6a1708fe8045
 ---

@@ -4,7 +4,7 @@ slug: yay-fresh-webmentions-again
 tags:
 - IndieWeb
 - site
-- i fixed it!
+- I fixed it!
 title: yay fresh webmentions again
 uuid: bb6a43f1-225c-4b94-bda6-ef824fbbfe66
 ---

@@ -5,7 +5,7 @@ tags:
 - ssg
 - blogging
 - puttering
-- indieweb
+- IndieWeb
 title: SSG is for putterers
 uuid: f742cba9-9f41-4def-a7fc-44edc4813194
 ---

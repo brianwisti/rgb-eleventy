@@ -5,7 +5,7 @@ slug: debugging-my-site-with-a-little-help-from-my-friends
 tags:
 - IndieWeb
 - data
-- i fixed it!
+- I fixed it!
 - before I pushed it
 - yay for tests
 title: Debugging My Site With a Little Help From My Friends

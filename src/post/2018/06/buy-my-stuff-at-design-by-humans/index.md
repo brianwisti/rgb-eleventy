@@ -8,7 +8,7 @@ draft: false
 slug: buy-my-stuff-at-design-by-humans
 tags:
 - drawing
-- infinite painter
+- Infinite Painter
 - hugo
 - buy me
 title: Buy My Stuff At Design by Hümans

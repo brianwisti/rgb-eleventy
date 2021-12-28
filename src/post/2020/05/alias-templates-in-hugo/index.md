@@ -10,7 +10,7 @@ slug: alias-templates-in-hugo
 tags:
 - hugo
 - accessibility
-- indieweb
+- IndieWeb
 - I fixed it!
 - hopefully
 - site

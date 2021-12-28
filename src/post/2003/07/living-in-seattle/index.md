@@ -9,7 +9,7 @@ description: circa 2003, at least.
 slug: living-in-seattle
 tags:
 - babblings
-- seattle
+- Seattle
 - exploring
 title: Living in Seattle
 updated: 2004-07-11 00:00:00

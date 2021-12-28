@@ -9,7 +9,7 @@ tags:
 - site
 - pyinvoke
 - drawing
-- amaziograph
+- Amaziograph
 - fun
 title: inv note
 uuid: 0958cf9c-d72c-4ef3-bbc3-d36632f5bbc2

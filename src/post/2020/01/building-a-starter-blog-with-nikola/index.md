@@ -10,7 +10,7 @@ slug: building-a-starter-blog-with-nikola
 tags:
 - python
 - site
-- nikola
+- Nikola
 title: Building a starter blog with Nikola
 uuid: 74f3d86f-f2f9-4899-ad71-16c9318a5565
 ---

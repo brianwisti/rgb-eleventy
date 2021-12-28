@@ -6,7 +6,7 @@ date: 2020-02-03 03:45:13
 slug: added-dark-mode-for-the-site
 tags:
 - site
-- css
+- CSS
 title: Added dark mode for the site
 uuid: d2c9f3f3-8e9a-4ecb-b2c8-a264474713e9
 ---

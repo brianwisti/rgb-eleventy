@@ -6,7 +6,7 @@ cover_image: cover.png
 date: 2020-04-03 07:18:00
 slug: yay-i-added-mentions-and-replies
 tags:
-- indieweb
+- IndieWeb
 - site
 title: Yay I Added Mentions and Replies
 uuid: f3d7181b-a004-483c-8fda-8927acb7da8b

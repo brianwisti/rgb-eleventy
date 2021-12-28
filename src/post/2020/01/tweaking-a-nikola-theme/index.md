@@ -8,7 +8,7 @@ date: 2020-01-25 20:00:00
 draft: false
 slug: tweaking-a-nikola-theme
 tags:
-- nikola
+- Nikola
 - site
 title: Tweaking a Nikola Theme
 uuid: 1696d39a-5968-44bb-85d9-f8f545631c85

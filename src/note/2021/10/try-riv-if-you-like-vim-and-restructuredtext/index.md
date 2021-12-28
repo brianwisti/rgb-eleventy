@@ -5,7 +5,7 @@ slug: try-riv-if-you-like-vim-and-restructuredtext
 tags:
 - vim
 - rst
-- second-brain
+- second brain
 title: Try Riv if you like Vim and reStructuredText
 uuid: cd48c5df-6fd5-4058-9780-bd7b87c48f91
 ---

@@ -5,7 +5,7 @@ cover_image: cover.png
 date: 2020-01-21 07:01:04
 slug: random-geekery-a-la-nikola
 tags:
-- nikola
+- Nikola
 - site
 - having fun
 - killing time while scripts run

@@ -10,10 +10,10 @@ series:
 - fixing my webmentions
 slug: using-the-webmentionio-api
 tags:
-- Python
+- python
 - IndieWeb
-- FixingMySite
-- Site
+- fixing my site
+- site
 title: Using the Webmention.io API
 uuid: 0f72149c-238d-4474-8ed5-38c281c9a7e4
 ---

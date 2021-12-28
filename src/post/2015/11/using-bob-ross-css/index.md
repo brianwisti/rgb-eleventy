@@ -6,7 +6,7 @@ category: tools
 date: 2015-11-29 00:00:00
 slug: using-bob-ross-css
 tags:
-- css
+- CSS
 title: Bob Ross CSS
 uuid: fdf622ad-7cd5-4fa0-8ec9-db49d8b10f95
 ---

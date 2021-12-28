@@ -5,7 +5,7 @@ aliases:
 date: 2020-01-08 05:19:30
 slug: eleventy-010-is-out-and-i-am-distracted-again
 tags:
-- eleventy
+- Eleventy
 - shiny
 - possum
 - the logo makes the project

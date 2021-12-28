@@ -7,7 +7,7 @@ draft: false
 slug: wellington-for-sass
 tags:
 - site
-- css
+- CSS
 title: Wellington for Sass
 uuid: 458a7b5c-c67a-49e7-be3d-5a3a987bb961
 ---

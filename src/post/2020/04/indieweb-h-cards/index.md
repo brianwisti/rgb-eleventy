@@ -9,7 +9,7 @@ description: Using microformats to build a profile page
 draft: false
 slug: indieweb-h-cards
 tags:
-- indieweb
+- IndieWeb
 - microformats
 - site
 title: Indieweb h-cards

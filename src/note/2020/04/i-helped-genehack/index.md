@@ -6,7 +6,7 @@ cover_image: cover.jpg
 date: 2020-04-27 16:50:00
 slug: i-helped-genehack
 tags:
-- indieweb
+- IndieWeb
 - blogging
 - community
 - warm fuzzies

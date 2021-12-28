@@ -7,7 +7,7 @@ source:
   title: sizeof.cat
   url: https://sizeof.cat/post/indieweb-principles/
 tags:
-- indieweb
+- IndieWeb
 - who needs social media
 - notes
 - TODO

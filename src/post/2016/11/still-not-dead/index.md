@@ -7,7 +7,7 @@ date: 2016-11-20 00:00:00
 slug: still-not-dead
 tags:
 - site
-- indieweb
+- IndieWeb
 title: Still Not Dead
 uuid: eddd3d26-ae65-4100-a767-061b627a3ab6
 ---

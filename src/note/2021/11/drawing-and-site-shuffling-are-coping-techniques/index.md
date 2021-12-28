@@ -3,7 +3,7 @@ date: 2021-11-07
 slug: drawing-and-site-shuffling-are-coping-techniques
 tags:
 - drawing
-- linea-sketch
+- Linea Sketch
 - symmetry
 - site
 title: Drawing and site shuffling are coping techniques

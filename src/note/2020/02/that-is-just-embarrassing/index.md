@@ -8,7 +8,7 @@ slug: that-is-just-embarrassing
 tags:
 - site
 - oops
-- i fixed it!
+- I fixed it!
 title: That Is Just Embarrassing
 uuid: 07793cf2-752c-4403-a4a2-6cc89d9a52fa
 ---
