@@ -1,0 +1,30 @@
+{% from "macros/date_stamp.njk" import date_stamp %}
+
+{% from "macros/tag_link.njk" import tag_link %}
+
+{% macro card(card_content, header_text="", jump_url="", date="", tags=[]) %}
+  <section class="card">
+    {% if header_text %}
+      <header>
+        <strong>
+          {% if jump_url %}
+            <a href="{{ jump_url | url }}">{{ header_text }}</a>
+          {% else %}
+            {{ header_text }}
+          {% endif %}
+        </strong>
+        {% if date %}
+          <p>{{ date_stamp(date) }}</p>
+        {% endif %}
+      </header>
+    {% endif %}
+    {{ card_content | safe }}
+    {% if tags %}
+      <footer>
+        {% for tag in tags %}
+          {{ tag_link(tag) }}
+        {% endfor %}
+      </footer>
+    {% endif %}
+  </section>
+{% endmacro %}
