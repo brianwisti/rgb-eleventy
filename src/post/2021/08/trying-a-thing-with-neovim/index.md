@@ -33,7 +33,7 @@ I won't make you wait around for a proper post.[^1] Hugo lets you use rst.  But
 Hugo's way is slow and hard to customize. Not their fault. reStructuredText is
 not their focus. Still — why not format it ahead of time?
 
-:::admonition{title="answer"}
+:::admonition answer
 
 Because it took a lot of work to figure this out? And most folks are
 perfectly happy with Markdown? And bloggers who prefer reStructuredText are

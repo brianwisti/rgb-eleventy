@@ -426,7 +426,7 @@ class Rouge::Formatters::HTML
 end
 ```
 
-:::admonition{title="What about the shortcodes I want to keep?"}
+:::note What about the shortcodes I want to keep?
 
 This is just general advice to make Asciidoctor and Hugo play nice with each other.
 You don’t need to rebuild your entire site flow to use this information.

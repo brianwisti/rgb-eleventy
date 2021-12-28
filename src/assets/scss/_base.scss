@@ -9,6 +9,15 @@ article {
     margin: 0 auto;
 }
 
+aside {
+  outline: thin black solid;
+  padding: .5em;
+
+  header {
+    font-weight: bold;
+  }
+}
+
 footer {
     font-size: smaller;
 }

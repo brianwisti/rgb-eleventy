@@ -13,7 +13,7 @@ updated: 2020-03-13
 uuid: a4cb7096-e105-4173-a78a-9be6a97f7c4f
 ---
 
-::: note 2020-03-13
+:::note 2020-03-13
 
 Of course, Google long ago turned Buzz into
 [Plus](https://plus.google.com/), then abandoned *that*. Keeping the

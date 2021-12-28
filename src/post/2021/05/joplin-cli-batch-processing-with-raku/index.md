@@ -216,7 +216,7 @@ had before.  Now we find any *line* containing a lone ISO-8601 timestamp, and
 convert it to a top-level Markdown header.  The `:g` flag tells `.subst` to
 replace every occurrence.
 
-:::admonition{title="`^..$` vs `^^..$$`"}
+:::note `^..$` vs `^^..$$`
 
 Regular expressions in other languages treat `^` and `$` differently
 depending on whether you're applying the expression in a single-line or
@@ -294,9 +294,7 @@ sub read-entries(@entries) {
 }
 ```
 
-:::admonition
-
-**Space is insignificant in regular expressions**
+:::admonition Space is insignificant in regular expressions
 
 Did you catch that?  Raku ignores whitespace in regular expressions unless you
 say otherwise with [`:sigspace`][sigspace].  Means you can make a regex easier
@@ -540,9 +538,7 @@ The potential really starts to sink in for me.
 And this is just me composing regex objects.  Eventually I'm going to try
 grammars and then look out world!
 
-:::admonition
-
-**but why?**
+:::note but why?
 
 This may all seem a little ridiculous, and for this use case — parsing my own
 entry titles — it is.  So why am I going through all this work? Aside from it

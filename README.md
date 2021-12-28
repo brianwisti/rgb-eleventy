@@ -24,6 +24,12 @@ A reminder for when I'm staring at `package.json` in the middle of the night.
 `browser-sync`
 : so I don't need to manually refresh the browser during dev
 
+`markdown-it-container`
+: for the many notes, warnings, and asides I sprinkle through my articles
+
+`xregexp`
+: because I like regular expressions and I like them fancy
+
 ## Resources
 
 Sites and posts that I'm leaning on heavily while I assemble this thing.

@@ -1,4 +1,7 @@
 module.exports = function (config) {
+  const markdownHandler = require("./src/_11ty/handlers/markdownHandler.js");
+  config.setLibrary("md", markdownHandler());
+
   // Bring in the Hugo sections as 11ty collections.
   config.addCollection(
     "notes",
@@ -47,7 +50,7 @@ module.exports = function (config) {
     },
     templateFormats: ["njk", "md"],
     htmlTemplateEngine: "njk",
-    markdownTemplateEngine: "md",
+    markdownTemplateEngine: false, // at least until I clean up template-ish markup
     passthroughFileCopy: true,
   };
 };

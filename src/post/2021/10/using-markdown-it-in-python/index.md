@@ -2,7 +2,6 @@
 date: 2021-10-16
 description: Figuring out just enough markdown-it-py to write this post
 draft: false
-is_md_it: true
 tags:
 - python
 - markdown
@@ -11,7 +10,7 @@ title: Using markdown-it in Python
 
 [user guide]: https://markdown-it-py.readthedocs.io/en/latest/using.html
 
-::: note
+:::note
 
 I hope the information I share here is useful, but I'm just documenting what I
 needed to know *after* reading the markdown-it-py [user guide][] for basic
