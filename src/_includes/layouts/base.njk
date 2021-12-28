@@ -11,13 +11,7 @@
     <link rel="stylesheet" href="/assets/css/main.css">
   </head>
   <body>
-    <header class="siteheader">
-      <strong><a href="/">Random Geekery</a></strong>
-      <nav>
-        <a href="/note/">Notes</a>
-        <a href="/post/">Posts</a>
-      </nav>
-    </header>
+    {% include "partials/masthead.njk" %}
     <main>
       {% block content %}{% endblock %}
     </main>

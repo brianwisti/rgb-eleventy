@@ -1,24 +1,24 @@
-{% extends "layouts/base.njk" %}
+{% extends "layouts/splash.njk" %}
 
 {% from "macros/cards.njk" import note_card %}
 
-{% block content %}
-<section class="card-columns">
-    <div>Explanation!</div>
-    <div>
-        {% for note in collections.notes | newestEntries(10) %}
-            {{ note_card(note = note)}}
-        {% endfor %}
-    </div>
-    <div>
-        <ul>
-            {% for year, notes in collections.notes | byYear %}
-                <li>
-                    <a href="/note/{{ year }}">{{ year }}</a>:
-                    {{ notes | length }}
-                </li>
-            {% endfor %}
-        </ul>
-    </div>
-</section>
-{% endblock content %}
+{% block splash_intro %}
+  <p>These are my notes!</p>
+{% endblock %}
+
+{% block splash_primary %}
+  {% for note in collections.notes | newestEntries(10) %}
+      {{ note_card(note = note)}}
+  {% endfor %}
+{% endblock %}
+
+{% block splash_secondary %}
+  <ul>
+    {% for year, notes in collections.notes | byYear %}
+      <li>
+        <a href="/note/{{ year }}">{{ year }}</a>:
+        {{ notes | length }}
+      </li>
+    {% endfor %}
+  </ul>
+{% endblock %}

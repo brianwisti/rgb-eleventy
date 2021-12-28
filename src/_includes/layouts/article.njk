@@ -3,7 +3,9 @@
 {% block content %}
 <article>
     <header>
+      {% block article_header %}
         <h1>{{ title }}</h1>
+      {% endblock article_header %}
     </header>
     {% block article_content %}
         {{ content | safe }}

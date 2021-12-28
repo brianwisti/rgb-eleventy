@@ -1,0 +1,7 @@
+// Links to tag listings
+
+a.tag {
+    &::before {
+        content: '#';
+    }
+}

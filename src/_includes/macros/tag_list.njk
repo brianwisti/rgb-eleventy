@@ -1,0 +1,9 @@
+{% from "macros/tag_link.njk" import tag_link %}
+
+{% macro tag_list(tags) %}
+  <ul>
+    {% for tag in tags %}
+      <li>{{ tag_link(tag) }}</li>
+    {% endfor %}
+  </ul>
+{% endmacro %}

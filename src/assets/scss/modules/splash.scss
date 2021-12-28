@@ -1,0 +1,12 @@
+// Includes an info block, a primary focus, and a secondary focus
+// displayed in columns for larger screens
+.splash {
+  @media screen and (min-width: 1024px) {
+    display: grid;
+    grid-template-columns:
+        1fr
+        min(var(--prose-width), 33%)
+        min(var(--prose-width), 33%);
+    grid-gap: 1em;
+  }
+}

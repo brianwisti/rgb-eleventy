@@ -1,0 +1,15 @@
+{% extends "layouts/base.njk" %}
+
+{% block content %}
+<section class="splash">
+  <div class="intro">
+    {% block splash_intro %}Explainer!{% endblock %}
+  </div>
+  <div class="primary">
+    {% block splash_primary %}See me first!{% endblock %}
+  </div>
+  <div class="secondary">
+    {% block splash_secondary %}See me next!{% endblock %}
+  </div>
+</section>
+{% endblock content %}

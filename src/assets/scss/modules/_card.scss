@@ -1,0 +1,10 @@
+// For summaries of info, usually with a link out
+section.card {
+    border: thin solid black;
+    padding: 0.5em;
+    margin: .5em 0;
+
+    footer {
+        text-align: right;
+    }
+}

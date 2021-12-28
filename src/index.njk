@@ -3,17 +3,17 @@
 {% from "macros/cards.njk" import note_card, post_card %}
 
 {% block content %}
-  <section class="card-columns">
-    <div>
+  <section class="splash">
+    <div class="intro">
       <p>Yo, welcome!</p>
     </div>
 
-    <div>
+    <div class="primary">
       {% set note = collections.notes | first %}
       {{ note_card(note = note)}}
     </div>
 
-    <div class="card-list">
+    <div class="secondary">
       {% for post in collections.featuredPosts %}
         {{ post_card(post = post) }}
       {% endfor %}

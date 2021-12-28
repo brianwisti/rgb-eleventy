@@ -29,5 +29,11 @@ A reminder for when I'm staring at `package.json` in the middle of the night.
 Sites and posts that I'm leaning on heavily while I assemble this thing.
 
 - [Eleventy Documentation](https://www.11ty.dev/docs/)
-- [Structuring Eleventy Projects](https://www.webstoemp.com/blog/eleventy-projects-structure/)
-- [Nunjucks Templating Docs](https://mozilla.github.io/nunjucks/templating.html)
+- [Structuring Eleventy
+  Projects](https://www.webstoemp.com/blog/eleventy-projects-structure/)
+- [Nunjucks Templating
+  Docs](https://mozilla.github.io/nunjucks/templating.html)
+- [Consistent, Fluidly Scaling Type and Spacing](https://css-tricks.com/consistent-fluidly-scaling-type-and-spacing/)
+- [Newspaper terms
+  PDF](https://nieonline.com/coloradonie/downloads/journalism/GlossaryOfNewspaperTerms.pdf)
+  for when I'm running blank on CSS class names

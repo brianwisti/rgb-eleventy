@@ -1,25 +1,25 @@
-{% extends "layouts/base.njk" %}
+{% extends "layouts/splash.njk" %}
 
 {% from "macros/cards.njk" import post_card %}
 
-{% block content %}
-<section class="card-columns">
-    <div>Explanation!</div>
-    {% set posts = collections.posts | newestEntries(10) %}
-    <div>
-        {% for post in posts %}
-            {{ post_card(post)}}
-        {% endfor %}
-    </div>
-    <div>
-        <ul>
-            {% for year, posts in collections.posts | byYear %}
-                <li>
-                    <a href="/post/{{ year }}">{{ year }}</a>:
-                    {{ posts | length }}
-                </li>
-            {% endfor %}
-        </ul>
-    </div>
-</section>
-{% endblock content %}
+{% block splash_intro %}
+  <p>These are my posts</p>
+{% endblock %}
+
+{% block splash_primary %}
+  {% set posts = collections.posts | newestEntries(10) %}
+  {% for post in posts %}
+      {{ post_card(post)}}
+  {% endfor %}
+{% endblock %}
+
+{% block splash_secondary %}
+  <ul>
+    {% for year, posts in collections.posts | byYear %}
+      <li>
+        <a href="/post/{{ year }}">{{ year }}</a>:
+        {{ posts | length }}
+      </li>
+    {% endfor %}
+  </ul>
+{% endblock %}
