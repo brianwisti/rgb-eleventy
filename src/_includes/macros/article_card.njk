@@ -18,18 +18,3 @@
     </section>
 {% endmacro %}
 
-{% macro note_card(note) %}
-    {{ article_card(
-        article = note,
-        class_name = "note",
-        card_content = note.templateContent
-    ) }}
-{% endmacro %}
-
-{% macro post_card(post) %}
-    {{ article_card(
-        article = post,
-        class_name = "post",
-        card_content = post.data.description
-    ) }}
-{% endmacro %}

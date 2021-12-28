@@ -1,0 +1,9 @@
+{% from "macros/article_card.njk" import article_card %}
+
+{% macro note_card(note) %}
+    {{ article_card(
+        article = note,
+        class_name = "note",
+        card_content = note.templateContent
+    ) }}
+{% endmacro %}

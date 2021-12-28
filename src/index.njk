@@ -1,22 +1,21 @@
-{% extends "layouts/base.njk" %}
+{% extends "layouts/splash.njk" %}
 
-{% from "macros/cards.njk" import note_card, post_card %}
+{% from "macros/note_card.njk" import note_card %}
+{% from "macros/post_card.njk" import post_card %}
 
-{% block content %}
-  <section class="splash">
-    <div class="intro">
-      <p>Yo, welcome!</p>
-    </div>
+{% block splash_intro %}
+  <p>Yo, welcome!</p>
+{% endblock %}
 
-    <div class="primary">
-      {% set note = collections.notes | first %}
-      {{ note_card(note = note)}}
-    </div>
+{% block splash_primary %}
+  <h2>Latest Note</h2>
+  {% set note = collections.notes | first %}
+  {{ note_card(note = note)}}
+{% endblock %}
 
-    <div class="secondary">
-      {% for post in collections.featuredPosts %}
-        {{ post_card(post = post) }}
-      {% endfor %}
-    </div>
-  </section>
-{% endblock content %}
+{% block splash_secondary %}
+  <h2>Latest Posts</h2>
+  {% for post in collections.featuredPosts %}
+    {{ post_card(post = post) }}
+  {% endfor %}
+{% endblock %}
