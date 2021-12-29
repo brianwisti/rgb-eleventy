@@ -33,6 +33,12 @@ A reminder for when I'm staring at `package.json` in the middle of the night.
 `xregexp`
 : because I like regular expressions and I like them fancy
 
+`@11ty/eleventy-img`
+: for image manipulation such as cropping
+
+`eleventy-plugin-images-responsiver`
+: simplified in-content syntax for responsive images
+
 ## Resources
 
 Sites and posts that I'm leaning on heavily while I assemble this thing.

@@ -1,6 +1,7 @@
 // Handler for all the funky things I do with Markdown
 
 const markdownIt = require("markdown-it");
+const markdownItAttrs = require("markdown-it-attrs");
 const markdownItContainer = require("markdown-it-container");
 const XRegExp = require("xregexp");
 
@@ -50,7 +51,8 @@ module.exports = function () {
   let markdownItOptions = {
     html: true
   };
-  let markdownLib = markdownIt(markdownItOptions);
+  let markdownLib = markdownIt(markdownItOptions)
+    .use(markdownItAttrs)
 
   knownAdmonitions.forEach(
     (name) => {

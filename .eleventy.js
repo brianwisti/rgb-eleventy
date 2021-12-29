@@ -1,3 +1,4 @@
+const imagesResponsiver = require("eleventy-plugin-images-responsiver");
 const shikiTwoslash = require("eleventy-plugin-shiki-twoslash");
 
 const markdownHandler = require("./src/_11ty/handlers/markdownHandler.js");
@@ -5,6 +6,14 @@ const markdownHandler = require("./src/_11ty/handlers/markdownHandler.js");
 module.exports = function (config) {
   config.setLibrary("md", markdownHandler());
   config.addPlugin(shikiTwoslash, { theme: "nord" });
+  config.addPlugin(imagesResponsiver, {
+    default: {
+      sizes: '(max-width: 45em 90vw, 40em)',
+      attributes: {
+        loading: 'lazy',
+      }
+    },
+  });
 
   // Bring in the Hugo sections as 11ty collections.
   config.addCollection(
@@ -44,6 +53,13 @@ module.exports = function (config) {
   )
 
   config.setDataDeepMerge(true);
+
+  // Mimic Hugo keeping everything with the bundle for now
+  config.addPassthroughCopy("src/**/*.jpg")
+  config.addPassthroughCopy("src/**/*.jpeg")
+  config.addPassthroughCopy("src/**/*.JPG")
+  config.addPassthroughCopy("src/**/*.png")
+  config.addPassthroughCopy("src/**/*.gif")
 
   return {
     dir: {

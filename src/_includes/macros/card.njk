@@ -2,11 +2,14 @@
 
 {% from "macros/tag_link.njk" import tag_link %}
 
-{% macro card(card_content, header_text="", jump_url="", date="", tags=[]) %}
+{% macro card(card_content, header_text="", jump_url="", date="", img="", tags=[]) %}
   <section class="card">
     {% if header_text %}
       <header>
         <strong>
+          {% if img %}
+            <img src="{{ img | url }}" data-responsiver="card" />
+          {% endif %}
           {% if jump_url %}
             <a href="{{ jump_url | url }}">{{ header_text }}</a>
           {% else %}

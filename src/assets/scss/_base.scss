@@ -22,6 +22,10 @@ footer {
     font-size: smaller;
 }
 
+img {
+  max-width: 100%;
+}
+
 pre, code, tt {
     font-family: var(--code-font);
 }
