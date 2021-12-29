@@ -2,6 +2,7 @@
 aliases:
 - /2018/10/14/trying-beorg/
 category: tools
+cover: cover.png
 cover_image: cover.png
 date: 2018-10-14 00:00:00
 description: The beorg iOS app has me playing with Org mode again

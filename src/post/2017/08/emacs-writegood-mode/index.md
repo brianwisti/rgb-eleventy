@@ -3,6 +3,7 @@ aliases:
 - /post/2017/emacs-writegood-mode/
 - /2017/08/06/emacs-writegood-mode/
 category: tools
+cover: cover.png
 cover_image: cover.png
 date: 2017-08-06
 draft: false

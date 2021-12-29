@@ -1,4 +1,5 @@
 ---
+cover: cover.png
 cover_image: cover.png
 date: 2020-12-07 15:16:55
 slug: new-theme-for-2021

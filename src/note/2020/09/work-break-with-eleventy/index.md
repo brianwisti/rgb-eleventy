@@ -1,5 +1,6 @@
 ---
 caption: cover images work!
+cover: cover.png
 cover_image: cover.png
 date: 2020-09-19 20:10:16
 slug: work-break-with-eleventy

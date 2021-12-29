@@ -4,6 +4,7 @@ aliases:
 - /craft/2015/wrapped-panel/
 - /2015/08/08/wrapped-panel/
 category: craft
+cover: cover.png
 cover_image: cover.png
 date: 2015-08-08 00:00:00
 description: 'I like this one. Stretching myself with each picture is starting to

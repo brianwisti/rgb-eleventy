@@ -3,6 +3,7 @@ aliases:
 - /post/2017/cinnamon-screenshot-shortcuts/
 - /2017/01/01/cinnamon-screenshot-shortcuts/
 category: tools
+cover: cover.png
 cover_image: cover.png
 date: 2017-01-01
 draft: false

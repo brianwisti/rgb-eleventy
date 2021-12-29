@@ -3,6 +3,7 @@ aliases:
 - /craft/2016/moms-stansfield-12-socks/
 - /2016/02/07/moms-stansfield-12-socks/
 category: craft
+cover: cover.jpg
 cover_image: cover.jpg
 date: 2016-02-07 00:00:00
 slug: moms-stansfield-12-socks

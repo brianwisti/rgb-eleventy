@@ -3,6 +3,7 @@ aliases:
 - /2017/12/16/taskwarrior/
 caption: '`task -work` report showing everything but my work tasks'
 category: tools
+cover: cover.png
 cover_image: cover.png
 date: 2017-12-16
 draft: false

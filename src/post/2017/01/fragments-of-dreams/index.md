@@ -3,6 +3,7 @@ aliases:
 - /craft/2017/fragments-of-dreams/
 - /2017/01/17/fragments-of-dreams/
 category: craft
+cover: cover.jpg
 cover_image: cover.jpg
 date: 2017-01-17
 draft: false

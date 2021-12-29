@@ -2,6 +2,7 @@
 aliases:
 - /2020/01/05/building-a-starter-blog-with-nikola/
 category: tools
+cover: cover.png
 cover_image: cover.png
 date: 2020-01-05
 description: In which I play with another site builder

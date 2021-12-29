@@ -1,4 +1,5 @@
 ---
+cover: cover.jpg
 cover_image: cover.jpg
 date: 2020-05-28 23:49:33
 slug: here-have-a-drawing

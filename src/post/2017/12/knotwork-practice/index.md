@@ -2,6 +2,7 @@
 aliases:
 - /2017/12/15/knotwork-practice/
 category: Craft
+cover: cover.jpg
 cover_image: cover.jpg
 date: 2017-12-15
 draft: false

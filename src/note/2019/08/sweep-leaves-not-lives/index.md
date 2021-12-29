@@ -2,6 +2,7 @@
 aliases:
 - /note/2019/222/sweep-leaves-not-lives/
 caption: Somebody scraped the "lives" part off "sweep leaves not lives"
+cover: cover.jpg
 cover_image: cover.jpg
 date: 2019-08-10 16:38:46
 slug: sweep-leaves-not-lives

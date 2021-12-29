@@ -3,6 +3,7 @@ aliases:
 - /2020/04/21/getting-file-info-from-the-shell/
 caption: also, it is time to vacuum my desk again
 category: tools
+cover: cover.jpg
 cover_image: cover.jpg
 date: 2020-04-21 22:11:17
 description: I could right click for properties but the mouse is way over there

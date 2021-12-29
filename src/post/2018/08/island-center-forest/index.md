@@ -2,6 +2,7 @@
 aliases:
 - /2018/08/19/island-center-forest/
 category: Marginalia
+cover: cover.jpg
 cover_image: cover.jpg
 date: 2018-08-19 00:00:00
 draft: false

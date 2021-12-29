@@ -2,6 +2,7 @@
 aliases:
 - /note/2020/41/yay-fluid-images/
 caption: Image unrelated, but isn't it a lovely day?
+cover: cover.jpg
 cover_image: cover.jpg
 date: 2020-02-11 05:52:16
 slug: yay-fluid-images

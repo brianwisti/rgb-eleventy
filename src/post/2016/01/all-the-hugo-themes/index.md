@@ -3,6 +3,7 @@ aliases:
 - /post/2016/all-the-hugo-themes/
 - /2016/01/02/all-the-hugo-themes/
 category: Programming
+cover: cover.png
 cover_image: cover.png
 date: 2016-01-02 00:00:00
 description: Using Python to preview my Hugo site with many themes

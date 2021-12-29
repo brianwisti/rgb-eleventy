@@ -1,6 +1,7 @@
 ---
 caption: It's not a redirect anymore
 category: Tools
+cover: cover.png
 cover_image: cover.png
 date: 2020-05-20 22:15:00
 description: I killed some redirects for accessibility and likes

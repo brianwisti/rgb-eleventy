@@ -2,6 +2,7 @@
 aliases:
 - /2017/11/07/something-colorful/
 category: Craft
+cover: cover.jpg
 cover_image: cover.jpg
 date: 2017-11-07
 draft: false

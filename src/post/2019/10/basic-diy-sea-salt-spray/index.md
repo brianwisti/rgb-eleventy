@@ -3,6 +3,7 @@ aliases:
 - /2019/10/21/basic-diy-sea-salt-spray/
 caption: Sea salt, argan oil, and a spray bottle. You need water too.
 category: Marginalia
+cover: cover.jpg
 cover_image: cover.jpg
 date: 2019-10-21
 description: In which I write a hair spray recipe and *then* share the story
@@ -73,7 +74,7 @@ One batch lasts me over a month of daily use, but I intentionally go for
 a lighter hold. Out of my face and roughly pointed in the right
 direction is all I care about.
 
-![Still roughly pointed in the right direction halfway through the day](me.jpg)
+![Still roughly pointed in the right direction halfway through the day](./me.jpg)
 
 ## The story
 

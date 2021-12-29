@@ -1,6 +1,7 @@
 ---
 caption: A spiderweb! For Webmention! Get it? Okay, yeah. Sorry.
 category: tools
+cover: cover.jpg
 cover_image: cover.jpg
 date: 2020-11-10
 description: Fetching my IndieWeb mentions with HTTPie and Requests

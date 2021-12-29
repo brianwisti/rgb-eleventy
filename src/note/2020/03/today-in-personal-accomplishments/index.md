@@ -1,6 +1,7 @@
 ---
 aliases:
 - /note/2020/65/today-in-personal-accomplishments/
+cover: cover.png
 cover_image: cover.png
 date: 2020-03-06 04:23:19
 slug: today-in-personal-accomplishments

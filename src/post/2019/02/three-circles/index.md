@@ -2,6 +2,7 @@
 aliases:
 - /2019/02/05/three-circles/
 category: Craft
+cover: cover.jpg
 cover_image: cover.jpg
 date: 2019-02-05 00:00:00
 draft: false

@@ -3,6 +3,7 @@ aliases:
 - /post/2017/geekish-update/
 - /2017/03/28/geekish-update/
 category: Marginalia
+cover: cover.jpg
 cover_image: cover.jpg
 date: 2017-03-28
 draft: false

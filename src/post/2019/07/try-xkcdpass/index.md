@@ -3,6 +3,7 @@ aliases:
 - /2019/07/30/try-xkcdpass/
 caption: '[XKCD 936](https://xkcd.com/936/) _([CC BY-NC 2.5](https://xkcd.com/license.html))_'
 category: Tools
+cover: cover.png
 cover_image: cover.png
 date: 2019-07-30 14:36:11
 description: In which I suggest a password generator

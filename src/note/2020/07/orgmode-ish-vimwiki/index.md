@@ -1,4 +1,5 @@
 ---
+cover: cover.png
 cover_image: cover.png
 date: 2020-07-04 06:51:27
 slug: orgmode-ish-vimwiki

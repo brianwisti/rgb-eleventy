@@ -3,6 +3,7 @@ aliases:
 - /craft/2016/that-was-fun/
 - /2016/12/12/that-was-fun/
 category: craft
+cover: cover.jpg
 cover_image: cover.jpg
 date: 2016-12-12 00:00:00
 slug: that-was-fun

@@ -1,4 +1,5 @@
 ---
+cover: cover.jpg
 cover_image: cover.jpg
 date: 2020-06-24 22:02:53
 slug: deidres-juneuary-hat

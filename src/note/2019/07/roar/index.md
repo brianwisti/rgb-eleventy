@@ -1,6 +1,7 @@
 ---
 aliases:
 - /note/2019/189/roar/
+cover: cover.jpg
 cover_image: cover.jpg
 date: 2019-07-09 06:39:18
 slug: roar

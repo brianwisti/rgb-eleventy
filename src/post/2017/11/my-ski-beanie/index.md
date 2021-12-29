@@ -2,6 +2,7 @@
 aliases:
 - /2017/11/19/my-ski-beanie/
 category: Craft
+cover: cover.jpg
 cover_image: cover.jpg
 date: 2017-11-19
 draft: false

@@ -2,6 +2,7 @@
 aliases:
 - /2018/10/21/on-modesty-and-imposter-syndrome/
 category: Marginalia
+cover: cover.jpg
 cover_image: cover.jpg
 date: 2018-10-21 00:00:00
 description: Take a deep breath. Relax. You got this.

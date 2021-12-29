@@ -3,6 +3,7 @@ aliases:
 - /post/2017/hugo-archetype-templates/
 - /2017/07/01/hugo-archetype-templates/
 category: tools
+cover: cover.png
 cover_image: cover.png
 date: 2017-07-01
 draft: false

@@ -3,6 +3,7 @@ aliases:
 - /craft/2016/beholder/
 - /2016/11/04/beholder/
 category: craft
+cover: cover.jpg
 cover_image: cover.jpg
 date: 2016-11-04 00:00:00
 slug: beholder

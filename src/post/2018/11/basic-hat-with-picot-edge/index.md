@@ -2,6 +2,7 @@
 aliases:
 - /2018/11/20/basic-hat-with-picot-edge/
 category: Craft
+cover: cover.jpg
 cover_image: cover.jpg
 date: 2018-11-20 00:00:00
 description: I continue building my hat knitting knowledge!

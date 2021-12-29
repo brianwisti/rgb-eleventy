@@ -1,6 +1,7 @@
 ---
 caption: a screenshot of the HTML that I created to show I don't need screenshots
 category: Tools
+cover: cover.png
 cover_image: cover.png
 date: 2021-08-24 22:08:00
 description: Okay maybe not so much on the profit but definitely fun!

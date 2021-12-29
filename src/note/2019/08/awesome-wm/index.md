@@ -2,6 +2,7 @@
 aliases:
 - /note/2019/229/awesomewm/
 caption: full screenshots are a bit unwieldy with dual monitors
+cover: cover.jpg
 cover_image: cover.jpg
 date: 2019-08-17 23:29:10
 slug: awesome-wm

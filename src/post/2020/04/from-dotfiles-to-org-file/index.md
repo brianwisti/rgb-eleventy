@@ -2,6 +2,7 @@
 aliases:
 - /2020/04/28/from-dotfiles-to-org-file/
 category: tools
+cover: cover.png
 cover_image: cover.png
 date: 2020-04-28 08:36:54
 description: at 1:30am they're all good ideas

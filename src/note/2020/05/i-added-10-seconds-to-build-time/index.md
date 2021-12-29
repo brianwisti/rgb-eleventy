@@ -1,5 +1,6 @@
 ---
 caption: the page needs work and so does this screenshot
+cover: cover.jpg
 cover_image: cover.jpg
 date: 2020-05-14 06:22:00
 slug: i-added-10-seconds-to-build-time

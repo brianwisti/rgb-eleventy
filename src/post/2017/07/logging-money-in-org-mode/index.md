@@ -3,6 +3,7 @@ aliases:
 - /post/2017/logging-money-in-org-mode/
 - /2017/07/31/logging-money-in-org-mode/
 category: tools
+cover: cover.png
 cover_image: cover.png
 date: 2017-07-31
 draft: false

@@ -1,6 +1,5 @@
 ---
-cover: 2020-12-18T12.26.43.jpg
-cover_image: cover.jpg
+cover: cover.jpg
 date: 2020-12-19 07:15:00
 slug: something-new-to-color
 tags:
@@ -20,14 +19,14 @@ You can color your own if you want!
 
 <div class="image-link">
   <div class="image-link-preview">
-    <a href="2020-12-15-linework.jpg">
-      <img src="2020-12-15-linework-96x96.jpg" alt="thumbnail of linked image" />
+    <a href="./2020-12-15-linework.jpg">
+      <img src="./2020-12-15-linework-96x96.jpg" alt="thumbnail of linked image" />
     </a>
   </div>
   <div class="image-link-details">
     <ul>
       <li>
-        <a href="2020-12-15-linework.jpg">
+        <a href="./2020-12-15-linework.jpg">
           <tt>2020-12-15-linework.jpg</tt>
         </a>
       </li>

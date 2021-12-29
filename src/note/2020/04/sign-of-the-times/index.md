@@ -2,6 +2,7 @@
 aliases:
 - /note/2020/96/sign-of-the-times/
 caption: It's chalk on steps. I did what I could with the emojis.
+cover: cover.jpg
 cover_image: cover.jpg
 date: 2020-04-06 06:15:00
 slug: sign-of-the-times

@@ -1,6 +1,7 @@
 ---
 aliases:
 - /note/2020/117/patronize-me-on-liberapay/
+cover: cover.jpg
 cover_image: cover.jpg
 date: 2020-04-27 04:15:00
 slug: patronize-me-on-liberapay

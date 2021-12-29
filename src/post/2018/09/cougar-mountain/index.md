@@ -2,6 +2,7 @@
 aliases:
 - /2018/09/30/cougar-mountain/
 category: Marginalia
+cover: cover.jpg
 cover_image: cover.jpg
 date: 2018-09-30 00:00:00
 description: Last weekend I wandered the trails of Cougar Mountain Regional Wildland

@@ -2,6 +2,7 @@
 aliases:
 - /note/2019/0002/
 - /note/2019/173/karabiner/
+cover: cover.png
 cover_image: cover.png
 date: 2019-06-22 19:12:00
 slug: karabiner

@@ -2,6 +2,7 @@
 aliases:
 - /note/2020/68/passing-tests-is-now-required-to-push/
 caption: A failing test
+cover: cover.png
 cover_image: cover.png
 date: 2020-03-09 06:50:55
 slug: passing-tests-is-now-required-to-push

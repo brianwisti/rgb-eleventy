@@ -1,6 +1,7 @@
 ---
 aliases:
 - /note/2019/292/foot-hat/
+cover: cover.jpg
 cover_image: cover.jpg
 date: 2019-10-20 05:53:10
 slug: foot-hat

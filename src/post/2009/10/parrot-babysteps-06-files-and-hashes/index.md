@@ -4,6 +4,7 @@ aliases:
 - /post/2009/06-files-and-hashes/
 - /2009/10/02/parrot-babysteps-06-files-and-hashes/
 category: coolnamehere
+cover: cover.jpg
 cover_image: cover.jpg
 date: 2009-10-02 00:00:00
 series:

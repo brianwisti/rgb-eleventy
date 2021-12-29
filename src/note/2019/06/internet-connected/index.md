@@ -1,6 +1,7 @@
 ---
 aliases:
 - /note/2019/176/internet-connected/
+cover: cover.png
 cover_image: cover.png
 date: 2019-06-26 01:52:17
 slug: internet-connected

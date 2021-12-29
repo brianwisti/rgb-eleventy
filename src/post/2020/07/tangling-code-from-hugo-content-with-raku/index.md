@@ -1,6 +1,7 @@
 ---
 caption: You know what else I can tangle? Yarn!
 category: programming
+cover: cover.jpg
 cover_image: cover.jpg
 date: 2020-07-09 04:45:00
 description: I could just use Org mode, but noo that's too easy

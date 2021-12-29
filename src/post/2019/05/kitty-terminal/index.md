@@ -2,6 +2,7 @@
 aliases:
 - /2019/05/27/kitty-terminal/
 category: Tools
+cover: cover.png
 cover_image: cover.png
 date: 2019-05-27 00:00:00
 description: 'I installed kitty for font ligatures in terminals on Linux, but it does

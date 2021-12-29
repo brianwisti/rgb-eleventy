@@ -2,6 +2,7 @@
 aliases:
 - /2018/02/19/setting-task-dependencies-in-taskwarrior/
 category: tools
+cover: cover.png
 cover_image: cover.png
 date: 2018-02-19 00:00:00
 description: 'I''m not done reading a book until I finish the exercises. Taskwarrior

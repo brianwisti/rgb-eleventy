@@ -1,4 +1,5 @@
 ---
+cover: cover.png
 cover_image: cover.png
 date: 2021-05-07
 description: Hugo's fine but I needed to try something new

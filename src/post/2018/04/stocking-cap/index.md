@@ -2,6 +2,7 @@
 aliases:
 - /2018/04/27/stocking-cap/
 category: Craft
+cover: cover.jpg
 cover_image: cover.jpg
 date: 2018-04-27 00:00:00
 description: I knitted myself a slightly silly stocking cap which I quite enjoy.

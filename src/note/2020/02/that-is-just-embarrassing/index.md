@@ -2,6 +2,7 @@
 aliases:
 - /note/2020/56/that-is-just-embarrassing/
 caption: Where's the rest of the post?
+cover: cover.png
 cover_image: cover.png
 date: 2020-02-26 05:41:36
 slug: that-is-just-embarrassing

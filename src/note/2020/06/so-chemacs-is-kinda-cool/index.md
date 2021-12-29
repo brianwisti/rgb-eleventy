@@ -1,4 +1,5 @@
 ---
+cover: cover.png
 cover_image: cover.png
 date: 2020-06-26 05:33:35
 slug: so-chemacs-is-kinda-cool

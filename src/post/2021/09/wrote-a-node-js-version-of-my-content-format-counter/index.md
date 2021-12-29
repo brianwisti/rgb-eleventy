@@ -3,7 +3,7 @@ aliases:
 - /post/2021/09/wrote-a-node.js-version-of-my-content-format-counter/
 - files
 category: programming
-cover_image: cover.png
+cover: cover.png
 date: 2021-09-04
 description: I only golfed it the tiniest bit
 draft: false

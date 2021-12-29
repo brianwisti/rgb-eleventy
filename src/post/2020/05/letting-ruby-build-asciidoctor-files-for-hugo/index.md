@@ -1,6 +1,7 @@
 ---
 caption: actually really proud of myself but this post needs all the disclaimers
 category: programming
+cover: cover.jpg
 cover_image: cover.jpg
 date: 2020-05-18 21:15:00
 description: Stuff like this is why i don't advertise my site repo

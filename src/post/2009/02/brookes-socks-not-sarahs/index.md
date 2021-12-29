@@ -3,6 +3,7 @@ aliases:
 - /craft/2009/brookes-socks-not-sarahs/
 - /2009/02/13/brookes-socks-not-sarahs/
 category: craft
+cover: cover.jpg
 cover_image: cover.jpg
 date: 2009-02-13 00:00:00
 slug: brookes-socks-not-sarahs

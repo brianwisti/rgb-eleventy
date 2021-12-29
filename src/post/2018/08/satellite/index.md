@@ -2,6 +2,7 @@
 aliases:
 - /2018/08/11/satellite/
 category: craft
+cover: cover.jpg
 cover_image: cover.jpg
 date: 2018-08-11 00:00:00
 draft: false

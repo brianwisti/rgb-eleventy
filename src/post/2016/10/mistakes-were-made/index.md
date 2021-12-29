@@ -3,6 +3,7 @@ aliases:
 - /craft/2016/mistakes-were-made/
 - /2016/10/28/mistakes-were-made/
 category: craft
+cover: cover.png
 cover_image: cover.png
 date: 2016-10-28 00:00:00
 slug: mistakes-were-made

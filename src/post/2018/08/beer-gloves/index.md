@@ -2,6 +2,7 @@
 aliases:
 - /2018/08/04/beer-gloves/
 category: Craft
+cover: cover.jpg
 cover_image: cover.jpg
 date: 2018-08-04 00:00:00
 draft: false

@@ -2,6 +2,7 @@
 aliases:
 - /2018/06/29/theme-change-and-pieces-section/
 category: marginalia
+cover: cover.jpg
 cover_image: cover.jpg
 date: 2018-06-29 00:00:00
 draft: false

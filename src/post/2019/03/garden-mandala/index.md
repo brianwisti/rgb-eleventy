@@ -2,6 +2,7 @@
 aliases:
 - /2019/03/19/garden-mandala/
 category: Craft
+cover: cover.jpg
 cover_image: cover.jpg
 date: 2019-03-19 00:00:00
 draft: false

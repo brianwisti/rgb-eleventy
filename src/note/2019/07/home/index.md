@@ -1,6 +1,7 @@
 ---
 aliases:
 - /note/2019/201/home/
+cover: cover.jpg
 cover_image: cover.jpg
 date: 2019-07-21 02:51:05
 slug: home

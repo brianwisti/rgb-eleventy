@@ -2,6 +2,7 @@
 aliases:
 - /note/2019/185/chunky-bacon/
 caption: Seriously. Chunky. Bacon.
+cover: cover.png
 cover_image: cover.png
 date: 2019-07-04 20:41:24
 slug: chunky-bacon

@@ -1,5 +1,6 @@
 ---
 caption: once again, the pic is irrelevant but Jumpy Dog sure is cute
+cover: cover.jpg
 cover_image: cover.jpg
 date: 2020-06-12 05:38:43
 slug: working-on-breadcrumbs

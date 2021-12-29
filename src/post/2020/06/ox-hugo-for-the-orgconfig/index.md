@@ -1,5 +1,6 @@
 ---
 category: tools
+cover: cover.png
 cover_image: cover.png
 date: 2020-06-27
 description: Putting a couple how-to details down for easy searching later

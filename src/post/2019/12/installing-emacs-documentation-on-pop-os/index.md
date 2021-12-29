@@ -3,6 +3,7 @@ aliases:
 - /2019/12/01/installing-emacs-documentation-on-pop_os/
 caption: Emacs Info (zoomed with `text-scale-adjust`)
 category: Tools
+cover: cover.png
 cover_image: cover.png
 date: 2019-12-01 19:11:00
 draft: false

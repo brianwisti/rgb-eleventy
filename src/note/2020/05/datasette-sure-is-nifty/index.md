@@ -1,5 +1,6 @@
 ---
 caption: Datasette showing what sqlite-utils put together
+cover: cover.png
 cover_image: cover.png
 date: 2020-05-06 05:39:00
 slug: datasette-sure-is-nifty

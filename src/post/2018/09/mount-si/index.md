@@ -2,6 +2,7 @@
 aliases:
 - /2018/09/09/mount-si/
 category: Marginalia
+cover: cover.jpg
 cover_image: cover.jpg
 date: 2018-09-09 00:00:00
 description: I sauntered up the main trail of Mount Si this weekend.

@@ -3,6 +3,7 @@ aliases:
 - /craft/2016/bad-kitty/
 - /2016/10/24/bad-kitty/
 category: craft
+cover: cover.png
 cover_image: cover.png
 date: 2016-10-24 00:00:00
 slug: bad-kitty

@@ -4,6 +4,7 @@ aliases:
 - /post/2014/perl-reply-repl/
 - /2014/08/14/repl-in-perl-with-reply/
 category: tools
+cover: cover.png
 cover_image: cover.png
 date: 2014-08-14 00:00:00
 series:

@@ -1,6 +1,7 @@
 ---
 caption: I've been looking at screenshots all day. Here's Loud Dog instead.
 category: Tools
+cover: cover.jpg
 cover_image: cover.jpg
 date: 2020-06-07 00:40:07
 description: Am I reinventing reStructuredText with shortcodes? Don't judge me.

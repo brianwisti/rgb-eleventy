@@ -2,6 +2,7 @@
 aliases:
 - /2019/05/06/teabagging-a-monsto/
 category: Craft
+cover: cover.jpg
 cover_image: cover.jpg
 date: 2019-05-06 00:00:00
 description: Yeah I know. That's not what "teabagging" is.

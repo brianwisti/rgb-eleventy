@@ -2,6 +2,7 @@
 aliases:
 - /2018/02/28/crochet-ball-faces/
 category: craft
+cover: cover.jpg
 cover_image: cover.jpg
 date: 2018-02-28 00:00:00
 draft: false

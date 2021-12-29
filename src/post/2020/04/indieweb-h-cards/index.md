@@ -3,6 +3,7 @@ aliases:
 - /2020/04/11/indieweb-h-cards/
 caption: My h-card as of a few minutes ago
 category: tools
+cover: cover.png
 cover_image: cover.png
 date: 2020-04-11 07:16:34
 description: Using microformats to build a profile page

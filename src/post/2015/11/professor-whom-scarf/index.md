@@ -3,6 +3,7 @@ aliases:
 - /craft/2015/professor-whom-scarf/
 - /2015/11/02/professor-whom-scarf/
 category: craft
+cover: cover.jpg
 cover_image: cover.jpg
 date: 2015-11-02 00:00:00
 slug: professor-whom-scarf

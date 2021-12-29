@@ -5,6 +5,7 @@ aliases:
 - /2014/08/18/.replyrc-and-reply-mojo/
 - /2014/08/19/replyrc-and-mojo/
 category: tools
+cover: cover.png
 cover_image: cover.png
 date: 2014-08-19 00:00:00
 description: Customizing Perl Reply and using -Mojo

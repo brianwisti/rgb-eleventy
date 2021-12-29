@@ -4,6 +4,7 @@ aliases:
 - /craft/2015/zentangle-doodle/
 - /2015/08/01/zentangle-doodle/
 category: Craft
+cover: cover.png
 cover_image: cover.png
 date: 2015-08-01
 description: Trying to get back into the habit of drawing regularly.

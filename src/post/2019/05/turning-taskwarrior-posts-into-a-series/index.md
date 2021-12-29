@@ -2,6 +2,7 @@
 aliases:
 - /2019/05/12/turning-taskwarrior-posts-into-a-series/
 category: Tools
+cover: cover.jpg
 cover_image: cover.jpg
 date: 2019-05-12 00:00:00
 description: There's a new taxonomy for posts that are written in a particular order!

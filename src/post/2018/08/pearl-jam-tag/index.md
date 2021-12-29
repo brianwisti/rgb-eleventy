@@ -2,6 +2,7 @@
 aliases:
 - /2018/08/07/pearl-jam-tag/
 category: Marginalia
+cover: cover.jpg
 cover_image: cover.jpg
 date: 2018-08-07 00:00:00
 draft: false

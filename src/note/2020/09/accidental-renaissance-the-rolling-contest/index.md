@@ -1,4 +1,5 @@
 ---
+cover: cover.jpg
 cover_image: cover.jpg
 date: 2020-09-20 05:57:36
 slug: accidental-renaissance-the-rolling-contest

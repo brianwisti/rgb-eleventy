@@ -1,6 +1,7 @@
 ---
 caption: Yesterday's dev build plus [A File Icon](https://packagecontrol.io/packages/A%20File%20Icon)
 category: tools
+cover: cover.png
 cover_image: cover.png
 date: 2021-01-30 16:55:27
 draft: false

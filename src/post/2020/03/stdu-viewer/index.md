@@ -3,6 +3,7 @@ aliases:
 - /2020/03/26/stdu-viewer/
 caption: Knitting pattern for Ajeng Sioresmi's [Everyday Face Mask](https://www.ravelry.com/patterns/library/everyday-face-mask)
 category: tools
+cover: cover.png
 cover_image: cover.png
 date: 2020-03-27 06:42:16
 description: I think I found my PDF reader for Windows

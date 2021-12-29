@@ -2,6 +2,7 @@
 aliases:
 - /2019/08/22/chaotic-symmetry/
 category: Craft
+cover: cover.jpg
 cover_image: cover.jpg
 date: 2019-08-22
 description: In which I spend a month on a fifteen minute doodle

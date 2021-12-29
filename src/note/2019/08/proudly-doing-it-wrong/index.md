@@ -2,6 +2,7 @@
 aliases:
 - /note/2019/223/proudly-doing-it-wrong/
 caption: Yeah that's Visual Studio Code. I'm trying new things.
+cover: cover.png
 cover_image: cover.png
 date: 2019-08-12 03:04:00
 slug: proudly-doing-it-wrong

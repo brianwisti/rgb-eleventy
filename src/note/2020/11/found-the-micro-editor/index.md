@@ -1,4 +1,5 @@
 ---
+cover: cover.png
 cover_image: cover.png
 date: 2020-12-01 04:41:49
 slug: found-the-micro-editor

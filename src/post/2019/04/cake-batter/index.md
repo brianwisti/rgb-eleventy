@@ -2,6 +2,7 @@
 aliases:
 - /2019/04/10/cake-batter/
 category: Craft
+cover: cover.jpg
 cover_image: cover.jpg
 date: 2019-04-10 00:00:00
 draft: false

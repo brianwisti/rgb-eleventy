@@ -3,6 +3,7 @@ aliases:
 - /2020/01/25/tweaking-a-nikola-theme/
 caption: The [/now](/now) page, in Nikola
 category: tools
+cover: cover.png
 cover_image: cover.png
 date: 2020-01-25 20:00:00
 draft: false

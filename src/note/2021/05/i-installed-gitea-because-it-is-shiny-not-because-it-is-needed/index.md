@@ -1,4 +1,5 @@
 ---
+cover: cover.png
 cover_image: cover.png
 date: 2021-05-30
 slug: gitea-because-shiny

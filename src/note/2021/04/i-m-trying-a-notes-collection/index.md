@@ -1,4 +1,5 @@
 ---
+cover: cover.png
 cover_image: cover.png
 date: 2021-04-18
 slug: i-m-trying-a-notes-collection

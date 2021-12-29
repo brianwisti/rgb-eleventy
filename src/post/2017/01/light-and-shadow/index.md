@@ -3,6 +3,7 @@ aliases:
 - /craft/2017/light-and-shadow/
 - /2017/01/08/light-and-shadow/
 category: craft
+cover: cover.jpg
 cover_image: cover.jpg
 date: 2017-01-08
 slug: light-and-shadow

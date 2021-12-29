@@ -2,6 +2,7 @@
 aliases:
 - /2020/02/04/goto-address-mode-opens-links-in-emacs/
 category: tools
+cover: cover.png
 cover_image: cover.png
 date: 2020-02-04 23:27:00
 description: Use `goto-address-mode` to make links in Emacs buffers clickable

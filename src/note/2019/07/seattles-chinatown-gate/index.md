@@ -2,6 +2,7 @@
 aliases:
 - /note/2019/182/seattles-chinatown-gate/
 caption: Seattle's Chinatown Gate; King Street Station and Smith Tower behind
+cover: cover.jpg
 cover_image: cover.jpg
 date: 2019-07-02 05:37:11
 slug: seattles-chinatown-gate

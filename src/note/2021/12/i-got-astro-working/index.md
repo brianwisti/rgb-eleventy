@@ -1,5 +1,6 @@
 ---
 caption: this time you get a screenshot **and** some links
+cover: cover.png
 date: 2021-12-23
 format: md
 tags:

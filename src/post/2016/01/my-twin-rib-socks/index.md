@@ -3,6 +3,7 @@ aliases:
 - /craft/2016/my-twin-rib-socks/
 - /2016/01/30/my-twin-rib-socks/
 category: craft
+cover: cover.jpg
 cover_image: cover.jpg
 date: 2016-01-30 00:00:00
 description: 'Took me a couple months because I started a pair for my mom in the middle

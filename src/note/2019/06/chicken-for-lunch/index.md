@@ -2,6 +2,7 @@
 aliases:
 - /note/2019/177/chicken-for-lunch/
 caption: Chicken stir fry with rice
+cover: cover.jpg
 cover_image: cover.jpg
 date: 2019-06-26 21:46:12
 slug: chicken-for-lunch

@@ -1,6 +1,7 @@
 ---
 caption: Hoku hopes for scraps
 category: Tools
+cover: cover.jpg
 cover_image: cover.jpg
 date: 2021-02-06
 description: Want to see something cool?

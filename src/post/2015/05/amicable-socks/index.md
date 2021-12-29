@@ -3,6 +3,7 @@ aliases:
 - /craft/2015/amicable-socks/
 - /2015/05/20/amicable-socks/
 category: craft
+cover: cover.jpg
 cover_image: cover.jpg
 date: 2015-05-20 00:00:00
 description: Because I made them for my ex, and we split on friendly terms

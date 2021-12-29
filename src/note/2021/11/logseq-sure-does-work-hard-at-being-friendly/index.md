@@ -1,6 +1,7 @@
 ---
 caption: This note in Logseq document mode, using the [Bonofix](https://github.com/sansui233/logseq-bonofix-theme)
   theme
+cover: cover.png
 date: '2021-11-14'
 format: md
 slug: logseq-sure-does-work-hard-at-being-friendly

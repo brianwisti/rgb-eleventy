@@ -2,6 +2,7 @@
 aliases:
 - /2019/09/08/colorized-my-go-output-with-grc/
 category: Tools
+cover: cover.png
 cover_image: cover.png
 date: 2019-09-08
 description: In which I spent Sunday having fun learning stuff

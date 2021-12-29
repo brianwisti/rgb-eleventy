@@ -2,6 +2,7 @@
 aliases:
 - /2018/01/28/barbaras-ruana-vest/
 category: Craft
+cover: cover.jpg
 cover_image: cover.jpg
 date: 2018-01-28 00:00:00
 draft: false

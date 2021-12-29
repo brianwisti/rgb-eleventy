@@ -3,6 +3,7 @@ aliases:
 - /craft/2016/chibi-rainyday-superstar/
 - /2016/09/01/chibi-rainyday-superstar/
 category: craft
+cover: cover.png
 cover_image: cover.png
 date: 2016-09-01 00:00:00
 slug: chibi-rainyday-superstar

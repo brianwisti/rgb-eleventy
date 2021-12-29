@@ -2,6 +2,7 @@
 aliases:
 - /2018/01/02/taskwarrior-due-dates/
 category: tools
+cover: cover.png
 cover_image: cover.png
 date: 2018-01-02 00:00:00
 draft: false

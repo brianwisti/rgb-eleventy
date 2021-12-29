@@ -2,6 +2,7 @@
 aliases:
 - /2018/12/01/active-tasks-in-taskwarrior/
 category: tools
+cover: cover.png
 cover_image: cover.png
 date: 2018-12-01 00:00:00
 draft: false

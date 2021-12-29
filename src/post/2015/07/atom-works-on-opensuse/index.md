@@ -4,6 +4,7 @@ aliases:
 - /post/2015/atom-works-on-opensuse/
 - /2015/07/13/atom-works-on-opensuse/
 category: tools
+cover: cover.png
 cover_image: cover.png
 date: 2015-07-13 00:00:00
 slug: atom-works-on-opensuse

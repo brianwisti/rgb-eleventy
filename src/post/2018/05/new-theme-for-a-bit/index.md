@@ -2,6 +2,7 @@
 aliases:
 - /2018/05/13/new-theme-for-a-bit/
 category: Marginalia
+cover: cover.jpg
 cover_image: cover.jpg
 date: 2018-05-13 00:00:00
 draft: false

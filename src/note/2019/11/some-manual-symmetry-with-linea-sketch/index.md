@@ -1,6 +1,7 @@
 ---
 aliases:
 - /note/2019/311/some-manual-symmetry-with-linea-sketch/
+cover: cover.jpg
 cover_image: cover.jpg
 date: 2019-11-07 15:27:55
 slug: some-manual-symmetry-with-linea-sketch

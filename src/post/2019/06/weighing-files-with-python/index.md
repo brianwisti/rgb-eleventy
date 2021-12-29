@@ -2,6 +2,7 @@
 aliases:
 - /2019/06/01/weighing-files-with-python/
 category: Programming
+cover: cover.png
 cover_image: cover.png
 date: 2019-06-01 00:00:00
 description: I want to optimize this site's file sizes, but first I should see if

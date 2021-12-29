@@ -2,6 +2,7 @@
 aliases:
 - /2020/02/12/stealing-a-hugo-shortcode-for-nikola/
 category: tools
+cover: cover.png
 cover_image: cover.png
 date: 2020-02-13 04:39:43
 description: I needed a YouTube shortcode for Nikola, so I adapted Hugo's.

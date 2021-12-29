@@ -1,5 +1,6 @@
 ---
 caption: Buster Keaton is all of us.
+cover: cover.jpg
 cover_image: cover.jpg
 date: 2020-05-11 00:31:00
 slug: clearing-the-tracks-as-we-go-is-part-of-the-fun

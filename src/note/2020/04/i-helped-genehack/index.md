@@ -2,6 +2,7 @@
 aliases:
 - /note/2020/118/i-helped-genehack/
 caption: my photoshop masterpiece that lost its context years ago
+cover: cover.jpg
 cover_image: cover.jpg
 date: 2020-04-27 16:50:00
 slug: i-helped-genehack

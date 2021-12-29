@@ -3,6 +3,7 @@ aliases:
 - /craft/2017/space-thing/
 - /2017/06/03/space-thing/
 category: craft
+cover: cover.jpg
 cover_image: cover.jpg
 date: 2017-06-03
 draft: false

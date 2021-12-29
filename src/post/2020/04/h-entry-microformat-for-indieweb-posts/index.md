@@ -3,6 +3,7 @@ aliases:
 - /2020/04/26/h-entry-microformat-for-indieweb-posts/
 caption: looking at the interpreted microformats for a post, in [bat](https://github.com/sharkdp/bat)
 category: Tools
+cover: cover.png
 cover_image: cover.png
 date: 2020-04-26 20:02:33
 description: In which I go overboard with Hugo and Python for a quick Sunday task

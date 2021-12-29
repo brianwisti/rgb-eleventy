@@ -2,6 +2,7 @@
 aliases:
 - /note/2020/113/why-do-i-blog/
 caption: searched my image library for "why" and got this old doodle
+cover: cover.jpg
 cover_image: cover.jpg
 date: 2020-04-22 20:00:00
 slug: why-do-i-blog

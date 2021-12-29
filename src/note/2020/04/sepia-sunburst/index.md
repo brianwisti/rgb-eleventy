@@ -1,6 +1,7 @@
 ---
 aliases:
 - /note/2020/99/sepia-sunburst/
+cover: cover.jpg
 cover_image: cover.jpg
 date: 2020-04-08 19:46:00
 slug: sepia-sunburst

@@ -2,6 +2,7 @@
 aliases:
 - /2018/08/26/potholders/
 category: Craft
+cover: cover.jpg
 cover_image: cover.jpg
 date: 2018-08-26 00:00:00
 description: Yes, they look like that on purpose.

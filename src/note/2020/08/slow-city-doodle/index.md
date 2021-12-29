@@ -1,4 +1,5 @@
 ---
+cover: cover.jpg
 cover_image: cover.jpg
 date: 2020-08-02 02:16:41
 slug: slow-city-doodle

@@ -2,6 +2,7 @@
 aliases:
 - /2017/11/24/drawing-grids-with-python-and-pillow/
 category: Programming
+cover: cover.png
 cover_image: cover.png
 date: 2017-11-24
 draft: false

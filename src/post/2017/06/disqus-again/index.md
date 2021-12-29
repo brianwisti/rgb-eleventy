@@ -3,6 +3,7 @@ aliases:
 - /post/2017/disqus-again/
 - /2017/06/14/disqus-again/
 category: marginalia
+cover: cover.png
 cover_image: cover.png
 date: 2017-06-14
 draft: false

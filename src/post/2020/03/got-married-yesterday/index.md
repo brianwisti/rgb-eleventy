@@ -2,6 +2,7 @@
 aliases:
 - /2020/03/20/got-married-yesterday/
 category: Marginalia
+cover: cover.jpg
 cover_image: cover.jpg
 date: 2020-03-20 18:00:21
 description: Can't let our dystopian sci-fi setting stop us

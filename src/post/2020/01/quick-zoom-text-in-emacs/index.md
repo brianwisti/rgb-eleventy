@@ -2,6 +2,7 @@
 aliases:
 - /2020/01/01/quick-zoom-text-in-emacs/
 category: Tools
+cover: cover.png
 cover_image: cover.png
 date: 2020-01-01
 draft: false

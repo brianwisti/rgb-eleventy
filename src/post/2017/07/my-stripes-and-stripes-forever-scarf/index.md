@@ -3,6 +3,7 @@ aliases:
 - /craft/2017/my-stripes-and-stripes-scarf/
 - /2017/07/06/my-stripes-and-stripes-forever-scarf/
 category: Craft
+cover: cover.jpg
 cover_image: cover.jpg
 date: 2017-07-06
 draft: false

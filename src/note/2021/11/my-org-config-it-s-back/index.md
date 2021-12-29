@@ -1,4 +1,5 @@
 ---
+cover: cover.png
 date: '2021-11-09T22:50:00-08:00'
 slug: my-org-config-it-s-back
 tags:

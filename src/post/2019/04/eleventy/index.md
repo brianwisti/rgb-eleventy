@@ -2,6 +2,7 @@
 aliases:
 - /2019/04/06/eleventy/
 category: tools
+cover: cover.jpg
 cover_image: cover.jpg
 date: 2019-04-06 00:00:00
 draft: false

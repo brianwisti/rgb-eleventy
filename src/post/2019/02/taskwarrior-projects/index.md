@@ -2,6 +2,7 @@
 aliases:
 - /2019/02/16/taskwarrior-projects/
 category: tools
+cover: cover.png
 cover_image: cover.png
 date: 2019-02-16 00:00:00
 description: Use Taskwarrior projects to organize closely related tasks!

@@ -1,4 +1,5 @@
 ---
+cover: cover.png
 date: '2021-10-23'
 format: rst
 slug: try-riv-if-you-like-vim-and-restructuredtext

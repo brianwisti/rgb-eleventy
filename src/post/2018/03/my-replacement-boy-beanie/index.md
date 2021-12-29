@@ -2,6 +2,7 @@
 aliases:
 - /2018/03/18/my-replacement-boy-beanie/
 category: Craft
+cover: cover.jpg
 cover_image: cover.jpg
 date: 2018-03-18 00:00:00
 draft: false

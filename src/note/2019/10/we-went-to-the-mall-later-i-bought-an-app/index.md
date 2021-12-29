@@ -1,5 +1,6 @@
 ---
 caption: GoodNotes screenshot
+cover: cover.png
 cover_image: cover.png
 date: 2019-10-06 06:30:39
 slug: we-went-to-the-mall-later-i-bought-an-app

@@ -3,6 +3,7 @@ aliases:
 - /craft/2016/mixing-apps/
 - /2016/12/02/mixing-apps/
 category: craft
+cover: cover.jpg
 cover_image: cover.jpg
 date: 2016-12-02 00:00:00
 slug: mixing-apps

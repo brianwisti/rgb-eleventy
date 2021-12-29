@@ -1,6 +1,7 @@
 ---
 aliases:
 - /note/2019/323/having-fun-with-emacs/
+cover: cover.png
 cover_image: cover.png
 date: 2019-11-20 05:26:30
 slug: having-fun-with-emacs

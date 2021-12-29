@@ -2,6 +2,7 @@
 aliases:
 - /2019/05/24/pretty-print-terminal-files-with-bat/
 category: Tools
+cover: cover.png
 cover_image: cover.png
 date: 2019-05-24 00:00:00
 description: '[bat](https://github.com/sharkdp/bat) is like a fancier `cat` for displaying

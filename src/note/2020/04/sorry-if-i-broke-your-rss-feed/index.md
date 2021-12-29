@@ -1,5 +1,6 @@
 ---
 caption: Gordon Dam, by Dante Aguiar. Via [Good Free Photos](https://www.goodfreephotos.com/other-landscapes/gordon-dam-and-beautiful-landscape.jpg.php)
+cover: cover.jpg
 cover_image: cover.jpg
 date: 2020-05-01 06:30:00
 slug: sorry-if-i-broke-your-rss-feed

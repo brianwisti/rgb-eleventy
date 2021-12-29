@@ -2,6 +2,7 @@
 aliases:
 - /note/2020/111/how-mom-stays-creative/
 caption: My mom, and her plans
+cover: cover.jpg
 cover_image: cover.jpg
 date: 2020-04-21 04:20:00
 slug: how-mom-stays-creative

@@ -2,6 +2,7 @@
 aliases:
 - /note/2019/196/tmux-and-laundry-art/
 caption: I drew this while doing laundry Sunday
+cover: cover.jpg
 cover_image: cover.jpg
 date: 2019-07-16 00:25:36
 slug: tmux-and-laundry-art

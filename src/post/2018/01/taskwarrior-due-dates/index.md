@@ -5,6 +5,7 @@ announcements:
   twitter: https://twitter.com/brianwisti/status/948398630695612416
 categories:
 - tools
+cover: cover.png
 date: 2018-01-02 00:00:00
 draft: false
 format: adoc

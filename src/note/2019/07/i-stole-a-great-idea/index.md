@@ -2,6 +2,7 @@
 aliases:
 - /note/2019/184/i-stole-a-great-idea/
 caption: Picasso's studio circa 1912, via [Art Observed](http://artobserved.com/2011/03/go-see-new-york-picasso-guitars-1912-1914-at-the-moma-through-june-06-2011/)
+cover: cover.jpg
 cover_image: cover.jpg
 date: 2019-07-04 01:10:51
 slug: i-stole-a-great-idea

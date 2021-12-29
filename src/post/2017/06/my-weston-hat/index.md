@@ -3,6 +3,7 @@ aliases:
 - /craft/2017/my-weston-hat/
 - /2017/06/28/my-weston-hat/
 category: craft
+cover: cover.jpg
 cover_image: cover.jpg
 date: 2017-06-28
 draft: false

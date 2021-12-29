@@ -2,6 +2,7 @@
 aliases:
 - /2020/01/12/a-quick-notes-script-for-taskwarrior/
 category: Programming
+cover: cover.png
 cover_image: cover.png
 date: 2020-01-12
 draft: false

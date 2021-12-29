@@ -2,6 +2,7 @@
 aliases:
 - /2018/07/08/fauntleroy-park/
 category: Marginalia
+cover: cover.jpg
 cover_image: cover.jpg
 date: 2018-07-08 00:00:00
 draft: false

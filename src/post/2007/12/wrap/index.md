@@ -3,6 +3,7 @@ aliases:
 - /craft/2007/wrap/
 - /2007/12/15/wrap/
 category: craft
+cover: cover.jpg
 cover_image: cover.jpg
 date: 2007-12-15 00:00:00
 slug: wrap

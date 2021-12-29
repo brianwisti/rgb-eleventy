@@ -1,6 +1,7 @@
 ---
 caption: My blogging output by year – bet you didn’t know there were blogs in 1 CE
 category: tools
+cover: cover.png
 cover_image: cover.png
 date: 2020-05-07 06:37:00
 description: I had entirely too much fun replacing my site metadata script with sqlite-utils

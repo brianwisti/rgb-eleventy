@@ -3,6 +3,7 @@ aliases:
 - /2020/01/26/taskwarrior-sync/
 caption: '[inthe.AM](https://inthe.am) is pretty, that''s for sure.'
 category: tools
+cover: cover.png
 cover_image: cover.png
 date: 2020-01-26
 draft: false

@@ -2,6 +2,7 @@
 aliases:
 - /note/2019/297/bookmarking-the-kexp-livestream-links/
 caption: '[KEXP.org 90.3FM Seattle](https://kexp.org)'
+cover: cover.jpg
 cover_image: cover.jpg
 date: 2019-10-24 14:53:13
 slug: bookmarking-the-kexp-livestream-links

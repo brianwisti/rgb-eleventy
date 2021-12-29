@@ -1,5 +1,6 @@
 ---
 caption: 🎶 Never was a cloudy day
+cover: cover.jpg
 date: 2021-09-21
 tags:
 - listen

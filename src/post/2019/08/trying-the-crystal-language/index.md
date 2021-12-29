@@ -2,6 +2,7 @@
 aliases:
 - /2019/08/25/trying-the-crystal-language/
 category: Programming
+cover: cover.png
 cover_image: cover.png
 date: 2019-08-25
 description: In which I use Crystal for a simple shell task

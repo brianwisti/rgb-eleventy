@@ -2,6 +2,7 @@
 aliases:
 - /2019/09/05/taskwarrior-editing-refinements/
 category: Tools
+cover: cover.png
 cover_image: cover.png
 date: 2019-09-05
 description: In which I mention more ways to edit Taskwarrior tasks

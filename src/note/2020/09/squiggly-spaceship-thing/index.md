@@ -1,4 +1,5 @@
 ---
+cover: cover.jpg
 cover_image: cover.jpg
 date: 2020-09-08 04:12:38
 slug: squiggly-spaceship-thing

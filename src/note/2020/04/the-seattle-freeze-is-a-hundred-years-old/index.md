@@ -2,6 +2,7 @@
 aliases:
 - /note/2020/115/the-seattle-freeze-is-a-hundred-years-old/
 caption: Sometimes there's a literal freeze
+cover: cover.jpg
 cover_image: cover.jpg
 date: 2020-04-24 14:45:00
 slug: the-seattle-freeze-is-a-hundred-years-old
