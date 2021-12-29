@@ -129,7 +129,7 @@ the specific issue, so I overcame my shyness and filed [#5004][bug-5004].
 Splitting up the Raku script into logical pieces the other day means that today
 I only need to fix a single function.  Thank goodness.
 
-```
+```raku
 sub read-entries(@entries) {
   @entries.map({
     qqx{ joplin cat $_}.subst(/^(<[\dT:\-]>+)/, { "# $0" })
@@ -192,7 +192,7 @@ up a while back with [`rakubrew`][rakubrew].
 Then we let Raku know we're using the module.  That traditionally goes near the
 top of our script.
 
-```
+```raku
 use Temp::Path;
 ```
 
@@ -201,7 +201,7 @@ a block for our temporary file.  It even sets the [topic
 variable][topic-variable] `$_`.  Don't need to come up with a temporary
 variable name for our temporary file.
 
-```
+```raku
 sub read-entries(@entries) {
   with make-temp-path {
     .spurt(@entries.map({ "cat $_" }).join("\n"));
@@ -280,13 +280,13 @@ zef install File::Temp
 
 …then use File::Temp instead of Temp::Path…
 
-```
+```raku
 use File::Temp;
 ```
 
 …then rewrite `read-entries` one more time…
 
-```
+```raku
 sub read-entries(@entries) {
   my ($filename, $filehandle) = tempfile;
   $filehandle.spurt( @entries.map({ "cat $_" }).join("\n") );
@@ -344,7 +344,7 @@ Speaking of trivia…
 
 I need to do something about this.
 
-```
+```raku
 qqx{ ... }.subst(/^^ (<[\dT:\-]>+) $$/, { "# $0" }, :g);
 ```
 
@@ -361,7 +361,7 @@ this transformation in isolation.
 What do I want this function to do?  I want it to give me my *journal text*,
 but with *formatted headers* in the right places.
 
-```
+```raku
 sub format-headers($journal-text) {
   $journal-text.subst(
     /^^ (<[\dT:\-]>+) $$/,
@@ -373,7 +373,7 @@ sub format-headers($journal-text) {
 
 Do I want to format every `$0`? No. I want to format every *entry title*.
 
-```
+```raku
 sub format-journal($journal-text) {
   $journal-text.subst(
     ...,
@@ -391,7 +391,7 @@ getting the value stored under the key `"entry-title"`.
 How do I know the *entry title*?  I know the *entry title* because I found a
 *lone timestamp*.
 
-```
+```raku
 sub format-journal($journal-text) {
   $journal-text.subst(
     rx{
@@ -422,7 +422,7 @@ I told you I was getting there.
 What's a *lone timestamp*?
 It's a *timestamp* on a line by itself.
 
-```
+```raku
 my regex lone-timestamp {
   ^^ <timestamp> $$
 }
@@ -439,7 +439,7 @@ What does a *timestamp* look like?  Well, a [DateTime String][datetime-str]
 holds an *ISO 8601 date*, a *clock time*, and and *offset*, with a `'T'`
 between the date and the clock time.
 
-```
+```raku
 my regex timestamp {
   <iso8601-date> 'T' <clock-time> <offset>
 }
@@ -450,7 +450,7 @@ If we're looking for a literal string, it's okay to use a string literal.
 Now we have a few regex patterns to define.  An *ISO 8601 date* includes a
 *year*, a *month*, and a *day of the month*, separated by '-'`.
 
-```
+```raku
 my regex iso8601-date {
   <year> '-' <month> '-' <day-of-month>
 }
@@ -466,7 +466,7 @@ Mind you, I have no idea if that's what `raku` the *compiler* likes.  But the
 A *year* is four digits, a *month* is two digits, and the *day of the month* is
 two digits.
 
-```
+```raku
 my regex year { \d ** 4 }
 
 my regex month { \d ** 2 }
@@ -491,7 +491,7 @@ know exactly which block to edit.
 Looks like *clock time* gets saved as *hours*, *minutes*, and *seconds*.  In
 the interest of time, we'll oversimplify those too.
 
-```
+```raku
 my regex hours { \d ** 2 }
 
 my regex minutes { \d ** 2 }
@@ -506,7 +506,7 @@ my regex clock-time {
 And my offset holds an indicator, some *hours*, and some *minutes*.  Hey, I can
 reuse my existing regex definitions for those!
 
-```
+```raku
 my regex offset {
   <[+-]> <hours> ':' <minutes>
 }
@@ -568,7 +568,7 @@ readable. And most important of all, I had fun.
 Includes a couple more steps into composition that I didn't feel merited extra
 blog post paragraphs.
 
-```
+```raku
 #!/usr/bin/env raku
 
 use File::Temp;

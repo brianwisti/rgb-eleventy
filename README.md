@@ -27,6 +27,9 @@ A reminder for when I'm staring at `package.json` in the middle of the night.
 `markdown-it-container`
 : for the many notes, warnings, and asides I sprinkle through my articles
 
+`eleventy-plugin-shiki-twoslash`
+: because I poke at all sorts of languages Prism has never heard of
+
 `xregexp`
 : because I like regular expressions and I like them fancy
 

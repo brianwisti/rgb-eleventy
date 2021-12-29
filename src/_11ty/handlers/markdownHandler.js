@@ -10,11 +10,11 @@ const skipNameIfUntitledFor = ["admonition"];
 const buildContainerHandler = (container_name) => {
   const admonitionPattern = XRegExp(
     `
-    ^
-      (?<name> ${container_name})
-      \s*?
-      (?<title> .*?)
-    $
+      ^
+        (?<name> ${container_name})
+        \s*?
+        (?<title> .*?)
+      $
     `, 'x'
   );
 
@@ -25,20 +25,14 @@ const buildContainerHandler = (container_name) => {
       const match = XRegExp.exec(tokens[idx].info.trim(), admonitionPattern);
 
       if (tokens[idx].nesting === 1) {
-        const title = match.groups.title.trim();
-        const name = match.groups.name;
-        
-        if (title) {
-          console.log(`name: ${name}; title: ${title}`);
-        }
-
-        const opener = `<aside class="${name}">`;
+        const { title, name } = match.groups;
         const titleText = title
-          ? title
+          ? title.trim()
           : skipNameIfUntitledFor.includes(name)
             ? ""
             : name;
 
+        const opener = `<aside class="${name}">`;
         const admonitionHeader = titleText
           ? `<header>${titleText}</header>`
           : "";

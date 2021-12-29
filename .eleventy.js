@@ -1,6 +1,10 @@
+const shikiTwoslash = require("eleventy-plugin-shiki-twoslash");
+
+const markdownHandler = require("./src/_11ty/handlers/markdownHandler.js");
+
 module.exports = function (config) {
-  const markdownHandler = require("./src/_11ty/handlers/markdownHandler.js");
   config.setLibrary("md", markdownHandler());
+  config.addPlugin(shikiTwoslash, { theme: "nord" });
 
   // Bring in the Hugo sections as 11ty collections.
   config.addCollection(
