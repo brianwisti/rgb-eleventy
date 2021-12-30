@@ -34,10 +34,13 @@ A reminder for when I'm staring at `package.json` in the middle of the night.
 : because I like regular expressions and I like them fancy
 
 `@11ty/eleventy-img`
-: for image manipulation such as cropping
+: simplify a little magic cropping for cards
 
-`eleventy-plugin-images-responsiver`
-: simplified in-content syntax for responsive images
+`markdown-it-attrs`
+: for adding CSS classes and other attributes inside markdown
+
+`eleventy-plugin-local-respimg`
+: to simplify responsive images within my markdown content
 
 ## Resources
 
@@ -49,6 +52,7 @@ Sites and posts that I'm leaning on heavily while I assemble this thing.
 - [Nunjucks Templating
   Docs](https://mozilla.github.io/nunjucks/templating.html)
 - [Consistent, Fluidly Scaling Type and Spacing](https://css-tricks.com/consistent-fluidly-scaling-type-and-spacing/)
+- [Eleventy Image Lazy Loading](https://www.aleksandrhovhannisyan.com/blog/eleventy-image-lazy-loading/) 
 - [Newspaper terms
   PDF](https://nieonline.com/coloradonie/downloads/journalism/GlossaryOfNewspaperTerms.pdf)
   for when I'm running blank on CSS class names
