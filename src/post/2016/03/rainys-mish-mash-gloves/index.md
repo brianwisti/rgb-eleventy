@@ -3,7 +3,7 @@ aliases:
 - /craft/2016/rainys-mishmash-gloves/
 - /2016/03/20/rainys-mish-mash-gloves/
 category: craft
-cover: cover.jpg
+cover: /assets/img/post/2016/03/rainys-mish-mash-gloves/cover.jpg
 cover_image: cover.jpg
 date: 2016-03-20 00:00:00
 slug: rainys-mish-mash-gloves

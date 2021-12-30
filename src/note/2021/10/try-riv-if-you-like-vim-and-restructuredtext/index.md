@@ -1,5 +1,5 @@
 ---
-cover: cover.png
+cover: /assets/img/note/2021/10/try-riv-if-you-like-vim-and-restructuredtext/cover.png
 date: '2021-10-23'
 format: rst
 slug: try-riv-if-you-like-vim-and-restructuredtext

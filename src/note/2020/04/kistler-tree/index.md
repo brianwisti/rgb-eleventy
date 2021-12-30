@@ -2,7 +2,7 @@
 aliases:
 - /note/2020/109/kistler-tree/
 caption: Tree
-cover: cover.jpg
+cover: /assets/img/note/2020/04/kistler-tree/cover.jpg
 cover_image: cover.jpg
 date: 2020-04-19 03:25:00
 slug: kistler-tree

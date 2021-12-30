@@ -3,7 +3,7 @@ aliases:
 - /craft/2016/shading-exercise/
 - /2016/12/06/shading-exercise/
 category: craft
-cover: cover.jpg
+cover: /assets/img/post/2016/12/shading-exercise/cover.jpg
 cover_image: cover.jpg
 date: 2016-12-06 00:00:00
 slug: shading-exercise

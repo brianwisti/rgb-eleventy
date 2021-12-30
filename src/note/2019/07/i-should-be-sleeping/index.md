@@ -1,7 +1,7 @@
 ---
 aliases:
 - /note/2019/187/i-should-be-sleeping/
-cover: cover.jpg
+cover: /assets/img/note/2019/07/i-should-be-sleeping/cover.jpg
 cover_image: cover.jpg
 date: 2019-07-07 05:22:00
 slug: i-should-be-sleeping

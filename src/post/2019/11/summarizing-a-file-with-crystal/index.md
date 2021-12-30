@@ -2,7 +2,7 @@
 aliases:
 - /2019/11/17/summarizing-a-file-with-crystal/
 category: Programming
-cover: cover.png
+cover: /assets/img/post/2019/11/summarizing-a-file-with-crystal/cover.png
 cover_image: cover.png
 date: 2019-11-17
 description: Been busy, but let's take a minute to summarize a file's details with

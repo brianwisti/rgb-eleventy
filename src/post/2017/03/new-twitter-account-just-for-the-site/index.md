@@ -3,7 +3,7 @@ aliases:
 - /post/2017/new-twitter-account-just-for-the-site/
 - /2017/03/18/new-twitter-account-just-for-the-site/
 category: marginalia
-cover: cover.png
+cover: /assets/img/post/2017/03/new-twitter-account-just-for-the-site/cover.png
 cover_image: cover.png
 date: 2017-03-18
 draft: false

@@ -15,7 +15,7 @@ uuid: 3c7caa63-cad1-4106-b5de-51a74d0c7fa7
 <aside class="admonition note">
 <p class="admonition-title">Note</p>
 
-![Photo of Brian](brian-greenlake.jpg)
+![Photo of Brian](/assets/img/post/2001/12/about-brian/brian-greenlake.jpg)
 
 This page exists for historical purposes — so you can see the cute old
 picture of me. More current versions of its information is in

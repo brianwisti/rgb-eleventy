@@ -2,7 +2,7 @@
 aliases:
 - /note/2019/299/couple-decades-now/
 caption: me, 2000-ish
-cover: cover.jpg
+cover: /assets/img/note/2019/10/couple-decades-now/cover.jpg
 cover_image: cover.jpg
 date: 2019-10-26 15:13:24
 slug: couple-decades-now

@@ -1,7 +1,7 @@
 ---
 aliases:
 - /note/2020/62/all-i-did-was-click-bulk-download/
-cover: cover.png
+cover: /assets/img/note/2020/03/all-i-did-was-click-bulk-download/cover.png
 cover_image: cover.png
 date: 2020-03-02 19:52:58
 slug: all-i-did-was-click-bulk-download

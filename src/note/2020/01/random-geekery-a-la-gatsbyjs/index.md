@@ -2,7 +2,7 @@
 aliases:
 - /note/2020/24/random-geekery-a-la-gatsby.js/
 - /note/2020/01/random-geekery-a-la-gatsby.js/
-cover: cover.png
+cover: /assets/img/note/2020/01/random-geekery-a-la-gatsbyjs/cover.png
 cover_image: cover.png
 date: 2020-01-25 06:31:00
 slug: random-geekery-a-la-gatsbyjs

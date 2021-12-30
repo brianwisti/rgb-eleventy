@@ -25,6 +25,6 @@ Okay I might.
     $ pandoc --to asciidoc _posts/programming/2014-12-13-duplicate-files.markdown -o 2014-12-13-duplicate-files.adoc
     $ pandoc _posts/programming/2014-12-13-duplicate-files.markdown -o 2014-12-13-duplicate-files.html
 
-![Pandoc output in Emacs](emacs-pandoc.png)
+![Pandoc output in Emacs](/assets/img/post/2015/07/pandoc/emacs-pandoc.png)
 
 Honestly at this point I’d say it’s pretty likely.

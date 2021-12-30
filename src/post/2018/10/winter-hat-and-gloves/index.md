@@ -2,7 +2,7 @@
 aliases:
 - /2018/10/27/winter-hat-and-gloves/
 category: Craft
-cover: cover.jpg
+cover: /assets/img/post/2018/10/winter-hat-and-gloves/cover.jpg
 cover_image: cover.jpg
 date: 2018-10-27 00:00:00
 draft: false

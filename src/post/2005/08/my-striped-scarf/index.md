@@ -3,7 +3,7 @@ aliases:
 - /craft/2005/my-striped-scarf/
 - /2005/08/15/my-striped-scarf/
 category: craft
-cover: cover.jpg
+cover: /assets/img/post/2005/08/my-striped-scarf/cover.jpg
 cover_image: cover.jpg
 date: 2005-08-15
 slug: my-striped-scarf

@@ -2,7 +2,7 @@
 aliases:
 - /2018/02/17/my-sloppy-floppy-fingerless-mitten/
 category: Craft
-cover: cover.jpg
+cover: /assets/img/post/2018/02/my-sloppy-floppy-fingerless-mitten/cover.jpg
 cover_image: cover.jpg
 date: 2018-02-17 00:00:00
 draft: false

@@ -1,7 +1,7 @@
 ---
 aliases:
 - /note/2019/210/i-forgot-how-nice-kde-can-be/
-cover: cover.png
+cover: /assets/img/note/2019/07/i-forgot-how-nice-kde-can-be/cover.png
 cover_image: cover.png
 date: 2019-07-30 02:31:39
 slug: i-forgot-how-nice-kde-can-be

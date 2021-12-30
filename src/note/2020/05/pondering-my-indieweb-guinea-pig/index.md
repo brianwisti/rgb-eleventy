@@ -1,6 +1,6 @@
 ---
 caption: Can't throw the YAPC::NA shirt away yet. Hasn't worn through completely yet.
-cover: cover.jpg
+cover: /assets/img/note/2020/05/pondering-my-indieweb-guinea-pig/cover.jpg
 cover_image: cover.jpg
 date: 2020-05-04 03:30:00
 slug: pondering-my-indieweb-guinea-pig

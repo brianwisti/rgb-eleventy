@@ -3,7 +3,7 @@ aliases:
 - /2020/04/30/taskwarrior-custom-reports/
 caption: output of my custom `task top` report
 category: tools
-cover: cover.png
+cover: /assets/img/post/2020/04/taskwarrior-custom-reports/cover.png
 cover_image: cover.png
 date: 2020-04-30 08:02:43
 description: I made a priority task to cut down on the priority tasks, and here we

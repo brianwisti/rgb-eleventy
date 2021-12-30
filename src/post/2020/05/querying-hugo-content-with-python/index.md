@@ -1,7 +1,7 @@
 ---
 caption: My blogging output by year – bet you didn’t know there were blogs in 1 CE
 category: tools
-cover: cover.png
+cover: /assets/img/post/2020/05/querying-hugo-content-with-python/cover.png
 cover_image: cover.png
 date: 2020-05-07 06:37:00
 description: I had entirely too much fun replacing my site metadata script with sqlite-utils
@@ -413,17 +413,17 @@ ways past "some CSS" with Datasette.
 Oh and more on the pleasant interface. It allows you to edit the SQL for your
 current view.
 
-#[lightly styled with custom SQL](datasette-sql.png)
+![lightly styled with custom SQL](/assets/img/post/2020/05/querying-hugo-content-with-python/datasette-sql.png)
 
 There are detail pages for each row. Again, the Niche Museums site shows that
 [detail view][detail-view] can be heavily tweaked.
 
-#[Datasette detail view of a post](datasette-entry.png)
+![Datasette detail view of a post](/assets/img/post/2020/05/querying-hugo-content-with-python/datasette-entry.png)
 
 [Plugins][plugins] add all sorts of functionality. [datasette-vega][] draws
 graphs of query results.
 
-#[Charting interface with entries posted per year](datasette-graph.png)
+![Charting interface with entries posted per year](/assets/img/post/2020/05/querying-hugo-content-with-python/datasette-graph.png)
 
 Year 0001? Hang on, let me check that in my shiny new Datasette server.
 

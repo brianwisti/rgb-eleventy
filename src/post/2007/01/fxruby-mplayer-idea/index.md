@@ -4,7 +4,7 @@ aliases:
 - /post/2007/fxruby-mplayer-idea/
 - /2007/01/30/fxruby-mplayer-idea/
 category: blogspot
-cover: cover.png
+cover: /assets/img/post/2007/01/fxruby-mplayer-idea/cover.png
 cover_image: cover.png
 date: 2007-01-30 00:00:00
 slug: fxruby-mplayer-idea

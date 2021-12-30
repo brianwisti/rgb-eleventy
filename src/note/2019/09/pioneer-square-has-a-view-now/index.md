@@ -2,7 +2,7 @@
 aliases:
 - /note/2019/263/pioneer-square-has-a-view-now/
 caption: Sunset view of Puget Sound from Main Street in Seattle
-cover: cover.jpg
+cover: /assets/img/note/2019/09/pioneer-square-has-a-view-now/cover.jpg
 cover_image: cover.jpg
 date: 2019-09-20 14:56:53
 slug: pioneer-square-has-a-view-now

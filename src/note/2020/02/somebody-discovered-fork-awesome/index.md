@@ -1,7 +1,7 @@
 ---
 aliases:
 - /note/2020/38/somebody-discovered-fork-awesome/
-cover: cover.png
+cover: /assets/img/note/2020/02/somebody-discovered-fork-awesome/cover.png
 cover_image: cover.png
 date: 2020-02-07 08:22:03
 slug: somebody-discovered-fork-awesome

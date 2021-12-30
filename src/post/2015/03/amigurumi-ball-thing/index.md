@@ -3,7 +3,7 @@ aliases:
 - /craft/2015/amigurumi-ball-thing/
 - /2015/03/08/amigurumi-ball-thing/
 category: craft
-cover: cover.jpg
+cover: /assets/img/post/2015/03/amigurumi-ball-thing/cover.jpg
 cover_image: cover.jpg
 date: 2015-03-08 00:00:00
 slug: amigurumi-ball-thing

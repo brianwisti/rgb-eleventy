@@ -2,7 +2,7 @@
 aliases:
 - /2018/02/19/setting-task-dependencies-in-taskwarrior/
 category: tools
-cover: cover.png
+cover: /assets/img/post/2018/02/setting-task-dependencies-in-taskwarrior/cover.png
 cover_image: cover.png
 date: 2018-02-19 00:00:00
 description: 'I''m not done reading a book until I finish the exercises. Taskwarrior
@@ -113,7 +113,7 @@ priority because it blocks a task.
 The report visually highlights the blocking task while downplaying the
 blocked task. This is easier to show with a screenshot.
 
-![fosscontrib project with one dependency set](single-dependency.png)
+![fosscontrib project with one dependency set](/assets/img/post/2018/02/setting-task-dependencies-in-taskwarrior/single-dependency.png)
 
 Let’s assign the rest of the dependencies.
 
@@ -161,7 +161,7 @@ What does this project look like now?
 
 Right but what does it *look* like?
 
-![taskwarrior report](cover.png "I have my work cut out for me")
+![taskwarrior report](/assets/img/post/2018/02/setting-task-dependencies-in-taskwarrior/cover.png "I have my work cut out for me")
 
 The report deemphasizes everything but the task that blocks everything
 else. You can see some urgency math going on in that last column where

@@ -25,7 +25,7 @@ try it out on my own site.
 
 Here’s a screenshot of the old design:
 
-![old OSWD design](coolnamehere-20080128.png)
+![old OSWD design](/assets/img/post/2008/02/updating-coolnameheres-design/coolnamehere-20080128.png)
 
 There are a lot of things I liked about this design. The grass image
 dividing the columns gave the site an attractive and natural touch that
@@ -38,7 +38,7 @@ incredibly non-biased people: my wife and my brother. Okay, I will
 concede that they may have a bias. I like it in general, though. It’s
 very … Seattle. Clouds, water, scotch bloom.
 
-![new design](coolnamehere-2008-0128-2.png)
+![new design](/assets/img/post/2008/02/updating-coolnameheres-design/coolnamehere-2008-0128-2.png)
 
 The design is still in progress. For starters, I *hate* the navtree
 menu. That navtree is starting to look a little cumbersome, actually,

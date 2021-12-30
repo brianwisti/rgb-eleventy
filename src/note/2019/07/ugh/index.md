@@ -1,7 +1,7 @@
 ---
 aliases:
 - /note/2019/187/ugh/
-cover: cover.jpg
+cover: /assets/img/note/2019/07/ugh/cover.jpg
 cover_image: cover.jpg
 date: 2019-07-06 18:39:14
 slug: ugh

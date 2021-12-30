@@ -1,7 +1,7 @@
 ---
 aliases:
 - /note/2019/242/yanick-made-me-do-it/
-cover: cover.png
+cover: /assets/img/note/2019/08/yanick-made-me-do-it/cover.png
 cover_image: cover.png
 date: 2019-08-30 15:24:04
 slug: yanick-made-me-do-it

@@ -3,7 +3,7 @@ aliases:
 - /post/2017/geekish-update/
 - /2017/03/28/geekish-update/
 category: Marginalia
-cover: cover.jpg
+cover: /assets/img/post/2017/03/geekish-update/cover.jpg
 cover_image: cover.jpg
 date: 2017-03-28
 draft: false
@@ -22,7 +22,7 @@ Maybe keep [Irssi](https://irssi.org/) running in a [Tmux](https://tmux.github.i
 
 Oh, and just in case you want to know how the basement looked when we moved in, here’s a picture.
 
-![The original basement](basement-original.jpg)
+![The original basement](/assets/img/post/2017/03/geekish-update/basement-original.jpg)
 
 I like it better now.
 

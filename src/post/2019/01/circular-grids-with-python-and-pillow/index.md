@@ -2,7 +2,7 @@
 aliases:
 - /2019/01/23/circular-grids-with-python-and-pillow/
 category: Programming
-cover: cover.png
+cover: /assets/img/post/2019/01/circular-grids-with-python-and-pillow/cover.png
 cover_image: cover.png
 date: 2019-01-23 00:00:00
 description: I want a circular grid for drawing. Let's make one with Python!
@@ -161,7 +161,7 @@ creates a circle by drawing a 360 degree arc within `bounding_box`, a
 square that extends `radius` pixels from a midpoint along the `x` and
 `y` axes.
 
-![Concentric circles](circle-600-10-0.png)
+![Concentric circles](/assets/img/post/2019/01/circular-grids-with-python-and-pillow/circle-600-10-0.png)
 
 ## Add some pie slices
 
@@ -219,7 +219,7 @@ the bounding box defined by my largest circle.
 
 How does that look?
 
-![Concentric circles divided by pie slices](circle-600-10-12.png)
+![Concentric circles divided by pie slices](/assets/img/post/2019/01/circular-grids-with-python-and-pillow/circle-600-10-12.png)
 
 It looks pretty cool.
 
@@ -231,12 +231,12 @@ Many more.
 
 Yes, that’s more like it.
 
-![Generated circle template](circle-600-30-36.png)
+![Generated circle template](/assets/img/post/2019/01/circular-grids-with-python-and-pillow/circle-600-30-36.png)
 
 This is all I need for a drawing template. Using transformation tools
 and the right blending modes, I can manuever and manipulate my grid
 however I need for a drawing template\!
 
-![template prepared for drawing](three-circle-template.png)
+![template prepared for drawing](/assets/img/post/2019/01/circular-grids-with-python-and-pillow/three-circle-template.png)
 
 I’ll stop here so I can get to my drawing.

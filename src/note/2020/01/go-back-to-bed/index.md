@@ -1,7 +1,7 @@
 ---
 aliases:
 - /note/2020/16/go-back-to-bed/
-cover: cover.png
+cover: /assets/img/note/2020/01/go-back-to-bed/cover.png
 cover_image: cover.png
 date: 2020-01-16 14:35:47
 slug: go-back-to-bed

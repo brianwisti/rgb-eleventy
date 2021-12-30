@@ -2,7 +2,7 @@
 aliases:
 - /note/2020/94/yay-i-added-mentions-and-replies/
 caption: WebMentions for [my wedding post](/2020/03/20/got-married-yesterday/index.html)
-cover: cover.png
+cover: /assets/img/note/2020/04/yay-i-added-mentions-and-replies/cover.png
 cover_image: cover.png
 date: 2020-04-03 07:18:00
 slug: yay-i-added-mentions-and-replies

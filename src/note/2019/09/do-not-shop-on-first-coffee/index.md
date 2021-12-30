@@ -2,7 +2,7 @@
 aliases:
 - /note/2019/271/do-not-shop-on-first-coffee/
 caption: three brands of bottled coffee
-cover: cover.jpg
+cover: /assets/img/note/2019/09/do-not-shop-on-first-coffee/cover.jpg
 cover_image: cover.jpg
 date: 2019-09-28 17:02:01
 slug: do-not-shop-on-first-coffee

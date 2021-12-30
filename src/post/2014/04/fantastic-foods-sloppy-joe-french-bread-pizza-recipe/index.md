@@ -4,7 +4,7 @@ aliases:
 - /post/2014/sloppy-joe-french-bread-pizza-recipe/
 - /2014/04/12/fantastic-foods-sloppy-joe-french-bread-pizza-recipe/
 category: marginalia
-cover: cover.jpg
+cover: /assets/img/post/2014/04/fantastic-foods-sloppy-joe-french-bread-pizza-recipe/cover.jpg
 cover_image: cover.jpg
 date: 2014-04-12 00:00:00
 slug: fantastic-foods-sloppy-joe-french-bread-pizza-recipe

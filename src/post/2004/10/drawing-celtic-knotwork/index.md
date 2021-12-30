@@ -893,11 +893,7 @@ panel.to_image()
 
 Thanks to all the work we did building Tiles and Grids and ASCII art
 KnotworkPanels, we only need to add a few lines to allow KnotworkPanels to
-create a nice black and white PNG image file. Here’s what we get:
-
-![10x20 panel](panel.png)
-
-Cool, eh?
+create a nice black and white PNG image file. 
 
 ### Building KnotworkPanels of Any Size
 
@@ -949,13 +945,9 @@ Running it with the default should result in a 3x3 panel:
 
     $ ruby knotworkpanel.rb
 
-![3x3 panel](panel-3x3.png)
-
 Setting `rows` to 2 results in a 4x4 panel.
 
     $ ruby knotworkpanel.rb --rows 2
-
-![4x4 panel](panel-4x4.png)
 
 <aside class="admonition">
 

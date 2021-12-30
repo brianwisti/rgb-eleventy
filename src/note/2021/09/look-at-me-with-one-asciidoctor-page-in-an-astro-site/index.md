@@ -1,5 +1,5 @@
 ---
-cover: cover.png
+cover: /assets/img/note/2021/09/look-at-me-with-one-asciidoctor-page-in-an-astro-site/cover.png
 date: 2021-09-18
 format: adoc
 tags:

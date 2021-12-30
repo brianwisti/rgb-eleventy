@@ -1,7 +1,7 @@
 ---
 aliases:
 - /note/2019/192/artists-rendition-of-my-sinuses/
-cover: cover.jpg
+cover: /assets/img/note/2019/07/artists-rendition-of-my-sinuses/cover.jpg
 cover_image: cover.jpg
 date: 2019-07-11 19:01:10
 slug: artists-rendition-of-my-sinuses

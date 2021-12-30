@@ -1,5 +1,5 @@
 ---
-cover: cover.png
+cover: /assets/img/note/2020/11/found-the-micro-editor/cover.png
 cover_image: cover.png
 date: 2020-12-01 04:41:49
 slug: found-the-micro-editor

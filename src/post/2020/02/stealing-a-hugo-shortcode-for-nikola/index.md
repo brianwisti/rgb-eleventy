@@ -2,7 +2,7 @@
 aliases:
 - /2020/02/12/stealing-a-hugo-shortcode-for-nikola/
 category: tools
-cover: cover.png
+cover: /assets/img/post/2020/02/stealing-a-hugo-shortcode-for-nikola/cover.png
 cover_image: cover.png
 date: 2020-02-13 04:39:43
 description: I needed a YouTube shortcode for Nikola, so I adapted Hugo's.
@@ -113,7 +113,7 @@ host based on `youtube_privacy_enhanced`, and adds some HTML.
 Let’s look at a [couple](/note/2019/12/always-got-time-for-miyazaki/) of
 [notes](/note/2019/11/art-nouveau-psychedelia-and-a-kalevala-tangent/).
 
-![Note to self: clicking *play* in a screenshot does nothing](miyazaki.png)
+![Note to self: clicking *play* in a screenshot does nothing](/assets/img/post/2020/02/stealing-a-hugo-shortcode-for-nikola/miyazaki.png)
 
 It works!
 

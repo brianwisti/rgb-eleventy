@@ -3,7 +3,7 @@ aliases:
 - /craft/2015/my-first-socks/
 - /2015/11/25/my-first-socks/
 category: craft
-cover: cover.jpg
+cover: /assets/img/post/2015/11/my-first-socks/cover.jpg
 cover_image: cover.jpg
 date: 2015-11-25 00:00:00
 slug: my-first-socks

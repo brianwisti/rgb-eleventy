@@ -3,7 +3,7 @@ aliases:
 - /craft/2016/moms-stansfield-12-socks/
 - /2016/02/07/moms-stansfield-12-socks/
 category: craft
-cover: cover.jpg
+cover: /assets/img/post/2016/02/moms-stansfield-12-socks/cover.jpg
 cover_image: cover.jpg
 date: 2016-02-07 00:00:00
 slug: moms-stansfield-12-socks
@@ -20,4 +20,4 @@ my ability to make something for Mom.
 This time I blocked the socks flat, and I think that helped them look
 better when I wrapped them up for shipping.
 
-![Socks flat blocked](moms-stansfield-socks-flat.jpg)
+![Socks flat blocked](/assets/img/post/2016/02/moms-stansfield-12-socks/moms-stansfield-socks-flat.jpg)

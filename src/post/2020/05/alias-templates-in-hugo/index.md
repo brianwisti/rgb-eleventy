@@ -1,7 +1,7 @@
 ---
 caption: It's not a redirect anymore
 category: Tools
-cover: cover.png
+cover: /assets/img/post/2020/05/alias-templates-in-hugo/cover.png
 cover_image: cover.png
 date: 2020-05-20 22:15:00
 description: I killed some redirects for accessibility and likes
@@ -102,7 +102,7 @@ URL.  Visitors get corrected, but Webmention senders don’t.  [Brid.gy][] — a
 lovely service which forwards social network reactions to your webmention
 handler — saw nothing to forward to!
 
-![Bridgy dashboard showing "No webmention support" in responses to my old URL](bridgy.png)
+![Bridgy dashboard showing "No webmention support" in responses to my old URL](/assets/img/post/2020/05/alias-templates-in-hugo/bridgy.png)
 
 Well of _course_ there’s no webmention support.  The generated alias files have
 no `link rel="webmention"`!

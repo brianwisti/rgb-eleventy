@@ -1,7 +1,7 @@
 ---
 caption: intricate patterns drawn in the middle of the night is my jam
 category: craft
-cover: cover.jpg
+cover: /assets/img/post/2021/03/hard-symmetry-soft-colors/cover.jpg
 cover_image: cover.jpg
 date: 2021-03-06
 description: Linea needs a time tracker

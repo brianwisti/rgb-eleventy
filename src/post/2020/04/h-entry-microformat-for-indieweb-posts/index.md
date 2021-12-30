@@ -3,7 +3,7 @@ aliases:
 - /2020/04/26/h-entry-microformat-for-indieweb-posts/
 caption: looking at the interpreted microformats for a post, in [bat](https://github.com/sharkdp/bat)
 category: Tools
-cover: cover.png
+cover: /assets/img/post/2020/04/h-entry-microformat-for-indieweb-posts/cover.png
 cover_image: cover.png
 date: 2020-04-26 20:02:33
 description: In which I go overboard with Hugo and Python for a quick Sunday task
@@ -140,7 +140,7 @@ candidates for `p-name` and `p-summary`.
 Let’s see that in action with my post on [weighing files in
 Python](http://localhost:1313/2019/06/01/weighing-files-with-python/).
 
-![post header with minimal h-entry info](h-entry-with-title.png)
+![post header with minimal h-entry info](/assets/img/post/2020/04/h-entry-microformat-for-indieweb-posts/h-entry-with-title.png)
 
 ### Who wrote this, anyways?
 
@@ -191,7 +191,7 @@ show each of those as a `p-category`.
   [taxonomies](https://gohugo.io/content-management/taxonomies/) get
   set in front matter.
 
-![h-entry with categories](h-entry-with-categories.png)
+![h-entry with categories](/assets/img/post/2020/04/h-entry-microformat-for-indieweb-posts/h-entry-with-categories.png)
 
 ### What about cover images?
 
@@ -203,7 +203,7 @@ late!* — I’ll just show the microformat-specific addition.
     <img {{ if $isCover }}class="u-photo"{{ end }}
 
 
-![full h-entry](h-entry-full.png)
+![full h-entry](/assets/img/post/2020/04/h-entry-microformat-for-indieweb-posts/h-entry-full.png)
 
 Yep, that’s a post header all right. What about validation? Did I get
 the microformats right?

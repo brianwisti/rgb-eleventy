@@ -2,7 +2,7 @@
 aliases:
 - /2020/02/23/sort-of-tufte-css/
 category: tools
-cover: cover.png
+cover: /assets/img/post/2020/02/sort-of-tufte-css/cover.png
 cover_image: cover.png
 date: 2020-02-23 08:02:03
 description: I tried something new with my site style.

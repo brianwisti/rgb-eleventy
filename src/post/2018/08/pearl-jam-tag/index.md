@@ -2,7 +2,7 @@
 aliases:
 - /2018/08/07/pearl-jam-tag/
 category: Marginalia
-cover: cover.jpg
+cover: /assets/img/post/2018/08/pearl-jam-tag/cover.jpg
 cover_image: cover.jpg
 date: 2018-08-07 00:00:00
 draft: false
@@ -19,8 +19,7 @@ near [Easy Street Records](https://easystreetonline.com) this morning.
 
 Probably something to do with this sign right next to the tag.
 
-![Easy Street reader board](announce.jpg
-  "Easy Street announcement for 'Pearl Jam Home Shows Aug 8 & 10'")
+![Easy Street reader board](/assets/img/post/2018/08/pearl-jam-tag/announce.jpg "Easy Street announcement for 'Pearl Jam Home Shows Aug 8 & 10'")
 
 All right, so what does the sign mean by "Home Shows?" At first I
 thought it described some special in-store event, since Easy Street has
@@ -62,4 +61,4 @@ As of the moment I write these words, that is tomorrow.
 
 Anyways, yeah. I liked the tag. Dog had no opinion on the matter.
 
-![close up of Pearl Jam logo tag](tag.jpg)
+![close up of Pearl Jam logo tag](/assets/img/post/2018/08/pearl-jam-tag/tag.jpg)

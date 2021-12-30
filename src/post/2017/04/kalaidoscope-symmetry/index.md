@@ -3,7 +3,7 @@ aliases:
 - /craft/2017/kalaidoscope-symmetry/
 - /2017/04/22/kalaidoscope-symmetry/
 category: craft
-cover: cover.jpg
+cover: /assets/img/post/2017/04/kalaidoscope-symmetry/cover.jpg
 cover_image: cover.jpg
 date: 2017-04-22
 draft: false

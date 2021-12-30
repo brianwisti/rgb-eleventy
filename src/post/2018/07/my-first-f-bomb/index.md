@@ -2,7 +2,7 @@
 aliases:
 - /2018/07/01/my-first-f-bomb/
 category: Craft
-cover: cover.jpg
+cover: /assets/img/post/2018/07/my-first-f-bomb/cover.jpg
 cover_image: cover.jpg
 date: 2018-07-01 00:00:00
 draft: false

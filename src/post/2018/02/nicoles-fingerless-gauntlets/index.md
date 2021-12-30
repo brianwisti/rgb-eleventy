@@ -2,7 +2,7 @@
 aliases:
 - /2018/02/02/nicoles-fingerless-gauntlets/
 category: Craft
-cover: cover.jpg
+cover: /assets/img/post/2018/02/nicoles-fingerless-gauntlets/cover.jpg
 cover_image: cover.jpg
 date: 2018-02-02 00:00:00
 draft: false

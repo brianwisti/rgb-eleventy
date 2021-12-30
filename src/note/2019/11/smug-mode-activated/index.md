@@ -1,7 +1,7 @@
 ---
 aliases:
 - /note/2019/326/smug-mode-activated/
-cover: cover.png
+cover: /assets/img/note/2019/11/smug-mode-activated/cover.png
 cover_image: cover.png
 date: 2019-11-23 00:50:39
 slug: smug-mode-activated

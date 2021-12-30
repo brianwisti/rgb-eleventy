@@ -49,7 +49,7 @@ which of us was the most pathetic.
 
 Me. I meant me. Will you at least **try** to keep up?
 
-![stalk 004](stalk-004.jpg)
+![stalk 004](/assets/img/post/2002/02/stalking-star-wars-fans/stalk-004.jpg)
 
 I read a little closer, and realized that these guys were sitting next
 to the Cinerama theater, in downtown Seattle\! That’s about a 20 minute
@@ -72,7 +72,7 @@ home for this thing they call "research". Who are these guys? What is
 their purpose? Is another stripper due today? Who is that really cute
 girl talking on her cell phone?
 
-![stalk 005](stalk-005.jpg)
+![stalk 005](/assets/img/post/2002/02/stalking-star-wars-fans/stalk-005.jpg)
 
 Hmm … what? Interview? Oh yeah, that’s right. I got distracted.
 
@@ -123,7 +123,7 @@ They both swore, and the interview had begun.
 The two fans in question are Jeff Tweiten and John Guth. According to my
 copious notes — **humor me** — Jeff is "the hat", and John is "orange."
 
-![Jeff and John](stalk-010.jpg)
+![Jeff and John](/assets/img/post/2002/02/stalking-star-wars-fans/stalk-010.jpg)
 
 They are both members of the Seattle Star Wars Society. What is their
 motivation? Well, I didn’t think to ask, so here’s a quote from the
@@ -164,7 +164,7 @@ jobs **and** they can sit on their butts for 4 1/2 months? Lucky
 bastards\! On the other hand, my unemployment means that I can follow a
 random whim and interview strange people in the middle of the afternoon.
 
-![John](stalk-009.jpg)
+![John](/assets/img/post/2002/02/stalking-star-wars-fans/stalk-009.jpg)
 
 I know that I get bothered after being in line for 15 minutes and
 somebody sees fit to try and get ahead of me. How would it feel if
@@ -234,7 +234,7 @@ empty. I wanted to know if I was the only one, or if others felt this
 way. Are the movies getting better, worse, or maintaining some cosmic
 consistency?
 
-![Jeff](stalk-008.jpg)
+![Jeff](/assets/img/post/2002/02/stalking-star-wars-fans/stalk-008.jpg)
 
 This was obviously a dilemma, and I could tell that they had chewed over
 it themselves. Finally, Jeff declared that "The Phantom Menace" suffered
@@ -306,7 +306,7 @@ off the streets.
 
 Until Episode 3, anyways.
 
-![Posing with John and Jeff](stalk-011.jpg)
+![Posing with John and Jeff](/assets/img/post/2002/02/stalking-star-wars-fans/stalk-011.jpg)
 
 They had mentioned setting a record. I was wondering if they were
 expecting any money from the
@@ -348,7 +348,7 @@ Grocery, and fetched some Gatorade and American Spirit cigarettes. We
 shook hands, I wished them luck, and starting trudging back to the bus
 stop.
 
-![wet](stalk-013.jpg)
+![wet](/assets/img/post/2002/02/stalking-star-wars-fans/stalk-013.jpg)
 
 I was cold. I was wet. My butt was cold and wet. I just wanted to be
 home where there was a roof, coffee, and a computer. After a period of

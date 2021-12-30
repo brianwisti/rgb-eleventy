@@ -3,7 +3,7 @@ aliases:
 - /craft/2017/my-weston-hat/
 - /2017/06/28/my-weston-hat/
 category: craft
-cover: cover.jpg
+cover: /assets/img/post/2017/06/my-weston-hat/cover.jpg
 cover_image: cover.jpg
 date: 2017-06-28
 draft: false
@@ -19,7 +19,7 @@ Ended up knitting this one twice. Tried the large size first, and it ended up
 way too large for my taste. Frogged and restarted the smaller size, making a new
 set of mistakes. But the hat fits now and I’m not starting again!
 
-![Me wearing the Weston](me-wearing-weston-medium.jpg)
+![Me wearing the Weston](/assets/img/post/2017/06/my-weston-hat/me-wearing-weston-medium.jpg)
 
 [Weston pattern]: https://www.garnstudio.com/pattern.php?id=7779&cid=17
 [Caron Cakes Lemon Lime]: http://www.michaels.com/caron-cakes-yarn/M10481921.html

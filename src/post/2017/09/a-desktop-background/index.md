@@ -3,7 +3,7 @@ aliases:
 - /craft/2017/a-desktop-background/
 - /2017/09/03/a-desktop-background/
 category: Craft
-cover: cover.jpg
+cover: /assets/img/post/2017/09/a-desktop-background/cover.jpg
 cover_image: cover.jpg
 date: 2017-09-03
 draft: false

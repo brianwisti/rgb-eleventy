@@ -1,7 +1,7 @@
 ---
 aliases:
 - /note/2019/189/12-days-5-hours-28-minutes-to-home/
-cover: cover.jpg
+cover: /assets/img/note/2019/07/12-days-5-hours-28-minutes-to-home/cover.jpg
 cover_image: cover.jpg
 date: 2019-07-08 14:05:32
 slug: 12-days-5-hours-28-minutes-to-home

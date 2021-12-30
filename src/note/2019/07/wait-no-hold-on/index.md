@@ -2,7 +2,7 @@
 aliases:
 - /note/2019/192/wait-no-hold-on/
 caption: Image via https://joinmastodon.org/
-cover: cover.png
+cover: /assets/img/note/2019/07/wait-no-hold-on/cover.png
 cover_image: cover.png
 date: 2019-07-12 04:44:58
 slug: wait-no-hold-on

@@ -1,7 +1,7 @@
 ---
 caption: Joplin's terminal view of my notebooks
 category: tools
-cover: cover.png
+cover: /assets/img/post/2021/04/joplin-terminal-basics/cover.png
 cover_image: cover.png
 date: 2021-04-15
 description: Managing notes with Joplin's terminal mode

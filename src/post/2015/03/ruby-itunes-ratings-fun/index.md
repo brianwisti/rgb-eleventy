@@ -137,6 +137,6 @@ Time does change tastes a little bit.
 
 The graph. Let’s look at that pretty picture.
 
-![Ratings pie chart](song-pie.png)
+![Ratings pie chart](/assets/img/post/2015/03/ruby-itunes-ratings-fun/song-pie.png)
 
 Yes. I have much music listening ahead of me.

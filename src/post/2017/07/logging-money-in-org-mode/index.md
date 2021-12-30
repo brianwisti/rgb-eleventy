@@ -3,7 +3,7 @@ aliases:
 - /post/2017/logging-money-in-org-mode/
 - /2017/07/31/logging-money-in-org-mode/
 category: tools
-cover: cover.png
+cover: /assets/img/post/2017/07/logging-money-in-org-mode/cover.png
 cover_image: cover.png
 date: 2017-07-31
 draft: false
@@ -102,15 +102,15 @@ code.
 
 <kbd>C-c c</kbd> is a global binding which starts `org-capture` from whatever I’m doing.
 
-![menu 1 for money capture](org-capture-menu-1.png "<kbd>C-c c</kbd> to enter org capture menu")
+![menu 1 for money capture](/assets/img/post/2017/07/logging-money-in-org-mode/org-capture-menu-1.png "<kbd>C-c c</kbd> to enter org capture menu")
 
-![menu 2 for money capture](org-capture-menu-2.png "<kbd></kbd> then <kbd>m</kbd> for a Personal Money entry")
+![menu 2 for money capture](/assets/img/post/2017/07/logging-money-in-org-mode/org-capture-menu-2.png "<kbd></kbd> then <kbd>m</kbd> for a Personal Money entry")
 
 I get prompted for Amount, Summary, and tags. Once I answer those prompts, I am
 shown the Capture buffer. I don’t need to change anything, so I finalize the
 entry with `C-c C-c`.
 
-![Finalize capture buffer](org-money-capture-buffer.png "<kbd>C-c C-c</kbd> to finalize")
+![Finalize capture buffer](/assets/img/post/2017/07/logging-money-in-org-mode/org-money-capture-buffer.png "<kbd>C-c C-c</kbd> to finalize")
 
 After I finalize the entry, Emacs closes the Capture buffer and returns me to
 whatever I was doing before. I can complete the whole process in about five
@@ -127,21 +127,21 @@ get a little cluttered if I start showing every logged item.
 `C-c a` opens the menu of Agenda commands. m lets me search for tag matches.
 Let’s start with all `:money:` entries.
 
-![Filtered on money](agenda-filter-money.png "<kbd>C-c a m money</kbd> to filter on the :money: tag")
+![Filtered on money](/assets/img/post/2017/07/logging-money-in-org-mode/agenda-filter-money.png "<kbd>C-c a m money</kbd> to filter on the :money: tag")
 
 ### Show me income
 
 I already have the agenda match view open, so I use C-u r` to refresh with a
 new search string, "income".
 
-![Filtered on income](agenda-filter-income.png "<kbd>C-u r income</kbd> to filter on the :income: tag")
+![Filtered on income](/assets/img/post/2017/07/logging-money-in-org-mode/agenda-filter-income.png "<kbd>C-u r income</kbd> to filter on the :income: tag")
 
 ### Show me expenses
 
 Again, I use `C-u r` to refresh, this time looking for entries that match
 "expense".
 
-![Filtered on expense](agenda-filter-expense.png "<kbd>C-u r expense</kbd> to filter on the :expense: tag")
+![Filtered on expense](/assets/img/post/2017/07/logging-money-in-org-mode/agenda-filter-expense.png "<kbd>C-u r expense</kbd> to filter on the :expense: tag")
 
 ## STOP HERE
 

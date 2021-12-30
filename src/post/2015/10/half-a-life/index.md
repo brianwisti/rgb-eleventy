@@ -17,7 +17,7 @@ what they had to work with.
 
 [US Naval Observatory / NASA]: http://solarsystem.nasa.gov/galleries/charon-discovery-image
 
-![Discovery of Charon](Charon_Discovery.jpg)
+![Discovery of Charon](/assets/img/post/2015/10/half-a-life/Charon_Discovery.jpg)
 
 *via [US Naval Observatory / NASA][]*
 
@@ -34,7 +34,7 @@ Horizons](https://www.nasa.gov/mission_pages/newhorizons/main/index.html)
 we know what Pluto and Charon look like up close. NASA made us a nice
 family montage photo.
 
-![Pluto and Charon](nh-pluto-charon-v2-10-1-15.jpg)
+![Pluto and Charon](/assets/img/post/2015/10/half-a-life/nh-pluto-charon-v2-10-1-15.jpg)
 
 [NASA]: https://www.nasa.gov/feature/pluto-s-big-moon-charon-reveals-a-colorful-and-violent-history
 
@@ -43,7 +43,7 @@ family montage photo.
 But this Pluto picture blows my mind every time I look at it. We see ice
 and mountains and an atmosphere. This is a *planet*!
 
-![Pluto's Landscape](new-horizons-pluto.png)
+![Pluto's Landscape](/assets/img/post/2015/10/half-a-life/new-horizons-pluto.png)
 
 [NASA Solar System]: http://solarsystem.nasa.gov/galleries/closer-look-majestic-mountains-and-frozen-plains
 

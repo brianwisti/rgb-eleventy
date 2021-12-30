@@ -116,7 +116,7 @@ Now I get an error both on the console and in the browser:
     Total in 1389 ms
     Error: Error building site: logged 1 error(s)
 
-![Hugo shows the error in-browser](error-screenshot.png)
+![Hugo shows the error in-browser](/assets/img/post/2018/11/using-hugo-data-templates/error-screenshot.png)
 
 This provides what I need for today.
 

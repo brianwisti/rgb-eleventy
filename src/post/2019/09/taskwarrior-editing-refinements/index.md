@@ -2,7 +2,7 @@
 aliases:
 - /2019/09/05/taskwarrior-editing-refinements/
 category: Tools
-cover: cover.png
+cover: /assets/img/post/2019/09/taskwarrior-editing-refinements/cover.png
 cover_image: cover.png
 date: 2019-09-05
 description: In which I mention more ways to edit Taskwarrior tasks
@@ -145,7 +145,7 @@ The `edit` command loads the task details into a template, which it
 sends off to your `$EDITOR`. Once written, Taskwarrior updates the task
 to reflect changes.
 
-![Taskwarrior edit view](cover.png)
+![Taskwarrior edit view](/assets/img/post/2019/09/taskwarrior-editing-refinements/cover.png)
 
 Those `✘` characters are just how I show trailing whitespace in Vim with
 [listchars](https://vim.fandom.com/wiki/Highlight_unwanted_spaces).

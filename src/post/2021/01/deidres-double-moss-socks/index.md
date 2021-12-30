@@ -1,7 +1,7 @@
 ---
 caption: blocked and ready to wear
 category: craft
-cover: cover.jpg
+cover: /assets/img/post/2021/01/deidres-double-moss-socks/cover.jpg
 cover_image: cover.jpg
 date: 2021-01-01
 description: I'm just glad I finished them

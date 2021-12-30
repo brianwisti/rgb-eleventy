@@ -4,7 +4,7 @@ aliases:
 - /post/2015/coolnamehere-ported/
 - /2015/03/23/coolnamehere-content-update/
 category: Marginalia
-cover: cover.png
+cover: /assets/img/post/2015/03/coolnamehere-content-update/cover.png
 cover_image: cover.png
 date: 2015-03-23 00:00:00
 description: The really old pages are now really old posts

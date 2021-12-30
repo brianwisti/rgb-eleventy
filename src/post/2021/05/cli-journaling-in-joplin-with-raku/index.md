@@ -1,7 +1,7 @@
 ---
 caption: the formatted output of my journal-reading one-liner
 category: tools
-cover: cover.png
+cover: /assets/img/post/2021/05/cli-journaling-in-joplin-with-raku/cover.png
 cover_image: cover.png
 date: 2021-05-21
 description: I sure do use a lot of words to justify my one-liners
@@ -79,7 +79,7 @@ it.
 I'm okay with the confirmation request for now.
 That way I have fewer moments of accidentally creating entries.
 
-#[Editing a journal entry](editing-note.png)
+![Editing a journal entry](/assets/img/post/2021/05/cli-journaling-in-joplin-with-raku/editing-note.png)
 
 ### What about more of a diary?
 

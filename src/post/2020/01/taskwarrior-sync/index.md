@@ -3,7 +3,7 @@ aliases:
 - /2020/01/26/taskwarrior-sync/
 caption: '[inthe.AM](https://inthe.am) is pretty, that''s for sure.'
 category: tools
-cover: cover.png
+cover: /assets/img/post/2020/01/taskwarrior-sync/cover.png
 cover_image: cover.png
 date: 2020-01-26
 draft: false
@@ -92,7 +92,7 @@ tried.
 
 #### Freecinc
 
-![freecinc.com](freecinc.png)
+![freecinc.com](/assets/img/post/2020/01/taskwarrior-sync/freecinc.png)
 
 [Freecinc](https://freecinc.com) seems to have one goal: make it easy to
 connect to a taskserver. There are no frills or extra features. It only
@@ -109,7 +109,7 @@ Though yeah — that’s a bit more involved than just connecting to theirs.
 
 #### inthe.AM
 
-![inthe.AM Web interface](inthe-am.png)
+![inthe.AM Web interface](/assets/img/post/2020/01/taskwarrior-sync/inthe-am.png)
 
 [inthe.AM](https://inthe.am) provides features, that’s for sure. You get
 task synchronization. Like Freecinc, it provides a hosted taskserver and
@@ -121,7 +121,7 @@ You get a decent — if occasionally sluggish — Web interface. You get
 [taskwarrior-inthe.am](https://github.com/coddingtonbear/taskwarrior-inthe.am),
 a helpful command line setup tool.
 
-![Trello showing my active tasks](inthe-am-trello.png)
+![Trello showing my active tasks](/assets/img/post/2020/01/taskwarrior-sync/inthe-am-trello.png)
 
 This is fantastic if you use those features. I have not. For my usage
 style, Freecinc and inthe.AM are pretty much the same.
@@ -132,7 +132,7 @@ Since I’m not really using inthe.AM’s features, let’s set myself up on
 [Freecinc](https://freecinc.com). I click the big friendly "Generate My
 Keys" link, and the site tells me what to do.
 
-![The first couple steps of Freecinc setup](freecinc-setup.png)
+![The first couple steps of Freecinc setup](/assets/img/post/2020/01/taskwarrior-sync/freecinc-setup.png)
 
 There are six total steps, consistently almost entirely of downloading
 some small files and copying and pasting some commands. Once the `.pem`

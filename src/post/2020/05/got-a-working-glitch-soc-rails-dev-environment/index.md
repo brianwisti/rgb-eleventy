@@ -1,6 +1,6 @@
 ---
 category: tools
-cover: cover.png
+cover: /assets/img/post/2020/05/got-a-working-glitch-soc-rails-dev-environment/cover.png
 cover_image: cover.png
 date: 2020-05-05 06:26:21
 description: I remain ambivalent about Rails development

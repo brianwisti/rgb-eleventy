@@ -1,7 +1,7 @@
 ---
 caption: You know what else I can tangle? Yarn!
 category: programming
-cover: cover.jpg
+cover: /assets/img/post/2020/07/tangling-code-from-hugo-content-with-raku/cover.jpg
 cover_image: cover.jpg
 date: 2020-07-09 04:45:00
 description: I could just use Org mode, but noo that's too easy
@@ -629,7 +629,7 @@ print(Panel(md))
 Running `rich-hello.py` looks more interesting with a screenshot than a text
 block:
 
-#[Formatted output using Rich](rich-panel.png)
+![Formatted output using Rich](/assets/img/post/2020/07/tangling-code-from-hugo-content-with-raku/rich-panel.png)
 
 Okay.  Now I'm done.
 

@@ -192,7 +192,7 @@ Oh and while I was putting this page together I learned about the
 [Octopress Image Tag](https://github.com/octopress/image-tag) plugin. I
 expect to be using that a lot more in the future!
 
-![Voila!](crafts-project.png)
+![Voila!](/assets/img/post/2015/07/making-a-jekyll-collection/crafts-project.png)
 
 Now I have a page for this project, but how will visitors know it’s
 there? How about I start with some sort of summary on the site’s index
@@ -215,12 +215,12 @@ collection.
     {% for post in site.posts %}
 ```
 
-![A short and sweet summary](crafts-summary-01.png)
+![A short and sweet summary](/assets/img/post/2015/07/making-a-jekyll-collection/crafts-summary-01.png)
 
 Sure, that works for the moment. Let’s get some more projects in that
 collection. I can add the projects from my Ravelry account for now.
 
-![Listing every project](crafts-summary-02.png)
+![Listing every project](/assets/img/post/2015/07/making-a-jekyll-collection/crafts-summary-02.png)
 
 Ok, new problem.
 
@@ -251,7 +251,7 @@ finished to oldest. Now I can step through that copy, only summarizing
 projects completed this year. Liquid may have an easier way, but I
 haven’t learned it yet.
 
-![Just the newest projects please](crafts-summary-03.png)
+![Just the newest projects please](/assets/img/post/2015/07/making-a-jekyll-collection/crafts-summary-03.png)
 
 ### All The Things
 
@@ -291,7 +291,7 @@ Then add a link to my index page and craft project template.
 
     <p>See the <a href="/crafts/">Crafts</a> page to see all projects.
 
-![Short and sweet version of the crafts index](crafts-index.png)
+![Short and sweet version of the crafts index](/assets/img/post/2015/07/making-a-jekyll-collection/crafts-index.png)
 
 Well it is painfully obvious that I need to dig through my photos and
 fill in gaps for those missing years.
@@ -407,7 +407,7 @@ figure {
 }
 ```
 
-![Final version of the crafts summary](crafts-summary-04.png)
+![Final version of the crafts summary](/assets/img/post/2015/07/making-a-jekyll-collection/crafts-summary-04.png)
 
 I’m fairly sure something is horribly wrong with my CSS, but if I clean
 this bit up I’ll just have to clean everything. This works for now.

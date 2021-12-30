@@ -1,5 +1,5 @@
 ---
-cover: cover.jpg
+cover: /assets/img/note/2020/08/slow-city-doodle/cover.jpg
 cover_image: cover.jpg
 date: 2020-08-02 02:16:41
 slug: slow-city-doodle

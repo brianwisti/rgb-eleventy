@@ -3,7 +3,7 @@ aliases:
 - /craft/2010/brookes-garter-rib-sock/
 - /2010/01/03/brookes-garter-rib-sock/
 category: craft
-cover: cover.jpg
+cover: /assets/img/post/2010/01/brookes-garter-rib-sock/cover.jpg
 cover_image: cover.jpg
 date: 2010-01-03 00:00:00
 slug: brookes-garter-rib-sock

@@ -27,7 +27,7 @@ especially great when there is time-sensitive information that needs to
 be posted. You end up with a site that looks essentially static for
 months at a time.
 
-![greenlakeumc.org in 2006](glumc-org-01.png)
+![greenlakeumc.org in 2006](/assets/img/post/2008/02/lots-of-nifty-newness-for-the-church-site/glumc-org-01.png)
 
 A blog seems like the most straightforward solution to the problem of
 allowing non-technical people to post content including material that is
@@ -46,4 +46,4 @@ what we have available as soon as possible. I’ve received kind words
 about the new version on its first day live. It would be nice to make
 things more distinctive, but that template is a great start.
 
-![greenlakeumc.org in 2008](glumc-org-02.png)
+![greenlakeumc.org in 2008](/assets/img/post/2008/02/lots-of-nifty-newness-for-the-church-site/glumc-org-02.png)

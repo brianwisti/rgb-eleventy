@@ -138,7 +138,7 @@ Total Points
 : How many points this person has, after gaining and spending is taken
   into account.
 
-![Add Person Dialog](NewPersonDialog.png)
+![Add Person Dialog](/assets/img/post/2011/04/the-spreadsheet-story-1/NewPersonDialog.png)
 
 ### Categories
 
@@ -152,7 +152,7 @@ Default Points
 : Unless the user specifies otherwise, this represents the gain or
   loss in points for the client.
 
-![Add Category Dialog](NewCategoryDialog.png)
+![Add Category Dialog](/assets/img/post/2011/04/the-spreadsheet-story-1/NewCategoryDialog.png)
 
 ### Points Log
 
@@ -173,7 +173,7 @@ Points
 Date
 : When did they do whatever it was that got (or cost) them points?
 
-![Points Logger Dialog](PointsLoggerDialog.png)
+![Points Logger Dialog](/assets/img/post/2011/04/the-spreadsheet-story-1/PointsLoggerDialog.png)
 
 ### What’s Missing
 
@@ -185,7 +185,7 @@ a practical feature right now.
 
 I have an incredibly dull spreadsheet.
 
-![spreadsheet](spreadsheet-01.png)
+![spreadsheet](/assets/img/post/2011/04/the-spreadsheet-story-1/spreadsheet-01.png)
 
 ## What’s Next?
 

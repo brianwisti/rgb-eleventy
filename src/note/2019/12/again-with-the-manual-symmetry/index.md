@@ -1,7 +1,7 @@
 ---
 aliases:
 - /note/2019/349/again-with-the-manual-symmetry/
-cover: cover.jpg
+cover: /assets/img/note/2019/12/again-with-the-manual-symmetry/cover.jpg
 cover_image: cover.jpg
 date: 2019-12-15 20:37:51
 slug: again-with-the-manual-symmetry

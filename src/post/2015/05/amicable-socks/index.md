@@ -3,7 +3,7 @@ aliases:
 - /craft/2015/amicable-socks/
 - /2015/05/20/amicable-socks/
 category: craft
-cover: cover.jpg
+cover: /assets/img/post/2015/05/amicable-socks/cover.jpg
 cover_image: cover.jpg
 date: 2015-05-20 00:00:00
 description: Because I made them for my ex, and we split on friendly terms
@@ -41,7 +41,7 @@ I decided to log my work with the Amicable Socks. Part of that involved
 breaking down the generalized instructions into something specific for
 my chosen pattern.
 
-![in-progress socks laid out on project page](amicable-socks-logged.jpg "I knew I'd find a use for my Moleskine eventually")
+![in-progress socks laid out on project page](/assets/img/post/2015/05/amicable-socks/amicable-socks-logged.jpg "I knew I'd find a use for my Moleskine eventually")
 
 I also marked off rows as I finished them. I pondered tracking
 individual stitches, but realized that would result in too much detail
@@ -60,7 +60,7 @@ I Weighed My Yarn
 in-progress sock and the amount of remaining yarn, then compare the two
 weights.
 
-![sock laid flat, with remaining yarn on scale](amicable-socks-weighed.jpg "The sock weighed 1.3 ounces")
+![sock laid flat, with remaining yarn on scale](/assets/img/post/2015/05/amicable-socks/amicable-socks-weighed.jpg "The sock weighed 1.3 ounces")
 
 It turns out I had plenty of yarn to finish the project. This knowledge
 kept me moving at a steady pace even when the yarn ball got alarmingly
@@ -72,7 +72,7 @@ I Blocked Them When I Was Done
 Every knitting book I read tells me to block my projects, but I never
 did. These socks were special, though. I decided to block them.
 
-![finished socks on sock hangers](amicable-socks-blocked.jpg "The important thing is the blocking, not me going crazy with filters.")
+![finished socks on sock hangers](/assets/img/post/2015/05/amicable-socks/amicable-socks-blocked.jpg "The important thing is the blocking, not me going crazy with filters.")
 
 The result amazed me. The stitch pattern pops out. The yarn feels soft
 and luxurious to the touch. The socks lay flat. I plan to block all of

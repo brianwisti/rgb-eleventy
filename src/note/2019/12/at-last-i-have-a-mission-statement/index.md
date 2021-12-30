@@ -2,7 +2,7 @@
 aliases:
 - /note/2019/363/at-last-i-have-a-mission-statement/
 caption: LESS CODE
-cover: cover.jpg
+cover: /assets/img/note/2019/12/at-last-i-have-a-mission-statement/cover.jpg
 cover_image: cover.jpg
 date: 2019-12-29 20:47:18
 slug: at-last-i-have-a-mission-statement

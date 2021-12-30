@@ -2,7 +2,7 @@
 aliases:
 - /2018/09/30/cougar-mountain/
 category: Marginalia
-cover: cover.jpg
+cover: /assets/img/post/2018/09/cougar-mountain/cover.jpg
 cover_image: cover.jpg
 date: 2018-09-30 00:00:00
 description: Last weekend I wandered the trails of Cougar Mountain Regional Wildland
@@ -37,8 +37,7 @@ from heat and toxic fumes.
 
 Basically: if a sign tells me to stay back, I stay back.
 
-![sign warning of ground collapse or fatal gases](warning-sign.jpg
-  "Pay attention to the warning signs")
+![sign warning of ground collapse or fatal gases](/assets/img/post/2018/09/cougar-mountain/warning-sign.jpg "Pay attention to the warning signs")
 
 The trails are well-labeled, perhaps partly due to those hazards. I
 still managed to get myself turned around, because there were [so many
@@ -54,13 +53,13 @@ I think I focused a little too much on the hazards. Those are really in
 specific sections of the park, and are all clearly indicated. The park
 itself is lovely, green, and very Pacific Northwest.
 
-![Mossy](mossy.jpg)
+![Mossy](/assets/img/post/2018/09/cougar-mountain/mossy.jpg)
 
 We have some lovely woods around here. I started taking that for granted
 over the years. My assorted [sauntering](/tags/sauntering) trips have
 done a great job reminding me to not do that.
 
-![Tall stump](tall-stump.jpg)
+![Tall stump](/assets/img/post/2018/09/cougar-mountain/tall-stump.jpg)
 
 The trees on Cougar Mountain are young. When the mines started winding
 down, logging picked up. I saw several thick old stumps near the trail,
@@ -69,9 +68,9 @@ giving me a hint of what the older growth must have looked like.
 Some of those stumps had sprouts on them, while a few had full grown
 trees.
 
-![Old stump with stump sprouts](old-stump.jpg)
+![Old stump with stump sprouts](/assets/img/post/2018/09/cougar-mountain/old-stump.jpg)
 
-![Tree growing from stump](stump-tree.jpg)
+![Tree growing from stump](/assets/img/post/2018/09/cougar-mountain/stump-tree.jpg)
 
 We got some rain recently. Everything that could be green was very green
 indeed. Even the rocks. I walked a little out of my way to see Fantastic
@@ -79,8 +78,7 @@ Erratic, a [glacial
 erratic](https://en.wikipedia.org/wiki/Glacial_erratic) boulder left
 here by glacier action in some past ice age.
 
-![Large mossy rock](fantastic-erratic.jpg
-  "Fantastic Erratic")
+![Large mossy rock](/assets/img/post/2018/09/cougar-mountain/fantastic-erratic.jpg "Fantastic Erratic")
 
 My image shows the scale poorly. That single rock is roughly fifteen
 feet high. I took a rest break sitting on top of it, with room to
@@ -95,5 +93,4 @@ chasing that "epic" feeling. I’m not racking up accomplishments. I’m
 getting out and appreciating more of the world around me. That includes
 epic moments, little details, and everything in between.
 
-![clamshell-looking fungi on a tree trunk](fungi.jpg
-  "Look! Fungus!")
+![clamshell-looking fungi on a tree trunk](/assets/img/post/2018/09/cougar-mountain/fungi.jpg "Look! Fungus!")

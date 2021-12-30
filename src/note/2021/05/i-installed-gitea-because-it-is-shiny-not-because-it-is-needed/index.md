@@ -1,5 +1,5 @@
 ---
-cover: cover.png
+cover: /assets/img/note/2021/05/i-installed-gitea-because-it-is-shiny-not-because-it-is-needed/cover.png
 cover_image: cover.png
 date: 2021-05-30
 slug: gitea-because-shiny

@@ -3,7 +3,7 @@ aliases:
 - /2020/03/31/listing-hugo-content-extensions-with-raku/
 caption: We like quick answers to important questions
 category: programming
-cover: cover.jpg
+cover: /assets/img/post/2020/03/listing-hugo-content-extensions-with-raku/cover.jpg
 cover_image: cover.jpg
 date: 2020-03-31 21:33:29
 description: Twenty seconds to write a one-liner, and two days to think about it

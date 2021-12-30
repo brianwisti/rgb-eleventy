@@ -1,5 +1,5 @@
 ---
-cover: cover.png
+cover: /assets/img/note/2020/05/debugging-my-site-with-a-little-help-from-my-friends/cover.png
 cover_image: cover.png
 date: 2020-05-09 03:25:00
 slug: debugging-my-site-with-a-little-help-from-my-friends

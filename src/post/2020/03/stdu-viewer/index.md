@@ -3,7 +3,7 @@ aliases:
 - /2020/03/26/stdu-viewer/
 caption: Knitting pattern for Ajeng Sioresmi's [Everyday Face Mask](https://www.ravelry.com/patterns/library/everyday-face-mask)
 category: tools
-cover: cover.png
+cover: /assets/img/post/2020/03/stdu-viewer/cover.png
 cover_image: cover.png
 date: 2020-03-27 06:42:16
 description: I think I found my PDF reader for Windows
@@ -30,8 +30,7 @@ reasonable tabbed interface.
 That’s honestly all I need. But being able to highlight passages is a
 nice bonus.
 
-![screenshot of highlighting](stdu-highlighting.png
-  "Highlighted view of Brian P. Hogan’s [Build Websites with Hugo](https://pragprog.com/book/bhhugo/build-websites-with-hugo)")
+![screenshot of highlighting](/assets/img/post/2020/03/stdu-viewer/stdu-highlighting.png "Highlighted view of Brian P. Hogan’s *Build Websites with Hugo*")
 
 <aside class="admonition note">
     <p class="admonition-title">Note</p>
@@ -46,7 +45,7 @@ STDU Viewer also lets you create split views of your document. Handy
 when you’re doing exercises\! It doesn’t let you open another document
 in the split, unfortunately.
 
-![screenshot of split view](stdu-split-view.png "Split view of Laurent Rosenfeld’s [Think Raku](https://greenteapress.com/wp/think-perl-6/)")
+![screenshot of split view](/assets/img/post/2020/03/stdu-viewer/stdu-split-view.png "Split view of Laurent Rosenfeld’s *Think Raku*")
 
 ## Caveats
 
@@ -66,7 +65,7 @@ I don’t like clicking any more than I have to, so I set extra shortcut
 keys in Options. One for highlighting with `h`, and a couple to get `j`
 / `k` scrolling like I’m accustomed to in my Linux desktop.
 
-![screenshot of options panel](stdu-preferences.png "STDU Viewer options showing keyboard shortcuts")
+![screenshot of options panel](/assets/img/post/2020/03/stdu-viewer/stdu-preferences.png "STDU Viewer options showing keyboard shortcuts")
 
 ## That’s it, really
 

@@ -2,7 +2,7 @@
 aliases:
 - /2018/07/08/fauntleroy-park/
 category: Marginalia
-cover: cover.jpg
+cover: /assets/img/post/2018/07/fauntleroy-park/cover.jpg
 cover_image: cover.jpg
 date: 2018-07-08 00:00:00
 draft: false
@@ -31,7 +31,7 @@ Fauntleroy Park is smaller than nearby [Lincoln
 Park](https://www.wta.org/go-hiking/hikes/lincoln-park), but I wanted
 someplace new to me.
 
-![stairs leading uphill](stairs.jpg)
+![stairs leading uphill](/assets/img/post/2018/07/fauntleroy-park/stairs.jpg)
 
 I enjoyed following the park’s trails. Green, lush, and very local.
 [Sword ferns](http://www.nwplants.com/business/catalog/pol_mun.html)
@@ -51,7 +51,7 @@ critters.
 And if you give nature half a chance, things start growing absolutely
 any place they can.
 
-![trees growing from a decaying collapsed tree trunk](tree-roots.jpg)
+![trees growing from a decaying collapsed tree trunk](/assets/img/post/2018/07/fauntleroy-park/tree-roots.jpg)
 
 Still – I think next time I may want to venture a little further out.
 Seattle has many parks and trails, but I have visited the longer trails

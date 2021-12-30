@@ -1,7 +1,7 @@
 ---
 caption: I've been looking at screenshots all day. Here's Loud Dog instead.
 category: Tools
-cover: cover.jpg
+cover: /assets/img/post/2020/06/csv-and-data-tables-in-hugo/cover.jpg
 cover_image: cover.jpg
 date: 2020-06-07 00:40:07
 description: Am I reinventing reStructuredText with shortcodes? Don't judge me.
@@ -105,7 +105,7 @@ turn into a table by iterating through everything with
 
 Voila! Instant table!
 
-#[A CSV table](csv-table-no-header.png)
+![A CSV table](/assets/img/post/2020/06/csv-and-data-tables-in-hugo/csv-table-no-header.png)
 
 Not bad, but it could be better.
 
@@ -163,7 +163,7 @@ Now that I know how I want to use the shortcode, it’s time to implement the de
 
 Better!
 
-#[A CSV table with headers and a caption](csv-table.png)
+![A CSV table with headers and a caption](/assets/img/post/2020/06/csv-and-data-tables-in-hugo/csv-table.png)
 
 I still need to fiddle with my styles. This table’s a little wide for these
 values. Maybe later.
@@ -294,7 +294,7 @@ And — sadly, considering that the topic is
 cases — [`lang.NumFmt`](https://gohugo.io/functions/numfmt/) makes large
 numbers more readable.
 
-#[A data table](data-table.png)
+![A data table](/assets/img/post/2020/06/csv-and-data-tables-in-hugo/data-table.png)
 
 Wonderful! Wonderful formatting, anyways. The details are pretty sobering.
 People! Wash your hands and wear a mask!
@@ -386,7 +386,7 @@ I like it. Easy to write, easy to read, and easy to parse with
 </table>
 ```
 
-#[A list table!](list-table.png)
+![A list table!](/assets/img/post/2020/06/csv-and-data-tables-in-hugo/list-table.png)
 
 Perfect. This will keep me going for a while. Time to stop before I get too
 clever.

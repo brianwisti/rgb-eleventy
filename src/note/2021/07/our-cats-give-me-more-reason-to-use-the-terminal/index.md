@@ -1,6 +1,6 @@
 ---
 caption: the cats help identify orphan nodes in an Obsidian.md vault graph
-cover: cover.jpg
+cover: /assets/img/note/2021/07/our-cats-give-me-more-reason-to-use-the-terminal/cover.jpg
 cover_image: cover.jpg
 date: 2021-07-05
 tags:

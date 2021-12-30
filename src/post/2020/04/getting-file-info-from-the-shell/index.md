@@ -3,7 +3,7 @@ aliases:
 - /2020/04/21/getting-file-info-from-the-shell/
 caption: also, it is time to vacuum my desk again
 category: tools
-cover: cover.jpg
+cover: /assets/img/post/2020/04/getting-file-info-from-the-shell/cover.jpg
 cover_image: cover.jpg
 date: 2020-04-21 22:11:17
 description: I could right click for properties but the mouse is way over there
@@ -28,8 +28,7 @@ I am once again puttering around with my site.
 
 I have an image here.
 
-![grubby scary basement](basement-original.jpg
-  "I occupied this basement [a few years ago](/post/2017/03/geekish-update/)")
+![grubby scary basement](/assets/img/post/2020/04/getting-file-info-from-the-shell/basement-original.jpg "I occupied this basement [a few years ago](/post/2017/03/geekish-update/)")
 
 Do I need to resize it? Should find out how big it is first.
 

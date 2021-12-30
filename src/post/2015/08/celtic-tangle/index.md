@@ -4,7 +4,7 @@ aliases:
 - /craft/2015/celtic-tangle/
 - /2015/08/01/celtic-tangle/
 category: craft
-cover: cover.png
+cover: /assets/img/post/2015/08/celtic-tangle/cover.png
 cover_image: cover.png
 date: 2015-08-01 00:00:00
 description: 'Another Zentangle practice. This time I mixed in a couple of minor Celtic

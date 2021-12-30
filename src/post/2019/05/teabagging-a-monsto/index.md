@@ -2,7 +2,7 @@
 aliases:
 - /2019/05/06/teabagging-a-monsto/
 category: Craft
-cover: cover.jpg
+cover: /assets/img/post/2019/05/teabagging-a-monsto/cover.jpg
 cover_image: cover.jpg
 date: 2019-05-06 00:00:00
 description: Yeah I know. That's not what "teabagging" is.
@@ -66,7 +66,7 @@ safe for work.
 But what if "teabagging" meant something else? What if it merely
 involved fetching a fresh bag of tea for your friendly monster guest?
 
-![The sketch](sketch.jpg)
+![The sketch](/assets/img/post/2019/05/teabagging-a-monsto/sketch.jpg)
 
 Being the sort of person I am, I had to embellish the script in
 [Procreate](https://procreate.art). And then post it in the thread.

@@ -2,7 +2,7 @@
 aliases:
 - /2019/05/12/turning-taskwarrior-posts-into-a-series/
 category: Tools
-cover: cover.jpg
+cover: /assets/img/post/2019/05/turning-taskwarrior-posts-into-a-series/cover.jpg
 cover_image: cover.jpg
 date: 2019-05-12 00:00:00
 description: There's a new taxonomy for posts that are written in a particular order!
@@ -56,12 +56,12 @@ series:
 Oh look, there it is, already sitting at [`/series`](/series), thanks to
 my existing `layouts/_default/terms.html`.
 
-![Listing of all series, currently just Taskwarrior Babysteps](series-listing.png)
+![Listing of all series, currently just Taskwarrior Babysteps](/assets/img/post/2019/05/turning-taskwarrior-posts-into-a-series/series-listing.png)
 
 What if I follow [taskwarrior-babysteps](/series/taskwarrior-babysteps)
 link?
 
-![The Taskwarrior Babysteps series listing](taskwarrior-series-initial.png)
+![The Taskwarrior Babysteps series listing](/assets/img/post/2019/05/turning-taskwarrior-posts-into-a-series/taskwarrior-series-initial.png)
 
 *Almost* perfect. But since each post is supposed to build on the
 others, I’d prefer the listing present its posts in chronological order.
@@ -105,7 +105,7 @@ So far so good!
 
 That works for now. I can tighten it up later.
 
-![The Taskwarrior Babysteps series after tuning](taskwarrior-series-adjusted.png)
+![The Taskwarrior Babysteps series after tuning](/assets/img/post/2019/05/turning-taskwarrior-posts-into-a-series/taskwarrior-series-adjusted.png)
 
 ## Link back to the series summary in every series post
 
@@ -168,7 +168,7 @@ from the Hugo community forums and adjusting it for my tastes.
 
 This is a mess. But hey it works!
 
-![Post header with series information, and a little styling to make it stand out](taskwarrior-series-post-header.png)
+![Post header with series information, and a little styling to make it stand out](/assets/img/post/2019/05/turning-taskwarrior-posts-into-a-series/taskwarrior-series-post-header.png)
 
 That’s pretty much it! Now it’ll be easier for visitors to understand
 when posts build on each other. At some point I will dig through the

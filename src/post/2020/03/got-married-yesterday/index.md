@@ -2,7 +2,7 @@
 aliases:
 - /2020/03/20/got-married-yesterday/
 category: Marginalia
-cover: cover.jpg
+cover: /assets/img/post/2020/03/got-married-yesterday/cover.jpg
 cover_image: cover.jpg
 date: 2020-03-20 18:00:21
 description: Can't let our dystopian sci-fi setting stop us
@@ -58,7 +58,7 @@ enough and that our hands were outside the Respectful First Dance Zone.
 And yesterday she made sure we would be able to get married. It’s the
 circle of life. Or something. It’s very sweet is what it is.
 
-![Newlyweds and friend grinning with thumbs up](thumbs-up.jpg "You want a serious event, talk to someone else")
+![Newlyweds and friend grinning with thumbs up](/assets/img/post/2020/03/got-married-yesterday/thumbs-up.jpg "You want a serious event, talk to someone else")
 
 So yeah I’m happy. And the honeymoon will be nice — whenever the world
 opens back up again so we can have one.

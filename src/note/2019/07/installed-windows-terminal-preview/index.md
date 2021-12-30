@@ -2,7 +2,7 @@
 aliases:
 - /note/2019/205/installed-windows-terminal-preview/
 caption: Adding taskwarrior tasks for Windows in Windows Terminal
-cover: cover.png
+cover: /assets/img/note/2019/07/installed-windows-terminal-preview/cover.png
 cover_image: cover.png
 date: 2019-07-24 16:33:53
 slug: installed-windows-terminal-preview

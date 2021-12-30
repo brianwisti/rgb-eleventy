@@ -3,7 +3,7 @@ aliases:
 - /2017/12/25/taskwarrior-priorities/
 caption: '`task` report with a column showing priority levels'
 category: tools
-cover: cover.png
+cover: /assets/img/post/2017/12/taskwarrior-priorities/cover.png
 cover_image: cover.png
 date: 2017-12-25
 draft: false

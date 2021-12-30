@@ -2,7 +2,7 @@
 aliases:
 - /2018/08/26/potholders/
 category: Craft
-cover: cover.jpg
+cover: /assets/img/post/2018/08/potholders/cover.jpg
 cover_image: cover.jpg
 date: 2018-08-26 00:00:00
 description: Yes, they look like that on purpose.
@@ -31,7 +31,7 @@ This description is deliberately vague because I made each potholder
 different, both for fun and because the natural world is full of
 variety.
 
-![Potholders collected on display](collected.jpg)
+![Potholders collected on display](/assets/img/post/2018/08/potholders/collected.jpg)
 
 I shared images of the collection as I worked on it. Some people — okay,
 some *guys* — presented surprising ideas for the intended usage. This is

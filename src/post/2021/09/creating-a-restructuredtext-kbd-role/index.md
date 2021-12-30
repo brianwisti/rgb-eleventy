@@ -134,7 +134,7 @@ when I introduce a new name and I want it to stand out.
 
 I need to define the role to use it. Otherwise?
 
-![screenshot of docutils error message](./docutils-unknown-role.png "Docutils embeds an error message below the offending block"){width=976}
+![screenshot of docutils error message](/assets/img/post/2021/09/creating-a-restructuredtext-kbd-role/docutils-unknown-role.png "Docutils embeds an error message below the offending block"){width=976}
 
 [role directive]: https://docutils.sourceforge.io/docs/ref/rst/directives.html#custom-interpreted-text-roles
 

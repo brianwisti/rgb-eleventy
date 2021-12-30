@@ -2,7 +2,7 @@
 aliases:
 - /2019/02/16/taskwarrior-projects/
 category: tools
-cover: cover.png
+cover: /assets/img/post/2019/02/taskwarrior-projects/cover.png
 cover_image: cover.png
 date: 2019-02-16 00:00:00
 description: Use Taskwarrior projects to organize closely related tasks!
@@ -84,7 +84,7 @@ others, so filter by project name.
 
     $ task project:cards
 
-![task report filtered to cards project](task-project-cards.png)
+![task report filtered to cards project](/assets/img/post/2019/02/taskwarrior-projects/task-project-cards.png)
 
 Since some tasks have a project, Taskwarrior creates a new column in the
 `next` report. There’s also a slight bump to Urgency when you define a
@@ -99,7 +99,7 @@ number of tasks for each project.
 
     $ task projects
 
-![task projects listing](task-projects.png)
+![task projects listing](/assets/img/post/2019/02/taskwarrior-projects/task-projects.png)
 
 There’s also an entry for tasks that have no project, but fight the
 temptation to make a project for every task. That can end up making
@@ -137,7 +137,7 @@ What does `projects` look like when you have subprojects? The subproject
 is listed beneath its main project, indented slightly to show the
 relation.
 
-![task projects listing with a subproject](task-projects-with-subproject.png)
+![task projects listing with a subproject](/assets/img/post/2019/02/taskwarrior-projects/task-projects-with-subproject.png)
 
 The `projects` report is useful as a minimal project listing, but what
 if you want more information?
@@ -148,7 +148,7 @@ That’s when you use the `summary` report.
 
     $ task summary
 
-![task summary](task-summary.png)
+![task summary](/assets/img/post/2019/02/taskwarrior-projects/task-summary.png)
 
 The first two columns of `summary` give the same information as
 `projects`. You also get the average age of pending tasks in each

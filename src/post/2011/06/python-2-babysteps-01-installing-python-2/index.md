@@ -327,7 +327,7 @@ have the shell open already, type in this example:
 
     >>> print "Hello, world!"
 
-![IDLE screenshot](idle.png)
+![IDLE screenshot](/assets/img/post/2011/06/python-2-babysteps-01-installing-python-2/idle.png)
 
 The `>>>` is the shell prompt, showing that you can type something here.
 You may notice that the characters you type show up in different colors

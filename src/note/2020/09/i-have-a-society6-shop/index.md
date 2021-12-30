@@ -1,6 +1,6 @@
 ---
 caption: https://society6.com/randomgeek
-cover: cover.png
+cover: /assets/img/note/2020/09/i-have-a-society6-shop/cover.png
 cover_image: cover.png
 date: 2020-09-25 00:59:09
 slug: i-have-a-society6-shop

@@ -1,7 +1,7 @@
 ---
 caption: a screenshot of the HTML that I created to show I don't need screenshots
 category: Tools
-cover: cover.png
+cover: /assets/img/post/2021/08/extracting-rich-output/cover.png
 cover_image: cover.png
 date: 2021-08-24 22:08:00
 description: Okay maybe not so much on the profit but definitely fun!
@@ -110,7 +110,7 @@ if __name__ == "__main__":
 
 Here's a screenshot, so you know what this produces in my own terminal.
 
-![table output](showstats-table.png "table output")
+![table output](/assets/img/post/2021/08/extracting-rich-output/showstats-table.png "table output")
 
 Okay. Now let's start talking about exporting output.
 

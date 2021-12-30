@@ -2,7 +2,7 @@
 aliases:
 - /2019/05/05/showing-post-word-count-in-neovim/
 category: Programming
-cover: cover.png
+cover: /assets/img/post/2019/05/showing-post-word-count-in-neovim/cover.png
 cover_image: cover.png
 date: 2019-05-05 00:00:00
 slug: showing-post-word-count-in-neovim

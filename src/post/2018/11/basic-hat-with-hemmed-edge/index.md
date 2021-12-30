@@ -2,7 +2,7 @@
 aliases:
 - /2018/11/11/basic-hat-with-hemmed-edge/
 category: craft
-cover: cover.jpg
+cover: /assets/img/post/2018/11/basic-hat-with-hemmed-edge/cover.jpg
 cover_image: cover.jpg
 date: 2018-11-11 00:00:00
 description: I made another hat! This time I learned how to make a hemmed edge.
@@ -65,8 +65,7 @@ round, and. Well.
 I made a *lovely* hat. A hat that was maybe a little too snug for a
 comfortable fit on my head.
 
-![me wearing the hat](wearing-hat.jpg
-  "The hat looks nice, but after a minute starts pinching my forehead")
+![me wearing the hat](/assets/img/post/2018/11/basic-hat-with-hemmed-edge/wearing-hat.jpg "The hat looks nice, but after a minute starts pinching my forehead")
 
 That’s okay though. The hat fits a friend perfectly, and it’s heading
 home with them as I type.

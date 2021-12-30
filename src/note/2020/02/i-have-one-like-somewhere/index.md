@@ -2,7 +2,7 @@
 aliases:
 - /note/2020/49/i-have-one-like-somewhere/
 caption: as of build time, anyways
-cover: cover.png
+cover: /assets/img/note/2020/02/i-have-one-like-somewhere/cover.png
 cover_image: cover.png
 date: 2020-02-19 05:41:44
 slug: i-have-one-like-somewhere

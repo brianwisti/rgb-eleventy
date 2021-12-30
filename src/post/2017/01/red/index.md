@@ -3,7 +3,7 @@ aliases:
 - /craft/2017/red/
 - /2017/01/22/red/
 category: Craft
-cover: cover.jpg
+cover: /assets/img/post/2017/01/red/cover.jpg
 cover_image: cover.jpg
 date: 2017-01-22
 draft: false

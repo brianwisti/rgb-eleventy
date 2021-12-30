@@ -1,6 +1,6 @@
 ---
 caption: Okular document viewer with several tabs open including "Programming Crystal"
-cover: cover.png
+cover: /assets/img/note/2021/02/just-noticed-okular-pdf-is-on-windows/cover.png
 cover_image: cover.png
 date: 2021-02-19 19:37:37
 slug: just-noticed-okular-pdf-is-on-windows

@@ -3,7 +3,7 @@ aliases:
 - /craft/2016/scribble-selfie/
 - /2016/10/23/scribble-selfie/
 category: craft
-cover: cover.png
+cover: /assets/img/post/2016/10/scribble-selfie/cover.png
 cover_image: cover.png
 date: 2016-10-23 00:00:00
 slug: scribble-selfie

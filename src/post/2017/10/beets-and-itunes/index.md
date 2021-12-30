@@ -257,7 +257,7 @@ I could [modify][] that song with `beets modify`, but I can also do it with the
 
 This pulls up `$EDITOR`, which in my case is Vim.
 
-![Editing a Beets entry in Vim](beet-edit-screen.png)
+![Editing a Beets entry in Vim](/assets/img/post/2017/10/beets-and-itunes/beet-edit-screen.png)
 
 After the import and update, I saw something else in iTunes that bugged me.
 iTunes can sort by `year`, but not by `original_year` — the year an album was

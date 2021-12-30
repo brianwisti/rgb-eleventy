@@ -3,7 +3,7 @@ aliases:
 - /craft/2016/brooke/
 - /2016/10/21/brooke/
 category: craft
-cover: cover.jpg
+cover: /assets/img/post/2016/10/brooke/cover.jpg
 cover_image: cover.jpg
 date: 2016-10-21 00:00:00
 slug: brooke

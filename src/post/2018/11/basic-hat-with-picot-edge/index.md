@@ -2,7 +2,7 @@
 aliases:
 - /2018/11/20/basic-hat-with-picot-edge/
 category: Craft
-cover: cover.jpg
+cover: /assets/img/post/2018/11/basic-hat-with-picot-edge/cover.jpg
 cover_image: cover.jpg
 date: 2018-11-20 00:00:00
 description: I continue building my hat knitting knowledge!
@@ -53,7 +53,7 @@ After all that, the hat came out quite nice. It fit my head comfortably.
 The pom pom stays securely attached. The Roman Stitch feels nice when I
 rub my hands on the hat.
 
-![A much better fit](modeling.jpg)
+![A much better fit](/assets/img/post/2018/11/basic-hat-with-picot-edge/modeling.jpg)
 
 So naturally I’m taking the hat down to the post office tomorrow to ship
 off for a friend. Their head has the same circumference as mine. At this

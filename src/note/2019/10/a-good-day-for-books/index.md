@@ -1,7 +1,7 @@
 ---
 aliases:
 - /note/2019/285/a-good-day-for-books/
-cover: cover.jpg
+cover: /assets/img/note/2019/10/a-good-day-for-books/cover.jpg
 cover_image: cover.jpg
 date: 2019-10-12 21:37:45
 slug: a-good-day-for-books

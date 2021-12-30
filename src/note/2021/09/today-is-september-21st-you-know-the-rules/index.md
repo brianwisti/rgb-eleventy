@@ -1,6 +1,6 @@
 ---
 caption: 🎶 Never was a cloudy day
-cover: cover.jpg
+cover: /assets/img/note/2021/09/today-is-september-21st-you-know-the-rules/cover.jpg
 date: 2021-09-21
 tags:
 - listen

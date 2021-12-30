@@ -1,5 +1,5 @@
 ---
-cover: cover.png
+cover: /assets/img/note/2021/05/not-sure-why-i-keep-fussing-with-ssgs/cover.png
 cover_image: cover.png
 date: 2021-05-16
 format: md

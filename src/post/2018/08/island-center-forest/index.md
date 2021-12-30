@@ -2,7 +2,7 @@
 aliases:
 - /2018/08/19/island-center-forest/
 category: Marginalia
-cover: cover.jpg
+cover: /assets/img/post/2018/08/island-center-forest/cover.jpg
 cover_image: cover.jpg
 date: 2018-08-19 00:00:00
 draft: false
@@ -40,13 +40,13 @@ on foot.
 Found a grocery store in downtown Vashon and recharged with a snack
 while enjoying local art.
 
-![Cool sketch on a cart. I missed the 'Trump/Putin 2016' stickers until just now](art-cart.jpg)
+![Cool sketch on a cart. I missed the 'Trump/Putin 2016' stickers until just now](/assets/img/post/2018/08/island-center-forest/art-cart.jpg)
 
 The park itself was only about five minutes' walk from the store.
 
 ## My Path
 
-![map](map.jpg "The trails I covered, more or less")
+![map](/assets/img/post/2018/08/island-center-forest/map.jpg "The trails I covered, more or less")
 
 The trails have names, but there were fewer signs than I would have
 liked. Given the large number of trails to choose from, I set my plan as
@@ -56,7 +56,7 @@ more deliberate choices about my path.
 
 ## The Park Itself
 
-![Mossy trees and undergrowth](mossy-trees.jpg)
+![Mossy trees and undergrowth](/assets/img/post/2018/08/island-center-forest/mossy-trees.jpg)
 
 This is a second-growth forest, moving from single-species tree
 plantations to a more diverse selection that provides better homes for
@@ -67,7 +67,7 @@ to heat and sunlight.
 Watch your step, though. You share these trails with horse riders, and
 droppings are a minor hazard underfoot.
 
-![The southern bit of Mukai Pond](mukai-pond.jpg)
+![The southern bit of Mukai Pond](/assets/img/post/2018/08/island-center-forest/mukai-pond.jpg)
 
 I visited in the tail end of summer. As lovely as Mukai and Meadowlake
 ponds were, you could tell they were ready for rain. Still — there was
@@ -79,11 +79,11 @@ wrapped up in details that I miss the big picture. They have a point. I
 could stand to step back and look at the forest occasionally instead of
 the trees.
 
-![Look! Fungus!](fungus.jpg)
+![Look! Fungus!](/assets/img/post/2018/08/island-center-forest/fungus.jpg)
 
 That said, these woods offered a wealth of details to keep my attention.
 
-![A spider neighborhood](cobwebs.jpg)
+![A spider neighborhood](/assets/img/post/2018/08/island-center-forest/cobwebs.jpg)
 
 I picked Meadowlake Pond as the end of my circuit, enjoying the view and
 the strange calls of the local ravens that were having a grand time in
@@ -92,7 +92,7 @@ to crows. These corvids definitely had a range of noises to make, from a
 "Mwa\!" that sounded like a strange cat to vaguely simian noises to a
 water drop sound.
 
-![Meadowlake Pond](meadowlake-pond.jpg)
+![Meadowlake Pond](/assets/img/post/2018/08/island-center-forest/meadowlake-pond.jpg)
 
 ## The Aftermath
 

@@ -1,7 +1,7 @@
 ---
 caption: actually really proud of myself but this post needs all the disclaimers
 category: programming
-cover: cover.jpg
+cover: /assets/img/post/2020/05/letting-ruby-build-asciidoctor-files-for-hugo/cover.jpg
 cover_image: cover.jpg
 date: 2020-05-18 21:15:00
 description: Stuff like this is why i don't advertise my site repo
@@ -446,7 +446,7 @@ Asciidoctor transforms unsafe characters into HTML entities.
 
 And it looks kind of embarrassing.
 
-![screenshot showing image shortcode instead of an image](escaped-shortcode.png "my shortcode got escaped")
+![screenshot showing image shortcode instead of an image](/assets/img/post/2020/05/letting-ruby-build-asciidoctor-files-for-hugo/escaped-shortcode.png "my shortcode got escaped")
 
 The solution? Wrap that shortcode in a [passthrough macro][passthrough-macro].
 
@@ -454,7 +454,7 @@ The solution? Wrap that shortcode in a [passthrough macro][passthrough-macro].
 pass:[{{</* show-figure image="cover.png" description="Taskwarrior edit view" */>}}]
 ```
 
-![correct shortcode](correct-shortcode.png "using a passthrough macro")
+![correct shortcode](/assets/img/post/2020/05/letting-ruby-build-asciidoctor-files-for-hugo/correct-shortcode.png "using a passthrough macro")
 
 Much better.
 

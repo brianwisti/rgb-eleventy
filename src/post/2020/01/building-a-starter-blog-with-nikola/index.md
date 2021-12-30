@@ -2,7 +2,7 @@
 aliases:
 - /2020/01/05/building-a-starter-blog-with-nikola/
 category: tools
-cover: cover.png
+cover: /assets/img/post/2020/01/building-a-starter-blog-with-nikola/cover.png
 cover_image: cover.png
 date: 2020-01-05
 description: In which I play with another site builder
@@ -148,7 +148,7 @@ look up how to fix that eventually.
 filled in the templates for the default theme with values from
 `conf.py`.
 
-![screenshot of site header and footer](01-empty-site.png "The empty site")
+![screenshot of site header and footer](/assets/img/post/2020/01/building-a-starter-blog-with-nikola/01-empty-site.png "The empty site")
 
 Each of the "Archive," "Tags," and "RSS Feed" links lead to summary pages with nothing listed.
 Since I have no content for Nikola to summarize yet, that makes sense.
@@ -229,7 +229,7 @@ Let’s just link to Nikola’s own [metadata documentation][].
 
 What does the site look like now that it has a post?
 
-![screenshot of page with post content](02-index-with-post.png "Index page with one post")
+![screenshot of page with post content](/assets/img/post/2020/01/building-a-starter-blog-with-nikola/02-index-with-post.png "Index page with one post")
 
 This theme shows post content.
 I prefer showing a quick summary of posts on the front page.
@@ -248,12 +248,12 @@ Delectus ut aut ea et dolore autem. Sint nihil sapiente voluptate id aut quo imp
 numquam delectus pariatur non accusantium. Aperiam aspernatur nemo sequi in est. Expedita
 ```
 
-![screenshot with truncated post content](index-with-teaser.png "Index page with teaser")
+![screenshot with truncated post content](/assets/img/post/2020/01/building-a-starter-blog-with-nikola/index-with-teaser.png "Index page with teaser")
 
 Now the index has a summary and the main content is on the post page.
 The tag rests at the bottom, and a source link sits with the headline.
 
-![screenshot with post content with metadata](03-post.png "The post itself")
+![screenshot with post content with metadata](/assets/img/post/2020/01/building-a-starter-blog-with-nikola/03-post.png "The post itself")
 
 What about that "Source" link?
 Nikola lets you download the ReST source of a post.
@@ -313,7 +313,7 @@ NAVIGATION_LINKS = {
 ```
 
 
-![screenshot of /now page](now.png "The Now page")
+![screenshot of /now page](/assets/img/post/2020/01/building-a-starter-blog-with-nikola/now.png "The Now page")
 
 ## What’s left?
 

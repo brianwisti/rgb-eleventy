@@ -2,7 +2,7 @@
 aliases:
 - /2018/03/27/interviewed-about-facebook/
 category: Marginalia
-cover: cover.jpeg
+cover: /assets/img/post/2018/03/interviewed-about-facebook/cover.jpeg
 cover_image: cover.jpeg
 date: 2018-03-27 00:00:00
 draft: false

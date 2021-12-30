@@ -1,6 +1,6 @@
 ---
 caption: My `rst.txt` files become HTML before the SSG sees, so I may leave them
-cover: cover.png
+cover: /assets/img/note/2021/08/pared-down-to-the-base-blog/cover.png
 cover_image: cover.png
 date: 2021-08-21
 format: md

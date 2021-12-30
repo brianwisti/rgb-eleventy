@@ -2,7 +2,7 @@
 aliases:
 - /2018/12/31/hopepunk-for-2019/
 category: Marginalia
-cover: cover.jpg
+cover: /assets/img/post/2018/12/hopepunk-for-2019/cover.jpg
 cover_image: cover.jpg
 date: 2018-12-31 00:00:00
 draft: false

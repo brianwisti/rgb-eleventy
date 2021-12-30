@@ -2,7 +2,7 @@
 aliases:
 - /note/2020/36/inv-note/
 caption: I drew this with [Amaziograph](https://amaziograph.com/)
-cover: cover.jpg
+cover: /assets/img/note/2020/02/inv-note/cover.jpg
 cover_image: cover.jpg
 date: 2020-02-05 15:54:39
 slug: inv-note

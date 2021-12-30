@@ -3,7 +3,7 @@ aliases:
 - /2020/01/25/tweaking-a-nikola-theme/
 caption: The [/now](/now) page, in Nikola
 category: tools
-cover: cover.png
+cover: /assets/img/post/2020/01/tweaking-a-nikola-theme/cover.png
 cover_image: cover.png
 date: 2020-01-25 20:00:00
 draft: false
@@ -233,18 +233,18 @@ in reStructuredText. For now I match RST output, as if I’d used a
 directive](https://docutils.sourceforge.io/docs/ref/rst/directives.html#figure).
 That way I don’t have to find the CSS for this theme.
 
-![screenshot showing cover image in post](cover-in-post.png "Cover image in post")
+![screenshot showing cover image in post](/assets/img/post/2020/01/tweaking-a-nikola-theme/cover-in-post.png "Cover image in post")
 
 It has a cover image, placed right by the title. It doesn’t *quite*
 match today’s view of [that
 post](/note/2019/12/again-with-the-manual-symmetry/), but this has the
 basic idea. And I only had to edit a single template file\!
 
-![screenshot of same page with different style](post-hugo-comparison.png "The same page on the current site")
+![screenshot of same page with different style](/assets/img/post/2020/01/tweaking-a-nikola-theme/post-hugo-comparison.png "The same page on the current site")
 
 Looks good for posts that have a cover image. How about pages?
 
-![screenshot of /now page with nikola style](cover-in-page.png "Cover image in a non-post page")
+![screenshot of /now page with nikola style](/assets/img/post/2020/01/tweaking-a-nikola-theme/cover-in-page.png "Cover image in a non-post page")
 
 Excellent. I thought that would take much more work.
 
@@ -265,7 +265,7 @@ cover image a
 </%block>
 ```
 
-![screenshot with large jumbotron element](post-previewimage-jumbotron.png "Cover image in Bootstrap Jumbotron")
+![screenshot with large jumbotron element](/assets/img/post/2020/01/tweaking-a-nikola-theme/post-previewimage-jumbotron.png "Cover image in Bootstrap Jumbotron")
 
 Hm. Maybe, maybe not. I’m tempted to tweak it some more, but my task
 list is long and my time is short.

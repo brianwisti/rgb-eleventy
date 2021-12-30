@@ -1,7 +1,7 @@
 ---
 aliases:
 - /note/2020/20/random-geekery-a-la-nikola/
-cover: cover.png
+cover: /assets/img/note/2020/01/random-geekery-a-la-nikola/cover.png
 cover_image: cover.png
 date: 2020-01-21 07:01:04
 slug: random-geekery-a-la-nikola

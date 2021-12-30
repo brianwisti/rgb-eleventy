@@ -2,7 +2,7 @@
 aliases:
 - /2020/01/12/a-quick-notes-script-for-taskwarrior/
 category: Programming
-cover: cover.png
+cover: /assets/img/post/2020/01/a-quick-notes-script-for-taskwarrior/cover.png
 cover_image: cover.png
 date: 2020-01-12
 draft: false
@@ -211,7 +211,7 @@ tells Python I’m running `editor`. I expect to find `editor` in my
 environment path. The rest of the function arguments will be handed to
 `editor`.
 
-![Neovim launched by Python](task-notes-view.png)
+![Neovim launched by Python](/assets/img/post/2020/01/a-quick-notes-script-for-taskwarrior/task-notes-view.png)
 
 Sweet. It worked!
 

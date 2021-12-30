@@ -2,7 +2,7 @@
 aliases:
 - /2017/11/24/drawing-grids-with-python-and-pillow/
 category: Programming
-cover: cover.png
+cover: /assets/img/post/2017/11/drawing-grids-with-python-and-pillow/cover.png
 cover_image: cover.png
 date: 2017-11-24
 draft: false
@@ -50,7 +50,7 @@ I use a modest 600 by 600 pixel grayscale image while working out the details.
 No point saving anything until I know what’s going on, so just `show()` the
 image.
 
-![A blank image](grid-blank.png)
+![A blank image](/assets/img/post/2017/11/drawing-grids-with-python-and-pillow/grid-blank.png)
 
 [ImageDraw]: http://pillow.readthedocs.io/en/4.3.x/reference/ImageDraw.html
 
@@ -78,7 +78,7 @@ if __name__ == '__main__':
     image.show()
 ```
 
-![Drawing one line](grid-single-line.png)
+![Drawing one line](/assets/img/post/2017/11/drawing-grids-with-python-and-pillow/grid-single-line.png)
 
 Nice. Okay, how about repeating some lines across?
 
@@ -105,7 +105,7 @@ if __name__ == '__main__':
     image.show()
 ```
 
-![Drawing some columns](grid-columns.png)
+![Drawing some columns](/assets/img/post/2017/11/drawing-grids-with-python-and-pillow/grid-columns.png)
 
 Lovely. How about an actual grid?
 
@@ -139,7 +139,7 @@ if __name__ == '__main__':
     image.show()
 ```
 
-![Drawing a simple grid](grid-simple-grid.png)
+![Drawing a simple grid](/assets/img/post/2017/11/drawing-grids-with-python-and-pillow/grid-simple-grid.png)
 
 Okay cool but I often need a specific number of squares in my grid.
 
@@ -174,7 +174,7 @@ if __name__ == '__main__':
     image.show()
 ```
 
-![Specifying a step count](grid-step-count.png)
+![Specifying a step count](/assets/img/post/2017/11/drawing-grids-with-python-and-pillow/grid-step-count.png)
 
 Right but I don’t want to edit the code every time.
 
@@ -220,7 +220,7 @@ Run it.
     $ python grid.py 12
 
 
-![Grabbing a step count from the command line](grid-specify-step-count.png)
+![Grabbing a step count from the command line](/assets/img/post/2017/11/drawing-grids-with-python-and-pillow/grid-specify-step-count.png)
 
 I can specify step count from the command line. Cool. Uh hey about height and
 width?
@@ -334,7 +334,7 @@ Much better. Run it.
 
 I like [Argparse][].
 
-![Constructing grid from Argparse arguments](grid-specify-size-steps.png)
+![Constructing grid from Argparse arguments](/assets/img/post/2017/11/drawing-grids-with-python-and-pillow/grid-specify-size-steps.png)
 
 Anyways - what if I ask for a rectangle instead of a square?
 
@@ -342,7 +342,7 @@ Anyways - what if I ask for a rectangle instead of a square?
 
 image::grid-rectangular.png[Rectangular grid,title="Rectangular grid"]
 
-![Rectangular grid](grid-rectangular.png)
+![Rectangular grid](/assets/img/post/2017/11/drawing-grids-with-python-and-pillow/grid-rectangular.png)
 
 [Image]: http://pillow.readthedocs.io/en/4.3.x/reference/Image.html#the-image-class
 
@@ -362,7 +362,7 @@ Run it.
 
     $ python grid.py 400 600 24
 
-![Correct Image initialization](grid-correct-image-init.png)
+![Correct Image initialization](/assets/img/post/2017/11/drawing-grids-with-python-and-pillow/grid-correct-image-init.png)
 
 This works. I have half a dozen ideas left, but I want to use it for a sketch _now_.
 

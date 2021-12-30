@@ -2,7 +2,7 @@
 aliases:
 - /2019/05/24/pretty-print-terminal-files-with-bat/
 category: Tools
-cover: cover.png
+cover: /assets/img/post/2019/05/pretty-print-terminal-files-with-bat/cover.png
 cover_image: cover.png
 date: 2019-05-24 00:00:00
 description: '[bat](https://github.com/sharkdp/bat) is like a fancier `cat` for displaying
@@ -55,14 +55,14 @@ matters: tab-delimited files, Makefiles, Python, stuff like that. `bat
 -A` shows whitespace and other non-printable characters displayed,
 though you lose syntax highlighting.
 
-![The site Makefile — oh look a trailing space!](showing-whitespace.png)
+![The site Makefile — oh look a trailing space!](/assets/img/post/2019/05/pretty-print-terminal-files-with-bat/showing-whitespace.png)
 
 ## Plain Text
 
 I enjoy the formatting conveniences from `bat` even when examining plain
 text files.
 
-![bat showing a plain text file](bat-plain-text.png)
+![bat showing a plain text file](/assets/img/post/2019/05/pretty-print-terminal-files-with-bat/bat-plain-text.png)
 
 
 This is all I’ve needed `bat` for, but it’s flexible enough to work into

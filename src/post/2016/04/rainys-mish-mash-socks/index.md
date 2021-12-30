@@ -3,7 +3,7 @@ aliases:
 - /craft/2016/rainys-mishmash-socks/
 - /2016/04/14/rainys-mish-mash-socks/
 category: craft
-cover: cover.jpg
+cover: /assets/img/post/2016/04/rainys-mish-mash-socks/cover.jpg
 cover_image: cover.jpg
 date: 2016-04-14 00:00:00
 slug: rainys-mish-mash-socks

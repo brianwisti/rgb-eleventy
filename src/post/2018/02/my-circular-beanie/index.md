@@ -2,7 +2,7 @@
 aliases:
 - /2018/02/07/my-circular-beanie/
 category: Craft
-cover: cover.jpg
+cover: /assets/img/post/2018/02/my-circular-beanie/cover.jpg
 cover_image: cover.jpg
 date: 2018-02-07 00:00:00
 draft: false

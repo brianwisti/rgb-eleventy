@@ -2,7 +2,7 @@
 aliases:
 - /2018/09/09/mount-si/
 category: Marginalia
-cover: cover.jpg
+cover: /assets/img/post/2018/09/mount-si/cover.jpg
 cover_image: cover.jpg
 date: 2018-09-09 00:00:00
 description: I sauntered up the main trail of Mount Si this weekend.
@@ -18,7 +18,7 @@ uuid: 76e92ae4-e6fe-4f19-afd6-87a86d4b8bb5
 
 ## Mount Si
 
-![Mount Si as seen from North Bend](mt-si.jpg)
+![Mount Si as seen from North Bend](/assets/img/post/2018/09/mount-si/mt-si.jpg)
 
 If [Mount Si](https://www.wta.org/go-hiking/hikes/mount-si) looks
 familiar to you even though you don’t live near it, maybe you saw it as
@@ -66,7 +66,7 @@ stuff as you spend a few hours wondering how much trail you have left.
 Thankfully, the trail itself is pretty interesting. Some spots soft and
 flat, some spots packed with rocks, and sometimes both\!
 
-![a trail section with packed rocks and dirt](trail.jpg)
+![a trail section with packed rocks and dirt](/assets/img/post/2018/09/mount-si/trail.jpg)
 
 The trail climbs around 3,000 feet over roughly four miles. A walk like
 that is easy enough for the experienced, but by the time I was halfway
@@ -93,13 +93,13 @@ on something, and waiting for my pulse to recover.
 For example: my new, attractive, and very comfortable friend Stumpy the
 Stump.
 
-![Check out this gnarled tree stump](stumpy.jpg)
+![Check out this gnarled tree stump](/assets/img/post/2018/09/mount-si/stumpy.jpg)
 
 I encountered impressive rocks all over the place. That’s not unusual in
 the Pacific Northwest, but you rarely see anything so *large* in
 Seattle.
 
-![Rock!](rock.jpg)
+![Rock!](/assets/img/post/2018/09/mount-si/rock.jpg)
 
 Of course I looked up the details when I got home. These are
 [metamorphic](https://www.usgs.gov/faqs/what-are-metamorphic-rocks-0)
@@ -107,7 +107,7 @@ rocks, transformed by intense pressure. Apparently in the distant
 geological past, there was an oceanic plate volcano. Now, millions of
 years later, we walk around on it and call it Mount Si.
 
-![These rocks used to be under an ocean?](more-rock.jpg)
+![These rocks used to be under an ocean?](/assets/img/post/2018/09/mount-si/more-rock.jpg)
 
 I can’t help but feel very small and brief when I try wrapping my brain
 around a geological time scale.
@@ -117,20 +117,19 @@ around a geological time scale.
 Eventually I ran out of mountain. I paused to have lunch and enjoy the
 view with half a dozen other like-minded folks.
 
-![Eating lunch and looking over Snoqualmie](lunch.jpg)
+![Eating lunch and looking over Snoqualmie](/assets/img/post/2018/09/mount-si/lunch.jpg)
 
 I encountered few local critters on the way up. That’s probably because
 the ones that tolerate people knew to stick around up here where folks
 brought out food. Gray jays, chipmunks, and a wandering raven kept us
 company.
 
-![gray jay bird](grayjay.jpg
-  "A photogenic gray jay posing — right before stealing my cracker!")
+![gray jay bird](/assets/img/post/2018/09/mount-si/grayjay.jpg "A photogenic gray jay posing — right before stealing my cracker!")
 
 Keep a tight grip on your meal\! One jay grabbed a cracker right out of
 my hand when a hiker distracted me.
 
-![Gray jay against rocks](jay-rocks.jpg)
+![Gray jay against rocks](/assets/img/post/2018/09/mount-si/jay-rocks.jpg)
 
 I suppose a bird has to make a living. I can’t be mad when they’re so
 fearless and just so *pretty*.
@@ -147,8 +146,7 @@ I had read that the trail extended beyond my lunch spot, so I looked
 around until I saw the Haystack, an additional 200 feet of rock that
 marks the proper peak of Mount Si.
 
-![rocky peak](haystack.jpg
-  "The Haystack, Si's true summit")
+![rocky peak](/assets/img/post/2018/09/mount-si/haystack.jpg "The Haystack, Si's true summit")
 
 I decided against climbing the Haystack this time. Almost halfway, I
 realized going down would be harder than going up. My body still felt
@@ -156,24 +154,22 @@ the strain from walking up the mountain in the first place. Next trip.
 
 Got some nice shots before I started back down, though.
 
-![treetops seen from above](lovely.jpg
-  "Sure the trees will break my fall eventually")
+![treetops seen from above](/assets/img/post/2018/09/mount-si/lovely.jpg "Sure the trees will break my fall eventually")
 
 I spent the next hour or so lounging in the overlook between the
 Haystack and the gray jay crime haven, looking at flowers and
 appreciating the view.
 
-![Flower!](flowers.jpg)
+![Flower!](/assets/img/post/2018/09/mount-si/flowers.jpg)
 
 Surely the view impresses even more on clear days, but clouds are
 familiar to me. A clear sky would have disoriented me.
 
-![View from the overlook](overlook.jpg)
+![View from the overlook](/assets/img/post/2018/09/mount-si/overlook.jpg)
 
 A memorial marker placed at the overlook caught my eye.
 
-![memorial marker](brett-marker.jpg
-  "Memorial marker for Brett Hall 1962-1981")
+![memorial marker](/assets/img/post/2018/09/mount-si/brett-marker.jpg "Memorial marker for Brett Hall 1962-1981")
 
 Later I looked up the name on the marker, and found this nwhikers forum
 [comment](http://www.nwhikers.net/forums/viewtopic.php?p=202011&sid=1b5ffb6683037d9488f2bbb5e5f4218b#202011):
@@ -200,7 +196,7 @@ ever so solid when your feet are landing on them from above.
 The sun came out when I was near the bottom of the mountain, and it was
 so gorgeous I felt the temptation to climb back up.
 
-![Afternoon sun through trees and undergrowth](sunshine.jpg)
+![Afternoon sun through trees and undergrowth](/assets/img/post/2018/09/mount-si/sunshine.jpg)
 
 My feet would have hated me. Besides, because of my timing, I got back
 to Seattle at exactly the right moment to get waved at on West Seattle

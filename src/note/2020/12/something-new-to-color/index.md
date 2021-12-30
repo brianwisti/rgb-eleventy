@@ -1,5 +1,5 @@
 ---
-cover: cover.jpg
+cover: /assets/img/note/2020/12/something-new-to-color/cover.jpg
 date: 2020-12-19 07:15:00
 slug: something-new-to-color
 tags:

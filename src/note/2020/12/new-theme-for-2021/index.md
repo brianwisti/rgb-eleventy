@@ -1,5 +1,5 @@
 ---
-cover: cover.png
+cover: /assets/img/note/2020/12/new-theme-for-2021/cover.png
 cover_image: cover.png
 date: 2020-12-07 15:16:55
 slug: new-theme-for-2021

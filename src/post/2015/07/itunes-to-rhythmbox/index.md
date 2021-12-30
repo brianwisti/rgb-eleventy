@@ -116,6 +116,6 @@ skills. Nothing too complex. Thank goodness.
 
 How about that pretty picture?
 
-![The song pie for July](july-rhythmbox-song-pie.png)
+![The song pie for July](/assets/img/post/2015/07/itunes-to-rhythmbox/july-rhythmbox-song-pie.png)
 
 I’ve made progress since March. It looks less like Pac Man now.

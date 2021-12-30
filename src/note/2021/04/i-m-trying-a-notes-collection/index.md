@@ -1,5 +1,5 @@
 ---
-cover: cover.png
+cover: /assets/img/note/2021/04/i-m-trying-a-notes-collection/cover.png
 cover_image: cover.png
 date: 2021-04-18
 slug: i-m-trying-a-notes-collection

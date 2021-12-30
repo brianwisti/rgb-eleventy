@@ -1,5 +1,5 @@
 ---
-cover: cover.png
+cover: /assets/img/note/2020/06/not-saying-this-is-a-good-idea/cover.png
 cover_image: cover.png
 date: 2020-06-02 21:45:01
 slug: not-saying-this-is-a-good-idea

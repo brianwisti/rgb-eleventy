@@ -238,7 +238,7 @@ There are plenty of other things for us to memorize, of course.
 If you're more of a visual person, here's a quality page from my extensive
 notebook.
 
-#[diagram of multi-line string showing where these anchors match](regex-anchors.jpg)
+![diagram of multi-line string showing where these anchors match](/assets/img/post/2021/05/joplin-cli-batch-processing-with-raku/regex-anchors.jpg)
 
 So what if my Raku notebook only has this one page with this one diagram.
 It's a good diagram.  Very professional.  High quality learning aid.

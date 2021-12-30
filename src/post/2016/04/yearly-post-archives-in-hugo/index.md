@@ -51,7 +51,7 @@ Hugo gives the template a title and a collection of pages —
 along with numerous other [variables](https://gohugo.io/templates/variables/),
 and at the other end something like this is produced.
 
-![screenshot](site-default-listing.png "Default listing applied to Craft section")
+![screenshot](/assets/img/post/2016/04/yearly-post-archives-in-hugo/site-default-listing.png "Default listing applied to Craft section")
 
 ## Group Everything By Date
 
@@ -69,7 +69,7 @@ For a first step in the process, let’s see what happens when we tell the Pages
   {{ end }}
 ```
 
-![Now with headers for each year](site-single-page-year-headers.png)
+![Now with headers for each year](/assets/img/post/2016/04/yearly-post-archives-in-hugo/site-single-page-year-headers.png)
 
 Not too bad. Let’s move on.
 
@@ -95,7 +95,7 @@ I’ll put that in my `index.ace` layout.
   {{ end }}
 ```
 
-![This year’s stuff — perfect for the front page](site-this-years-posts.png)
+![This year’s stuff — perfect for the front page](/assets/img/post/2016/04/yearly-post-archives-in-hugo/site-this-years-posts.png)
 
 No matter how hard I tried, I could not find a way to create a page for *last year* with this technique.
 Moving on.
@@ -199,11 +199,11 @@ So by adding one little entry to `config.yml` and making one little edit —
 okay, write a Perl script to make one little edit to every page in my site —
 I get a usable yearly archive!
 
-![all years](site-list-all-years.png)
+![all years](/assets/img/post/2016/04/yearly-post-archives-in-hugo/site-list-all-years.png)
 
 I put `_default/list.ace` back in its original state, and each year has a simple listing.
 
-![screenshot](site-single-year.png "Just the stuff I pushed in 2015")
+![screenshot](/assets/img/post/2016/04/yearly-post-archives-in-hugo/site-single-year.png "Just the stuff I pushed in 2015")
 
 ## What Else?
 

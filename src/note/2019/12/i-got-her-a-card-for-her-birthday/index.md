@@ -2,7 +2,7 @@
 aliases:
 - /note/2019/353/i-got-her-a-card-for-her-birthday/
 caption: a stack of custom cards printed at Fedex
-cover: cover.jpg
+cover: /assets/img/note/2019/12/i-got-her-a-card-for-her-birthday/cover.jpg
 cover_image: cover.jpg
 date: 2019-12-20 05:46:08
 slug: i-got-her-a-card-for-her-birthday

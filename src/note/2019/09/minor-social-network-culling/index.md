@@ -1,7 +1,7 @@
 ---
 aliases:
 - /note/2019/267/minor-social-network-culling/
-cover: cover.jpg
+cover: /assets/img/note/2019/09/minor-social-network-culling/cover.jpg
 cover_image: cover.jpg
 date: 2019-09-25 04:25:13
 slug: minor-social-network-culling

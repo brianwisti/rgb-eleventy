@@ -2,7 +2,7 @@
 aliases:
 - /note/2019/199/2-days-5-hours-9-minutes-to-home/
 caption: Trees against sunset in San Francisco's Presidio
-cover: cover.jpg
+cover: /assets/img/note/2019/07/2-days-5-hours-9-minutes-to-home/cover.jpg
 cover_image: cover.jpg
 date: 2019-07-18 14:28:47
 slug: 2-days-5-hours-9-minutes-to-home

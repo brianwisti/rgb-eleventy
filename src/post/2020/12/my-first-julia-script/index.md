@@ -1,7 +1,7 @@
 ---
 caption: Drawn with [Luxor.jl](http://juliagraphics.github.io/Luxor.jl/stable/)
 category: Programming
-cover: cover.png
+cover: /assets/img/post/2020/12/my-first-julia-script/cover.png
 date: 2020-12-25
 description: Weaving code in Hugo posts with Julia
 draft: false

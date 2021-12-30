@@ -49,7 +49,7 @@ Last year I heard the term again, listening to [Ob La Di Ob La
 Da](https://song.link/i/1441133613) by [The
 Beatles](http://www.beatles.com).
 
-![Pause for music](beatles-white-album.png "Pause for music")
+![Pause for music](/assets/img/post/2010/09/thoughts-on-the-word-bra/beatles-white-album.png "Pause for music")
 
 I hadn’t listened to the song since before my exposure to Pacific Island
 bounty hunters, but this time the chorus jumped out at me:

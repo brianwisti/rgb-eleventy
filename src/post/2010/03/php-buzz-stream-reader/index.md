@@ -83,7 +83,7 @@ it out, and it worked like a charm.
 
 A little CSS fiddling, and voila\!
 
-![Google Buzz Widget Image](buzz-widget.png "Google Buzz Widget Image")
+![Google Buzz Widget Image](/assets/img/post/2010/03/php-buzz-stream-reader/buzz-widget.png "Google Buzz Widget Image")
 
 The only thing is that some stuff I really want sits in the other 20%:
 
@@ -167,7 +167,7 @@ The result is not exciting, but it does show that the XML is being
 parsed. I have created a simple `dump` function which will come in handy
 as I examine the information being displayed.
 
-![Google Buzz dumped image](buzz-dump.png "Google Buzz dumped image")
+![Google Buzz dumped image](/assets/img/post/2010/03/php-buzz-stream-reader/buzz-dump.png "Google Buzz dumped image")
 
 ### Show Entries
 

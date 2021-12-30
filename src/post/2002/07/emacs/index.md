@@ -14,7 +14,7 @@ updated: 2002-07-11 00:00:00
 uuid: 53ccf323-dd11-408a-b27b-c23dcb3e3e29
 ---
 
-![GNU Emacs](emacs-logo.png)
+![GNU Emacs](/assets/img/post/2002/07/emacs/emacs-logo.png)
 
 Yep. [Emacs](http://www.gnu.org/software/emacs), one of the shining
 stars of the [GNU](http://www.gnu.org) project and its
@@ -40,7 +40,7 @@ that I am referring to GNU software in the Emacs section of the site
 unless otherwise specified. Now, back to my babbling about Emacs,
 already in progress.
 
-![XEmacs](xemacs-logo.png)
+![XEmacs](/assets/img/post/2002/07/emacs/xemacs-logo.png)
 
 I want you to know about Emacs and give it a try. I can imagine you
 might be curious about what I’m doing with it that’s easier than doing

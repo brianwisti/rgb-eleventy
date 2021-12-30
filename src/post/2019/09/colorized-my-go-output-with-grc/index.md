@@ -2,7 +2,7 @@
 aliases:
 - /2019/09/08/colorized-my-go-output-with-grc/
 category: Tools
-cover: cover.png
+cover: /assets/img/post/2019/09/colorized-my-go-output-with-grc/cover.png
 cover_image: cover.png
 date: 2019-09-08
 description: In which I spent Sunday having fun learning stuff
@@ -27,7 +27,7 @@ So yeah I like it.
 
 Still having some *tiny* issues with the output of ``go test``.
 
-#[normal `go test` output](plain.png)
+![normal `go test` output](/assets/img/post/2019/09/colorized-my-go-output-with-grc/plain.png)
 
 Part of it’s that my brain hasn’t gotten used to how Go displays its errors.
 Some of it’s that my brain always has — and always will — panic at random
@@ -75,7 +75,7 @@ colour=cyan
 Now when I run tests through `grc go test`, output is colorized and I can
 track it more easily!
 
-#[colorized by `grc go test`](cover.png)
+![colorized by `grc go test`](/assets/img/post/2019/09/colorized-my-go-output-with-grc/cover.png)
 
 Of course I’ll probably get used to how Go presents errors and then forget all
 about `grc`, but it’s great for today. Might be more generally useful too, if

@@ -28,7 +28,7 @@ see "Hello World"? Here it is.
 
     >> view layout [ text "Hello World!" ]
 
-![Hello World in REBOL/View](rebol-intro-01.png)
+![Hello World in REBOL/View](/assets/img/post/2004/12/rebol-babysteps-02-getting-started-with-view/rebol-intro-01.png)
 
 One way to interpret that series of commands is along the lines of: we
 want to `view` the `layout` defined as containing the `text` "Hello
@@ -47,7 +47,7 @@ goodness into it.
     [    button "Hi!"
     [    ]
 
-![Asking for a name](rebol-intro-02.png)
+![Asking for a name](/assets/img/post/2004/12/rebol-babysteps-02-getting-started-with-view/rebol-intro-02.png)
 
 Neat. Except that it doesn’t actually do anything if you click the
 button. Pretty, but non-functional - sort of like my neighbor’s car.

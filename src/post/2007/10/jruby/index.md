@@ -81,7 +81,7 @@ Repository](http://www.roesler-ac.de/wolfram/hello.htm#Java-Swing).
     irb(main):002:0> JOptionPane.showMessageDialog(nil, "Hello World!")
     => nil
 
-![JRuby "Hello World"](jruby-hello.png)
+![JRuby "Hello World"](/assets/img/post/2007/10/jruby/jruby-hello.png)
 
 That popped up a simple "Ok" style dialog box with the message "Hello
 World\!".

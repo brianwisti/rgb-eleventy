@@ -56,7 +56,7 @@ Even better: you can hand this code to Perl and it starts a server\!
 Loading `http://localhost:3000/hey` in a browser shows our simple
 message.
 
-![Hey from Dancer2](dancer2-hey.png "Hey from Dancer2!")
+![Hey from Dancer2](/assets/img/post/2016/07/hello-dancer2/dancer2-hey.png "Hey from Dancer2!")
 
 Dancer2 gives you a
 [DSL](https://en.wikipedia.org/wiki/Domain-specific_language) —
@@ -146,7 +146,7 @@ loaded.
 Now we should be able to see <http://localhost:3000/hey/Brian> — or
 whatever name you prefer.
 
-!["Hey Brian\!" in Dancer2](dancer2-hey-brian.png)
+!["Hey Brian\!" in Dancer2](/assets/img/post/2016/07/hello-dancer2/dancer2-hey-brian.png)
 
 ### `route_parameters`
 

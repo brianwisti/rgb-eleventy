@@ -3,7 +3,7 @@ aliases:
 - /craft/2007/my-garter-stitch-hat/
 - /2007/10/15/my-garter-stitch-hat/
 category: craft
-cover: cover.jpg
+cover: /assets/img/post/2007/10/my-garter-stitch-hat/cover.jpg
 cover_image: cover.jpg
 date: 2007-10-15 00:00:00
 slug: my-garter-stitch-hat

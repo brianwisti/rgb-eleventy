@@ -2,7 +2,7 @@
 aliases:
 - /2019/08/25/trying-the-crystal-language/
 category: Programming
-cover: cover.png
+cover: /assets/img/post/2019/08/trying-the-crystal-language/cover.png
 cover_image: cover.png
 date: 2019-08-25
 description: In which I use Crystal for a simple shell task
@@ -137,7 +137,7 @@ clunky. Hey, this is a one-liner. Let’s pipe it to
 
 There, now it’s all pretty-printed.
 
-![Colorized JSON via jq](crystal-env-jq.png)
+![Colorized JSON via jq](/assets/img/post/2019/08/trying-the-crystal-language/crystal-env-jq.png)
 
 One-liners are fun.
 
@@ -281,7 +281,7 @@ IN="\[\033[0;0m\]"
 PS1="$NM[ $HI\u $SI\w$NM ] \$(__git_ps1) $IN\n\$(task-indicator) "
 ```
 
-![Output of task-indicator.cr showing something due today](run-task-indicator.png)
+![Output of task-indicator.cr showing something due today](/assets/img/post/2019/08/trying-the-crystal-language/run-task-indicator.png)
 
 Nice.
 

@@ -1,5 +1,5 @@
 ---
-cover: cover.jpg
+cover: /assets/img/note/2020/05/my-therapist-would-love-this-if-i-had-one/cover.jpg
 cover_image: cover.jpg
 date: 2020-05-10 06:10:00
 slug: my-therapist-would-love-this-if-i-had-one

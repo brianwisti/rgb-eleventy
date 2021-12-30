@@ -1,7 +1,7 @@
 ---
 aliases:
 - /note/2020/33/added-dark-mode-for-the-site/
-cover: cover.png
+cover: /assets/img/note/2020/02/added-dark-mode-for-the-site/cover.png
 cover_image: cover.png
 date: 2020-02-03 03:45:13
 slug: added-dark-mode-for-the-site

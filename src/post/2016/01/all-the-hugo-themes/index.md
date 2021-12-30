@@ -3,7 +3,7 @@ aliases:
 - /post/2016/all-the-hugo-themes/
 - /2016/01/02/all-the-hugo-themes/
 category: Programming
-cover: cover.png
+cover: /assets/img/post/2016/01/all-the-hugo-themes/cover.png
 cover_image: cover.png
 date: 2016-01-02 00:00:00
 description: Using Python to preview my Hugo site with many themes
@@ -155,8 +155,7 @@ I noticed a few things with this experiment.
 
 ### Configuration
 
-![Red Lounge theme screenshot](chrome-redlounge-medium.png
-  "[Red Lounge](https://themes.gohugo.io/redlounge) theme")
+![Red Lounge theme screenshot](/assets/img/post/2016/01/all-the-hugo-themes/chrome-redlounge-medium.png "[Red Lounge](https://themes.gohugo.io/redlounge) theme")
 
 Themes vary significantly in their expected configuration options. Some
 want social media links under `author`. Others wanted them in `Params`.
@@ -180,8 +179,7 @@ requires metadata beyond a simple blog.
 I like this variety. I find that it’s much easier to create sites with
 different purposes using Hugo than when using Jekyll.
 
-![Artists theme screenshot](chrome-artists-medium.png
-  "[Artists](https://themes.gohugo.io/artists) theme")
+![Artists theme screenshot](/assets/img/post/2016/01/all-the-hugo-themes/chrome-artists-medium.png "[Artists](https://themes.gohugo.io/artists) theme")
 
 But it does help understand why sometimes the site renders as an
 attractive blank space in my preview. Examining the theme README would
@@ -192,8 +190,7 @@ good idea anyways.
 
 ### Sections
 
-![Pixyll theme screenshot](chrome-pixyll-medium.png
-  "[Pixyll](https://themes.gohugo.io/pixyll) theme")
+![Pixyll theme screenshot](/assets/img/post/2016/01/all-the-hugo-themes/chrome-pixyll-medium.png "[Pixyll](https://themes.gohugo.io/pixyll) theme")
 
 The themes seemed a little confused by my [craft](/categories/craft/)
 section. Some ignored craft projects completely. Others integrated them
@@ -213,8 +210,7 @@ nice defaults, and provides quality documentation for its many
 configuration options. My site started with Hyde-X as a base before
 moving in its own direction.
 
-![Hyde-X theme screenshot](chrome-hyde-x-medium.png
-  "[Hyde-X](https://themes.gohugo.io/hyde-x) theme")
+![Hyde-X theme screenshot](/assets/img/post/2016/01/all-the-hugo-themes/chrome-hyde-x-medium.png "[Hyde-X](https://themes.gohugo.io/hyde-x) theme")
 
 Hyde-X isn’t the only way to start. There are numerous excellent
 blog-focused themes in the repository.

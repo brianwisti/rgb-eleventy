@@ -2,7 +2,7 @@
 aliases:
 - /2018/06/12/buy-my-stuff/
 category: craft
-cover: cover.png
+cover: /assets/img/post/2018/06/buy-my-stuff-at-design-by-humans/cover.png
 cover_image: cover.png
 date: 2018-06-12 00:00:00
 draft: false

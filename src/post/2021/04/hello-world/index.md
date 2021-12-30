@@ -1,5 +1,5 @@
 ---
-cover: cover.jpeg
+cover: /assets/img/post/2021/04/hello-world/cover.jpeg
 cover_image: cover.jpeg
 date: 2021-04-16
 description: (Oh yeah this is Statamic)

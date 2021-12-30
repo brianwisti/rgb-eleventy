@@ -56,7 +56,7 @@ straightforward.
 Eventually you may want to stop the server. Again, from the Command
 Palette.
 
-![Stop Server from the Command Palette](remote-atom-stop-server.png)
+![Stop Server from the Command Palette](/assets/img/post/2015/07/remote-editing-in-atom/remote-atom-stop-server.png)
 
 I’m still not ready to use Atom as my primary or even secondary editor.
 However, it’s starting to feel useful — thanks to packages like

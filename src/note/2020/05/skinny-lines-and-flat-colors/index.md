@@ -1,6 +1,6 @@
 ---
 caption: and then all of a sudden for no good reason -- **lens flare!**
-cover: cover.jpg
+cover: /assets/img/note/2020/05/skinny-lines-and-flat-colors/cover.jpg
 cover_image: cover.jpg
 date: 2020-05-03 04:11:00
 slug: skinny-lines-and-flat-colors

@@ -2,7 +2,7 @@
 aliases:
 - /2018/06/13/vegvisir/
 category: craft
-cover: cover.jpg
+cover: /assets/img/post/2018/06/vegvisir/cover.jpg
 cover_image: cover.jpg
 date: 2018-06-13 00:00:00
 draft: false

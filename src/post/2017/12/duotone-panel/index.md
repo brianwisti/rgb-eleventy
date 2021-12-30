@@ -2,7 +2,7 @@
 aliases:
 - /2017/12/19/duotone-panel/
 category: Craft
-cover: cover.jpg
+cover: /assets/img/post/2017/12/duotone-panel/cover.jpg
 cover_image: cover.jpg
 date: 2017-12-19
 draft: false
@@ -31,7 +31,7 @@ it cost less than full color printing. Skilled duotone illustrators like
 
 [Muddy Colors]: https://muddycolors.blogspot.com/2012/08/duotone-illustrations.html
 
-!["Red" by Mead Schaeffer](mead-schaeffer-red.jpg)
+!["Red" by Mead Schaeffer](/assets/img/post/2017/12/duotone-panel/mead-schaeffer-red.jpg)
 
 *Illustration by Mead Schaeffer via [Muddy Colors][]*
 
@@ -61,7 +61,7 @@ The first finished step is a solid black and white image. It started out as a
 knotwork panel demonstration, but somewhere along the way I decided the panel
 needed extras. Most of those extras came from [Tangles of Kells][].
 
-![Linework](duotone-panel-linework.png)
+![Linework](/assets/img/post/2017/12/duotone-panel/duotone-panel-linework.png)
 
 ## Values
 
@@ -72,7 +72,7 @@ small variations along the way.
 I set the drop shadow layers to "Soft Light" so they wouldn’t obscure whatever
 was beneath them.
 
-![Values](duotone-panel-values.png)
+![Values](/assets/img/post/2017/12/duotone-panel/duotone-panel-values.png)
 
 ## Color
 
@@ -81,7 +81,7 @@ For color, I created a new layer under the value layers, which I set to
 
 Here’s what that looked like, with everything else but linework cut out.
 
-![Color](duotone-panel-color.png)
+![Color](/assets/img/post/2017/12/duotone-panel/duotone-panel-color.png)
 
 I had an initial stage where all the shadows were hatched lines. Duotone didn’t
 occur to me until near the end of linework. I’ll try value-based shading for
@@ -94,7 +94,7 @@ value layer and set the value layer’s mode to "Multiply."
 
 And that’s how I ended up with this.
 
-![Final image](cover.jpg)
+![Final image](/assets/img/post/2017/12/duotone-panel/cover.jpg)
 
 ## What now?
 

@@ -1,6 +1,6 @@
 ---
 category: tools
-cover: cover.png
+cover: /assets/img/post/2020/06/ox-hugo-for-the-orgconfig/cover.png
 cover_image: cover.png
 date: 2020-06-27
 description: Putting a couple how-to details down for easy searching later

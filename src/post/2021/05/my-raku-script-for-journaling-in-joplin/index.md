@@ -1,6 +1,6 @@
 ---
 category: programming
-cover: cover.png
+cover: /assets/img/post/2021/05/my-raku-script-for-journaling-in-joplin/cover.png
 cover_image: cover.png
 date: 2021-05-22
 description: Why mess with getopt when I can just use multi-dispatch?

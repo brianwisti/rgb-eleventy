@@ -3,7 +3,7 @@ aliases:
 - /craft/2015/quick-garter-scarf/
 - /2015/04/04/quick-garter-stitch-scarf/
 category: craft
-cover: cover.jpg
+cover: /assets/img/post/2015/04/quick-garter-stitch-scarf/cover.jpg
 cover_image: cover.jpg
 date: 2015-04-04 00:00:00
 slug: quick-garter-stitch-scarf

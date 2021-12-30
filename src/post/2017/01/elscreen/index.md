@@ -3,7 +3,7 @@ aliases:
 - /post/2017/elscreen/
 - /2017/01/11/elscreen/
 category: tools
-cover: cover.png
+cover: /assets/img/post/2017/01/elscreen/cover.png
 cover_image: cover.png
 date: 2017-01-11
 draft: false

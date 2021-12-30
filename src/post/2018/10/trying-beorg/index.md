@@ -2,7 +2,7 @@
 aliases:
 - /2018/10/14/trying-beorg/
 category: tools
-cover: cover.png
+cover: /assets/img/post/2018/10/trying-beorg/cover.png
 cover_image: cover.png
 date: 2018-10-14 00:00:00
 description: The beorg iOS app has me playing with Org mode again
@@ -42,14 +42,14 @@ important feature for me. Synchronizing org files via
 but I’ll take what I can get. Who knows? Maybe I’ll figure out WebDAV
 later.
 
-![Emacs showing task added in beorg](emacs-synced.png)
+![Emacs showing task added in beorg](/assets/img/post/2018/10/trying-beorg/emacs-synced.png)
 
 ## TODO view
 
 The TODO view lists tasks, including clear indications of scheduled
 completion – assuming you understand the notation.
 
-![TODO view](agenda-view.png)
+![TODO view](/assets/img/post/2018/10/trying-beorg/agenda-view.png)
 
 The Rainer König Org
 [tutorials](https://www.youtube.com/watch?v=sQS06Qjnkcc&list=PLVtKhBrRV_ZkPnBtt_TD1Cs9PJlU0IIdE)
@@ -59,17 +59,17 @@ mode.
 
 The TODO view supports multiple filters.
 
-![Filtered TODO view](agenda-filtered.png)
+![Filtered TODO view](/assets/img/post/2018/10/trying-beorg/agenda-filtered.png)
 
 ## Notifications
 
 The app icon badge shows the count of overdue tasks.
 
-![Overdue count shown on app icon](notifications.jpg)
+![Overdue count shown on app icon](/assets/img/post/2018/10/trying-beorg/notifications.jpg)
 
 Alarms pop up for deadlines.
 
-![Task notification](alarm.png)
+![Task notification](/assets/img/post/2018/10/trying-beorg/alarm.png)
 
 I better wrap it up.
 

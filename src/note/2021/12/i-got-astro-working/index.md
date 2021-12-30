@@ -1,6 +1,6 @@
 ---
 caption: this time you get a screenshot **and** some links
-cover: cover.png
+cover: /assets/img/note/2021/12/i-got-astro-working/cover.png
 date: 2021-12-23
 format: md
 tags:

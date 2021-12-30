@@ -3,7 +3,7 @@ aliases:
 - /post/2017/cinnamon-screenshot-shortcuts/
 - /2017/01/01/cinnamon-screenshot-shortcuts/
 category: tools
-cover: cover.png
+cover: /assets/img/post/2017/01/cinnamon-screenshot-shortcuts/cover.png
 cover_image: cover.png
 date: 2017-01-01
 draft: false
@@ -46,20 +46,20 @@ Next, with pictures!
 
 The `Print` key alone will save your entire screen.
 
-![fullscreen screenshot](cinnamon-fullscreen-screenshot.png "Fullscreen screenshot, scaled down")
+![fullscreen screenshot](/assets/img/post/2017/01/cinnamon-screenshot-shortcuts/cinnamon-fullscreen-screenshot.png "Fullscreen screenshot, scaled down")
 
 ## Take A Screenshot Of A Window
 
 `Alt + Print` together to save a single window.
 
-![window screenshot](cinnamon-window-screenshot.png "Window screenshot, scaled down")
+![window screenshot](/assets/img/post/2017/01/cinnamon-screenshot-shortcuts/cinnamon-window-screenshot.png "Window screenshot, scaled down")
 
 ## Take A Screenshot Of An Area
 
 `Shift + Print` for an area screenshot.
 Your mouse point will change to a crosshair. Click and drag to select the area you want to save.
 
-![area screenshot](cinnamon-area-screenshot.png "An area on the Linux Mint home page")
+![area screenshot](/assets/img/post/2017/01/cinnamon-screenshot-shortcuts/cinnamon-area-screenshot.png "An area on the Linux Mint home page")
 
 Sometimes I had to hit this combo a few times to get it work.
 That could be a software bug somewhere or it could just be grit in my keyboard.

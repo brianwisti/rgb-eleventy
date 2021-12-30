@@ -3,7 +3,7 @@ aliases:
 - /craft/2008/natalies-sweater/
 - /2008/09/27/natalies-sweater/
 category: craft
-cover: cover.jpg
+cover: /assets/img/post/2008/09/natalies-sweater/cover.jpg
 cover_image: cover.jpg
 date: 2008-09-27 00:00:00
 slug: natalies-sweater

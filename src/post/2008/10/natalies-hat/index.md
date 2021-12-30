@@ -3,7 +3,7 @@ aliases:
 - /craft/2008/natalies-hat/
 - /2008/10/01/natalies-hat/
 category: craft
-cover: cover.jpg
+cover: /assets/img/post/2008/10/natalies-hat/cover.jpg
 cover_image: cover.jpg
 date: 2008-10-01 00:00:00
 slug: natalies-hat

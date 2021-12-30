@@ -2,7 +2,7 @@
 aliases:
 - /2019/05/27/kitty-terminal/
 category: Tools
-cover: cover.png
+cover: /assets/img/post/2019/05/kitty-terminal/cover.png
 cover_image: cover.png
 date: 2019-05-27 00:00:00
 description: 'I installed kitty for font ligatures in terminals on Linux, but it does
@@ -25,7 +25,7 @@ that interested me was support for
 Ligatures *basically* let you combine symbols, characters, or graphemes
 to produce a single glyph with compressed meaning.
 
-![Fira Code ligatures](all_ligatures.png)
+![Fira Code ligatures](/assets/img/post/2019/05/kitty-terminal/all_ligatures.png)
 
 *via [Github](https://github.com/tonsky/FiraCode/blob/master/showcases/all_ligatures.png)*
 
@@ -114,7 +114,7 @@ Course, I still had to tell GNOME the desktop launcher was trustworthy
 but opening `~/.local/share/applications/kitty.desktop` in the GNOME
 file manager.
 
-![GNOME trust dialog](gnome-trust.png)
+![GNOME trust dialog](/assets/img/post/2019/05/kitty-terminal/gnome-trust.png)
 
 ## Font installation
 
@@ -153,7 +153,7 @@ so I specify that in `kitty.conf`.
 
 ## Using kitty
 
-![Ligatures when looking at Mojolicious source](mojolicious.png)
+![Ligatures when looking at Mojolicious source](/assets/img/post/2019/05/kitty-terminal/mojolicious.png)
 
 The ligatures are pretty, of course. But what I really notice? Kitty is
 fast. Maybe that’s just because I became accustomed to GNOME Terminal
@@ -208,7 +208,7 @@ in the terminal.
 
     $ kitty +kitten icat cat-fall.jpeg
 
-![classic cat pics in the terminal!](kitty-icat.png)
+![classic cat pics in the terminal!](/assets/img/post/2019/05/kitty-terminal/kitty-icat.png)
 
 <aside class="admonition note">
 <p class="admonition-title">Note</p>
@@ -232,7 +232,7 @@ Dang. Thanks, Yanick!
 characters](https://sw.kovidgoyal.net/kitty/kittens/unicode-input.html),
 by code or by name.
 
-![Entering a unicode character by name in kitty](unicode-entry.png)
+![Entering a unicode character by name in kitty](/assets/img/post/2019/05/kitty-terminal/unicode-entry.png)
 
 ## kitty is fun
 

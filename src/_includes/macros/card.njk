@@ -8,7 +8,10 @@
       <header>
         <strong>
           {% if img %}
-            <img src="{{ img | url }}" data-responsiver="card" />
+            {{ img | url }}
+            <img class="card_image"
+              src="{{ img | url }}"
+              sizes="(max-width: 45em) 18vw, 8em" />
           {% endif %}
           {% if jump_url %}
             <a href="{{ jump_url | url }}">{{ header_text }}</a>
