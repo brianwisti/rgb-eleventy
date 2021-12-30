@@ -1,14 +1,2 @@
-{% extends "layouts/base.njk" %}
-
-{% from "macros/card.njk" import card %}
-
-{% block content %}
-  <article>
-    {{ card(
-        content,
-        header_text=title,
-        tags=tags,
-        date=date
-      ) }}
-  </article>
-{% endblock content %}
+{# I'll fine-tune some other day #}
+{% extends "layouts/post.njk" %}

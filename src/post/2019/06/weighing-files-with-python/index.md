@@ -93,8 +93,7 @@ and
 both include tools to "throttle" – simulating different network
 conditions.
 
-![Firefox Developer Tools network tab with throttling at
-3G](firefox-throttled-3g-kitty.png)
+![Firefox Developer Tools network tab with throttling at 3G](/assets/img/post/2019/06/weighing-files-with-python/firefox-throttled-3g-kitty.png)
 
 This is helpful on a page-by-page basis, and probably *very* helpful for
 evaluating a single page application. It doesn’t translate easily to

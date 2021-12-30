@@ -9,38 +9,53 @@ A reminder for when I'm staring at `package.json` in the middle of the night.
 `@11ty/eleventy`
 : the SSG itself
 
-`luxon`
-: for tighter control of date formatting in my `<time />` elements
+`@11ty/eleventy-img`
+: simplify a little magic cropping for cards
 
-`sass`
-: CSS style management
-
-`onchange`
-: so I don't have to rebuild styles myself
-
-`npm-run-all`
-: so can build styles and site pages at the same time
+`@types/node`
+: because Typescript wants it
 
 `browser-sync`
 : so I don't need to manually refresh the browser during dev
 
-`markdown-it-container`
-: for the many notes, warnings, and asides I sprinkle through my articles
-
 `eleventy-plugin-shiki-twoslash`
 : because I poke at all sorts of languages Prism has never heard of
 
-`xregexp`
-: because I like regular expressions and I like them fancy
+`luxon`
+: for tighter control of date formatting in my `<time />` elements
 
-`@11ty/eleventy-img`
-: simplify a little magic cropping for cards
+`markdown-it`
+: already default in Eleventy, but explicitly adding it makes the markdown-it plugins happy
 
 `markdown-it-attrs`
 : for adding CSS classes and other attributes inside markdown
 
-`eleventy-plugin-local-respimg`
-: to simplify responsive images within my markdown content
+`markdown-it-container`
+: for the many notes, warnings, and asides I sprinkle through my articles
+
+`npm-run-all`
+: so can build styles and site pages at the same time
+
+`onchange`
+: so I don't have to rebuild styles myself
+
+`sass`
+: CSS style management
+
+`ts-node`
+: to let me use Typescript for my my utility code
+
+`typescript`
+: to simplify finding mistakes in the code I write
+
+`xregexp`
+: because I like regular expressions and I like them fancy
+
+## Why'd I do that thing?
+
+I use a separate step for resizing images because I'd rather have Nunjucks
+macros than an `image` shortcode that resizes images, and Nunjucks async
+support is a "maybe someday" thing.
 
 ## Resources
 

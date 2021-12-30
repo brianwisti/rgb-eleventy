@@ -292,7 +292,9 @@ It would feel strange to skip them.</p>
 This calls the <a class="reference external" href="https://twitter.com/brianwisti/status/1219097732440301573">image</a> directive with <tt class="docutils literal">worst.cat.png</tt> as an argument
 and a few options specified with what RST calls a <cite>field list</cite>.</p>
 <p>You can make the image a link with <tt class="docutils literal">:target:</tt>, which is nice.</p>
-<a class="reference external image-reference" href="https://worstcats.tumblr.com/post/97243616862/this-is-the-worst-cat"><img alt="Text reads &quot;This is the worst cat.&quot; Photo is a baby hippo" src="worst-cat.png" /></a>
+<a class="reference external image-reference" href="https://worstcats.tumblr.com/post/97243616862/this-is-the-worst-cat">
+  <img alt="Text reads &quot;This is the worst cat.&quot; Photo is a baby hippo"
+    src="/assets/img/post/2020/01/restructuredtext-basics-for-blogging/worst-cat.png" /></a>
 <p>I prefer the HTML <a class="reference external" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure">figure</a> for my images.
 It allows me to add a readable caption, which is a great spot for attribution.</p>
 <pre class="code rst literal-block">
@@ -306,7 +308,7 @@ You even get a whole paragraph to set the caption.
 Text after the first paragraph becomes the legend.
 Interested parties can read the <a class="reference external" href="https://docutils.sourceforge.io/docs/ref/rst/directives.html#figure">figure documentation</a> for more details about that.</p>
 <div class="figure">
-<img alt="Text reads &quot;This is the worst cat.&quot; Photo is a baby hippo" src="worst-cat.png" />
+<img alt="Text reads &quot;This is the worst cat.&quot; Photo is a baby hippo" src="/assets/img/post/2020/01/restructuredtext-basics-for-blogging/worst-cat.png" />
 <p class="caption">via the <a class="reference external" href="https://worstcats.tumblr.com/post/97243616862/this-is-the-worst-cat">Worst Cats</a> Tumblr blog</p>
 </div>
 <p>Unfortunately it's not <em>really</em> a <tt class="docutils literal">&lt;figure&gt;</tt>.

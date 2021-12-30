@@ -19,14 +19,14 @@ Lots of folks stuck at home.
 Feel like coloring something? I decided to share the linework for this drawing.
 
 <div class="image-link"><div class="image-link-preview">
-      <a href="/note/2020/04/sepia-sunburst/sepia-sunburst-linework.png">
-        <img src="sepia-sunburst-linework-96x96.png" alt="thumbnail of linked image" />
+      <a href="/assets/img/note/2020/04/sepia-sunburst/sepia-sunburst-linework.png">
+        <img src="/assets/img/note/2020/04/sepia-sunburst/sepia-sunburst-linework-96x96.png" alt="thumbnail of linked image" />
       </a>
     </div>
     <div class="image-link-details">
       <ul>
         <li>
-          <a href="/note/2020/04/sepia-sunburst/sepia-sunburst-linework.png">
+          <a href="/assets/img/note/2020/04/sepia-sunburst/sepia-sunburst-linework.png">
             <tt>sepia-sunburst-linework.png</tt>
           </a>
         </li>

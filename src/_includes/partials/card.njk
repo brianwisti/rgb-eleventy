@@ -1,0 +1,42 @@
+{#
+  We are here because Nunjucks does not yet support async shortcodes in macros,
+  and `image` is an async shortcode.
+#}
+
+{% from "macros/date_stamp.njk" import date_stamp %}
+{% from "macros/tag_link.njk" import tag_link %}
+
+<section class="card">
+  <aside>Yo?</aside>
+  {% if header_text %}
+    <header>
+      {% if img %}
+        {% image img, header_text, [700], "" %}
+      {% endif %}
+      <strong>
+        {% if jump_url %}
+          <a href="{{ jump_url | url }}">{{ header_text }}</a>
+        {% else %}
+          {{ header_text }}
+        {% endif %}
+      </strong>
+      {% if date %}
+        <p>{{ date_stamp(date) }}</p>
+      {% endif %}
+    </header>
+  {% endif %}
+  {{ card_content | safe }}
+  {% if tags or jump_url %}
+    <footer>
+      {% if jump_url %}
+        <a href="{{ jump_url | url }}">Read More</>
+      {% endif %}
+
+      {% if tags %}
+        {% for tag in tags %}
+          {{ tag_link(tag) }}
+        {% endfor %}
+      {% endif %}
+    </footer>
+  {% endif %}
+</section>

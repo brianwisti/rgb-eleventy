@@ -39,8 +39,7 @@ manage yourself. You can do this from the *Packages* menu, but I want to
 get comfortable with the [Command
 Palette](https://atom.io/packages/command-palette).
 
-![Start Remote Atom Server from Command
-Palette](remote-atom-start-server.png)
+![Start Remote Atom Server from Command Palette](/assets/img/post/2015/07/remote-editing-in-atom/remote-atom-start-server.png)
 
 Once the server is available, you can `rmate` files to your heart’s
 content.

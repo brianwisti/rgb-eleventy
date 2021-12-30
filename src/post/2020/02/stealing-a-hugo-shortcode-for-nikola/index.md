@@ -31,8 +31,7 @@ version of the site.
 `nikola check -l` looks for broken internal links on your build output.
 It found a few in the imported files. I fixed them.
 
-![That commit with 100 files is more like a couple hundred fixed
-links](git-commit.png)
+![That commit with 100 files is more like a couple hundred fixed links](/assets/img/post/2020/02/stealing-a-hugo-shortcode-for-nikola/git-commit.png)
 
 And yes. I wrote a [link
 checker](/post/2017/04/making-a-mojo-link-checker/) in 2017. No, I
