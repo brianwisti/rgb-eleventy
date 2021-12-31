@@ -2,13 +2,20 @@
 
 {% from "macros/tag_link.njk" import tag_link %}
 
-{% macro card(card_content, header_text="", jump_url="", date="", img="", tags=[]) %}
+{% macro card(card_content, header_text="", jump_url="", date="", img="", tags=[], caption="") %}
   <section class="card">
     {% if header_text %}
       <header>
         <strong>
           {% if img %}
+            <figure>
             {% image img, "cover image", [400, 800] %}
+              {% if caption %}
+                <figcaption>
+                  {{ caption }}
+                </figcaption>
+              {% endif %}
+            </figure>
           {% endif %}
 
           {% if jump_url %}
