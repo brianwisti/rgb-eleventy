@@ -1,0 +1,9 @@
+---
+permalink: /.htaccess
+eleventyExcludeFromCollections: true
+---
+{%- for article in collections.articles -%}
+  {%- for alias in article.data.aliases %}
+Redirect 301 "{{ alias }}" "{{ article.url }}"
+  {%- endfor -%}
+{%- endfor -%}

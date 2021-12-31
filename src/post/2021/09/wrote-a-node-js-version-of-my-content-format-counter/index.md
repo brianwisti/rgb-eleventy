@@ -1,7 +1,6 @@
 ---
 aliases:
 - /post/2021/09/wrote-a-node.js-version-of-my-content-format-counter/
-- files
 category: programming
 cover: /assets/img/post/2021/09/wrote-a-node-js-version-of-my-content-format-counter/cover.png
 date: 2021-09-04
@@ -11,6 +10,7 @@ format: md
 slug: wrote-a-node-js-version-of-my-content-format-counter
 tags:
 - Node.js
+- files
 title: Wrote a Node.js version of my content format counter
 ---
 
