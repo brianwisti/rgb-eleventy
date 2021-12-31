@@ -1,3 +1,4 @@
+const pluginRss = require("@11ty/eleventy-plugin-rss");
 const shikiTwoslash = require("eleventy-plugin-shiki-twoslash");
 
 const imageShortcode = require("./src/_11ty/shortcodes/imageShortcode.js");
@@ -7,6 +8,7 @@ module.exports = function (config) {
 
   config.setLibrary("md", markdownHandler());
   config.addPlugin(shikiTwoslash, { theme: "nord" });
+  config.addPlugin(pluginRss);
 
   // Bring in the Hugo sections as 11ty collections.
   config.addCollection(

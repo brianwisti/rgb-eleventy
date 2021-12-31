@@ -12,6 +12,9 @@ A reminder for when I'm staring at `package.json` in the middle of the night.
 `@11ty/eleventy-img`
 : simplify a little magic cropping for cards
 
+`@11ty/eleventy-plugin-rss`
+: for folks like me who prefer to get site updates in a feed reader
+
 `@types/node`
 : because Typescript wants it
 
