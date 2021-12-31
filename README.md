@@ -36,6 +36,9 @@ A reminder for when I'm staring at `package.json` in the middle of the night.
 `markdown-it-container`
 : for the many notes, warnings, and asides I sprinkle through my articles
 
+`markdown-it-deflist`
+: because I love definition lists
+
 `npm-run-all`
 : so can build styles and site pages at the same time
 
@@ -59,6 +62,12 @@ A reminder for when I'm staring at `package.json` in the middle of the night.
 I use a separate step for resizing images because I'd rather have Nunjucks
 macros than an `image` shortcode that resizes images, and Nunjucks async
 support is a "maybe someday" thing.
+
+## Annoyances
+
+It seems to periodically forget `sharp` is installed or something, and I
+periodically need to rerun `yarn upgrade` in the middle of working on the site.
+I do not consider this encouraging.
 
 ## Resources
 

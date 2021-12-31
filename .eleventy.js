@@ -22,6 +22,11 @@ module.exports = function (config) {
   );
 
   config.addCollection(
+    "articles",
+    require("./src/_11ty/collections/articles.js")
+  );
+
+  config.addCollection(
     "featuredPosts",
     require("./src/_11ty/collections/featuredPosts.js")
   );

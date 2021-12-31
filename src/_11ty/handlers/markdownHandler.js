@@ -3,6 +3,7 @@
 const markdownIt = require("markdown-it");
 const markdownItAttrs = require("markdown-it-attrs");
 const markdownItContainer = require("markdown-it-container");
+const markdownItDeflist = require("markdown-it-deflist");
 const XRegExp = require("xregexp");
 
 const knownAdmonitions = ["note", "admonition", "tip", "tldr", "warning"];
@@ -49,10 +50,13 @@ const buildContainerHandler = (container_name) => {
 
 module.exports = function () {
   let markdownItOptions = {
-    html: true
+    html: true,
+    typographer: true,
+    linkify: true,
   };
   let markdownLib = markdownIt(markdownItOptions)
     .use(markdownItAttrs)
+    .use(markdownItDeflist);
 
   knownAdmonitions.forEach(
     (name) => {

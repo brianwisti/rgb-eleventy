@@ -1,0 +1,21 @@
+---
+permalink: /post/index.xml
+eleventyExcludeFromCollections: true
+layout: layouts/feed.njk
+metadata:
+  title: Random Geekery Posts
+  subtitle: Longer ramblings, usually less frequent
+  url: https://randomgeekery.org/post
+  feedUrl: https://randomgeekery.org/post/feed.xml
+---
+{%- for post in collections.posts | newestEntries(10) -%}
+{%- set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset -%}
+  <entry>
+    <title>{{ post.data.title }}</title>
+    <link href="{{ absolutePostUrl }}"/>
+    <updated>{{ post.date | dateToRfc3339 }}</updated>
+    <id>{{ absolutePostUrl }}</id>
+    <content type="html">{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
+  </entry>
+  {%- endfor %}
+</feed>
