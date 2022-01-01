@@ -6,6 +6,8 @@ const markdownItContainer = require("markdown-it-container");
 const markdownItDeflist = require("markdown-it-deflist");
 const XRegExp = require("xregexp");
 
+const imageShortcode = require("../shortcodes/imageShortcode.js");
+
 const knownAdmonitions = ["note", "admonition", "tip", "tldr", "warning"];
 const skipNameIfUntitledFor = ["admonition"];
 
@@ -48,6 +50,7 @@ const buildContainerHandler = (container_name) => {
   };
 };
 
+
 module.exports = function () {
   let markdownItOptions = {
     html: true,
@@ -67,6 +70,29 @@ module.exports = function () {
       )
     }
   );
+
+  const defaultImageRender = markdownLib.renderer.rules.image;
+
+  // replace markdown images with responsive images in figures
+  markdownLib.renderer.rules.image = function (
+    tokens, idx, options, env, self
+  ) {
+    const token = tokens[idx];
+    const srcIndex = token.attrIndex("src");
+    const requestedUrl = token.attrs[srcIndex][1];
+    const imageAlt = token["content"];
+    const titleIndex = token.attrIndex("title");
+
+    let caption = "";
+
+    if (titleIndex >= 0) {
+      const title = token.attrs[titleIndex][1];
+      caption = `<figcaption>${title}</figcaption>`;
+    }
+
+    const imgMarkup = imageShortcode(requestedUrl, imageAlt);
+    return `<figure>${imgMarkup}${caption}</figure>`;
+  };
 
   return markdownLib;
 };

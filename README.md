@@ -65,9 +65,9 @@ support is a "maybe someday" thing.
 
 ## Annoyances
 
-It seems to periodically forget `sharp` is installed or something, and I
-periodically need to rerun `yarn upgrade` in the middle of working on the site.
-I do not consider this encouraging.
+It seems to periodically forget `sharp` is installed or something, and I run
+`yarn upgrade` every time I add a package, and sometimes when I didn't. I do
+not consider this encouraging.
 
 ## Resources
 

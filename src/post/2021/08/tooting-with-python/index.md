@@ -399,7 +399,7 @@ if __name__ == "__main__":
     app.status_post(status_text)
 ```
 
-![It worked!](/assets/img/post/2021/08/tooting-with-python/toot.jpg "screenshot of posted toot")
+![screenshot of posted toot](/assets/img/post/2021/08/tooting-with-python/toot.jpg "It worked!")
 
 Okay my brain is fading. Should probably put away the keyboard soon.
 
