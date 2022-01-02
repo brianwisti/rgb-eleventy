@@ -2,7 +2,7 @@ const Image = require('@11ty/eleventy-img');
 const fs = require('fs');
 const path = require('path');
 
-const ImageStore = require("../../_data/site_images.json");
+const ImageStore = require("../../../site_img/site_img.json");
 
 const AvailableWidths = [
   400,
@@ -11,14 +11,14 @@ const AvailableWidths = [
 ];
 
 
-module.exports = (url, alt, widths=AvailableWidths, sizes="100%") => {
+module.exports = (url, alt, widths = AvailableWidths, sizes = "100%") => {
   const { dir: imageDir } = path.parse(url);
   const srcPath = path.join('src', url);
   const imageAttributes = {
-      alt,
-      sizes,
-      loading: "lazy",
-      decoding: "async",
+    alt,
+    sizes,
+    loading: "lazy",
+    decoding: "async",
   };
 
   if (srcPath in ImageStore) {
