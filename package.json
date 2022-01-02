@@ -8,6 +8,7 @@
     "site:img": "ts-node build_tasks/process_images.ts",
     "site:content": "eleventy --quiet",
     "site:style": "sass ./src/assets/scss/main.scss ./dist/assets/css/main.css",
+    "site:prod": "INCLUDE_ANALYTICS=1 eleventy --quiet",
     "serve": "browser-sync start --server \"dist\" --files \"dist\" --no-open",
     "watch:site": "eleventy --watch --quiet",
     "watch:style": "sass --watch ./src/assets/scss/main.scss ./dist/assets/css/main.css",

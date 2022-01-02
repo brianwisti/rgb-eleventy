@@ -1,5 +1,11 @@
 {% extends "layouts/base.njk" %}
 
+{% from "macros/article_syndication.njk" import article_syndication %}
+
+{% block headmeta %}
+  <title>{{ title }} | Random Geekery</title>
+{% endblock %}
+
 {% block content %}
 <article>
     <header>
@@ -9,9 +15,19 @@
       {% block article_header %}
         <h1>{{ title }}</h1>
       {% endblock article_header %}
+      {% if announcements %}
+        <footer>
+          {{ article_syndication(announcements) }}
+        </footer>
+      {% endif %}
     </header>
     {% block article_content %}
         {{ content | safe }}
     {% endblock %}
+    {% if announcements %}
+      <footer>
+        {{ article_syndication(announcements) }}
+      </footer>
+    {% endif %}
 </article>
 {% endblock %}

@@ -1,7 +1,9 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Random Geekery</title>
+    {% block headmeta %}
+      <title>Random Geekery</title>
+    {% endblock %}
     <link
       href="https://fonts.googleapis.com/css?family=Kanit:400,400it,700&display=swap"
       rel="stylesheet">
@@ -9,6 +11,7 @@
       href="https://fonts.googleapis.com/css?family=Courier+Prime:400,400it,700,700it|Kanit:300,300it,500&display=swap"
       rel="stylesheet">
     <link rel="stylesheet" href="/assets/css/main.css">
+    {% include "partials/head_meta.njk" %}
   </head>
   <body>
     {% include "partials/masthead.njk" %}

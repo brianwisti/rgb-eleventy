@@ -1,0 +1,13 @@
+{% macro article_syndication(syndication_links) %}
+  <section class="syndication">
+    <p>
+      Got a comment? A question? More of a comment than a question?
+      Talk to me about this page on:
+    </p>
+    <ul class="syndication">
+      {% for service, href in syndication_links %}
+        <li><a href="{{ href }}">{{ service }}</a></li>
+      {% endfor %}
+    </ul>
+  </section>
+{% endmacro %}

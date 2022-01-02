@@ -3,6 +3,7 @@ const shikiTwoslash = require("eleventy-plugin-shiki-twoslash");
 
 const imageShortcode = require("./src/_11ty/shortcodes/imageShortcode.js");
 const markdownHandler = require("./src/_11ty/handlers/markdownHandler.js");
+const plausibleShortcode = require("./src/_11ty/shortcodes/plausibleShortcode.js");
 
 module.exports = function (config) {
 
@@ -55,7 +56,8 @@ module.exports = function (config) {
   config.setDataDeepMerge(true);
   config.addPassthroughCopy("src/assets/img");
   config.addPassthroughCopy("img");
-  config.addNunjucksShortcode('image', imageShortcode);
+  config.addNunjucksShortcode("image", imageShortcode);
+  config.addNunjucksShortcode("plausible", plausibleShortcode);
 
   return {
     dir: {
