@@ -55,7 +55,7 @@ module.exports = function (config) {
 
   config.setDataDeepMerge(true);
   config.addPassthroughCopy("src/assets/img");
-  config.addPassthroughCopy("img");
+  config.addPassthroughCopy({ "site_images": "dist/img" });
   config.addNunjucksShortcode("image", imageShortcode);
   config.addNunjucksShortcode("plausible", plausibleShortcode);
 

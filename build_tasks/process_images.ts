@@ -16,8 +16,7 @@ const ImageWidths = [
   1200,
 ];
 const SrcDir = "src";
-const ImageDir = "img";
-const DataDir = path.join(SrcDir, "_data");
+const ImageDir = "site_img";
 const MediaGlob = `${SrcDir}/**/*.{jpg,jpeg,JPG,png}`;
 
 const ensureDir = async (dirPath: string) => {
@@ -25,7 +24,7 @@ const ensureDir = async (dirPath: string) => {
     .then((s: fs.Stats) => true)
     .catch(err => false);
 
-  if (! dirExists) {
+  if (!dirExists) {
     console.log(`Creating ${dirPath}`);
     await fs.promises.mkdir(dirPath, { recursive: true });
   }
@@ -53,9 +52,8 @@ const processImages = async (srcDir: string, outputDir: string) => {
   };
 
   const imageStoreJSON = JSON.stringify(siteImageStore, null, 2);
-  const imageStorePath = path.join(DataDir, "site_images.json");
+  const imageStorePath = path.join(ImageDir, "site_images.json");
 
-  await ensureDir(DataDir);
   await fs.writeFile(imageStorePath, imageStoreJSON, (err) => {
     if (err) {
       throw err;
