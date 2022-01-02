@@ -13,19 +13,19 @@
   {% else %}
     <aside class="warning">
       <header>
-        <tt>partials/article_card.njk</tt> Template Issue
+        <tt>macros/article_card.njk</tt> Template Issue
       </header>
       {% if article %}
         <p>
-          <tt>partials/article_card.nj</tt> has <tt>article</tt> but no <tt>card_content</tt>!
+          <tt>macros/article_card.nj</tt> has <tt>article</tt> but no <tt>card_content</tt>!
         </p>
       {% elif card_content %}
         <p>
-          <tt>partials/article_card.nj</tt> has <tt>card_content</tt> but no <tt>article</tt>!
+          <tt>macros/article_card.nj</tt> has <tt>card_content</tt> but no <tt>article</tt>!
         </p>
       {% else %}
         <p>
-          <tt>partials/article_card.nj</tt> has neither <tt>card_content</tt> nor <tt>article</tt>!
+          <tt>macros/article_card.nj</tt> has neither <tt>card_content</tt> nor <tt>article</tt>!
         </p>
       {% endif %}
     </aside>

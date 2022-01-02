@@ -35,3 +35,13 @@ pre, code, tt {
     font-family: var(--code-font);
 }
 
+figure {
+  padding: 0;
+  margin: 0;
+
+  figcaption {
+    text-align: right;
+    font-weight: normal;
+    font-size: var(--size-300);
+  }
+}

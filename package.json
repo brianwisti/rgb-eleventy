@@ -12,7 +12,8 @@
     "serve": "browser-sync start --server \"dist\" --files \"dist\" --no-open",
     "watch:site": "eleventy --watch --quiet",
     "watch:style": "sass --watch ./src/assets/scss/main.scss ./dist/assets/css/main.css",
-    "watch": "npm-run-all --parallel serve watch:*"
+    "watch": "npm-run-all --parallel serve watch:*",
+    "push": "rsync -av dist/ vps:randomgeekery.org"
   },
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1",

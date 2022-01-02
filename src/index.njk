@@ -4,7 +4,42 @@
 {% from "macros/post_card.njk" import post_card %}
 
 {% block splash_intro %}
-  <p>Yo, welcome!</p>
+  <section class="h-card">
+    <header>
+      <p>
+        <a class="u-url u-uid" href="https://randomgeekery.org">
+          <span class="p-name">Brian Wisti</span>
+        </a>
+        ( <a class="u-pronoun" href="https://pronoun.is/he">he / him / his</a> )
+      </p>
+      <div class="photo-note">
+        <img class="u-photo" src="/assets/img/avatar-thumbnail.jpg" alt="Brian Wisti">
+        <p class="p-note">
+          Caffeinated, occasionally crafty geek near <span class="p-locality">Seattle</span>.
+          I like <span class="p-category">FOSS</span>,
+          <a class="p-category" href="/tag/drawing">drawing</a>,
+          and <a class="p-category" href="/tag/knitting">yarn</a>.
+        </p>
+      </div>
+    </header>
+    <footer>
+      <h3>Also find me at:</h3>
+      <section class="rel-me">
+        <a rel="me" href="https://hackers.town/@randomgeek"
+            class="u-url fa fa-mastodon"
+            title="Mastodon"
+            aria-label="Mastodon">
+          Mastodon
+        </a>
+        <a rel="me" href="https://twitter.com/brianwisti"
+            class="u-url fa fa-twitter"
+            title="Twitter"
+            aria-label="Twitter">
+          Twitter
+        </a>
+      </section>
+    </footer>
+  </section>
 {% endblock %}
 
 {% block splash_primary %}

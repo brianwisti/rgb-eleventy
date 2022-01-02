@@ -10,7 +10,14 @@
 <article>
     <header>
       {% if cover %}
+        <figure>
         {% image cover, "cover image" %}
+        {% if caption %}
+          <figcaption>
+            {{ caption }}
+          </figcaption>
+        {% endif %}
+        </figure>
       {% endif %}
       {% block article_header %}
         <h1>{{ title }}</h1>

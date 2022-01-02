@@ -16,13 +16,22 @@
   rel="alternate"
   type="application/rss+xml"
   title="Random Geekery Note Feed" />
-<meta property="og:url" content="{{ url }}">
+{%- set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset -%}
+<meta property="og:url" content="{{ absolutePostUrl }}">
 <meta property="og:title" content="{{ title }}">
 <meta name="twitter:title" content="{{ title }}">
 <meta name="twitter:site" content="@brianwisti">
 {% if description %}
   <meta name="twitter:description" content="{{ description }}">
   <meta name="og:description" content="{{ description }}">
+{% endif %}
+{% if cover %}
+  {%- set absoluteCoverUrl %}{{ cover | url | absoluteUrl(metadata.url) }}{% endset -%}
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="{{ absoluteCoverUrl }}">
+  <meta property="og:image" content="{{ absoluteCoverUrl }}">
+{% else %}
+  <meta name="twitter:card" content="summary">
 {% endif %}
 <link
   rel="webmention"
