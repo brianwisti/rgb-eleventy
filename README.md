@@ -25,9 +25,6 @@ A reminder for when I'm staring at `package.json` in the middle of the night.
 `alpine`
 : some of my site data experiments involve reading Apache log files
 
-`browser-sync`
-: so I don't need to manually refresh the browser during dev
-
 `eleventy-plugin-shiki-twoslash`
 : because I poke at all sorts of languages Prism has never heard of
 
@@ -52,11 +49,14 @@ A reminder for when I'm staring at `package.json` in the middle of the night.
 `markdown-it-deflist`
 : because I love definition lists
 
-`npm-run-all`
+[`npm-run-all`](https://www.npmjs.com/package/npm-run-all)
 : so can build styles and site pages at the same time
 
 `onchange`
 : so I don't have to rebuild styles myself
+
+[`rimraf`](https://www.npmjs.com/package/rimraf)
+: because everyone else is using it for their `(npm|yarn) clean` tasks
 
 `sass`
 : CSS style management

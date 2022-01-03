@@ -17,6 +17,7 @@ const ImageWidths = [
 ];
 const SrcDir = "src";
 const ImageDir = "site_img";
+const ImageStorePath = path.join(ImageDir, "site_img.json");
 const MediaGlob = `${SrcDir}/**/*.{jpg,jpeg,JPG,png}`;
 
 const ensureDir = async (dirPath: string) => {
@@ -52,14 +53,13 @@ const processImages = async (srcDir: string, outputDir: string) => {
   };
 
   const imageStoreJSON = JSON.stringify(siteImageStore, null, 2);
-  const imageStorePath = path.join(ImageDir, "site_images.json");
 
-  await fs.writeFile(imageStorePath, imageStoreJSON, (err) => {
+  await fs.writeFile(ImageStorePath, imageStoreJSON, (err) => {
     if (err) {
       throw err;
     }
 
-    console.log("Wrote image store to %s", imageStorePath);
+    console.log("Wrote image store to %s", ImageStorePath);
   });
 
 };
