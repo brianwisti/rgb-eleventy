@@ -4,8 +4,21 @@ eleventyExcludeFromCollections: true
 ---
 Header add Content-Security-Policy "default-src 'self' plausible.io;script-src 'self' plausible.io;font-src 'self' fonts.gstatic.com cdn.jsdelivr.net;style-src 'self' fonts.googleapis.com cdn.jsdelivr.net;"
 
-{%- for article in collections.articles -%}
+{% for article in collections.articles -%}
   {%- for alias in article.data.aliases %}
 Redirect 301 "{{ alias }}" "{{ article.url }}"
   {%- endfor -%}
-{%- endfor -%}
+{%- endfor %}
+
+Redirect 301 "/feed.xml" "/index.xml"
+Redirect 301 "/notes" "/note/"
+
+RewriteRule ^/bookmarks/tags(.*)$ /tag/$1 [R=301,NC,L]
+RewriteRule ^/categories(.*)$ /tag/$1 [R=301,NC,L]
+RewriteRule ^/hashtags(.*)$ /tag/$1 [R=301,NC,L]
+RewriteRule ^/notes/tags(.*)$ /tag/$1 [R=301,NC,L]
+RewriteRule ^/notes(.*)$ /note/$1 [R=301,NC,L]
+RewriteRule ^/posts/tags(.*)$ /tag/$1 [R=301,NC,L]
+RewriteRule ^/tags(.*)$ /tag/$1 [R=301,NC,L]
+RewriteRule ^/wp/category(.*)$ /tag/$1 [R=301,NC,L]
+RewriteRule ^/wp/tag(.*)$ /tag/$1 [R=301,NC,L]
