@@ -4,13 +4,6 @@
     {% block headmeta %}
       <title>Random Geekery</title>
     {% endblock %}
-    <link
-      href="https://fonts.googleapis.com/css?family=Kanit:400,400it,700&display=swap"
-      rel="stylesheet">
-    <link
-      href="https://fonts.googleapis.com/css?family=Courier+Prime:400,400it,700,700it|Kanit:300,300it,500&display=swap"
-      rel="stylesheet">
-    <link rel="stylesheet" href="/assets/css/main.css">
     {% include "partials/head_meta.njk" %}
   </head>
   <body>
@@ -35,15 +28,17 @@
         </p>
       </section>
       <section>
-        <p>Liberapay is patronage for the FOSS and CC community.</p>
-        <script src="https://liberapay.com/randomgeek/widgets/button.js"></script>
-        <noscript>
+        <p>
+          Liberapay is patronage for the FOSS and CC community.
+        </p>
+        <p>
           <a href="https://liberapay.com/randomgeek/donate">
-            <img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg">
+            <i class="fa fa-liberapay-square" aria-hidden="true"></i>
+            Become a patron using LiberaPay!
           </a>
-        </noscript>
-        <p>Become a patron!</p>
+        </p>
       </section>
     </footer>
+    {% plausible %}
   </body>
 </html>

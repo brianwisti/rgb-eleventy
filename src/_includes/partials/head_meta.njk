@@ -2,6 +2,17 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link
+  href="https://fonts.googleapis.com/css?family=Kanit:400,400it,700&display=swap"
+  media="screen"
+  rel="stylesheet">
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css"
+    integrity="sha256-XoaMnoYC5TH6/+ihMEnospgm0J1PM/nioxbOUdnM8HY="
+    media="screen"
+    crossorigin="anonymous">
+<link rel="stylesheet" media="screen" href="/assets/css/main.css">
+<link
   href="/index.xml"
   rel="alternate"
   type="application/rss+xml"
@@ -22,6 +33,7 @@
 <meta name="twitter:title" content="{{ title }}">
 <meta name="twitter:site" content="@brianwisti">
 {% if description %}
+  <meta name="description" content="{{ description }}">
   <meta name="twitter:description" content="{{ description }}">
   <meta name="og:description" content="{{ description }}">
 {% endif %}
@@ -39,4 +51,3 @@
 <link
   rel="pingback"
   href="https://webmention.io/randomgeekery.org/xmlrpc" />
-{% plausible %}

@@ -6,6 +6,7 @@ Just the latest attempt at building my site with Eleventy.
 
 A reminder for when I'm staring at `package.json` in the middle of the night.
 
+
 `@11ty/eleventy`
 : the SSG itself
 
@@ -15,14 +16,26 @@ A reminder for when I'm staring at `package.json` in the middle of the night.
 `@11ty/eleventy-plugin-rss`
 : for folks like me who prefer to get site updates in a feed reader
 
-`@types/node`
+`@small-tech/jsdb`
+: doing some experiments with examining site data
+
+`@types/*`
 : because Typescript wants it
+
+`alpine`
+: some of my site data experiments involve reading Apache log files
 
 `browser-sync`
 : so I don't need to manually refresh the browser during dev
 
 `eleventy-plugin-shiki-twoslash`
 : because I poke at all sorts of languages Prism has never heard of
+
+`fast-glob`
+: most of my site data is one form or another of file; this makes it easier to find them
+
+`fs-plus`
+: learning there are easier ways than Node.js stdlib to get at file info
 
 `luxon`
 : for tighter control of date formatting in my `<time />` elements

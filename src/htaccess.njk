@@ -2,6 +2,8 @@
 permalink: /.htaccess
 eleventyExcludeFromCollections: true
 ---
+Header add Content-Security-Policy "default-src 'self' plausible.io;script-src 'self' plausible.io;font-src 'self' fonts.gstatic.com cdn.jsdelivr.net;style-src 'self' fonts.googleapis.com cdn.jsdelivr.net;"
+
 {%- for article in collections.articles -%}
   {%- for alias in article.data.aliases %}
 Redirect 301 "{{ alias }}" "{{ article.url }}"

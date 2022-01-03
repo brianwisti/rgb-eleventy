@@ -17,7 +17,7 @@ module.exports = (url, alt, widths = AvailableWidths, sizes = "100%") => {
   const imageAttributes = {
     alt,
     sizes,
-    loading: "lazy",
+    //loading: "lazy",
     decoding: "async",
   };
 
