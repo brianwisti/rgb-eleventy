@@ -3,6 +3,6 @@
 
 module.exports = (collection) => {
   return collection
-    .getFilteredByGlob("./src/{note,post}/**/*.md")
+    .getFilteredByGlob("./src/content/{note,post}/**/*.md")
     .sort((a, b) => b.date - a.date);
 };

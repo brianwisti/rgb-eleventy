@@ -1,7 +1,7 @@
 ---
 caption: This note in Logseq document mode, using the Bonofix theme
 cover: /assets/img/note/2021/11/logseq-sure-does-work-hard-at-being-friendly/cover.png
-date: '2021-11-14'
+date: 2021-11-14 12:00:00-08:00
 format: md
 slug: logseq-sure-does-work-hard-at-being-friendly
 tags:

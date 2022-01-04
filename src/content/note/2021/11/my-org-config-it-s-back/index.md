@@ -1,6 +1,6 @@
 ---
 cover: /assets/img/note/2021/11/my-org-config-it-s-back/cover.png
-date: '2021-11-09T22:50:00-08:00'
+date: 2021-11-09 22:50:00-08:00
 slug: my-org-config-it-s-back
 tags:
 - org-config

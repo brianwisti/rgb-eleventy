@@ -20,7 +20,7 @@ title: Notes
   <ul>
     {% for year, notes in collections.notes | byYear %}
       <li>
-        <a href="/note/{{ year }}">{{ year }}</a>:
+        <a href="/note/{{ year }}/">{{ year }}</a>:
         {{ notes | length }}
       </li>
     {% endfor %}

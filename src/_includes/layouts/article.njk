@@ -22,7 +22,8 @@
       {% block article_header %}
         <h1>{{ title }}</h1>
       {% endblock article_header %}
-      {% if announcements %}
+      {% if page.url in posse %}
+        {% set announcements = posse[page.url] %}
         <footer>
           {{ article_syndication(announcements) }}
         </footer>

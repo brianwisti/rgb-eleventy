@@ -11,7 +11,7 @@
             {% endif %}
         </a>
         {% for tag in article.data.tags %}
-        <a class="tag" href="/tag/{{ tag | slug }}">{{ tag }}</a>
+        <a class="tag" href="/tag/{{ tag | slug }}/">{{ tag }}</a>
         {% endfor %}
     </div>
 {% endmacro %}

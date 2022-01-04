@@ -8,13 +8,13 @@ metadata:
   url: https://randomgeekery.org/note
   feedUrl: https://randomgeekery.org/note/feed.xml
 ---
-  {%- for post in collections.articles | newestEntries(10) -%}
-  {%- set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset -%}
-  <entry>
-    <title>{{ post.data.title }}</title>
-    <link href="{{ absolutePostUrl }}"/>
-    <updated>{{ post.date | dateToRfc3339 }}</updated>
-    <id>{{ absolutePostUrl }}</id>
-    <content type="html">{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
-  </entry>
-  {%- endfor %}
+{%- for post in collections.articles | newestEntries(10) -%}
+{%- set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset -%}
+<entry>
+  <title>{{ post.data.title }}</title>
+  <link href="{{ absolutePostUrl }}"/>
+  <updated>{{ post.date | dateToRfc3339 }}</updated>
+  <id>{{ absolutePostUrl }}</id>
+  <content type="html">{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
+</entry>
+{%- endfor %}

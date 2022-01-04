@@ -1,7 +1,7 @@
 ---
 caption: this time you get a screenshot **and** some links
 cover: /assets/img/note/2021/12/i-got-astro-working/cover.png
-date: 2021-12-23
+date: 2021-12-23 12:00:00-08:00
 format: md
 tags:
 - astro-dot-build

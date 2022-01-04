@@ -1,6 +1,6 @@
 ---
 cover: /assets/img/note/2021/11/drawing-and-site-shuffling-are-coping-techniques/cover.jpg
-date: 2021-11-07
+date: 2021-11-07 21:00:00-08:00
 slug: drawing-and-site-shuffling-are-coping-techniques
 tags:
 - drawing

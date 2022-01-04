@@ -22,7 +22,7 @@ title: Posts
   <ul>
     {% for year, posts in collections.posts | byYear %}
       <li>
-        <a href="/post/{{ year }}">{{ year }}</a>:
+        <a href="/post/{{ year }}/">{{ year }}</a>:
         {{ posts | length }}
       </li>
     {% endfor %}

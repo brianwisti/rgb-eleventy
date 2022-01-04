@@ -2,7 +2,7 @@
 aliases:
 - /note/2019/0003/
 - /note/2019/174/added-a-hugo-note-archetype/
-date: 2019-06-24 02:55:11
+date: 2019-06-24 02:55:11-08:00
 slug: added-a-hugo-note-archetype
 tags:
 - notes

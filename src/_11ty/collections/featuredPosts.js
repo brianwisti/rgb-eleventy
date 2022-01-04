@@ -2,7 +2,7 @@
 // But we could make a different rule later if we wanted!
 module.exports = (collection) => {
     return collection
-        .getFilteredByGlob("./src/post/**/*.md")
+        .getFilteredByGlob("./src/content/post/**/*.md")
         .sort((a, b) => b.date - a.date)
         .slice(0, 3)
 };

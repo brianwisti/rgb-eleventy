@@ -2,7 +2,7 @@
 aliases:
 - /note/2019/0001-hey/
 - /note/2019/172/a-quick-note/
-date: 2019-06-22 00:37:00
+date: 2019-06-22 00:37:00-08:00
 slug: a-quick-note
 tags:
 - notes

@@ -1,5 +1,5 @@
 ---
-date: 2021-12-30
+date: 2021-12-30 12:00:00-08:00
 title: meanwhile, weather
 cover: /assets/img/note/2021/12/meanwhile-weather/cover.jpg
 caption: hey we got some snow
