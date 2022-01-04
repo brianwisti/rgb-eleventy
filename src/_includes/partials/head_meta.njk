@@ -1,3 +1,5 @@
+{%- set baseUrl = "https://randomgeekery.org" -%}
+
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -27,24 +29,34 @@
   rel="alternate"
   type="application/rss+xml"
   title="Random Geekery Note Feed" />
-{%- set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset -%}
-<meta property="og:url" content="{{ absolutePostUrl }}">
-<meta property="og:title" content="{{ title }}">
-<meta name="twitter:title" content="{{ title }}">
-<meta name="twitter:site" content="@brianwisti">
 {% if description %}
   <meta name="description" content="{{ description }}">
-  <meta name="twitter:description" content="{{ description }}">
+{% endif %}
+{%- set absolutePostUrl %}{{ page.url | url | absoluteUrl(baseUrl) }}{% endset -%}
+<meta property="og:url" content="{{ absolutePostUrl }}">
+<meta property="og:title" content="{{ title }}">
+{% if description %}
   <meta name="og:description" content="{{ description }}">
 {% endif %}
 {% if cover %}
-  {%- set absoluteCoverUrl %}{{ cover | url | absoluteUrl(metadata.url) }}{% endset -%}
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="{{ absoluteCoverUrl }}">
+  {%- set absoluteCoverUrl %}{{ cover | url | absoluteUrl(baseUrl) }}{% endset -%}
   <meta property="og:image" content="{{ absoluteCoverUrl }}">
+{% endif %}
+{% if cover %}
+  <meta name="twitter:card" content="summary_large_image">
 {% else %}
   <meta name="twitter:card" content="summary">
 {% endif %}
+  <meta name="twitter:title" content="{{ title }}">
+  <meta name="twitter:site" content="@brianwisti">
+{% if description %}
+  <meta name="twitter:description" content="{{ description }}">
+{% endif %}
+{% if cover %}
+  {%- set absoluteCoverUrl %}{{ cover | url | absoluteUrl(baseUrl) }}{% endset -%}
+  <meta name="twitter:image" content="{{ absoluteCoverUrl }}">
+{% endif %}
+
 <link
   rel="webmention"
   href="https://webmention.io/randomgeekery.org/webmention" />

@@ -11,32 +11,32 @@
     <main>
       {% block content %}{% endblock %}
     </main>
-    <footer>
+    <footer class="sitefooter">
+      <p class="license">
+        This work is licensed under a
+        <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+      </p>
       <section>
-        <p>
-          Built with <a href="https://11ty.dev">Eleventy</a>!
-        </p>
-      </section>
-      <section>
-        <p>
-          This work is licensed under a
-          <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
-        </p>
-        <p>
-          Check out the <a href="https://github.com/brianwisti/rgb-eleventy">repo</a>
-          if you're curious how any of this got thrown together.
-        </p>
-      </section>
-      <section>
-        <p>
-          Liberapay is patronage for the FOSS and CC community.
-        </p>
-        <p>
-          <a href="https://liberapay.com/randomgeek/donate">
-            <i class="fa fa-liberapay-square" aria-hidden="true"></i>
-            Become a patron using LiberaPay!
-          </a>
-        </p>
+        <section>
+          <p>
+            Built with <a href="https://11ty.dev">Eleventy</a>!
+          </p>
+          <p>
+            Use the <a href="https://github.com/brianwisti/rgb-eleventy">repo</a>
+            to learn from my ideas and terrible mistakes.
+          </p>
+        </section>
+        <section>
+          <p>
+            Liberapay is patronage for the FOSS and CC community.
+          </p>
+          <p>
+            <a href="https://liberapay.com/randomgeek/donate">
+              <i class="fa fa-liberapay-square" aria-hidden="true"></i>
+              Become a patron using LiberaPay!
+            </a>
+          </p>
+        </section>
       </section>
     </footer>
     {% plausible %}
