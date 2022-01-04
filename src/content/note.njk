@@ -1,0 +1,28 @@
+---
+permalink: /note/
+title: Notes
+---
+{% extends "layouts/splash.njk" %}
+
+{% from "macros/note_card.njk" import note_card %}
+
+{% block splash_intro %}
+  <p>These are my notes!</p>
+{% endblock %}
+
+{% block splash_primary %}
+  {% for note in collections.notes | newestEntries(10) %}
+      {{ note_card(note = note)}}
+  {% endfor %}
+{% endblock %}
+
+{% block splash_secondary %}
+  <ul>
+    {% for year, notes in collections.notes | byYear %}
+      <li>
+        <a href="/note/{{ year }}">{{ year }}</a>:
+        {{ notes | length }}
+      </li>
+    {% endfor %}
+  </ul>
+{% endblock %}
