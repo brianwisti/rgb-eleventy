@@ -4,7 +4,7 @@ date: 2022-01-04
 description: What I am up to as of 2022-01-04
 title: Now
 layout: layouts/article.njk
-permalnk: /now/
+permalink: /now/
 ---
 
 :::note
