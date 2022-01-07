@@ -1,4 +1,5 @@
 const pluginRss = require("@11ty/eleventy-plugin-rss");
+const sass = require("sass");
 const shikiTwoslash = require("eleventy-plugin-shiki-twoslash");
 
 const imageShortcode = require("./src/_11ty/shortcodes/imageShortcode.js");
@@ -32,6 +33,25 @@ module.exports = function (config) {
     require("./src/_11ty/collections/featuredPosts.js")
   );
 
+  // Let Eleventy handle SASS
+  //  see https://www.11ty.dev/docs/languages/custom/#example-add-sass-support-to-eleventy
+  config.addTemplateFormats("scss");
+  config.addExtension("scss", {
+    outputFileExtension: "css",
+
+    compile: async function(inputContent, inputPath) {
+
+      return async (data) => {
+        let result = sass.renderSync({
+          file: inputPath,
+          data: inputContent,
+        });
+        console.log(result);
+        return result.css.toString("utf8");;
+      };
+    }
+  });
+
   // Add filters for the things Nunjucks won't do by itself.
   config.addFilter(
     "byYear",
@@ -54,8 +74,10 @@ module.exports = function (config) {
   )
 
   config.setDataDeepMerge(true);
+
   config.addPassthroughCopy("src/assets/img");
   config.addPassthroughCopy({ "site_img": "img" });
+
   config.addNunjucksShortcode("image", imageShortcode);
   config.addNunjucksShortcode("plausible", plausibleShortcode);
 

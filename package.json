@@ -5,8 +5,8 @@
   "author": "Brian Wisti <brianwisti@pobox.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "npm-run-all --parallel serve watch:style",
-    "build:dev": "npm-run-all --serial site:img site:style site:content",
+    "dev": "yarn serve",
+    "build:dev": "npm-run-all --serial site:img site:content",
     "build:prod": "npm-run-all --serial site:img site:style site:content:prod",
     "clean": "rimraf dist",
     "logs:fetch": "rsync -rLtv --exclude='*analog*' --exclude='.htpasswd' vps:logs/randomgeekery.org/ ~/Dropbox/logs/randomgeekery.org",
@@ -15,12 +15,10 @@
     "serve": "eleventy --serve --quiet",
     "site:img": "ts-node build_tasks/process_images.ts",
     "site:content": "eleventy --quiet",
-    "site:content:prod": "INCLUDE_ANALYTICS=1 eleventy --quiet",
-    "site:style": "sass ./src/assets/scss/main.scss ./dist/assets/css/main.css",
-    "watch:style": "sass --watch ./src/assets/scss/main.scss ./dist/assets/css/main.css"
+    "site:content:prod": "INCLUDE_ANALYTICS=1 eleventy --quiet"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^0.12.1",
+    "@11ty/eleventy": "^1.0.0-beta.10",
     "@11ty/eleventy-img": "^1.0.0",
     "@11ty/eleventy-plugin-rss": "^1.1.2",
     "@small-tech/jsdb": "^2.0.6",
