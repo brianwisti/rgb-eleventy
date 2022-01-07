@@ -1,9 +1,9 @@
 {% from "macros/tag_link.njk" import tag_link %}
 
 {% macro tag_list(tags) %}
-  <ul>
+  <div class="item-tags">
     {% for tag in tags %}
-      <li>{{ tag_link(tag) }}</li>
+      {{ tag_link(tag) }}
     {% endfor %}
-  </ul>
+  </div>
 {% endmacro %}

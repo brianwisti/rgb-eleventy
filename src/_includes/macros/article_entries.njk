@@ -1,11 +1,11 @@
 {% from "macros/article_entry.njk" import article_entry %}
 
 {% macro article_entries(articles) %}
-    <ul>
-    {% for article in articles %}
-        <li>{{ article_entry(article=article) }}</li>
-    {% else %}
-        <li>None?</li>
-    {% endfor %}
-    </ul>
+  <div>
+  {% for article in articles %}
+    {{ article_entry(article=article) }}
+  {% else %}
+    <div>None?</div>
+  {% endfor %}
+  </div>
 {% endmacro %}

@@ -46,7 +46,7 @@ module.exports = function (config) {
           file: inputPath,
           data: inputContent,
         });
-        console.log(result);
+        console.log("If I don't log here, shiki fails. I don't know.");
         return result.css.toString("utf8");;
       };
     }

@@ -1,8 +1,9 @@
 {% from "macros/date_stamp.njk" import date_stamp %}
+{% from "macros/tag_list.njk" import tag_list %}
 
 {% macro article_entry(article) %}
-    <div>
-        {{ date_stamp(article.date) }}
+    <div class="entry">
+      <div class="entry-details">
         <a href="{{ article.url | url }}">
             {% if article.data.title %}
                 {{ article.data.title }}
@@ -10,8 +11,8 @@
                 <code>{{ article.url }}</code>
             {% endif %}
         </a>
-        {% for tag in article.data.tags %}
-        <a class="tag" href="/tag/{{ tag | slug }}/">{{ tag }}</a>
-        {% endfor %}
+        {{ date_stamp(article.date) }}
+      </div>
+      {{ tag_list(article.data.tags) }}
     </div>
 {% endmacro %}

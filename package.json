@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "yarn serve",
     "build:dev": "npm-run-all --serial site:img site:content",
-    "build:prod": "npm-run-all --serial site:img site:style site:content:prod",
+    "build:prod": "npm-run-all --serial site:img site:content:prod",
     "clean": "rimraf dist",
     "logs:fetch": "rsync -rLtv --exclude='*analog*' --exclude='.htpasswd' vps:logs/randomgeekery.org/ ~/Dropbox/logs/randomgeekery.org",
     "logs:load": "node build_tasks/process_logs.mjs",
