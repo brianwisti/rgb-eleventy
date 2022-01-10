@@ -1,0 +1,95 @@
+// Layout of main page components
+
+// {{{ My awesome site header
+header.masthead {
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+
+  @media screen and (min-width: 1024px) {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+      "tag-line flag ear";
+  }
+
+  .flag {
+    grid-area: flag;
+    font-size: var(--size-700);
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .tag-line {
+    grid-area: tag-line;
+    font-size: var(--size-400);
+    font-style: italic;
+  }
+
+  nav.ear {
+    grid-area: ear;
+    display: flex;
+    justify-content: space-between;
+
+    a {
+      margin: 0 1rem;
+      font-weight: 500;
+    }
+  }
+
+  a[href] {
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+// }}}
+
+// {{{ My awesome site footer
+.sitefooter {
+  & > section {
+    display: flex;
+    justify-content: space-between;
+
+    p {
+      margin: 0;
+      padding: 0;
+    }
+  }
+
+  .license {
+    text-align: center;
+  }
+}
+// }}}
+
+// {{{ My poorly named "splash" content block
+// Includes an info block, a primary focus, and a secondary focus
+// displayed in columns for larger screens
+.splash {
+  max-width: 90vw;
+  margin: 0 auto;
+
+  @media screen and (min-width: 1000px) {
+    display: grid;
+    grid-gap: var(--gap-100);
+    grid-template-columns: 1fr 2fr;
+  }
+
+  @media screen and (min-width: 1400px) {
+    grid-template-columns: 1fr 3fr;
+  }
+
+  .nested {
+    @media screen and (min-width: 1400px) {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: var(--gap-100);
+    }
+  }
+}
+// }}}

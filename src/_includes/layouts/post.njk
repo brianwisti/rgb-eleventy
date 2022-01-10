@@ -6,5 +6,8 @@
 {% block article_header %}
   <h1>{{ title }}</h1>
   <p>{{ date_stamp(date) }}</p>
+  {% if description %}
+    <p class="description">{{ description }}</p>
+  {% endif %}
   <p>{{ tag_list(tags) }}</p>
 {% endblock article_header %}

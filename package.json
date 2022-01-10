@@ -5,8 +5,7 @@
   "author": "Brian Wisti <brianwisti@pobox.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "yarn serve",
-    "build:dev": "npm-run-all --serial site:img site:content",
+    "build": "npm-run-all --serial site:img site:content",
     "build:prod": "npm-run-all --serial site:img site:content:prod",
     "clean": "rimraf dist",
     "logs:fetch": "rsync -rLtv --exclude='*analog*' --exclude='.htpasswd' vps:logs/randomgeekery.org/ ~/Dropbox/logs/randomgeekery.org",
@@ -18,7 +17,7 @@
     "site:content:prod": "INCLUDE_ANALYTICS=1 eleventy --quiet"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.0-beta.10",
+    "@11ty/eleventy": "^1.0.0",
     "@11ty/eleventy-img": "^1.0.0",
     "@11ty/eleventy-plugin-rss": "^1.1.2",
     "@small-tech/jsdb": "^2.0.6",

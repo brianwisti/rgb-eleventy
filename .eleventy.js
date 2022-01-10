@@ -1,85 +1,75 @@
+// plugins
 const pluginRss = require("@11ty/eleventy-plugin-rss");
-const sass = require("sass");
 const shikiTwoslash = require("eleventy-plugin-shiki-twoslash");
 
+// my file / content handlers
+const MarkdownHandler = require("./src/_11ty/handlers/MarkdownHandler.js");
+const SassHandler = require("./src/_11ty/handlers/SassHandler.js");
+
+// my shortcodes
 const imageShortcode = require("./src/_11ty/shortcodes/imageShortcode.js");
-const markdownHandler = require("./src/_11ty/handlers/markdownHandler.js");
 const plausibleShortcode = require("./src/_11ty/shortcodes/plausibleShortcode.js");
 
-module.exports = function (config) {
+module.exports = function (eleventyConfig) {
 
-  config.setLibrary("md", markdownHandler());
-  config.addPlugin(shikiTwoslash, { theme: "nord" });
-  config.addPlugin(pluginRss);
+  eleventyConfig.setLibrary("md", MarkdownHandler());
+  eleventyConfig.addPlugin(shikiTwoslash, { theme: "nord" });
+  eleventyConfig.addPlugin(pluginRss);
 
   // Bring in the Hugo sections as 11ty collections.
-  config.addCollection(
+  eleventyConfig.addCollection(
     "notes",
     require("./src/_11ty/collections/notes.js")
   );
 
-  config.addCollection(
+  eleventyConfig.addCollection(
     "posts",
     require("./src/_11ty/collections/posts.js")
   );
 
-  config.addCollection(
+  eleventyConfig.addCollection(
     "articles",
     require("./src/_11ty/collections/articles.js")
   );
 
-  config.addCollection(
+  eleventyConfig.addCollection(
     "featuredPosts",
     require("./src/_11ty/collections/featuredPosts.js")
   );
 
   // Let Eleventy handle SASS
   //  see https://www.11ty.dev/docs/languages/custom/#example-add-sass-support-to-eleventy
-  config.addTemplateFormats("scss");
-  config.addExtension("scss", {
-    outputFileExtension: "css",
-
-    compile: async function(inputContent, inputPath) {
-
-      return async (data) => {
-        let result = sass.renderSync({
-          file: inputPath,
-          data: inputContent,
-        });
-        console.log("If I don't log here, shiki fails. I don't know.");
-        return result.css.toString("utf8");;
-      };
-    }
-  });
+  eleventyConfig.addTemplateFormats("scss");
+  eleventyConfig.addExtension("scss", SassHandler);
 
   // Add filters for the things Nunjucks won't do by itself.
-  config.addFilter(
+  eleventyConfig.addFilter(
     "byYear",
     require("./src/_11ty/filters/byYear.js")
   );
 
-  config.addFilter(
+  eleventyConfig.addFilter(
     "dateFormat",
     require("./src/_11ty/filters/dateFormat.js")
   );
 
-  config.addFilter(
+  eleventyConfig.addFilter(
     "forYear",
     require("./src/_11ty/filters/forYear.js")
   )
 
-  config.addFilter(
+  eleventyConfig.addFilter(
     "newestEntries",
     require("./src/_11ty/filters/newestEntries.js")
   )
 
-  config.setDataDeepMerge(true);
+  eleventyConfig.setDataDeepMerge(true);
 
-  config.addPassthroughCopy("src/assets/img");
-  config.addPassthroughCopy({ "site_img": "img" });
+  eleventyConfig.addPassthroughCopy("src/assets/img");
+  eleventyConfig.addPassthroughCopy({ "site_img": "img" });
 
-  config.addNunjucksShortcode("image", imageShortcode);
-  config.addNunjucksShortcode("plausible", plausibleShortcode);
+  eleventyConfig.addNunjucksShortcode("image", imageShortcode);
+  eleventyConfig.addNunjucksShortcode("plausible", plausibleShortcode);
 
   return {
     dir: {
