@@ -243,7 +243,9 @@ async function main() {
     twitter: tweetUrl,
   };
   console.log(posseRecords[newestArticle.permalink]);
-  fs.writeJsonSync("src/_data/posse.json", posseRecords);
+
+  const posseRecordsJson = JSON.stringify(posseRecords, null, 2);
+  fs.writeFileSync("src/_data/posse.json", posseRecordsJson);
 }
 
 main();
