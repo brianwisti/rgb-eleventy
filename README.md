@@ -6,7 +6,6 @@ Just the latest attempt at building my site with Eleventy.
 
 A reminder for when I'm staring at `package.json` in the middle of the night.
 
-
 `@11ty/eleventy`
 : the SSG itself
 
@@ -49,6 +48,9 @@ A reminder for when I'm staring at `package.json` in the middle of the night.
 `markdown-it-deflist`
 : because I love definition lists
 
+[`masto`](https://neet.github.io/masto.js/)
+: for syndication to Mastodon
+
 [`npm-run-all`](https://www.npmjs.com/package/npm-run-all)
 : so can build styles and site pages at the same time
 
@@ -63,6 +65,9 @@ A reminder for when I'm staring at `package.json` in the middle of the night.
 
 `ts-node`
 : to let me use Typescript for my my utility code
+
+[twitter-api-v2](https://www.npmjs.com/package/twitter-api-v2)
+: for syndication to Twitter
 
 `typescript`
 : to simplify finding mistakes in the code I write
@@ -92,7 +97,7 @@ Sites and posts that I'm leaning on heavily while I assemble this thing.
 - [Nunjucks Templating
   Docs](https://mozilla.github.io/nunjucks/templating.html)
 - [Consistent, Fluidly Scaling Type and Spacing](https://css-tricks.com/consistent-fluidly-scaling-type-and-spacing/)
-- [Eleventy Image Lazy Loading](https://www.aleksandrhovhannisyan.com/blog/eleventy-image-lazy-loading/) 
+- [Eleventy Image Lazy Loading](https://www.aleksandrhovhannisyan.com/blog/eleventy-image-lazy-loading/)
 - [Newspaper terms
   PDF](https://nieonline.com/coloradonie/downloads/journalism/GlossaryOfNewspaperTerms.pdf)
   for when I'm running blank on CSS class names

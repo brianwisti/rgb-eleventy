@@ -14,16 +14,19 @@
     "serve": "eleventy --serve --quiet",
     "site:img": "ts-node build_tasks/process_images.ts",
     "site:content": "eleventy --quiet",
-    "site:content:prod": "INCLUDE_ANALYTICS=1 eleventy --quiet"
+    "site:content:prod": "INCLUDE_ANALYTICS=1 eleventy --quiet",
+    "syndicate": "ts-node build_tasks/syndicate.ts"
   },
   "devDependencies": {
     "@11ty/eleventy": "^1.0.0",
     "@11ty/eleventy-img": "^1.0.0",
     "@11ty/eleventy-plugin-rss": "^1.1.2",
     "@small-tech/jsdb": "^2.0.6",
+    "@types/fs-extra": "^9.0.13",
     "@types/fs-plus": "^3.0.2",
     "@types/node": "^17.0.5",
     "alpine": "^0.2.1",
+    "axios": "^0.24.0",
     "eleventy-plugin-shiki-twoslash": "^1.0.43",
     "fast-glob": "^3.2.7",
     "fs-plus": "^3.1.1",
@@ -32,12 +35,15 @@
     "markdown-it-attrs": "^4.1.1",
     "markdown-it-container": "^3.0.0",
     "markdown-it-deflist": "^2.1.0",
+    "masto": "^4.2.4",
     "npm-run-all": "^4.1.5",
     "onchange": "^7.1.0",
     "rimraf": "^3.0.2",
     "sass": "^1.45.1",
     "sharp": "^0.29.3",
     "ts-node": "^10.4.0",
+    "twitter-api-v2": "^1.9.1",
+    "twitter.js": "^0.11.0",
     "typescript": "^4.5.4",
     "xregexp": "^5.1.0"
   }

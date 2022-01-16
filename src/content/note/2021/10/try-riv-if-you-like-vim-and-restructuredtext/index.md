@@ -1,20 +1,20 @@
 ---
 cover: /assets/img/note/2021/10/try-riv-if-you-like-vim-and-restructuredtext/cover.png
-date: '2021-10-23'
+date: 2021-10-23 12:00:00-08:00
 format: rst
 slug: try-riv-if-you-like-vim-and-restructuredtext
 tags:
-- vim
-- rst
-- second brain
+  - vim
+  - rst
+  - second brain
 title: Try Riv if you like Vim and reStructuredText
 uuid: cd48c5df-6fd5-4058-9780-bd7b87c48f91
 ---
 
-[Riv]: https://github.com/gu-fan/riv.vim
-[Deft for Emacs]: https://jblevins.org/projects/deft/
-[Vim]: https://www.vim.org/
-[reStructuredText]: https://docutils.sourceforge.io/
+[riv]: https://github.com/gu-fan/riv.vim
+[deft for emacs]: https://jblevins.org/projects/deft/
+[vim]: https://www.vim.org/
+[restructuredtext]: https://docutils.sourceforge.io/
 
 [Riv][] is a wiki, but feels like more of a notebook. Think [Deft for Emacs][]
 with journaling and HTML publishing. What makes Riv interesting — aside from the
