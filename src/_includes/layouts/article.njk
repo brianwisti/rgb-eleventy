@@ -32,10 +32,5 @@
     {% block article_content %}
         {{ content | safe }}
     {% endblock %}
-    {% if announcements %}
-      <footer>
-        {{ article_syndication(announcements) }}
-      </footer>
-    {% endif %}
 </article>
 {% endblock %}
