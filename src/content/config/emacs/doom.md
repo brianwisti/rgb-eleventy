@@ -1,8 +1,8 @@
 ---
 title: "Emacs Doom config"
-author: ["Brian Wisti"]
+author: ["Random Geek"]
 description: "Still trying"
-updated: 2022-01-04T22:56:29-08:00
+updated: 2022-02-19T22:45:44-08:00
 tags: ["org-config", "emacs"]
 draft: false
 weight: 10
@@ -28,7 +28,7 @@ Again, grabbing a useful tip from the original
 
 For the moment here's the contents of my `init.el`. If you've wandered in from some search engine looking for setup hints, be aware that my package listing here may not be up to date with what you see in a brand new Doom config!
 
-```lisp
+```elisp
 (doom! :input
        ;;japanese
        ;;layout            ; auie,ctsrnm is the superior home row
@@ -101,7 +101,7 @@ For the moment here's the contents of my `init.el`. If you've wandered in from s
        :tools
        ;;ansible
        ;;debugger          ; FIXME stepping through code, to help you add bugs
-       ;;direnv
+       direnv
        ;;docker
        ;;editorconfig      ; let someone else argue about tabs vs spaces
        ;;ein               ; tame Jupyter notebooks with emacs
@@ -116,7 +116,7 @@ For the moment here's the contents of my `init.el`. If you've wandered in from s
        ;;prodigy           ; FIXME managing external services & code builders
        ;;rgb               ; creating color strings
        ;;taskrunner        ; taskrunner for all your projects
-       ;;terraform         ; infrastructure as code
+       terraform         ; infrastructure as code
        tmux              ; an API for interacting with tmux
        ;;upload            ; map local to remote projects via ssh/ftp
 
@@ -164,7 +164,6 @@ For the moment here's the contents of my `init.el`. If you've wandered in from s
        (org                ; organize your plain life in plain text
         +hugo             ; - export Org files to Hugo sections
         +org-plus-contrib
-        +pretty
         +roam2)
        ;;php               ; perl's insecure younger brother
        ;;plantuml          ; diagrams for confusing people more
@@ -177,7 +176,7 @@ For the moment here's the contents of my `init.el`. If you've wandered in from s
        raku              ; the artist formerly known as perl6
        ;;rest              ; Emacs as a REST client
        rst               ; ReST in peace
-       (ruby +rails)     ; 1.step {|i| p "Ruby is #{i.even? ? 'love' : 'life'}"}
+       ruby     ; 1.step {|i| p "Ruby is #{i.even? ? 'love' : 'life'}"}
        rust              ; Fe2O3.unwrap().unwrap().unwrap().unwrap()
        ;;scala             ; java, but good
        ;;scheme            ; a fully conniving family of lisps
@@ -230,7 +229,7 @@ However, I know I'll need this bit:
 > You can also try `gd` (or `C-c c d`) to jump to their definition and see how
 > they are implemented.
 
-```lisp
+```elisp
 <<config.el prelude>>
 
 <<set personal variables>>
@@ -245,13 +244,16 @@ However, I know I'll need this bit:
 <<configure company>>
 <<configure projectile>>
 
+<<configure pylsp>>
+<<use python-black>>
+
 <<configure doom dashboard>>
 ```
 
 This preface seems relevant when you have `literate` enabled in Doom.
 
 <a id="code-snippet--config.el prelude"></a>
-```lisp
+```emacs-lisp
 ;;; $DOOMDIR/config.el -*- lexical-binding: t; -*-
 ```
 
@@ -261,7 +263,7 @@ This preface seems relevant when you have `literate` enabled in Doom.
 Some are preferences, some are handy ways to define my environment.
 
 <a id="code-snippet--set personal variables"></a>
-```lisp
+```elisp
 (setq user-full-name "Brian Wisti"
       user-mail-address "brianwisti@pobox.com")
 (setq bmw/local-root
@@ -284,19 +286,19 @@ My personal favorite code font is FantasqueSansMono.
 [emacs-doom-themes](https://github.com/hlissner/emacs-doom-themes) includes _many_ options, but I seem to have settled on Fairy Floss for my aesthetic.
 
 <a id="code-snippet--configure fonts"></a>
-```lisp
+```elisp
 (setq bmw/font-mono
       (if (string-equal system-type "windows-nt")
-	  "FantasqueSansMono NF"
-	"FantasqueSansMono Nerd Font"))
+    "FantasqueSansMono NF"
+  "FantasqueSansMono Nerd Font"))
 
-(setq doom-font (font-spec :family bmw/font-mono :size 20)
+(setq doom-font (font-spec :family bmw/font-mono :size 18)
       doom-big-font (font-spec :family bmw/font-mono :size 24)
       doom-theme 'doom-fairy-floss)
 ```
 
 <a id="code-snippet--display line numbers"></a>
-```lisp
+```elisp
 (setq display-line-numbers-type t)
 ```
 
@@ -306,7 +308,6 @@ My personal favorite code font is FantasqueSansMono.
 Honestly, [Org mode](https://orgmode.org) is mostly what I use Emacs for.
 
 <div class="note">
-  <div></div>
 
 [Logseq](https://logseq.com) does great as a sort of org-mode-light, and I highly recommend it if you want a less complex tool for managing notes and tasks. OTOH its org parser does not yet provide 100% of what I expect. I can't quite abandon org mode yet.
 
@@ -320,7 +321,7 @@ Tasks could be in notes, journal, or the actual agenda folder.
 Sometimes I want to enable mixed-pitch-mode for Org, and sometimes I don't. Eventually I'll use some clever approach to toggle, but for now I just include this bit when I want it.
 
 <a id="code-snippet--mixed pitch org mode"></a>
-```lisp
+```elisp
 (add-hook! 'org-mode-hook #'mixed-pitch-mode)
 (setq mixed-pitch-variable-pitch-cursor nil)
 ```
@@ -328,7 +329,7 @@ Sometimes I want to enable mixed-pitch-mode for Org, and sometimes I don't. Even
 My `org-directory` is on a folder synchronized across multiple machines. Probably want to keep things like generated `org-id` values synchronized as well.
 
 <a id="code-snippet--keep org files and data together"></a>
-```lisp
+```elisp
 (setq
  org-directory bmw/org-dir
  org-id-locations-file (expand-file-name ".orgids" bmw/org-dir)
@@ -339,7 +340,7 @@ My `org-directory` is on a folder synchronized across multiple machines. Probabl
 Make sure that tasks I think of on the spur of the moment in `org/roam/daily` get included in my Agenda views.
 
 <a id="code-snippet--find agenda tasks recursively"></a>
-```lisp
+```elisp
 (setq
  org-agenda-files (directory-files-recursively bmw/org-dir "\\.org$" t))
 ```
@@ -347,7 +348,7 @@ Make sure that tasks I think of on the spur of the moment in `org/roam/daily` ge
 My brain insists on a particular set of state keywords for my tasks.
 
 <a id="code-snippet--set my custom org todo keywords"></a>
-```lisp
+```elisp
 (setq
  org-todo-keywords `((sequence
                       "LATER(l)" "NOW(n)" "MAYBE(m)" "PROJECT(p)"
@@ -358,7 +359,7 @@ My brain insists on a particular set of state keywords for my tasks.
 Throw all of it together, along with the things I don't feel like explaining right now:
 
 <a id="code-snippet--configure org mode"></a>
-```lisp
+```elisp
 
 (after! org
   <<keep org files and data together>>
@@ -381,13 +382,12 @@ Throw all of it together, along with the things I don't feel like explaining rig
 Having trouble with `ox-hugo`. It fails telling me that there's no function for backtraces. Hopefully this fixes it!
 
 <a id="code-snippet--require backtrace in ox-hugo"></a>
-```lisp
+```elisp
 (after! ox-hugo
   (require 'backtrace))
 ```
 
 <div class="note">
-  <div></div>
 
 It sort of fixes it. I get a backtrace, but I also get my content exported. I'll take it.
 
@@ -401,7 +401,7 @@ An autocompletion framework of some kind? I'd like to tone it down, but first I'
 Also keeping [doom docs](https://docs.doomemacs.org/latest/modules/completion/company/) handy.
 
 <a id="code-snippet--configure company"></a>
-```lisp
+```elisp
 (after! company
   (setq company-idle-delay 0.5
         company-minimum-prefix-length 3
@@ -416,7 +416,7 @@ Also keeping [doom docs](https://docs.doomemacs.org/latest/modules/completion/co
 [Projectile](https://docs.projectile.mx/projectile/index.html) provides one approach to project management in Emacs.
 
 <a id="code-snippet--configure projectile"></a>
-```lisp
+```elisp
 (after! projectile
   (dolist (project bmw/projects)
     (projectile-add-known-project project)))
@@ -426,7 +426,7 @@ Also keeping [doom docs](https://docs.doomemacs.org/latest/modules/completion/co
 ### Doom Dashboard {#doom-dashboard}
 
 <a id="code-snippet--configure doom dashboard"></a>
-```lisp
+```elisp
 (setq +doom-dashboard-menu-sections
   '(("Reload last session"
     :icon (all-the-icons-octicon "history" :face 'doom-dashboard-menu-title)
@@ -467,7 +467,7 @@ For now let's just use [CPerl Mode](https://www.emacswiki.org/emacs/CPerlMode) w
 
 \#+ name: configure perl settings
 
-```lisp
+```elisp
 (defalias 'perl-mode 'cperl-mode)
 (setq
  cperl-hairy t
@@ -479,8 +479,39 @@ For now let's just use [CPerl Mode](https://www.emacswiki.org/emacs/CPerlMode) w
 ```
 
 
-## `packages.el` {#packages-dot-el}
+### Python {#python}
 
-Nothing here yet, but this is where I would install packages beyond the plethora of options bundled with Doom.
+Having a language server is nice, but I can't just use the defaults.
 
-And when I do hit that point, I may want to look at the [Doom packages example](https://github.com/hlissner/doom-emacs/blob/develop/core/templates/packages.example.el).
+For one thing, I prefer black's 88 character default line length to Flake's 79 character default.
+
+<a id="code-snippet--configure pylsp"></a>
+```elisp
+(setq lsp-pylsp-plugins-flake8-max-line-length 88)
+```
+
+For some strange reason I'm not getting any formatting applied when I save an obviously long line of Python. So I'll borrow from a [gist](https://gist.github.com/jordangarrison/8720cf98126a1a64890b2f18c1bc69f5g) describing how someone set `python-black` up with Doom.
+
+<a id="code-snippet--use python-black"></a>
+```elisp
+(use-package! python-black
+  :demand t
+  :after python
+  :config
+  (add-hook! 'python-mode-hook #'python-black-on-save-mode)
+  (map! :leader :desc "Blacken Buffer" "m b b" #'python-black-buffer)
+  (map! :leader :desc "Blacken Region" "m b r" #'python-black-region)
+  (map! :leader :desc "Blacken Statement" "m b s" #'python-black-statement))
+```
+
+
+## `package.el` {#package-dot-el}
+
+Just trying to get black formatting working with my Doom setup. `+black` seems to do nothing.
+
+For general info about `packages.el`, I may want to look at the [Doom packages example](https://github.com/hlissner/doom-emacs/blob/develop/core/templates/packages.example.el).
+
+```elisp
+;; -*- no-byte-compile: t; -*-
+(package! python-black)
+```

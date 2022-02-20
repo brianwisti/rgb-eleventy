@@ -1,0 +1,16 @@
+---
+permalink: /config/emacs/
+title: Assorted Emacs Configurations
+layout: layouts/article_listing.njk
+---
+
+{% from "macros/article_entries.njk" import article_entries %}
+
+<p>
+Thanks to <a href="https://github.com/plexus/chemacs2">chemacs</a>, I like to try out different Emacs configurations.
+</p>
+
+{% block listing %}
+    {% set articles = collections.configs | byTag | forTag("emacs") %}
+    {{ article_entries(articles=articles) }}
+{% endblock %}

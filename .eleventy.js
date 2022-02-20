@@ -37,12 +37,22 @@ module.exports = function (eleventyConfig) {
     require("./src/_11ty/collections/featuredPosts.js")
   );
 
+  eleventyConfig.addCollection(
+    "configs",
+    require("./src/_11ty/collections/config.js")
+  );
+
   // Let Eleventy handle SASS
   //  see https://www.11ty.dev/docs/languages/custom/#example-add-sass-support-to-eleventy
   eleventyConfig.addTemplateFormats("scss");
   eleventyConfig.addExtension("scss", SassHandler);
 
   // Add filters for the things Nunjucks won't do by itself.
+  eleventyConfig.addFilter(
+    "byTag",
+    require("./src/_11ty/filters/byTag.js")
+  );
+
   eleventyConfig.addFilter(
     "byYear",
     require("./src/_11ty/filters/byYear.js")
@@ -52,6 +62,11 @@ module.exports = function (eleventyConfig) {
     "dateFormat",
     require("./src/_11ty/filters/dateFormat.js")
   );
+
+  eleventyConfig.addFilter(
+    "forTag",
+    require("./src/_11ty/filters/forTag.js")
+  )
 
   eleventyConfig.addFilter(
     "forYear",
