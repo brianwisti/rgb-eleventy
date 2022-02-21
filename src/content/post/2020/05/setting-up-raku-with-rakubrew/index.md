@@ -151,7 +151,7 @@ Rakubrew worked!
 
 [raku]: https://raku.org/
 [rakubrew]: https://rakubrew.org/
-[org-config]: /tags/orgconfig
+[org-config]: /tag/orgconfig
 [rakudo]: https://rakudo.org
 [a-little-bit-ago]: /post/2019/11/building-rakudo-and-moarvm-on-linux/
 [perl6-readline]: https://github.com/drforr/perl6-readline

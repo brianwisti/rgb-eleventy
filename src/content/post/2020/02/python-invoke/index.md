@@ -34,7 +34,7 @@ Not that there’s anything wrong with that.
 ## A solution: Invoke
 
 But I want to try a more unified approach. I also decided that 2020 is
-my year of [Python](/tags/python).
+my year of [Python](/tag/python).
 
 <aside class="admonition">
 

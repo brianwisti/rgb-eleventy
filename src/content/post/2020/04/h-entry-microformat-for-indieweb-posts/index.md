@@ -71,7 +71,7 @@ structure.
 ```
 
 Time to focus on putting useful metadata in the article header. Might as
-well expose some of the [Hugo](/tags/hugo) templating as well.
+well expose some of the [Hugo](/tag/hugo) templating as well.
 
 
 **`layouts/_default/single.html`**
@@ -164,7 +164,7 @@ where the post fits with the rest of my site.
 I organize my Hugo content by
 [type](https://gohugo.io/content-management/types/) — currently
 [Note](/note) or [Post](/post) — and then add optional details with
-[categories](/categories) and [tags](/tags). The post should probably
+[categories](/categories) and [tags](/tag). The post should probably
 show each of those as a `p-category`.
 
 ``` html
@@ -181,7 +181,7 @@ show each of those as a `p-category`.
   —
   {{ range . }}
     <a class="p-category tag"
-       href="/tags/{{ . | urlize }}">{{ . }}</a>
+       href="/tag/{{ . | urlize }}">{{ . }}</a>
   {{ end }}
 {{ end }}
 ```
@@ -218,7 +218,7 @@ single command. *Ideally* with something I can stash in my
 
 [mfpy](https://github.com/microformats/mf2py) and
 [mf2util](https://mf2util.readthedocs.io/en/latest/) provide
-microformats2 handling for [Python](/tags/python) code.
+microformats2 handling for [Python](/tag/python) code.
 
 I mainly want a dump of microformats found in a given URL, in a format
 easier for me to read than JSON. Here’s what I came up with.

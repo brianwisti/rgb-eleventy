@@ -37,7 +37,7 @@ That’s hand-crafted automation there.
 [Mojolicious][] is a [Perl][] framework for making Web applications.
 It also happens to provide [excellent support][] for a wide range of Web-related programming.
 
-[before]: /tags/mojolicious/
+[before]: /tag/mojolicious/
 
 I mentioned Mojolicious here [before][].
 I use it as a part of my daily dev toolkit, even though I *still* haven’t made a real Web app with it.

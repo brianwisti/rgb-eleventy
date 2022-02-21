@@ -125,7 +125,7 @@ There's a bunch of spew, and posts are made and deleted along with comments. Loo
 
 ## Posting Formats
 
-[Emacs]: /tags/emacs/
+[Emacs]: /tag/emacs/
 
 My blog post files will have a fairly straightforward layout, with a head
 section and a body section. It'll look ... well, it'll look a lot like the

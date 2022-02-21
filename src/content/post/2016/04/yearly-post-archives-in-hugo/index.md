@@ -109,7 +109,7 @@ Hugo does not directly support yearly archive pages.
 However, this [Hugo community comment][] shows that somebody solved a very similar problem using [taxonomies][].
 
 Taxonomies are special terms you create to organize your content.
-[Categories](/categories/) and [tags](/tags/) are a common example across blogs.
+[Categories](/categories/) and [tags](/tag/) are a common example across blogs.
 Hugo simplifies creation of your own taxonomies and their presentation with templates.
 
 Strictly speaking, this is kind of a hack.
@@ -131,7 +131,7 @@ year: 2016
 This is going to be tedious.
 Let’s not do this manually, okay?
 
-Here comes the [Perl](/tags/perl/).
+Here comes the [Perl](/tag/perl/).
 
 ### Automate The Frontmatter
 

@@ -16,7 +16,7 @@ uuid: 9ff8b133-27a3-4d65-b004-aedb75f93f28
 ---
 
 This article is intended to provide a casual introduction the CGI
-programming with the [Ruby](/tags/ruby/) language. You won’t be an
+programming with the [Ruby](/tag/ruby/) language. You won’t be an
 expert when you are done, but you will certainly be ready to explore
 more on your own, and maybe delve into becoming a Ruby/CGI expert.
 
@@ -35,7 +35,7 @@ Hopefully neither of you will be too disappointed by my efforts.
 
 Even though I hesitate to call it my favorite language, I definitely
 prefer to do most of my coding in Ruby these days. It is similar to my
-other favorite, [Perl](/tags/perl/), because it is put together in such
+other favorite, [Perl](/tag/perl/), because it is put together in such
 a way that programs are easy to write. I must admit that large programs
 are easier to manage in Ruby, though. I use object-oriented programming
 techniques to abstract and tame the complexity of particularly
@@ -71,7 +71,7 @@ operating systems, and should be very easy to install from the
 directions at the Apache web site.
 
 So let’s say you’ve got a Web server with Ruby installed on it. Add a
-text editor such as [Vim](/tags/perl/) or [Emacs](/tags/emacs/), and you
+text editor such as [Vim](/tag/perl/) or [Emacs](/tag/emacs/), and you
 are ready to go!
 
 ## CGI Programming

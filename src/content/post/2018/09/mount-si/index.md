@@ -60,7 +60,7 @@ at the Ace Hardware in North Bend.
 
 ## The trail
 
-The thing about [sauntering](/tags/sauntering/) up a mountain is that
+The thing about [sauntering](/tag/sauntering/) up a mountain is that
 the trail occupies most of your attention. You might miss interesting
 stuff as you spend a few hours wondering how much trail you have left.
 Thankfully, the trail itself is pretty interesting. Some spots soft and
@@ -211,4 +211,4 @@ today. My knees got more work than usual, but at least I can walk
 without major discomfort.
 
 One thing is for sure: next time I go walking up a mountain, I bring my
-[knitting](/tags/knitting)\!
+[knitting](/tag/knitting)\!

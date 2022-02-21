@@ -13,5 +13,5 @@ uuid: 40826bab-6ab7-4e29-9b81-989b5b3ebe43
 
 Been doing quality assurance on my site. Need to know what I got before
 any more big changes. Yes, 7.3 seconds is slow for
-[Hugo](https://gohugo.io). It’s all the [RST](/tags/rst). No plan to
+[Hugo](https://gohugo.io). It’s all the [RST](/tag/rst). No plan to
 change *that*.

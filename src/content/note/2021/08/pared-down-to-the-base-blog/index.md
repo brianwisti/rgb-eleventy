@@ -26,7 +26,7 @@ whatever and still have the base blog to fall back on. Heck, I could port the
 base blog to [Eleventy][eleventy] or [Zola][zola] or …
 
 [hugo]: https://gohugo.io
-[ssg]: /tags/ssg
+[ssg]: /tag/ssg
 [astro]: https://astro.build
 [lektor]: https://getlektor.com
 [eleventy]: https://11ty.dev

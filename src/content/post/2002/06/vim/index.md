@@ -33,7 +33,7 @@ uuid: 201ad8e0-dd01-4c51-9739-f916a36c6acd
 </aside>
 
 [Vim](http://www.vim.org/) is one of the two major editors of the UNIX
-world. The other one is [Emacs](/tags/emacs/), which I am also quite
+world. The other one is [Emacs](/tag/emacs/), which I am also quite
 fond of. Still, it’s hard to beat Vim. It may be awkward, ugly, and hard
 to use, but there’s just something inescapable about it. Regular
 expressions are a major part of the editing interface, which gives you a

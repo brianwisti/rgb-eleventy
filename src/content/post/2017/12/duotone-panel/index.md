@@ -35,7 +35,7 @@ it cost less than full color printing. Skilled duotone illustrators like
 
 *Illustration by Mead Schaeffer via [Muddy Colors][]*
 
-[Procreate]: /tags/procreate
+[Procreate]: /tag/procreate
 
 I wanted to manually create duotone images in sketch apps like [Procreate][].
 Time to describe what I came up with.

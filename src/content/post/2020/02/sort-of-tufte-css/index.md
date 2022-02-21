@@ -23,7 +23,7 @@ Information](https://www.edwardtufte.com/tufte/books_vdqi).
 
 Of course, I had to adjust the original CSS for my own quirks. Added
 more [Fork Awesome](https://forkaweso.me/) icons. Made the
-[RST](/tags/rst) elements fit. Tips from a [David Walsh
+[RST](/tag/rst) elements fit. Tips from a [David Walsh
 post](https://davidwalsh.name/external-links-css) helped me show
 external links.
 

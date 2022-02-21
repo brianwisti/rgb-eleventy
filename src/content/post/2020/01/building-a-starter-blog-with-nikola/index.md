@@ -17,13 +17,13 @@ uuid: 74f3d86f-f2f9-4899-ad71-16c9318a5565
 ---
 
 [Nikola]: https://getnikola.com
-[Hugo]: /tags/hugo
+[Hugo]: /tag/hugo
 
 I messed with [Nikola] a while back, but ended up going with [Hugo].
 Nikola has evolved in the last couple years, though.
 Let’s check it out!
 
-[Python]: /tags/python
+[Python]: /tag/python
 [features]: https://getnikola.com/features
 
 Nikola is a static site generator written in [Python][].

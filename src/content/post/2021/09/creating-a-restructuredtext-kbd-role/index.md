@@ -11,7 +11,7 @@ title: Creating a reStructuredText kbd Role
 ---
 
 [documentation]: https://docutils.sourceforge.io/docs/howto/rst-roles.html
-[#rst]: /tags/rst
+[#rst]: /tag/rst
 
 Today's the day I learn how to create custom roles in [#rst][]. There's
 already [documentation][] on how to do this. I'm just applying it for my
@@ -272,7 +272,7 @@ def role_reference_tag(
 ):
     """Return a reference to a site tag."""
 
-    tag_ref = f"/tags/{text}"
+    tag_ref = f"/tag/{text}"
     tag_node = nodes.reference(rawtext, text, refuri=tag_ref, **options)
     tag_node.set_class("p-category")
 
@@ -303,7 +303,7 @@ out in the wild.
 Oh yes that is *much* nicer to read than a standard reStructuredText link.
 
 ```html
-<a class="p-category reference external" href="/tags/microformats">#microformats</a>
+<a class="p-category reference external" href="/tag/microformats">#microformats</a>
 ```
 
 There's my `p-category` class, along with an unsurprising `reference` —
@@ -368,7 +368,7 @@ roles.register_canonical_role('raw-kbd', role_raw_kbd)
 ```
 
 [html]: https://docs.python.org/3/library/html.html
-[#vim]: /tags/vim
+[#vim]: /tag/vim
 
 Better pull in the [html][] standard library and escape that text. Otherwise I'd
 feel awful silly when talking about indenting with `>>` in [#vim][] or
@@ -408,7 +408,7 @@ Roles are just a first step in customizing Docutils output. No idea when I'll
 get to the rest. You can learn more for yourself with [Docutils][] and
 heavily customized publishing environments like [Sphinx][].
 
-[#hugo]: /tags/hugo
+[#hugo]: /tag/hugo
 [Hugo B-side]: https://www.fisodd.com/code/b-side/
 
 Me, I'm just having a grand time embedding this whole authoring flow in the

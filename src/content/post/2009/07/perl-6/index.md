@@ -15,8 +15,8 @@ uuid: 5930eb0b-b947-4b1a-ac04-58d1fc187631
 ---
 
 [Perl 6]: http://perl6.org
-[Parrot]: /tags/parrot/
-[Rakudo]: /tags/rakudo/
+[Parrot]: /tag/parrot/
+[Rakudo]: /tag/rakudo/
 [languages]: http://trac.parrot.org/parrot/wiki/Languages
 
 This page once contained many links to [Perl 6][] information as the design notes

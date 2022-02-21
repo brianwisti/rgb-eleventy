@@ -129,7 +129,7 @@ I upload the site, but I’m working on that.
 ## Measuring file sizes
 
 I could just pick an arbitrary threshold and find every file bigger than
-that with a [Perl](/tags/perl) one-liner using
+that with a [Perl](/tag/perl) one-liner using
 [File::Find::Rule](https://metacpan.org/pod/File::Find::Rule)'s
 [procedural](https://metacpan.org/pod/distribution/File-Find-Rule/lib/File/Find/Rule/Procedural.pod)
 flavor.
@@ -146,7 +146,7 @@ flavor.
     public/2018/09/30/cougar-mountain/cover.jpg
 
 Or maybe find the median between my biggest and smallest files, flagging
-everything bigger than the median. I promised [Python](/tags/python) in
+everything bigger than the median. I promised [Python](/tag/python) in
 the tags, so let’s move away from Perl.
 
 **`median.py`**

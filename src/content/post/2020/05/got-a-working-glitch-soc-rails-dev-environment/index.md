@@ -307,14 +307,14 @@ screenshot.
 [postgres-book]: https://theartofpostgresql.com/
 [repo]: https://github.com/glitch-soc/mastodon
 [ruby-build]: https://github.com/rbenv/ruby-build
-[interests]: /tags/indieweb
+[interests]: /tag/indieweb
 [microformats-ruby]: https://github.com/microformats/microformats-ruby
 [mf2py]: https://github.com/microformats/mf2py
 [yarn]: https://yarnpkg.com/
 [enable]: https://github.com/nvm-sh/nvm#calling-nvm-use-automatically-in-a-directory-with-a-nvmrc-file
 [volta]: https://volta.sh/
 [direnv]: https://direnv.net
-[perl]: /tags/perl
+[perl]: /tag/perl
 [webpacker]: https://github.com/rails/webpacker
 [circleci]: https://circleci.com/
 [webpack]: https://webpack.js.org/

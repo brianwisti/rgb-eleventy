@@ -13,7 +13,7 @@ title: Rakudo
 uuid: 935bb0d7-82a3-44c7-98ff-bc4d8bf5c5a5
 ---
 
-[Perl]: /tags/perl/
+[Perl]: /tag/perl/
 [CPAN]: http://cpan.org
 
 The [Perl][] world has evolved over the years. Once upon a time, it was a simple glue language that made life
@@ -24,7 +24,7 @@ language has added new features, and the [CPAN][] has made a dizzying number of 
 [new Perl]: http://perl6.org
 [announced]: http://www.perl.com/pub/2000/07/perl6.html
 [Rakudo]: http://rakudo.org
-[Parrot]: /tags/parrot/
+[Parrot]: /tag/parrot/
 [Rakudo Star]: http://github.com/rakudo/star
 
 Yet in a way, Perl was stuck. Developers had to be careful about adding new features, for fear of breaking

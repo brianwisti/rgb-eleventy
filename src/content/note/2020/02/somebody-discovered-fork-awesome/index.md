@@ -17,5 +17,5 @@ I already forget *how* I bumped into [Fork
 Awesome](https://forkaweso.me/Fork-Awesome/). It was like a whole hour
 ago.
 
-And yep. Still working on the [Nikola](/tags/nikola) port as time
+And yep. Still working on the [Nikola](/tag/nikola) port as time
 permits.

@@ -70,11 +70,11 @@ Anyways, time to refill the coffee and — flips past the Distraction Cards
 [choldgraf]: https://twitter.com/choldgraf
 [myst]: https://myst-parser.readthedocs.io/en/latest/
 [nuxtjs]: https://nuxtjs.org/
-[nikola]: /tags/nikola
+[nikola]: /tag/nikola
 [nanoc]: https://nanoc.app
 [astro]: https://astro.build
 [markdown-it-myst]: https://github.com/executablebooks/markdown-it-myst
 [myst-nikola-plugin]: https://plugins.getnikola.com/v8/myst/
-[hugo]: /tags/hugo
+[hugo]: /tag/hugo
 [neovim-plugin]: /post/2021/08/trying-a-thing-with-neovim
 [bookmark]: /bookmark/2021/01/jupyterbook-org/

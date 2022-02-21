@@ -15,8 +15,8 @@ updated: 2020-01-13
 uuid: 2a29788c-e66c-47a1-a706-5eae3b9b0351
 ---
 
-I need more than annotations for my [Taskwarrior](/tags/taskwarrior)
-tasks. Let’s write some [Python](/tags/python)!
+I need more than annotations for my [Taskwarrior](/tag/taskwarrior)
+tasks. Let’s write some [Python](/tag/python)!
 
 :::note
 
@@ -90,7 +90,7 @@ task without cluttering my Taskwarrior reports.
 
 :::note
 
-Honestly [org](/tags/org-mode) mode provides all this functionality and more.
+Honestly [org](/tag/org-mode) mode provides all this functionality and more.
 Someday I may even get comfortable enough to prefer it. But right now?
 Taskwarrior and shell tools are easier for me.
 
@@ -116,7 +116,7 @@ Things I’m sure will be useful at some point, but I don’t need *today*.
 
 ## Let’s get to it.
 
-I’m not good at Python for quick glue tasks. Maybe [Perl](/tags/perl)? I
+I’m not good at Python for quick glue tasks. Maybe [Perl](/tag/perl)? I
 need to learn how to do this in Python at some point. Let’s try anyways.
 
 That will be today’s learning experience.
@@ -320,7 +320,7 @@ note is opened.
 :::warning
 
 Remember to `flush` your filehandles before handing control over to
-external processes like [Vim](/tags/vim). Python takes care of files and
+external processes like [Vim](/tag/vim). Python takes care of files and
 buffers on its own schedule. Launching an external process interrupts
 Python’s schedule. So let Python know\!
 

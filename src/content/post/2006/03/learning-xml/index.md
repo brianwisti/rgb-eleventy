@@ -28,7 +28,7 @@ out in one page. Let's see if that will happen.
 
 ## What You Need
 
-[text editor]: /tags/editors/
+[text editor]: /tag/editors/
 A [text editor][] is all you need to get started in 
 XML. However, you will probably want to look at your XML as something besides 
 markup. The best solution for that would be a Web browser that understands 
@@ -191,7 +191,7 @@ it's time to fire up the ol' XML processing code.
 
 ### Non-Parsed Data
 
-[Python]: /tags/python/
+[Python]: /tag/python/
 
 You probably won't see this much when you're getting started, but I thought 
 I would mention it anyways. Non-Parsed Data is content that ... well ... you 

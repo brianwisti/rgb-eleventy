@@ -12,9 +12,9 @@ uuid: 973b4ced-aabb-422d-9bc4-80742daac01f
 ---
 
 I already talk a little bit on this site about the language tools I use,
-such as [Perl](/tags/perl/), [Ruby](/tags/ruby/), and
-[Python](/tags/python/). There’s a section where I touch on the most
-important tool of a geek like me: the [text editor](/tags/editors/).
+such as [Perl](/tag/perl/), [Ruby](/tag/ruby/), and
+[Python](/tag/python/). There’s a section where I touch on the most
+important tool of a geek like me: the [text editor](/tag/editors/).
 
 But coolnamehere needs a section for the smaller tools that I use
 everyday. They may have been born on UNIX-like operating systems, but

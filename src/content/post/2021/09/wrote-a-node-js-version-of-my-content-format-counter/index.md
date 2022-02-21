@@ -125,7 +125,7 @@ But hey it works.
 
 [one-liner]: /post/2020/03/listing-hugo-content-extensions-with-raku/
 [tricks]: /post/2021/08/trying-a-thing-with-neovim/
-[ruby]: /tags/ruby
+[ruby]: /tag/ruby
 [`justfile`]: https://github.com/casey/just
 [tty-table]: https://github.com/piotrmurach/tty-table
 [node-js]: https://nodejs.dev

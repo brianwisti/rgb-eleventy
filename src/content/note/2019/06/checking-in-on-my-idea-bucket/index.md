@@ -19,7 +19,7 @@ $ task '(+learn or +idea)' count
 I know I won't get to 90% of these, but I'm glad to have [Taskwarrior][] for
 jotting them down.
 
-[Taskwarrior]: /tags/taskwarrior
+[Taskwarrior]: /tag/taskwarrior
 
 Curious about the latest? I want to try out the [entropic][] package manager for
 (mostly) JavaScript.

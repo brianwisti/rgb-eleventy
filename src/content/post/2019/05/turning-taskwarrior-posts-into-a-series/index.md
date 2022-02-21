@@ -17,10 +17,10 @@ uuid: daf9977b-8910-496d-bf79-c8db88f4a31b
 
 I want to more clearly show relations between some of my posts. Tags and
 categories do handle a lot, but they get a bit clunky with stuff like my
-[Taskwarrior posts](/tags/taskwarrior), which specifically build on each
+[Taskwarrior posts](/tag/taskwarrior), which specifically build on each
 other.
 
-[Hugo](/tags/hugo) supports series as a
+[Hugo](/tag/hugo) supports series as a
 [taxonomy](https://gohugo.io/content-management/taxonomies/). Let’s find
 out what that means.
 

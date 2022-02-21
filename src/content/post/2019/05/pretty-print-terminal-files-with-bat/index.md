@@ -22,7 +22,7 @@ obvious errors. I wanted something quicker than reviewing them in my
 editor, but fancier than the simple plain text of cat.
 
 I have the [Pygments](http://pygments.org/) syntax highlighting library
-for [Python](/tags/python) installed, so I could use `pygmentize` piped
+for [Python](/tag/python) installed, so I could use `pygmentize` piped
 to `less` for paging:
 
     $ pygmentize -g work.sql | less -NR
@@ -45,7 +45,7 @@ macOS *and* Linux these days).
 <aside class="admonition">
 
 Oh hey there’s something about the [Nix](https://nixos.org/nix/) package
-manager on the `bat` README. Adding a [Taskwarrior](/tags/taskwarrior)
+manager on the `bat` README. Adding a [Taskwarrior](/tag/taskwarrior)
 item to check that out later.
 
 </aside>

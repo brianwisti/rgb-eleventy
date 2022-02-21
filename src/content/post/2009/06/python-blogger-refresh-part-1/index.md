@@ -23,7 +23,7 @@ uuid: f726a5e8-1e58-474b-b6d6-d257c517e066
 ## The Idea
 
 [wrote a post]: /post/2007/12/python-loves-blogger-part-1/
-[Python]: /tags/python/
+[Python]: /tag/python/
 [Blogspot]: http://blogspot.com
 [Python Markdown]: https://pypi.python.org/pypi/Markdown
 [handling metadata]: https://pythonhosted.org/Markdown/extensions/meta_data.html

@@ -21,7 +21,7 @@ I rushed through that post about [logging money] in Org mode  and didn’t take
 much time to edit it. This bothers me. Today I went into [`writegood-mode`][] to
 catch my sloppiest writing mistakes.
 
-[Vim]: /tags/vim
+[Vim]: /tag/vim
 [`vim-wordy`]: https://github.com/reedes/vim-wordy
 
 <aside class="admonition note">
@@ -34,7 +34,7 @@ to `writegood-mode`.
 
 ## writegood-mode
 
-[Emacs]: /tags/emacs/
+[Emacs]: /tag/emacs/
 
 `writegood-mode` is a minor[Emacs][] mode which highlights troublesome patterns
 in your writing. It looks for three patterns:

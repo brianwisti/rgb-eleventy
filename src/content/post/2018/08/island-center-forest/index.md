@@ -114,4 +114,4 @@ won’t walk more than I must for the next couple days.
 
 I enjoyed Island Center Forest, and particularly enjoyed getting out of
 Seattle for a day. I’m already deciding which park to make a day trip
-out of next time I feel the need to go [sauntering](/tags/sauntering).
+out of next time I feel the need to go [sauntering](/tag/sauntering).

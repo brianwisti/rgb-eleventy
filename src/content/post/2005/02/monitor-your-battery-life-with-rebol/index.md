@@ -216,7 +216,7 @@ We want to get rid of the leading whitespace for each value.
 
 I need to think for a minute…
 
-[Perl]: /tags/perl
+[Perl]: /tag/perl
 
 Okay, I know how I would do this with a regular expression in [Perl]:
 

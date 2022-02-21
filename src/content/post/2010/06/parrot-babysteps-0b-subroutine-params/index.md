@@ -21,8 +21,8 @@ uuid: 0971c043-f2ff-44cf-a018-92c12ce2ff51
 [Second]: /post/2009/10/parrot-babysteps-07-writing-subroutines
 [testing]: /post/2009/12/parrot-babysteps-08-testing-with-testmore
 [larger projects]: /post/2010/04/parrot-babysteps-09-simple-projects
-[Parrot]: /tags/parrot/
-[Perl]: /tags/perl/
+[Parrot]: /tag/parrot/
+[Perl]: /tag/perl/
 [Stellar project]: /post/2010/06/parrot-babysteps-0a-the-stellar-project
 
 It's time to treat the star database like a database. Well, it's time to treat

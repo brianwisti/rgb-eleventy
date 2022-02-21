@@ -113,10 +113,10 @@ Um.  Well.  I mentioned `winget` is in preview, right?  Check the development
 [chocolatey]: https://chocolatey.org/
 [image-exiftool]: https://metacpan.org/release/Image-ExifTool
 [strawberry-perl]: https://strawberryperl.com
-[python]: /tags/python
+[python]: /tag/python
 [windows-insider]: https://insider.windows.com/en-us/
 [winget-cli-repo]: https://github.com/microsoft/winget-cli
-[perl]: /tags/perl
+[perl]: /tag/perl
 [xampp]: https://www.apachefriends.org/index.html
 [useful-extras]: http://strawberryperl.com/release-notes/5.30.2.1-64bit.html
 [roadmap]: https://github.com/microsoft/winget-cli/blob/master/doc/windows-package-manager-v1-roadmap.md

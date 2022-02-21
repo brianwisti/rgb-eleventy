@@ -23,7 +23,7 @@ limit ourselves to Scene 1 to stay focussed.
 
 ### Presenting a Scene to the user
 
-[editor]: /tags/editors/
+[editor]: /tag/editors/
 First you want to show the description. Start a new Python file in your favorite
 [editor][], or in IDLE with the menu command "File" -> "New".
 

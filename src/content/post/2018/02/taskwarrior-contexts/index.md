@@ -14,7 +14,7 @@ uuid: 8a6d9e9a-eba8-49ac-94b1-37da66b5ec56
 ---
 
 I manually applied tag filters to keep task listings relevent in my
-previous Taskwarrior [posts](/tags/taskwarrior), but
+previous Taskwarrior [posts](/tag/taskwarrior), but
 [Taskwarrior](https://taskwarrior.org/) provides
 [contexts](https://taskwarrior.org/docs/context.html) to apply filters
 automatically. Let’s use those instead.

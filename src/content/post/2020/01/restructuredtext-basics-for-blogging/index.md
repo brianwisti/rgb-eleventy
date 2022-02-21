@@ -14,7 +14,7 @@ title: reStructuredText Basics For Blogging
 uuid: 9463aeb7-8d86-4dc0-acec-8d45f93391fc
 ---
 
-<p>Between reading <a class="reference external" href="/tags/python">Python</a> documentation and exploring <a class="reference external" href="/tags/nikola">Nikola</a>, I've been looking at <a class="reference external" href="https://docutils.sourceforge.io/rst.html">RST</a> a lot.
+<p>Between reading <a class="reference external" href="/tag/python">Python</a> documentation and exploring <a class="reference external" href="/tag/nikola">Nikola</a>, I've been looking at <a class="reference external" href="https://docutils.sourceforge.io/rst.html">RST</a> a lot.
 Let's figure out the basics.</p>
 
 <div class="contents topic" id="contents">
@@ -67,7 +67,7 @@ The essentials of the RST format are easy enough that it's suited for general wr
 <h2><a class="toc-backref" href="#id6">How do I use RST in my blog?</a></h2>
 <p>If you already blog with Nikola or <a class="reference external" href="https://getpelican.com">Pelican</a>, you are all set.
 Those site generators natively support reStructuredText.</p>
-<p><a class="reference external" href="/tags/hugo">Hugo</a> will build <tt class="docutils literal">.rst</tt> content if you have <tt class="docutils literal">rst2html.py</tt> installed.</p>
+<p><a class="reference external" href="/tag/hugo">Hugo</a> will build <tt class="docutils literal">.rst</tt> content if you have <tt class="docutils literal">rst2html.py</tt> installed.</p>
 <pre class="code shell-session literal-block">
 <span class="generic prompt">$</span> pip install docutils
 </pre>
@@ -507,7 +507,7 @@ One little section at least.</p>
 
   <p><a class="reference external" href="https://docutils.sourceforge.io/docs/ref/rst/directives.html#id4">csv-table</a> serves that perfectly.</p>
 
-  <p>Let's say I have a CSV list of my most important <a class="reference external" href="/tags/taskwarrior">Taskwarrior</a> tasks for the site.</p>
+  <p>Let's say I have a CSV list of my most important <a class="reference external" href="/tag/taskwarrior">Taskwarrior</a> tasks for the site.</p>
 
   <p>Hang on.
   How do I get a CSV list of tasks?
@@ -528,7 +528,7 @@ One little section at least.</p>
 Now where was I?
 Oh yes!</p>
 
-<p>Let's say I have a <a class="reference external" href="https://en.wikipedia.org/wiki/Comma-separated_values">CSV</a> list of my most important <a class="reference external" href="/tags/taskwarrior">Taskwarrior</a> tasks for the site.
+<p>Let's say I have a <a class="reference external" href="https://en.wikipedia.org/wiki/Comma-separated_values">CSV</a> list of my most important <a class="reference external" href="/tag/taskwarrior">Taskwarrior</a> tasks for the site.
 I can paste that list under a <cite>csv-table</cite> directive, give it a caption and the <cite>header</cite> text —
 maybe set the <tt class="docutils literal">widths</tt> option to <tt class="docutils literal">auto</tt>, because I dislike the default of equal-width columns.</p>
 

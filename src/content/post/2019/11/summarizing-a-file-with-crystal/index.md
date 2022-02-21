@@ -19,7 +19,7 @@ uuid: 5d3045fe-1d5d-46b8-b333-b7ec8c74e828
 
 Okay, I don’t have a lot of time here. We’re on a tight schedule. But
 hey tests are running so I’ll write a tiny bit of
-[Crystal](/tags/crystal).
+[Crystal](/tag/crystal).
 
 How would I print a quick summary of a file? Besides
 [`ls`](http://www.man7.org/linux/man-pages/man1/ls.1.html), of course. I

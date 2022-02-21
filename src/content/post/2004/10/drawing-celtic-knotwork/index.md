@@ -40,7 +40,7 @@ involved than the first, but bear with me - the results should be worth it.
 
 ## The Problem
 
-[Celtic knotwork]: /tags/celtic
+[Celtic knotwork]: /tag/celtic
 
 I have been a big fan of [Celtic knotwork][] for many years, and have been
 drawing it myself as an occasional distraction for most of that time. I don’t

@@ -21,7 +21,7 @@ uuid: cb7de523-7c35-42fa-9809-58904282e4ed
 
 [wrote]: /post/2020/05/setting-up-raku-with-rakubrew/
 [rakubrew]: https://rakubrew.org/
-[Raku]: /tags/rakulang
+[Raku]: /tag/rakulang
 [Jeff Goff]: https://web.archive.org/web/20200212094016/http://theperlfisher.com/
 [better words]: https://wendyga.wordpress.com/2020/04/06/jeff-goff-thanks-for-being-a-friend/
 

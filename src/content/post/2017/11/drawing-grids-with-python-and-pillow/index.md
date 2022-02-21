@@ -20,9 +20,9 @@ Hey I used [Python] and [Pillow][] to make grids for my drawing. Read on to
 watch my brain while I figured it out. Apologies for the minimal editing and the
 ridiculous number of images.
 
-[See]: /tags/drawing
-[zentangle]: /tags/zentangle/
-[celtic]: /tags/celtic/
+[See]: /tag/drawing
+[zentangle]: /tag/zentangle/
+[celtic]: /tag/celtic/
 
 I draw. [See][]?
 Many of my sketches have repeated elements, like [zentangle][] or [celtic]

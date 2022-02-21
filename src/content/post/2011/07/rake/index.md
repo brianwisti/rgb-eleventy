@@ -16,7 +16,7 @@ uuid: 331b8dfb-f3d1-4fdb-b60f-edf47259cf8f
 
 [Rake](http://rake.rubyforge.org/) is a simple build program. You can
 use it to automate complex or repetitive tasks. It is written in
-[Ruby](/tags/ruby/), but is useful in far more than just Ruby projects.
+[Ruby](/tag/ruby/), but is useful in far more than just Ruby projects.
 
 The great news is that if you have Ruby on your system, you *probably*
 already have Rake. It has been included as part of the standard Ruby
@@ -252,7 +252,7 @@ It has been pretty effective so far. Incidentally, Compass is kind of
 awesome. I highly recommend you check it out for your Web design needs.
 
 It would be nice if I could make the `rake` call a little shorter,
-though. I have a shortcut set up in [Vim](/tags/vim) that invokes Rake
+though. I have a shortcut set up in [Vim](/tag/vim) that invokes Rake
 with a default argument. It would be nice to use that shortcut while I
 am working on coolnamehere.
 

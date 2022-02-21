@@ -16,7 +16,7 @@ title: Taskwarrior Priorities
 uuid: 7e0321e9-f2c7-410a-a477-25990378b00f
 ---
 
-[Taskwarrior]: /tags/taskwarrior
+[Taskwarrior]: /tag/taskwarrior
 
 Merry Christmas!
 Time to organize my [Taskwarrior][] tasks.

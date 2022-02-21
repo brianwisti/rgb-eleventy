@@ -2,15 +2,31 @@
 title: "My NANO-based Emacs config"
 author: ["Random Geek"]
 description: "Not quite bespoke"
-updated: 2022-02-19T23:25:14-08:00
+updated: 2022-02-20T22:19:46-08:00
 tags: ["org-config", "emacs"]
 draft: false
 weight: 5
 ---
 
-This is more or less my vanilla-ish Emacs playground. I start from [nano-emacs](https://github.com/rougier/nano-emacs).
-It's pretty and pretty useful.  But expect it to veer pretty far from that
-base over time.
+This is more or less my vanilla-ish Emacs playground. I start from
+[nano-emacs](https://github.com/rougier/nano-emacs).  It's pretty and pretty useful.  But expect it to veer
+pretty far from that base over time.
+
+<div class="note">
+
+There's bound to be a lot of things that make you, the Emacs
+veteran, wonder "why didn't he just do X?"  The likeliest options:
+
+-   I didn't know X was an option
+-   I saw X but wanted to wait until I understood it
+
+That last is particularly likely. I keep getting reminded that
+outsmarting yourself is a major hazard of Emacs configuration.
+
+I'll add `org-pymacs-nodejs-todoist-roam--lsp-mode` later. Maybe. I
+may not even need it.
+
+</div>
 
 
 ## Foundations {#foundations}
@@ -18,8 +34,9 @@ base over time.
 
 ### Give Emacs some breathing room {#give-emacs-some-breathing-room}
 
-`max-specpdl-size` sets the upper limit for how many variable bindings and `unwind-protect` Emacs allows.
-`max-lisp-eval-depth` says how deep we can get into a recursive function call.
+`max-specpdl-size` sets the upper limit for how many variable bindings
+and `unwind-protect` Emacs allows.  `max-lisp-eval-depth` says how deep we
+can get into a recursive function call.
 
 I got the RAM so let's go past the respective defaults of 1600 and 800.
 
@@ -108,8 +125,6 @@ The _Roboto Mono_ font that NANO wants is **not** part of any `*roboto*` package
 found in Pop! OS repositories.  Ended up going to [Font Library](https://fontlibrary.org/en/font/roboto-mono) for a direct
 download.
 
-With that note out of the way - I still lean towards [Fantasque Sans Mono](https://github.com/belluzj/fantasque-sans).
-
 ```elisp
 (set-face-attribute 'default t
                     :background "#000000"
@@ -121,10 +136,10 @@ With that note out of the way - I still lean towards [Fantasque Sans Mono](https
 ```
 
 
-### Configure `nano` {#configure-nano}
+## Configure `nano` {#configure-nano}
 
 
-#### Install `nano` and its dependencies {#install-nano-and-its-dependencies}
+### Install `nano` and its dependencies {#install-nano-and-its-dependencies}
 
 Installing via `straight.el`.
 
@@ -134,15 +149,26 @@ Installing via `straight.el`.
  '(nano-emacs :type git :host github :repo "rougier/nano-emacs"))
 ```
 
+```elisp
+(let ((default-directory  user-emacs-directory))
+  (setq load-path
+        (append
+         (let ((load-path  (copy-sequence load-path))) ;; Shadow
+           (append
+            (copy-sequence (normal-top-level-add-to-load-path '(".")))
+            (normal-top-level-add-subdirs-to-load-path)))
+         load-path)))
+```
 
-#### Load the Nano layout {#load-the-nano-layout}
+
+### Load the Nano layout {#load-the-nano-layout}
 
 ```elisp
 (require 'nano-layout)
 ```
 
 
-#### Define my colors {#define-my-colors}
+### Define my colors {#define-my-colors}
 
 Because I'm the kind of person I am: setting the nano theme colors to match my
 own tacky tastes. Maybe not _tacky_ but certainly not as refined as the author of
@@ -161,13 +187,13 @@ This particular set of colors comes from the [Spaceduck](https://pineapplegiant.
   (setq nano-color-strong     "#e39400")
   (setq nano-color-popout     "#f2ce00")
   (setq nano-color-subtle     "#7a5ccc")
-  (setq nano-color-faded      "#30365f"))
+  (setq nano-color-faded      "#b3a1e6"))
 
 (nano-theme-set-spaceduck)
 ```
 
 
-#### Set up font faces {#set-up-font-faces}
+### Set up font faces {#set-up-font-faces}
 
 I feel comfortable loading `nano-faces` for font rules now that I've defined my colors.
 Will need to fuss a bit more in a second though.
@@ -179,7 +205,7 @@ Will need to fuss a bit more in a second though.
 ```
 
 
-#### Let nano theme everything {#let-nano-theme-everything}
+### Let nano theme everything {#let-nano-theme-everything}
 
 `nano-theme` maps those custom faces to pretty much everything everywhere.
 Pretty nice.
@@ -201,21 +227,21 @@ I know **I** like bold, though. _And_ italics, now that you mention it.
 Once I have my base established, I should be able to load the nano theme.
 
 
-#### Load nano defaults {#load-nano-defaults}
+### Load nano defaults {#load-nano-defaults}
 
 ```elisp
 (require 'nano-defaults)
 ```
 
 
-#### Enable nano session handling {#enable-nano-session-handling}
+### Enable nano session handling {#enable-nano-session-handling}
 
 ```elisp
 (require 'nano-session)
 ```
 
 
-#### Enable the nano modeline {#enable-the-nano-modeline}
+### Enable the nano modeline {#enable-the-nano-modeline}
 
 One of my favorite bits really.
 
@@ -224,7 +250,7 @@ One of my favorite bits really.
 ```
 
 
-#### Enable nano key bindings {#enable-nano-key-bindings}
+### Enable nano key bindings {#enable-nano-key-bindings}
 
 `C-x k`
 : kill current buffer without asking
@@ -253,7 +279,7 @@ One of my favorite bits really.
 ```
 
 
-#### nano Counsel integration {#nano-counsel-integration}
+### nano Counsel integration {#nano-counsel-integration}
 
 `nano-counsel.el` is small. I'll just map its logic directly to some
 `use-package` magic.
@@ -293,7 +319,7 @@ One of my favorite bits really.
 I need to give myself a little context here.
 
 
-##### Ivy, Counsel, and Swiper {#ivy-counsel-and-swiper}
+#### Ivy, Counsel, and Swiper {#ivy-counsel-and-swiper}
 
 > flexible, simple tools for minibuffer completion in Emacs
 
@@ -313,7 +339,7 @@ Loading `nano-counsel` failed with complaints about missing `smex`.
 Since I want my foundation to be a clean Nano experience, I install smex as well.
 
 
-#### nano splash {#nano-splash}
+### nano splash {#nano-splash}
 
 ```elisp
 (let ((inhibit-message t))
@@ -326,35 +352,69 @@ Since I want my foundation to be a clean Nano experience, I install smex as well
 ```
 
 
-## Applications {#applications}
-
-
-### Org Mode {#org-mode}
+## Knowledge management with Org {#knowledge-management-with-org}
 
 Okay here we go. Building up my `org-roam` experience while keeping Deft handy
 for the longer, more intentional notes.
 
 
-#### File locations {#file-locations}
+### File locations {#file-locations}
+
+I work this out piecemeal, as some of the files and folders build on
+what's been defined before.
+
+First: what's the top level of everything? That depends on whether I'm
+in a UNIX-like system or playing with the native Windows version of
+Emacs.
 
 ```elisp
 (setq bmw/local-root
       (if (string-equal system-type "windows-nt")
           "C:/Users/brian"
         "~/"))
+```
 
+I'm using a file synchronization service - Dropbox today, but that
+could change. Where are my synchronized files at?
+
+```elisp
 (setq bmw/sync-dir (expand-file-name "Dropbox" bmw/local-root))
+```
 
+For now all my Org files are stored in one folder. I may regret that
+later, but it'll have to get in line with all the other regrets.
+
+```elisp
 (setq bmw/org-dir (expand-file-name "org" bmw/sync-dir))
+```
 
+That's enough to define most of the files I need.
+
+```elisp
 (setq
  bmw/current-journal (expand-file-name "journal.org" bmw/org-dir)
  bmw/org-id-locations-file (expand-file-name
-                            ".org-id-locations" bmw/org-dir))
+                            ".org-id-locations" bmw/org-dir)
+ bmw/org-roam-directory (expand-file-name "roam" bmw/org-dir))
+```
+
+Oh, one more thing. I want to include `org-roam` files in my Org
+agenda. I found [helpful instructions](https://d12frosted.io/posts/2021-01-16-task-management-with-roam-vol5.html), but I'm not adding that code to
+my config until I understand it. Maybe if I follow the link to the
+_beginning_ of the post series and start there.
+
+What a novel idea.
+
+But today? With my small collection of `org-roam` notes, I can get away
+with directly including them in my agenda searches.
+
+```elisp
+(setq bmw/org-agenda-files (list bmw/org-dir
+                                 bmw/org-roam-directory))
 ```
 
 
-#### Custom keywords {#custom-keywords}
+### Custom keywords {#custom-keywords}
 
 A process vagiuely similar to [GTD](https://gettingthingsdone.com/) but my brain insists on its own task
 classifications.
@@ -389,13 +449,15 @@ NOPE
 ```
 
 
-#### Putting it all together {#putting-it-all-together}
+### Putting it all together {#putting-it-all-together}
 
 ```elisp
 (use-package org
   :ensure org-plus-contrib
   :custom
-  (org-agenda-files (list bmw/org-dir))
+  (org-agenda-files bmw/org-agenda-files)
+  (org-log-done 'time)
+  (org-log-reschedule 'time)
   (org-log-into-drawer t)
   (org-startup-indented t)
   (org-todo-keywords bmw/todo-keywords)
@@ -417,7 +479,10 @@ NOPE
 ```
 
 
-### Deft {#deft}
+### Additional Org tools {#additional-org-tools}
+
+
+#### Deft {#deft}
 
 The perfect solution for knowledge management varies by context. But the core
 thing really needed: someplace to drop my notes where I can find them when I
@@ -452,7 +517,7 @@ Of course I'll end up tweaking it. But to get me started?
 "Ask deft about my notes" is more than sufficient.
 
 
-### org-roam {#org-roam}
+#### org-roam {#org-roam}
 
 Mostly copied from [OrgMode-ExoCortex](https://orgmode-exocortex.com/2021/06/22/upgrade-to-org-roam-v2-with-use-package-and-quelpa/).
 
@@ -461,7 +526,7 @@ Mostly copied from [OrgMode-ExoCortex](https://orgmode-exocortex.com/2021/06/22/
   :after org
 
   :custom
-  (org-roam-directory (expand-file-name "roam" bmw/org-dir))
+  (org-roam-directory bmw/org-roam-directory)
 
   :bind
   ("C-c n l" . org-roam-buffer-toggle)
@@ -498,15 +563,220 @@ For the pretty.
 ```
 
 
-### ox-hugo {#ox-hugo}
+#### `ox-hugo` {#ox-hugo}
 
 Although [ox-hugo](https://ox-hugo.scripter.co) is aimed at Hugo, I'm trying it as part of an
 experiment with some other tools.
 
-Not worrying about capture templates yet.The main thing I care about is exporting config files
-like this one.
+Not worrying about capture templates yet. The main thing I care about
+is exporting config files like this one.
 
 ```elisp
 (use-package ox-hugo
   :after ox)
+```
+
+
+## Project management with Projectile and friends {#project-management-with-projectile-and-friends}
+
+[Projectile](https://projectile.mx/) plus a `.dir-locals.el` file seems like the right way to
+handle development projects without bumping into everything else.
+
+```elisp
+(use-package projectile
+  :ensure t
+
+  :init
+  (projectile-mode +1)
+
+  :bind
+  (:map projectile-mode-map
+        ("s-p" . projectile-command-map)
+        ("C-c p" . projectile-command-map)))
+```
+
+
+## `lsp-mode` {#lsp-mode}
+
+[`lsp-mode`](https://emacs-lsp.github.io/lsp-mode/) adds support for Microsoft's [Language Server
+Protocol](https://github.com/Microsoft/language-server-protocol/). Hypothetically that means easier setup of commonly desired
+features like linting and autocompletion.
+
+`nano-modeline` and `lsp-mode`'s breadcrumb trail wrestle with each other
+for space on that top line. Maybe someday I can figure out how to
+stack them. Until then, I like the modeline and its placement more
+than I like the breadcrumb.
+
+```elisp
+(use-package lsp-mode
+  :custom
+  (lsp-headerline-breadcrumb-enable nil)
+
+  :init
+  (setq lsp-keymap-prefix "C-c C-l")
+
+  :hook ((python-mode . lsp-deferred)
+         (lsp-mode . lsp-enable-which-key-integration))
+
+  :commands lsp)
+
+(use-package lsp-ui :commands lsp-ui-mode)
+
+(use-package lsp-ivy :commands lsp-ivy-workspace-symbol)
+
+(use-package lsp-treemacs
+  :after (lsp-mode treemacs)
+
+  :config
+  (lsp-treemacs-sync-mode 1)
+
+  :commands lsp-treemacs-errors-list)
+```
+
+
+## Programming Languages {#programming-languages}
+
+
+### Python {#python}
+
+I manage my projects with [Poetry](https://python-poetry.org/). [poetry.el](https://github.com/galaunay/poetry.el) offers a nice Magit-like
+interface to managing and maintaining Poetry projects.
+
+In particular, it _might_ simplify venv handling when I get to linting
+tools and language server providers.
+
+```elisp
+(use-package poetry
+  :ensure t)
+```
+
+
+## Which Key? {#which-key}
+
+[`which-key`](https://github.com/justbur/emacs-which-key) adds a completion panel for commands. That helps me learn
+the many Emacs key maps.
+
+```elisp
+(use-package which-key
+  :defer 0
+  :diminish which-key-mode
+  :config
+  (which-key-mode)
+  (setq which-key-idle-delay 1))
+```
+
+
+## Treemacs {#treemacs}
+
+[Treemacs](https://github.com/Alexander-Miller/treemacs) is a file explorer sidebar. That part is kind of "meh" for
+me.  The outliner provided by [`lsp-treemacs`](https://github.com/emacs-lsp/lsp-treemacs) interests me much more.
+
+<div class="note">
+
+To get Treemacs and nano playing nice I had to comment out line 515 of
+`nano-modeline.el` in my local copy of nano.
+
+```elisp
+;; (setq-default mode-line-format "")
+```
+
+Watching issue [#75](https://github.com/rougier/nano-emacs/issues/75) for updates on this problem.
+
+</div>
+
+```elisp
+(use-package treemacs
+  :ensure t
+
+  :defer t
+
+  :init
+  (with-eval-after-load 'winum
+    (define-key winum-keymap (kbd "M-0") #'treemacs-select-window))
+
+  :config
+  (progn
+    (setq treemacs-collapse-dirs                   (if treemacs-python-executable 3 0)
+          treemacs-deferred-git-apply-delay        0.5
+          treemacs-directory-name-transformer      #'identity
+          treemacs-display-in-side-window          t
+          treemacs-eldoc-display                   'simple
+          treemacs-file-event-delay                5000
+          treemacs-file-extension-regex            treemacs-last-period-regex-value
+          treemacs-file-follow-delay               0.2
+          treemacs-file-name-transformer           #'identity
+          treemacs-follow-after-init               t
+          treemacs-expand-after-init               t
+          treemacs-find-workspace-method           'find-for-file-or-pick-first
+          treemacs-git-command-pipe                ""
+          treemacs-goto-tag-strategy               'refetch-index
+          treemacs-indentation                     2
+          treemacs-indentation-string              " "
+          treemacs-is-never-other-window           nil
+          treemacs-max-git-entries                 5000
+          treemacs-missing-project-action          'ask
+          treemacs-move-forward-on-expand          nil
+          treemacs-no-png-images                   nil
+          treemacs-no-delete-other-windows         t
+          treemacs-project-follow-cleanup          nil
+          treemacs-persist-file                    (expand-file-name ".cache/treemacs-persist" user-emacs-directory)
+          treemacs-position                        'left
+          treemacs-read-string-input               'from-child-frame
+          treemacs-recenter-distance               0.1
+          treemacs-recenter-after-file-follow      nil
+          treemacs-recenter-after-tag-follow       nil
+          treemacs-recenter-after-project-jump     'always
+          treemacs-recenter-after-project-expand   'on-distance
+          treemacs-litter-directories              '("/node_modules" "/.venv" "/.cask")
+          treemacs-show-cursor                     nil
+          treemacs-show-hidden-files               t
+          treemacs-silent-filewatch                nil
+          treemacs-silent-refresh                  nil
+          treemacs-sorting                         'alphabetic-asc
+          treemacs-select-when-already-in-treemacs 'move-back
+          treemacs-space-between-root-nodes        t
+          treemacs-tag-follow-cleanup              t
+          treemacs-tag-follow-delay                1.5
+          treemacs-text-scale                      nil
+          treemacs-user-mode-line-format           nil
+          treemacs-user-header-line-format         nil
+          treemacs-wide-toggle-width               70
+          treemacs-width                           35
+          treemacs-width-increment                 1
+          treemacs-width-is-initially-locked       t
+          treemacs-workspace-switch-cleanup        nil)
+
+    ;; The default width and height of the icons is 22 pixels. If you are
+    ;; using a Hi-DPI display, uncomment this to double the icon size.
+    ;;(treemacs-resize-icons 44)
+
+    (treemacs-follow-mode t)
+    (treemacs-filewatch-mode t)
+    (treemacs-fringe-indicator-mode 'always)
+
+    (pcase (cons (not (null (executable-find "git")))
+                 (not (null treemacs-python-executable)))
+      (`(t . t)
+       (treemacs-git-mode 'deferred))
+      (`(t . _)
+       (treemacs-git-mode 'simple)))
+
+    (treemacs-hide-gitignored-files-mode nil))
+  :bind
+  (:map global-map
+        ("M-0"       . treemacs-select-window)
+        ("C-x t 1"   . treemacs-delete-other-windows)
+        ("C-x t t"   . treemacs)
+        ("C-x t d"   . treemacs-select-directory)
+        ("C-x t B"   . treemacs-bookmark)
+        ("C-x t C-t" . treemacs-find-file)
+        ("C-x t M-t" . treemacs-find-tag)))
+
+(use-package treemacs-projectile
+  :after (treemacs projectile)
+  :ensure t)
+
+(use-package treemacs-icons-dired
+  :hook (dired-mode . treemacs-icons-dired-enable-once)
+  :ensure t)
 ```

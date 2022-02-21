@@ -38,6 +38,6 @@ Not so intimidating.
 > You use different moves when you're fighting half a dozen people, than when
 > you only have to be worried about one
 
-[site]: /tags/site
+[site]: /tag/site
 
 Nah, I'll stick with my overcomplicated [site][] workflow for now.

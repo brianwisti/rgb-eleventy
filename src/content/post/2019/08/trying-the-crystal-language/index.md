@@ -16,8 +16,8 @@ uuid: 636d64cd-8ac2-421f-afe0-f3cd3f62079b
 ---
 
 [Crystal](https://crystal-lang.org/) is a statically typed, compiled
-programming language that looks a *lot* like [Ruby](/tags/ruby). Let’s
-try it out! Maybe even work on a [Taskwarrior](/tags/taskwarrior) thing
+programming language that looks a *lot* like [Ruby](/tag/ruby). Let’s
+try it out! Maybe even work on a [Taskwarrior](/tag/taskwarrior) thing
 I’ve been wanting to do.
 
 ## Motivation

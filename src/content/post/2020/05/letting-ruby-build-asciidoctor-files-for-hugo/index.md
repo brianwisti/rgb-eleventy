@@ -531,7 +531,7 @@ fiddle with all my Markdown files last year.  But still.
 [hugo]: https://gohugo.io
 [shortcodes]: https://gohugo.io/content-management/shortcodes/
 [render-hooks]: https://gohugo.io/getting-started/configuration-markup#markdown-render-hooks
-[rst]: /tags/rst
+[rst]: /tag/rst
 [adoc]: https://asciidoctor.org/
 [nikola]: https://getnikola.com/
 [gatsby]: https://www.gatsbyjs.org/
@@ -552,7 +552,7 @@ fiddle with all my Markdown files last year.  But still.
 [monkey-patch]: https://en.wikipedia.org/wiki/Monkey_patch
 [passthrough-macro]: https://asciidoctor.org/docs/user-manual/#pass-macros
 [grumbly]: /note/2019/12/removing-mmark-has-me-grumbly/
-[org]: /tags/org-mode
+[org]: /tag/org-mode
 [adoc-diagram]: https://asciidoctor.org/docs/asciidoctor-diagram
 [extensions-lab]: https://github.com/asciidoctor/asciidoctor-extensions-lab
 [eleventy]: https://www.11ty.dev

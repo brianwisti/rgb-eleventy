@@ -40,7 +40,7 @@ editing this post!
 put the variable in the post template, then keep the server running and browser
 open while I type. In fact, that's exactly what I've been doing!
 
-[Hugo]: /tags/hugo
+[Hugo]: /tag/hugo
 [page variables]: https://gohugo.io/variables/page/
 
 ```

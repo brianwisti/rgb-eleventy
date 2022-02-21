@@ -14,7 +14,7 @@ uuid: 95a7b6bc-c647-4b44-93de-b68dc3db2731
 ---
 
 [tutorial]: /post/2004/12/rebol-babysteps/
-[top REBOL section]: /tags/rebol
+[top REBOL section]: /tag/rebol
 [Moderately Interesting Ruby Exercises]: /post/2004/09/the-mires
 
 This section contains articles on various random ideas that I had as I was learning REBOL.

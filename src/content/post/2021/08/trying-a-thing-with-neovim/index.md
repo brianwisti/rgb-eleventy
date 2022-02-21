@@ -151,7 +151,7 @@ you fast Asciidoctor transforms as well — just remember a couple things:
 
 [neovim]: http://neovim.io/
 [remote-plugin]: https://neovim.io/doc/user/remote_plugin.html
-[rst]: /tags/rst
+[rst]: /tag/rst
 [hugo]: https://gohugo.io
 [pelican]: https://blog.getpelican.com/
 [nikola]: https://getnikola.com/

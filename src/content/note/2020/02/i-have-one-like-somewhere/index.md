@@ -18,7 +18,7 @@ integration for a *while*. Went the easy way, using
 [webmention.io](https://webmention.io) and [brid.gy](https://brid.gy).
 Easier than writing everything myself.
 
-For now it’s just like counts, with a [Invoke](/tags/pyinvoke) task
+For now it’s just like counts, with a [Invoke](/tag/pyinvoke) task
 checking my mentions feed at Hugo build time. More stuff is planned, but
 first I decide how much information to show and from which sources. Not
 every tweet reply is intended as a blog comment.

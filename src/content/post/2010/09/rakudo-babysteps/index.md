@@ -16,7 +16,7 @@ uuid: 1252c1d0-7bc4-4767-8d52-9df459428bb0
 ---
 
 <!--more-->
-[Rakudo]: /tags/rakudo/
+[Rakudo]: /tag/rakudo/
 
 I want to learn [Rakudo][]. You *might* want to learn Rakudo.
 Let's spend a little time looking at how to get started. While I follow the same very simple pattern of

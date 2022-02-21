@@ -56,7 +56,7 @@ itself is lovely, green, and very Pacific Northwest.
 ![Mossy](/assets/img/post/2018/09/cougar-mountain/mossy.jpg)
 
 We have some lovely woods around here. I started taking that for granted
-over the years. My assorted [sauntering](/tags/sauntering) trips have
+over the years. My assorted [sauntering](/tag/sauntering) trips have
 done a great job reminding me to not do that.
 
 ![Tall stump](/assets/img/post/2018/09/cougar-mountain/tall-stump.jpg)

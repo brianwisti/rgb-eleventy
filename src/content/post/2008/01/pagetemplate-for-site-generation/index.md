@@ -16,14 +16,14 @@ uuid: a0b992ad-9140-4c61-af51-8c38479c2c45
 
 [Python Blogger client]: /post/2007/12/python-loves-blogger-part-1/
 [gdata-ruby]: https://code.google.com/p/gdata-ruby-util/
-[PageTemplate]: /tags/pagetemplate/
+[PageTemplate]: /tag/pagetemplate/
 
 So I was looking at my [Python Blogger client][] and I tried implementing the same thing in Ruby. [gdata-ruby][] confusion stymied me. I still don't know whether library issues or my own ignorance blocked me.
 <!--more-->
 
 [ZenWeb]: http://zenspider.com/ZSS/Products/ZenWeb/index.html
 [WebMake]: http://webmake.taint.org
-[coolnamehere]: /categories/coolnamehere/
+[coolnamehere]: /tag/coolnamehere/
 
 That, of course, set me off on yet another thought. What if I tried to define my posts in a [PageTemplate][] file and used filters to handle the dirty work? Well, that might be a little challenge. But what if I used this approach to generate a whole Web site? Okay, yeah. That may have come out of nowhere for you. The truth is that I love static site generation tools, from [ZenWeb][] to [WebMake][]. These tools appeal to me because [coolnamehere][] is pretty much a static site and I love anything which can give that pile of pages a common format without making heavy server demands. Honestly, loading up PHP just so I can have a templated site seems like overkill.
 

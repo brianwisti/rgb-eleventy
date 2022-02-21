@@ -72,7 +72,7 @@ better" stage, to be followed by adding nifty features.
 ## What PageTemplate Is Not
 
 - It’s not a programming language. If you want a programming language
-  for your Web pages, try [PHP](/tags/php/)
+  for your Web pages, try [PHP](/tag/php/)
 - It’s not a tool for embedding Ruby code into your Web pages.
   [ERB](http://ruby-doc.org/stdlib-2.4.1/libdoc/erb/rdoc/ERB.html)
   already does a fine job of that.
@@ -96,7 +96,7 @@ better" stage, to be followed by adding nifty features.
 Brian has been a fan of Perl’s HTML::Template package for a long time,
 and he missed its robust usefulness whenever using a language that isn’t
 Perl. After delving deeper into other languages, he thought it might be
-fun to make some of that utility available in [Ruby](/tags/ruby/). It
+fun to make some of that utility available in [Ruby](/tag/ruby/). It
 would give Brian a decent-sized personal project, which would stretch
 his skills with project development and unit testing. Plus, if a
 templating system was available, maybe he wouldn’t miss Perl so badly.

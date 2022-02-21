@@ -420,8 +420,8 @@ ExifTool and Rich together, as I’m sure you can imagine.
 [shared]: /post/2020/04/getting-file-info-from-the-shell
 [exiftool]: https://exiftool.org
 [rich]: https://rich.readthedocs.io/en/stable/introduction.html
-[python]: link:/tags/python
-[perl]: /tags/perl
+[python]: /tag/python
+[perl]: /tag/perl
 [tty-toolkit]: https://ttytoolkit.org
 [pyexiftool]: https://smarnach.github.io/pyexiftool/
 [sven-marnach]: https://github.com/smarnach

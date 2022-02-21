@@ -17,7 +17,7 @@ I’ll admit it. When I first got into Web programming,
 favorite language. It took too much work to get anything done, and then
 it wouldn’t work half the time on other browsers. That’s the other
 thing. It was only useful to most of us on Web browsers.
-[Perl](/tags/perl/) was funny-looking, but worked on nearly any machine
+[Perl](/tag/perl/) was funny-looking, but worked on nearly any machine
 and could make the most elaborate Web applications that worked
 regardless of what browser your visitor was using. You could even write
 applications that had nothing to do with the Web, using Perl/Tk and

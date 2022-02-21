@@ -90,7 +90,7 @@ an eye on that, and see how I feel at the end of *Go In Action*.
 
 ## Intermission
 
-[org]: /tags/orgmode
+[org]: /tag/orgmode
 
 For the next couple of days I’ll focus on getting my notes for *The Imposter’s
 Handbook* and *The Linux Command Line* from paper into [org]. My old brain still
@@ -99,7 +99,7 @@ into org files, which simplifies searching and using those notes later.
 Honestly, I tend to abandon my paper notes and forget whatever I studied. This
 new two step process already has me using and referencing my notes more often.
 
-[Emacs]: /tags/emacs
+[Emacs]: /tag/emacs
 [Vim]: https://vim.org
 
 Incidentally - I spend enough time in [Emacs][] these days that it’s starting to

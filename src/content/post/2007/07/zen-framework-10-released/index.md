@@ -13,7 +13,7 @@ title: Zend Framework 1.0 Released
 uuid: 421d1822-b2e2-47a8-ba26-cc5a3a22dbf0
 ---
 
-[PHP]: /tags/php
+[PHP]: /tag/php
 [Zend Framework]: https://framework.zend.com
 [1.0 release]: http://devzone.zend.com/article/2262-Zend-Framework-1.0.0-production-release
 [CakePHP]: http://cakephp.org/

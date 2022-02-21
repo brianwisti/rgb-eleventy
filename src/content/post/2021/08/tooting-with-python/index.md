@@ -417,7 +417,7 @@ I had fun, and that's the important part.
 [python]: https://python.org
 [second-best]: https://twitter.com/glyph/status/1426414435275448324
 [mastodon-py]: https://mastodonpy.readthedocs.io/en/stable/
-[indieweb-tag]: /tags/indieweb
+[indieweb-tag]: /tag/indieweb
 [hackers-town]: https://hackers.town/@randomgeek
 [instances]: https://instances.social
 [twitter]: https://twitter.com

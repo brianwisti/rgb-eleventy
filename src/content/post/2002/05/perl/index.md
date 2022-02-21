@@ -15,8 +15,8 @@ uuid: fe49f913-d714-4ab1-87ae-d0245157a3fe
 
 What can I say about Perl? I’ve had very little to talk about it on this
 site over the years, despite the fact that I use Perl on an almost daily
-basis. It’s not as cute as [Ruby](/tags/ruby/), or as clean as
-[Python](/tags/python/), but it’s always there. There have been numerous
+basis. It’s not as cute as [Ruby](/tag/ruby/), or as clean as
+[Python](/tag/python/), but it’s always there. There have been numerous
 projects that are just plain easier in Perl. I can’t explain it.
 
 ## Interesting Perl Sites

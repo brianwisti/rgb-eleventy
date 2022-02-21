@@ -41,5 +41,5 @@ with notes and hashtags. The silly name reminds me they're supposed to be fun.
 
 Working out the occasional overlap is a pending item in [Taskwarrior].
 
-[tags]: /tags
-[Taskwarrior]: /tags/taskwarrior
+[tags]: /tag
+[Taskwarrior]: /tag/taskwarrior

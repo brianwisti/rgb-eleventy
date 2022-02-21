@@ -31,7 +31,7 @@ to improve this material for newcomers to Parrot.
 
 ### My Setup
 
-[Vim]: /tags/vim/
+[Vim]: /tag/vim/
 
 #### Linux
 
@@ -151,7 +151,7 @@ an installer file.
 
 > [parrot-win32 setup files](http://sourceforge.net/projects/parrotwin32/files/parrotwin32%20setup/)
 
-[Rakudo]: /tags/rakudo
+[Rakudo]: /tag/rakudo
 
 The stable setup file available currently is `setup-parrot-3.0.0.exe`. If you browse around,
 you will find a lot of interesting setup files. I won't be exploring them right now,

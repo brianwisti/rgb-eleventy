@@ -14,7 +14,7 @@ updated: 2009-07-11 00:00:00
 uuid: db7323de-b03d-460a-96e5-b48801ac63de
 ---
 
-There is more than one way to experiment with [Ruby](/tags/ruby/).
+There is more than one way to experiment with [Ruby](/tag/ruby/).
 [JRuby](http://jruby.org/) is a mature version of Ruby written for the
 Java Virtual Machine. This gives you a great deal of platform
 independence, since JRuby will comfortably run anywhere that Java runs.

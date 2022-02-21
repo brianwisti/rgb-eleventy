@@ -29,9 +29,9 @@ back into the full [HYG Catalog][] and search for stars from the command line.
 That's right. After all this work, `stellar` grows up and becomes an
 application.
 
-[Perl]: /tags/perl/
-[Python]: /tags/python/
-[Parrot]: /tags/parrot/
+[Perl]: /tag/perl/
+[Python]: /tag/python/
+[Parrot]: /tag/parrot/
 [SQLite]: http://sqlite.org
 
 ### Note

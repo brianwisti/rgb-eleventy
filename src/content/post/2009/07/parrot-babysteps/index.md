@@ -29,8 +29,8 @@ cold or forbidding it may look.
 
 ## What?
 
-[Perl]: /tags/perl/
-[Python]: /tags/python/
+[Perl]: /tag/perl/
+[Python]: /tag/python/
 
 [Parrot](http://parrot.org) is the name for the virtual machine that drives [Rakudo](http://rakudo.org)
 and [many other languages](http://www.parrot.org/languages). Part of the problem with writing

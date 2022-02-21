@@ -652,7 +652,7 @@ Now it would be nice to ask for specific data for our star in a meaningful way. 
 I want to just see the name and spectrum information. We could dig through the fields the
 way we have been, but I think it would be better if we could just ask for them by name.
 
-[Python]: /tags/python/
+[Python]: /tag/python/
 
 One way to do that is with a 
 [Hash](http://docs.parrot.org/parrot/latest/html/src/pmc/hash.pmc.html). This is 

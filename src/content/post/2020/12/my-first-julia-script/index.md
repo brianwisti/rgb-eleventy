@@ -20,7 +20,7 @@ Merry Christmas! I wrote a little [Julia][] code.
 
 ## The inspiration
 
-[Python]: /tags/python
+[Python]: /tag/python
 [MyPy]: https://mypy.readthedocs.io/en/stable/
 
 Been getting frustrated with [Python][]'s type hinting system.

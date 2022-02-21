@@ -90,8 +90,8 @@ for all of your programming. That’s kind of silly, though. This early,
 you can probably make do with almost anything that lets you edit text.
 Here are a few of my favorite popular choices:
 
-- [GNU Emacs](/tags/emacs/)
-- [Vim](/tags/vim/)
+- [GNU Emacs](/tag/emacs/)
+- [Vim](/tag/vim/)
 
 Look around a bit and pick the one that feels most comfortable to you.
 If you change your mind later, nobody should hold it against you.

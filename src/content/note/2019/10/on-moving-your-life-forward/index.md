@@ -24,7 +24,7 @@ uuid: 7294b09c-b4a2-452a-81f6-8cb4a9caa149
 Even with [Taskwarrior][] to help me tackle my TODO list, I feel the pain of living "paycheck
 to paycheck":
 
-[Taskwarrior]: /tags/taskwarrior
+[Taskwarrior]: /tag/taskwarrior
 
 I have the numbers to show that I'm getting lots done. Somehow I feel like I'm treading water. There's always
 more. Both the great ideas and the big goals grow stale as I address the urgent issues that must be done

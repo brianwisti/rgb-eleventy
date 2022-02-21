@@ -17,8 +17,8 @@ template to cut down on copying and pasting between posts.
 
 ## Motive
 
-I often create several [knitting](/tags/knitting) or
-[crochet](/tags/crochet) projects from the same book, or reference the
+I often create several [knitting](/tag/knitting) or
+[crochet](/tag/crochet) projects from the same book, or reference the
 same tutorial for a technique that I find tricky. Today, linking to
 those references in a post involves copying and pasting the URL from
 somewhere else – usually the blog post for a previous project. This is

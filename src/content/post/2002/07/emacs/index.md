@@ -22,7 +22,7 @@ stars of the [GNU](http://www.gnu.org) project and its
 software. It’s sort of an editor, but if all you do is edit files with
 it, maybe you could be using something else. I am rather fond of
 [NEdit](http://www.nedit.org/) and [JEdit](http://www.jedit.org/). I am
-also a longtime user of [Vim](/tags/vim) — despite my occasional
+also a longtime user of [Vim](/tag/vim) — despite my occasional
 membership in the [Church of
 Emacs](http://www.dina.dk/~abraham/religion/). There are a lot of fine
 editors out there, and you will be quite productive working with any of

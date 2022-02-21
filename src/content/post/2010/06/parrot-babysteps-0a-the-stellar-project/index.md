@@ -19,8 +19,8 @@ uuid: 3925c917-b50b-4d78-9de1-abc7ad87f2b0
 
 [simple Parrot projects]: /post/2010/04/parrot-babysteps-09-simple-projects
 [been writing]: /post/2009/10/parrot-babysteps-07-writing-subroutines
-[Parrot]: /tags/parrot/
-[Perl]: /tags/perl/
+[Parrot]: /tag/parrot/
+[Perl]: /tag/perl/
 
 We just learned how to create and test [simple Parrot projects][]. The next step
 is to reexamine the star catalog handler we've [been writing][], and turn it

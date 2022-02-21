@@ -16,7 +16,7 @@ uuid: 4f651958-e4e2-4d24-b753-7b95a9bd59a9
 
 I’m not sure why, but I wasn’t *quite* comfortable with
 [o-blog](https://github.com/renard/o-blog). It works well enough, but
-decided it was time to poke around with [jekyll](/tags/jekyll) again.
+decided it was time to poke around with [jekyll](/tag/jekyll) again.
 
 Used [exitwp](https://github.com/thomasf/exitwp) to convert the older
 WordPress posts to Markdown. Discovered that I like how Emacs handles

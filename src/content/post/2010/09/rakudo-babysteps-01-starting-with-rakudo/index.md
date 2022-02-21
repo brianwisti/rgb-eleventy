@@ -106,7 +106,7 @@ us.
 
 Obviously, you get [Rakudo](http://rakudo.org). But Rakudo is built on
 top of the Parrot virtual machine, so you also get a fresh copy of
-[Parrot](/tags/parrot/). You can learn more about coding directly to the
+[Parrot](/tag/parrot/). You can learn more about coding directly to the
 virtual machine at the [Parrot
 Babysteps](/post/2009/07/parrot-babysteps/). And you also get NQP, which
 is sort of a stripped-down version of Rakudo that makes writing new
@@ -162,7 +162,7 @@ writing a simple script. It’s easy enough to quit the shell.
 ## Writing a Perl 6 Program
 
 All we need now to write a Perl 6 program is a text editor. I prefer
-[Vim](/tags/vim/), which provides syntax highlighting.
+[Vim](/tag/vim/), which provides syntax highlighting.
 
 ```
 # Do not run on older Perl versions!
@@ -182,7 +182,7 @@ say "Hello $name - good to see you!";
 <aside class="admonition">
 
 2021-08-21
-: I guess we'll never know; plenty of fun to be had with [Raku](/tags/raku-lang)
+: I guess we'll never know; plenty of fun to be had with [Raku](/tag/raku-lang)
   thought!
 
 </aside>

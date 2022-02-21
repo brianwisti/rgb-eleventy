@@ -107,7 +107,7 @@ probably get away with putting my `.namespace` directive at the top of the file.
     .sub run_shell
         # ...
 
-[Perl]: /tags/perl/
+[Perl]: /tag/perl/
 
 Why do I say "SpaceTrade::Shell" rather than `['SpaceTrade';'Shell']` when talking about my namespace in this
 article? That is mainly because I am lazy. My fingers do not enjoy typing out all the characters to say

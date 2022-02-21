@@ -13,10 +13,10 @@ title: Crafts Are Now Posts
 uuid: 781fcded-58e0-4813-988a-c5f7a77d70ba
 ---
 
-[Craft]: /categories/craft
-[Drawing]: /tags/drawing
-[Knitting]: /tags/knitting
-[Crochet]: /tags/crochet
+[Craft]: /tag/craft
+[Drawing]: /tag/drawing
+[Knitting]: /tag/knitting
+[Crochet]: /tag/crochet
 
 <aside class="admonition tldr">
 <p class="admonition-title">tl;dr</p>
@@ -57,7 +57,7 @@ site configuration to handle this change.
 [Craft]: /categories/craft
 [Jekyll collection]: /post/2015/07/making-a-jekyll-collection
 [Switching to Hugo]: /post/2015/09/next-hugo
-[Disqus]: /tags/disqus
+[Disqus]: /tag/disqus
 [permalink]: http://gohugo.io/content-management/urls/#permalinks
 
 ## How?
@@ -69,7 +69,7 @@ How much craft content will I need to migrate?
 
 51 items is not bad, but it is more than I want to update manually. Time for a little code. Today I choose [Ruby][].
 
-[Ruby]: /tags/ruby
+[Ruby]: /tag/ruby
 
 ### Transform front matter in Craft content
 

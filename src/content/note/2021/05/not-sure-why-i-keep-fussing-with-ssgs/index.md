@@ -13,8 +13,8 @@ title: Not sure why I keep fussing with every single SSG. It's fun, I guess?
 uuid: 59f00edd-854d-4879-bcbb-6bf0d77caf70
 ---
 
-[Statamic]: /tags/statamic
-[Hugo]: /tags/hugo
+[Statamic]: /tag/statamic
+[Hugo]: /tag/hugo
 [Nanoc]: https://nanoc.app
 [Nikola]: https://getnikola.com
 [rgb-nanoc]: https://github.com/brianwisti/rgb-nanoc

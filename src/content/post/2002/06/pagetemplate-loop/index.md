@@ -388,7 +388,7 @@ Your fancy editor should be able to handle this, and PageTemplate should
 be able to understand it just fine. The only side effect is that you
 will have some empty comments in your final page.
 
-The other solution is to use [Vim](/tags/vim), [Emacs](/tags/emacs), or
+The other solution is to use [Vim](/tag/vim), [Emacs](/tag/emacs), or
 some other effective non-WYSIWYG editor. Personal preference, of course.
 I know that Dreamweaver costs good money, and you aren’t going to toss
 it aside just because I say so. Hopefully this workaround will suit your

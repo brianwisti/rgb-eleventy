@@ -29,7 +29,7 @@ My fingers pretty much have these memorized, but it would be nice if my brain kn
 | `⌘ + ⇧ + 4` + spacebar + click | Save selected window to file
 
 [several more]: http://osxdaily.com/2010/06/09/screen-capture-in-mac-os-x/
-[Emacs]: /tags/emacs/
+[Emacs]: /tag/emacs/
 
 There are [several more][] that I do not use.
 I'm already trying to learn [Emacs][] shortcuts.

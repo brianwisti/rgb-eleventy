@@ -17,7 +17,7 @@ So the [Hugo](https://gohugo.io) team is
 understandable decision. Providing all those options must make Hugo a
 challenge to maintain and improve.
 
-Well anyways I fixed it — sort of — with some [Perl](/tags/perl).
+Well anyways I fixed it — sort of — with some [Perl](/tag/perl).
 
 I spent my free time wrestling with trivial site details instead of
 writing posts and having fun. If it was due to my own misguided

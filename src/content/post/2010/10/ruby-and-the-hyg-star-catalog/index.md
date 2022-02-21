@@ -16,8 +16,8 @@ uuid: 57815f1d-2eb8-4cfd-a857-6afccf9f4417
 
 [reading a CSV file in Parrot]: /post/2009/10/parrot-babysteps-06-files-and-hashes
 [HYG Star Catalog]: http://www.astronexus.com/node/34
-[Parrot]: /tags/parrot/
-[Ruby]: /tags/ruby/
+[Parrot]: /tag/parrot/
+[Ruby]: /tag/ruby/
 
 One of my big projects over the last year has been a [Parrot Babysteps][] tutorial. One of the more
 interesting tasks in that tutorial was [reading a CSV file in Parrot][]. I used the [HYG Star Catalog][] as a
@@ -55,7 +55,7 @@ I do not. We'll just download it using our favorite downloading technique. Mine 
     $ wget http://www.astronexus.com/files/downloads/hygxyz.csv.gz
     $ tar xfvz hygxyz.csv.gz
 
-[editor]: /tags/editors/
+[editor]: /tag/editors/
 
 If we open `hygxyz.csv` in our favorite [editor][], we will see that the file is large and bewildering.
 

@@ -90,7 +90,7 @@ a collection on your own site gives you a backup if the service goes
 away, at least.
 
 I could use collections for my knitting and crochet projects. I have a
-couple of [knitting](/tags/knitting/) blog posts here. My
+couple of [knitting](/tag/knitting/) blog posts here. My
 [account](http://www.ravelry.com/people/brianwisti) on
 [Ravelry](https://www.ravelry.com) highlights a handful of other WIPs
 and FOs: *Works In Progress* and *Finished Objects*.

@@ -37,7 +37,7 @@ text-mode is a good start.
                            (goto-address-mode)))
 ```
 
-Now I can open links from my Markdown and [RST](/tags/rst) files with a
+Now I can open links from my Markdown and [RST](/tag/rst) files with a
 click! Or a `C-c <RET>`.
 
 **`goto-address-mode` key bindings**

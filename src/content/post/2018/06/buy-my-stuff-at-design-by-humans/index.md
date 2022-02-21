@@ -20,7 +20,7 @@ uuid: b3ebbda5-6f5a-436b-924f-9d8b8ea08001
 I opened a [store][] on the Design by Hümans site! I also made [Hugo][] warn me when I forget purchase links.
 
 [store]: https://www.designbyhumans.com/shop/randomgeek/
-[Hugo]: /tags/hugo
+[Hugo]: /tag/hugo
 <!--more-->
 
 Well, one design. I only got things going yesterday, with a quick sketch on a plain white background. Future
@@ -50,5 +50,5 @@ And then a couple weeks later I realized my needs would be better served by a ne
 
 </aside>
 
-["buy me"]: /tags/buy-me
+["buy me"]: /tag/buy-me
 [`errorf`]: http://gohugo.io/functions/errorf/

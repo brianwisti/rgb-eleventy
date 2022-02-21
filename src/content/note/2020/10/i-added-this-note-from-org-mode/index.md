@@ -65,5 +65,5 @@ Trying an experiment: setting up a [[https://orgmode.org/manual/Capture-template
 Still loads to figure out — for example, how will I get cover images working?
 But at least I proved to myself that it works.
 
-Back to fixing the broken [IndieWeb](/tags/indieweb) mentions, which is why I
+Back to fixing the broken [IndieWeb](/tag/indieweb) mentions, which is why I
 opened my editor a couple of hours ago.

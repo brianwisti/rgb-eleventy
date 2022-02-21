@@ -37,7 +37,7 @@ Taskwarrior helps you manage tasks and ideas from the command line. It provides
 a convenient interface, assuming your idea of convenient is a rich collection of
 commands you can enter, customize, and pipe to other utilities.
 
-[Org]: /tags/org-mode
+[Org]: /tag/org-mode
 [Vim-OrgMode]: https://github.com/jceb/vim-orgmode
 
 <aside class="admonition">

@@ -287,8 +287,8 @@ Where did I get all this?
 - [tmux man page](https://linux.die.net/man/1/tmux) — which you can get at on your own system with ``man tmux``
 
 [tmux]: https://github.com/tmux/tmux
-[taskwarrior]: /tags/taskwarrior
-[org-mode]: /tags/org-mode
-[neovim]: /tags/vim
-[hugo]: /tags/hugo
-[kexp]: /tags/kexp
+[taskwarrior]: /tag/taskwarrior
+[org-mode]: /tag/org-mode
+[neovim]: /tag/vim
+[hugo]: /tag/hugo
+[kexp]: /tag/kexp

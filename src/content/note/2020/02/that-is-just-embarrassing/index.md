@@ -14,7 +14,7 @@ title: That Is Just Embarrassing
 uuid: 07793cf2-752c-4403-a4a2-6cc89d9a52fa
 ---
 
-Got an [Invoke](/tags/pyinvoke) `test` task for the site. Because of
+Got an [Invoke](/tag/pyinvoke) `test` task for the site. Because of
 that, I found a post about [Jekyll
 collections](/post/2015/07/making-a-jekyll-collection) that got
 truncated — before the current repo existed.

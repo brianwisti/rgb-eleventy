@@ -21,7 +21,7 @@ handling in [Hugo][]. I *might* have the other half now:
 * Point my `build-adoc` script there instead of a neighboring `adoc` folder.
 * profit?
 
-[reStructuredText]: /tags/rst
+[reStructuredText]: /tag/rst
 
 Would work for [reStructuredText][] too.
 

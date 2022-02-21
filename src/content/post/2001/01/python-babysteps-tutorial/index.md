@@ -441,7 +441,7 @@ To edit a Python script in IDLE, simply go to the "File" menu and select
 "New Window". This will open a new window for editing Python stuff. This
 is not a shell, but a
 [Notepad](https://en.wikipedia.org/wiki/Microsoft_Notepad)-like text
-[editor](/tags/editors).
+[editor](/tag/editors).
 
 In your new window, enter this code:
 

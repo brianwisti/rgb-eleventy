@@ -27,7 +27,7 @@ still fun to see what else people use for their sites, though.
 simpler static site generator. [Node.js][] powers Eleventy. That caught my
 attention because of how much I've been using the platform at work recently.
 
-[Hugo]: /tags/hugo
+[Hugo]: /tag/hugo
 [a while]: /post/2015/09/next-hugo
 [Eleventy]: https://www.11ty.io/
 [Node.js]: https://nodejs.org/

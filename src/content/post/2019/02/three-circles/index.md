@@ -28,4 +28,4 @@ I enjoyed figuring out the templates with code and then building on them manuall
 
 But first I need to get back to preparing a work talk.
 
-[Celtic]: /tags/celtic
+[Celtic]: /tag/celtic

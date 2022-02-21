@@ -21,7 +21,7 @@ Today I explored [Fauntleroy Park](http://fauntleroywatershed.org/), a
 
 Years ago, I had a regular habit of exploring local parks and trails.
 Not *hiking*, mind you. Ugh. That sounds too purposeful for a person
-like me. No, [sauntering](/tags/sauntering). I just wanted to wander
+like me. No, [sauntering](/tag/sauntering). I just wanted to wander
 around, seeing what interests me, and enjoying the little differences
 each park offered.
 

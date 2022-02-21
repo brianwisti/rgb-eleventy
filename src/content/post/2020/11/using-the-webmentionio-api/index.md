@@ -420,11 +420,11 @@ work.
 [microformats2]: http://microformats.org/wiki/microformats2
 [junkw]: https://twitter.com/junkw
 [adding-a-note-from-org-mode]: /note/2020/10/i-added-this-note-from-org-mode/
-[hugo]: /tags/hugo
+[hugo]: /tag/hugo
 [hercynium]: https://twitter.com/hercynium
 [jq]: https://stedolan.github.io/jq/
 [requests]: https://requests.readthedocs.io/en/master/
-[python]: /tags/python
+[python]: /tag/python
 [data-file]: https://gohugo.io/templates/data-templates/
 [sqlite-utils]: https://sqlite-utils.readthedocs.io/en/stable/
 [again]: link:/post/2020/05/querying-hugo-content-with-python/

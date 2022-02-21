@@ -195,7 +195,7 @@ forum.
 The stuff covered in this tutorial should remain pretty consistent
 through future versions. If you’re curious to see inside
 PageTemplate.rb, you will definitely want to go over the [reference
-section](/tags/pagetemplate/). It describes PageTemplate and the classes
+section](/tag/pagetemplate/). It describes PageTemplate and the classes
 that back it up. Be warned, though: anything not described in this page
 is definitely subject to change, so your clever hack might be useless
 with the next release. Then again - that never stopped me. Go, have

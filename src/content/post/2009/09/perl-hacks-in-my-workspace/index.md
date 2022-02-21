@@ -24,7 +24,7 @@ series of books is written in such a way that cover-to-cover reading is not
 needed, thankfully.
 
 [GNU Screen]: /post/2007/01/gnu-screen
-[Vim]: /tags/vim/
+[Vim]: /tag/vim/
 [Firefox]: https://www.mozilla.org/en-US/firefox/new/
 
 The browser hacks from the beginning are an especially convenient way 

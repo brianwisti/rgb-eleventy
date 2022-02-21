@@ -13,7 +13,7 @@ title: Moose
 uuid: 6892fdee-725c-41bd-b72d-27a25def0b1c
 ---
 
-[Perl]: /tags/perl/
+[Perl]: /tag/perl/
 [Moose]: https://metacpan.org/module/Moose
 
 I have been dabbling a lot with [Moose][], a solid framework

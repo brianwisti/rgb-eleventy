@@ -39,5 +39,5 @@ Python 3.8.6. Good stuff!
 [explaining]: https://youtu.be/P52ZBQvAAsU
 [sublime-text]: https://www.sublimetext.com
 [getting-started]: https://youtu.be/_HoltQwvF2o
-[vim]: /tags/vim
+[vim]: /tag/vim
 [sublime-discord]: https://discord.gg/HcmwdVK

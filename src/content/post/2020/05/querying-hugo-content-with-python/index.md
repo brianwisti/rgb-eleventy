@@ -64,7 +64,7 @@ exec scripts/q \
   --formatter 'sprintf "%3d %s", $r{c}, $r{tag}'
 ```
 
-That gets you a list of all the tags in your entries, ordered by number of
+That gets you a list of all the tag in your entries, ordered by number of
 appearances.
 
     $ tag-count
@@ -469,7 +469,7 @@ That was fun! Still got a lot ahead of me.
 
 - Figuring out the quickest way to refresh the database
 - Adding those IndieWeb tables, so I can review Webmentions
-- New [Pyinvoke](/tags/pyinvoke) tasks to build, query, and explore the database
+- New [Pyinvoke](/tag/pyinvoke) tasks to build, query, and explore the database
 - Fixing those tasks that still call out to my old and busted `query` Python
 - Make my Datasette site dashboard pretty
 
@@ -488,10 +488,10 @@ Check out some other [datasettes][] available online!
 [frew]: https://blog.afoolishmanifesto.com/
 [blogging-workflow]: https://blog.afoolishmanifesto.com/posts/hugo-unix-vim-integration/
 [q-tool]: https://blog.afoolishmanifesto.com/posts/hugo-unix-vim-integration/#advanced-unix-tools
-[perl]: /tags/perl
-[python]: /tags/python
+[perl]: /tag/perl
+[python]: /tag/python
 [records]: https://github.com/kennethreitz-archive/records
-[indieweb]: /tags/indieweb
+[indieweb]: /tag/indieweb
 [simon-willison]: https://simonwillison.net/
 [sqlite-utils]: https://sqlite-utils.readthedocs.io/en/stable/
 [site-organization]: https://gohugo.io/content-management/organization/

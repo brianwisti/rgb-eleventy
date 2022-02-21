@@ -42,7 +42,7 @@ characters combined as `⇐` — to indicate "less than or equal to" —
 displays as `⩽`. It means the same thing, but it says it with a single
 visual character.
 
-[Raku]: /tags/raku-lang
+[Raku]: /tag/raku-lang
 
 We have this rich library of symbols to describe our solutions, but most
 programming languages use a tiny subset of those symbols. Except

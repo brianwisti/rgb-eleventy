@@ -134,8 +134,8 @@ Okay that last is a little disengenous. `ox-hugo` looked interesting enough
 that I used it to write this post. I might talk about that more once I have a
 better idea what I’m doing.
 
-[emacs]: /tags/emacs
-[org-mode]: /tags/org-mode
+[emacs]: /tag/emacs
+[org-mode]: /tag/org-mode
 [fsm]: http://spaghettimonster.com
 [use-package]: https://github.com/jwiegly/use-package
 [elscreen]: /post/2017/01/elscreen

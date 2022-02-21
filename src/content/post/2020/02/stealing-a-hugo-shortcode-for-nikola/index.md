@@ -21,7 +21,7 @@ uuid: 3fc16967-cf10-4e13-bacb-b619b78d10a9
 I keep waffling on whether to switch from [Hugo](https://gohugo.io) to
 [Nikola](https://getnikola.com) or some other [static site
 generator](https://www.staticgen.com/). Meanwhile, my [Nikola
-import](/tags/nikola) spare time project continues. Got the basic
+import](/tag/nikola) spare time project continues. Got the basic
 structure down, and my theme is almost useful. It even improved the Hugo
 version of the site.
 

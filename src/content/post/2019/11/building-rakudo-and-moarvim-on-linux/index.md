@@ -111,7 +111,7 @@ Using `gist` instead of normal stringification because I wanted all the
 details. You can see with `$*PERL` inside the string that `Str` is not
 for the gory details.
 
-It’s a bit like `str` versus `repr` in the [Python](/tags/python) world.
+It’s a bit like `str` versus `repr` in the [Python](/tag/python) world.
 
 Anyways yay, it worked\! If I ever get enough free time, I might
 investigate the `brew` bug. But it took me three days to finish *this*

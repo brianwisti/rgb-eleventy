@@ -122,7 +122,7 @@ That makes the whole thing fiddly^4 or something.  But these quick notes
 covered things that got in my way while gluing the whole thing together.  If
 you want to try it out, at least *some* of the fiddliness should be clearer.
 
-[orgconfig]: /tags/orgconfig
+[orgconfig]: /tag/orgconfig
 [ox-hugo]: https://ox-hugo.scripter.co
 [hugo]: https://gohugo.io
 [doom-emacs]: https://github.com/hlissner/doom-emacs

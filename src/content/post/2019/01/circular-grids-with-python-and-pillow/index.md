@@ -18,13 +18,13 @@ A while back, I wrote about [drawing
 grids](/post/2017/11/drawing-grids-with-python-and-pillow/) with
 [Python](https://www.python.org/) and
 [Pillow](https://python-pillow.org/). I no longer use that code so much,
-since [Procreate](/tags/procreate) now includes square grids in its
+since [Procreate](/tag/procreate) now includes square grids in its
 drawing aid tools.
 
-One idea sitting in my [Taskwarrior](/tags/taskwarrior) queue for a full
+One idea sitting in my [Taskwarrior](/tag/taskwarrior) queue for a full
 year now would still be useful, though. A circle template could help me
-break out of the square grid with my [Celtic](/tags/celtic) and
-[Tangle](/tags/zentangle) drawings.
+break out of the square grid with my [Celtic](/tag/celtic) and
+[Tangle](/tag/zentangle) drawings.
 
 I already create circular drawings using symmetry tools in my drawing
 apps. Those are doodles, though: unplanned and improvised. I sketch and

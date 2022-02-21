@@ -456,7 +456,7 @@ Let’s build it and look at a random folder in my Sync archive.
     ratings.rb          1.02 KB 2019-02-17 07:58:19
     rhythmdb.xml        14.8 MB 2019-02-17 07:58:19
 
-Oh hey. Stuff from a couple old [music management](/tags/music) posts.
+Oh hey. Stuff from a couple old [music management](/tag/music) posts.
 Getting back to those is on the task list. I’ll get there.
 
 Anyways. My `list` program works!

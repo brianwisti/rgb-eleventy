@@ -18,5 +18,5 @@ Finished the [Gatsby.js tutorial](https://www.gatsbyjs.org/tutorial/).
 Thought I’d dump the live site’s content into the tutorial site. Fiddled
 a *little* bit with
 [gatsby-image](https://www.gatsbyjs.org/packages/gatsby-image/). (It
-ignored the [RST](/tags/rst) files, but that’s okay.) I never did change
+ignored the [RST](/tag/rst) files, but that’s okay.) I never did change
 the title.

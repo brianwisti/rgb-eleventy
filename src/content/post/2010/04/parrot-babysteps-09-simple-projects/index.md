@@ -120,8 +120,8 @@ I'll fix the second part first.
     .end
 
 [named parameters]: http://docs.parrot.org/parrot/latest/html/docs/book/pir/ch06_subroutines.pod.html#Named_Parameters
-[Perl]: /tags/perl/
-[Ruby]: /tags/ruby/
+[Perl]: /tag/perl/
+[Ruby]: /tag/ruby/
 
 Parrot allows you to use [named parameters][] for some subroutines, and `setup`
 takes full advantage of that feature. If you're used to [Perl][] or [Ruby][],
@@ -135,7 +135,7 @@ can find details about the many options by checking the documentation.
 
     $ perldoc /usr/local/lib/parrot/3.0.0/library/distutils.pir
 
-[Rakudo]: /tags/rakudo/
+[Rakudo]: /tag/rakudo/
 [Babysteps]: /post/2009/07/parrot-babysteps
 
 

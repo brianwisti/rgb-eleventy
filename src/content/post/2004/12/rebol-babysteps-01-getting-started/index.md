@@ -266,7 +266,7 @@ Let’s find our how to do that.
 How to make your own REBOL script
 ---------------------------------
 
-Using your favorite [editor](/tags/editors/), type this text in and save
+Using your favorite [editor](/tag/editors/), type this text in and save
 it as `hello.r`. I like to keep my code files in a special "projects"
 directory, to keep from losing them in a mass of articles, pictures, and
 random files. You might want to follow the same habit, but it’s entirely
@@ -319,7 +319,7 @@ Of course, you could always provide more information if you want.
 
         Version: 1.0.2
         File: %hello.r
-        Home: http://randomgeekery.org/tags/rebol/
+        Home: http://randomgeekery.org/tag/rebol/
 
         Author: "Brian Wisti"
         Owner: "Brian Wisti"

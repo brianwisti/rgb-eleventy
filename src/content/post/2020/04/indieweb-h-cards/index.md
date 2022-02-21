@@ -13,7 +13,7 @@ tags:
 - IndieWeb
 - microformats
 - site
-title: Indieweb h-cards
+title: IndieWeb h-cards
 uuid: d932fcf6-f277-41d3-a3dd-e63e0ef30769
 ---
 
@@ -26,7 +26,7 @@ I updated my home page h-card for IndieWeb.
 [h-card]: http://microformats.org/wiki/h-card
 [microformats2]: http://microformats.org/wiki/microformats2
 
-[h-carg][] is a [microformats2][] vocabulary to describe people and
+[h-card][] is a [microformats2][] vocabulary to describe people and
 organizations. I added terms from that vocabulary as HTML classes to
 elements of a profile section on the front page.
 
@@ -124,7 +124,7 @@ itself!
 This abbreviated form contains more assumptions than I like. We can
 assume that "Brian Wisti" is a name. The format calls that an *implied
 property*. There’s honestly nothing wrong with that. I spend enough time
-in [Python](/tags/python) that I prefer explicit to implicit when
+in [Python](/tag/python) that I prefer explicit to implicit when
 practical.
 
 ``` html
@@ -290,8 +290,8 @@ discuss. Let’s make links out of some that I’ve posted about.
 <span class="p-note">
   Caffeinated, occasionally crafty geek in <span class="p-locality">Seattle</span>.
   I like <span class="p-category">FOSS</span>,
-  <a class="p-category" href="/tags/drawing">drawing</a>,
-  and <a class="p-category" href="/tags/knitting">yarn</a>.
+  <a class="p-category" href="/tag/drawing">drawing</a>,
+  and <a class="p-category" href="/tag/knitting">yarn</a>.
 </span>
 ```
 
@@ -349,8 +349,8 @@ Okay so what do I have now?
     <span class="p-note">
       Caffeinated, occasionally crafty geek in <span class="p-locality">Seattle</span>.
       I like <span class="p-category">FOSS</span>,
-      <a class="p-category" href="/tags/drawing">drawing</a>,
-      and <a class="p-category" href="/tags/knitting">yarn</a>.
+      <a class="p-category" href="/tag/drawing">drawing</a>,
+      and <a class="p-category" href="/tag/knitting">yarn</a>.
     </span>
   </p>
   <ul>

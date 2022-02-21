@@ -13,7 +13,7 @@ uuid: eddd3d26-ae65-4100-a767-061b627a3ab6
 ---
 
 Another one of those "no I’m not dead" posts. Instead of writing I’ve
-been [drawing](/tags/drawing) quite a bit this year. The writing will
+been [drawing](/tag/drawing) quite a bit this year. The writing will
 resume. For now, enjoy a sample of my favorite sketches from the last
 several months.
 

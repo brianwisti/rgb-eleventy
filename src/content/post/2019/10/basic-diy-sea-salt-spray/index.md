@@ -89,7 +89,7 @@ I had this big story in mind about how I was watching a beard care video
 one night and they said "use sea salt spray\! It’s good on your hair\!"
 and I said "okay\!" and they said "use *our* sea salt spray\!" and I
 said "at that price? H\*ck no\!" I was even going to work in some
-[Perl](/tags/perl) references. Talk about how making your own hair spray
+[Perl](/tag/perl) references. Talk about how making your own hair spray
 is another application of [The Three Virtues](http://threevirtues.com/).
 
 But I got bored just writing the outline for that particular story. Now

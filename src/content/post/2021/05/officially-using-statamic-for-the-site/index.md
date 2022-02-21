@@ -91,7 +91,7 @@ After that?  Watch Laracasts.  Learn Laravel.  Learn Statamic.  Have fun.
 [laracasts]: https://laracasts.com/
 [paper-css]: https://www.getpapercss.com/
 [art]: /art
-[task]: /tags/taskwarrior
+[task]: /tag/taskwarrior
 [store]: https://www.designbyhumans.com/shop/randomgeek/
 [sass]: https://sass-lang.com/
 [tailwind]: https://tailwindcss.com/

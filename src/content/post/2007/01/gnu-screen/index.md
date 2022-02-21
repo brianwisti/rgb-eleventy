@@ -86,7 +86,8 @@ You reattach a session with `screen -r` from the command line. You can also
 reattach a session that you lost because of network failure or some other 
 minor accident with `screen -Dr`.
 
-[Emacs]: /tags/emacs/
+[Emacs]: /tag/emacs/
+
 Be careful with `Ctrl-A Ctrl-K`! If you are used to working in 
 [Emacs][] or using emacs-style movement in your 
 shell, you may be accustomed to that key combo moving you to the beginning of 

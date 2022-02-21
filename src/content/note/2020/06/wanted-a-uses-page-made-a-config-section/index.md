@@ -12,7 +12,7 @@ uuid: d84b99df-1188-4d7b-ad09-6d835ebe682b
 
 [uses]: https://genehack.org/uses/
 [config]: /config
-[Hugo]: /tags/hugo
+[Hugo]: /tag/hugo
 [go-org]: https://github.com/niklasfasching/go-org
 [john sj anderson]: https://genehack.org
 

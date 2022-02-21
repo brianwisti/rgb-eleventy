@@ -24,7 +24,7 @@ on the street also loved them\! More than one asked for my business
 card. I have none, so those strangers needed to walk away empty handed.
 
 I need to order business cards. I need to put together a simple design
-for them, maybe incorporating one of my [drawings](/tags/drawing). I
+for them, maybe incorporating one of my [drawings](/tag/drawing). I
 should find out how much it costs for some cards — depending on how nice
 I want them. It might be a good idea to create a master store link here
 on the site. That way I can still use the cards if I use a different

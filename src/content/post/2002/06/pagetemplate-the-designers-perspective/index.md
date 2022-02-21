@@ -45,7 +45,7 @@ These placeholders are known as *directives* in PageTemplate.
 PageTemplate uses a very simple language which you can embed in your
 page. You should be able to use your favorite design tools to create an
 attractive template. My favorite design tool happens to be
-[Vim](/tags/vim), but the odds are that the
+[Vim](/tag/vim), but the odds are that the
 designers out there lean towards something a little friendlier, like
 Adobe Dreamweaver. With the default syntax, all of us can be happy.
 

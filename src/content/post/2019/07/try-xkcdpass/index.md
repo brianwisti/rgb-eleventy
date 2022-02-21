@@ -58,4 +58,4 @@ tiara embezzle stack doorway scrambled imitate
 [note]: /note/
 [xkcd-told-us]: https://xkcd.com/936/
 [leet-speak]: https://simple.wikipedia.org/wiki/Leet
-[python]: /tags/python
+[python]: /tag/python

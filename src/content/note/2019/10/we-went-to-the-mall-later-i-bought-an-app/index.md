@@ -27,7 +27,7 @@ then search through their content later.
 Been messing with Windows and [WSL 2][] more lately. So we went to the [Microsoft][] store too. I tried hard
 to like it, but everything felt a little clumsy and disappointing after the smoothness of the Apple devices.
 
-[WSL 2]: /tags/wsl
+[WSL 2]: /tag/wsl
 [Microsoft]: https://microsoft.com
 
 When I got home I had to find and install [GoodNotes][], the notebook app I played with at the Apple Store, on

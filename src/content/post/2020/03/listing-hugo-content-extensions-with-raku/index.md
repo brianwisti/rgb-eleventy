@@ -87,7 +87,7 @@ But no. Today I handed it off to the first tool that came to mind.
 ### `raku -e`
 
 Look, we’ve all been stuck at home for a bit. I need a break from
-[Python](/tags/python). How about [Perl](https://www.perl.org/)'s sister
+[Python](/tag/python). How about [Perl](https://www.perl.org/)'s sister
 language, [Raku](https://raku.org/)?
 
     bag(lines[1..*].map({ .split(",")[0].IO.extension })).say

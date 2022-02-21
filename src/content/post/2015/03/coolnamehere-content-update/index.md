@@ -22,7 +22,7 @@ blogging system — treats pages as secondary to posts. It makes sense,
 anyways. Once you stop bikeshedding about where to put content in your
 elaborate directory structure, it gets easier to add stuff.
 
-So with a bit of [Ruby](/tags/ruby/) code, some time attempting to
+So with a bit of [Ruby](/tag/ruby/) code, some time attempting to
 correct publishing dates on [archive.org](http://archive.org), scrubbing
 repeatedly over internal links with
 [linkchecker](http://wummel.github.io/linkchecker/), and heavy usage of
