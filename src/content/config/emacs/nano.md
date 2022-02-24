@@ -2,7 +2,7 @@
 title: "My NANO-based Emacs config"
 author: ["Random Geek"]
 description: "Not quite bespoke"
-updated: 2022-02-20T22:19:46-08:00
+updated: 2022-02-23T23:21:19-08:00
 tags: ["org-config", "emacs"]
 draft: false
 weight: 5
@@ -23,7 +23,7 @@ veteran, wonder "why didn't he just do X?"  The likeliest options:
 That last is particularly likely. I keep getting reminded that
 outsmarting yourself is a major hazard of Emacs configuration.
 
-I'll add `org-pymacs-nodejs-todoist-roam--lsp-mode` later. Maybe. I
+I'll add `org-pymacs-nodejs-todoist-roam-lsp-mode` later. Maybe. I
 may not even need it.
 
 </div>
@@ -49,6 +49,20 @@ And of course I'm sure to screw something up so let's make sure the debugger is 
 
 ```elisp
 (setq debug-on-error t)
+```
+
+
+### Enable local lisp {#enable-local-lisp}
+
+```elisp
+(let ((default-directory  (expand-file-name "lisp" user-emacs-directory)))
+  (setq load-path
+        (append
+         (let ((load-path  (copy-sequence load-path))) ;; Shadow
+           (append
+            (copy-sequence (normal-top-level-add-to-load-path '(".")))
+            (normal-top-level-add-subdirs-to-load-path)))
+         load-path)))
 ```
 
 
@@ -116,6 +130,25 @@ and that's been part of my Emacs muscle memory ever since.
 ```
 
 
+### Make a few adjustments for running on macOS {#make-a-few-adjustments-for-running-on-macos}
+
+Make sure the macOS Emacs GUI app picks up environment variables.
+
+```elisp
+(use-package exec-path-from-shell
+  :ensure
+  :init (exec-path-from-shell-initialize))
+```
+
+macOS doesn't use GNU Coreutils and of course its `ls` isn't what
+`dired` expects. Adjust for that.
+
+```elisp
+(if (string-equal system-type "darwin")
+    (setq dired-use-ls-dired nil))
+```
+
+
 ## Aesthetics {#aesthetics}
 
 
@@ -125,14 +158,22 @@ The _Roboto Mono_ font that NANO wants is **not** part of any `*roboto*` package
 found in Pop! OS repositories.  Ended up going to [Font Library](https://fontlibrary.org/en/font/roboto-mono) for a direct
 download.
 
+With that note out of the way - I still lean towards [Fantasque Sans Mono](https://github.com/belluzj/fantasque-sans).
+
 ```elisp
+(setq bmw/face-height-default
+      (if (eq system-type 'darwin)
+          180
+        140))
+
 (set-face-attribute 'default t
                     :background "#000000"
                     :foreground "#ffffff"
                     :family "FantasqueSansMono Nerd Font"
-                    :height 140)
+                    :height bmw/face-height-default)
 
 (setq nano-font-family-monospaced "FantasqueSansMono Nerd Font")
+(setq nano-font-size (/ bmw/face-height-default 10))
 ```
 
 
@@ -147,17 +188,6 @@ Installing via `straight.el`.
 ```elisp
 (straight-use-package
  '(nano-emacs :type git :host github :repo "rougier/nano-emacs"))
-```
-
-```elisp
-(let ((default-directory  user-emacs-directory))
-  (setq load-path
-        (append
-         (let ((load-path  (copy-sequence load-path))) ;; Shadow
-           (append
-            (copy-sequence (normal-top-level-add-to-load-path '(".")))
-            (normal-top-level-add-subdirs-to-load-path)))
-         load-path)))
 ```
 
 
@@ -202,6 +232,15 @@ Will need to fuss a bit more in a second though.
 
 (require 'nano-faces)
 (nano-faces)
+```
+
+Want to overload some of the defaults, though. nano-emacs does not
+like to show bold text when using Fantasque Sans Mono.
+
+```elisp
+(set-face-attribute 'nano-face-strong nil
+                    :foreground (face-foreground 'nano-face-default)
+                    :weight 'bold)
 ```
 
 
@@ -374,18 +413,20 @@ Emacs.
         "~/"))
 ```
 
-I'm using a file synchronization service - Dropbox today, but that
-could change. Where are my synchronized files at?
+Trying an experiment where first we look for a local `~org/` folder and
+use that if found, otherwise going with my actual default of
+`~/Dropbox/org`. Trying to shift over to git-synchronized Org files
+instead of Dropbox-synchronized, but that change will take a bit to
+percolate through all my systems.
 
 ```elisp
-(setq bmw/sync-dir (expand-file-name "Dropbox" bmw/local-root))
-```
+(setq bmw/default-org-directory (expand-file-name "org" bmw/local-root))
+(setq bmw/sync-org-directory (expand-file-name "Dropbox/org" bmw/local-root))
 
-For now all my Org files are stored in one folder. I may regret that
-later, but it'll have to get in line with all the other regrets.
-
-```elisp
-(setq bmw/org-dir (expand-file-name "org" bmw/sync-dir))
+(setq bmw/org-dir
+      (if (file-directory-p bmw/default-org-directory)
+          bmw/default-org-directory
+        bmw/sync-org-directory))
 ```
 
 That's enough to define most of the files I need.
@@ -410,7 +451,9 @@ with directly including them in my agenda searches.
 
 ```elisp
 (setq bmw/org-agenda-files (list bmw/org-dir
-                                 bmw/org-roam-directory))
+                                 bmw/org-roam-directory
+                                 (expand-file-name
+                                  "daily" bmw/org-roam-directory)))
 ```
 
 
@@ -443,15 +486,51 @@ NOPE
 ```elisp
 (setq bmw/todo-keywords
       `((sequence
-         "LATER(l)" "NOW(n)" "MAYBE(m)" "PROJECT(p)"
+         "LATER(l!)" "NOW(n!)" "MAYBE(m!)" "PROJECT(p!)"
          "|"
-         "DONE(d)" "NOPE(-)")))
+         "DONE(d!)" "NOPE(-!)")))
+```
+
+
+### `CUSTOM_ID` generation via writequit {#custom-id-generation-via-writequit}
+
+Grabbing directly from [this post](https://writequit.org/articles/emacs-org-mode-generate-ids.html).
+
+More to keep my `org-roam-ui` graph in order than for publishing, but
+hopefully it'll come in handy there too.
+
+```elisp
+(defun eos/org-custom-id-get (&optional pom create prefix)
+  "Get the CUSTOM_ID property of the entry at point-or-marker POM.
+     If POM is nil, refer to the entry at point. If the entry does
+     not have an CUSTOM_ID, the function returns nil. However, when
+     CREATE is non nil, create a CUSTOM_ID if none is present
+     already. PREFIX will be passed through to `org-id-new'. In any
+     case, the CUSTOM_ID of the entry is returned."
+  (interactive)
+  (org-with-point-at pom
+    (let ((id (org-entry-get nil "CUSTOM_ID")))
+      (cond
+       ((and id (stringp id) (string-match "\\S-" id))
+        id)
+       (create
+        (setq id (org-id-new (concat prefix "h")))
+        (org-entry-put pom "CUSTOM_ID" id)
+        (org-id-add-location id (buffer-file-name (buffer-base-buffer)))
+        id)))))
+
+(defun eos/org-add-ids-to-headlines-in-file ()
+  "Add CUSTOM_ID properties to all headlines in the
+     current file which do not already have one."
+  (interactive)
+  (org-map-entries (lambda () (eos/org-custom-id-get (point) 'create))))
 ```
 
 
 ### Putting it all together {#putting-it-all-together}
 
 ```elisp
+
 (use-package org
   :ensure org-plus-contrib
   :custom
@@ -462,7 +541,9 @@ NOPE
   (org-startup-indented t)
   (org-todo-keywords bmw/todo-keywords)
   (org-id-track-globally t)
+  (org-id-link-to-org-use-id 'create-if-interactive-and-no-custom-id)
   (org-id-locations-file bmw/org-id-locations-file)
+  (org-id-locations-file-relative t)
 
   :bind
   ("C-c a" . org-agenda)
@@ -519,29 +600,52 @@ Of course I'll end up tweaking it. But to get me started?
 
 #### org-roam {#org-roam}
 
-Mostly copied from [OrgMode-ExoCortex](https://orgmode-exocortex.com/2021/06/22/upgrade-to-org-roam-v2-with-use-package-and-quelpa/).
+Taking advantage of [`org-roam-dailies`](https://www.orgroam.com/manual.html#Org_002droam-Dailies) for journaling.  I started by
+copying from [OrgMode-ExoCortex](https://orgmode-exocortex.com/2021/06/22/upgrade-to-org-roam-v2-with-use-package-and-quelpa/) and [System Crafters](https://systemcrafters.net/build-a-second-brain-in-emacs/keep-a-journal/).
 
 ```elisp
 (use-package org-roam
   :after org
+  :ensure t
+  :demand t
 
   :custom
   (org-roam-directory bmw/org-roam-directory)
+  (org-roam-completion-everywhere t)
+  (org-roam-dailies-directory "daily")
+  (org-roam-node-display-template
+   (concat "${title:*} " (propertize "${tags:10}" 'face 'org-tag)))
 
   :bind
   ("C-c n l" . org-roam-buffer-toggle)
   ("C-c n f" . org-roam-node-find)
+  ("C-c n i" . org-roam-node-insert)
+  ("C-c n j" . org-roam-dailies-capture-today)
+  ("C-c n t" . org-roam-tag-add)
+  ([f8] . org-roam-dailies-goto-today)
   (:map org-mode-map
-        (("C-c n i" . org-roam-node-insert)
-         ("C-M-i" . completion-at-point)))
+        ("C-M-i" . completion-at-point))
+
+  :bind-keymap
+  ("C-c n d" . org-roam-dailies-map)
 
   :config
-  (setq org-roam-capture-templates '(("d" "default" plain "%?"
-                                      :if-new (file+head "${slug}.org"
-                                                         "#+TITLE: ${title}\n#+DATE: %T\n")
-                                      :unnarrowed t)))
-  ;; this sets up various file handling hooks so your DB remains up to date
-  (org-roam-setup))
+  (require 'org-roam-dailies)
+  (org-roam-db-autosync-mode)
+
+  :hook
+  (org-load . org-roam-mode)
+
+  :commands
+  (org-roam-buffer-toggle-display
+   org-roam-find-file
+   org-roam-insert
+   org-roam-switch-to-buffer
+   org-roam-dailies-date
+   org-roam-dailies-today
+   org-roam-dailies-tomorrow
+   org-roam-dailies-yesterday)
+  )
 ```
 
 
@@ -647,7 +751,9 @@ tools and language server providers.
 
 ```elisp
 (use-package poetry
-  :ensure t)
+  :ensure t
+  :config
+  (poetry-tracking-mode))
 ```
 
 
@@ -775,8 +881,14 @@ Watching issue [#75](https://github.com/rougier/nano-emacs/issues/75) for update
 (use-package treemacs-projectile
   :after (treemacs projectile)
   :ensure t)
+```
 
+I want `dired` icons, and I want them consistent with my Spaceduck colors.
+
+```elisp
 (use-package treemacs-icons-dired
   :hook (dired-mode . treemacs-icons-dired-enable-once)
-  :ensure t)
+  :ensure t
+  :custom
+  (treemacs-no-png-images t))
 ```
