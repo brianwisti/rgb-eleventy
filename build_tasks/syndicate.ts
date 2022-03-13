@@ -201,7 +201,7 @@ async function syndicateToTwitter(announcementText: string): Promise<string> {
 
 async function main() {
   // First we gather the SyndicatedArticles we already know about.
-  let posseRecords = require("../src/_data/posse.json");
+  const posseRecords = require("../src/_data/posse.json");
   const articles = await getArticles(posseRecords, CONTENT_ROOT);
 
   // next we find the newest unsyndicated post or note
