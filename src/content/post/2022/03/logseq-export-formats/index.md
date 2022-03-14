@@ -3,7 +3,7 @@ date: 2022-03-13
 description: Getting my second brain ready for post-processing
 draft: false
 tags:
-- logseq
+  - logseq
 title: Logseq's Export Formats
 cover: /assets/img/Screenshot_from_2022-03-13_14-28-42_1647206944123_0.png
 caption: Not the biggest graph but still cumbersome to export one by one
@@ -16,7 +16,7 @@ deal on its own, but it should make publishing the post more interesting.
 
 Won't make myself go into Document Mode for this one, though. Keep the outline nodes handy so I can have my tangents and side thoughts, then munge it into a readable post.
 
-[logseq]: https://logseq.org
+[logseq]: https://logseq.com
 
 :::
 
@@ -83,7 +83,7 @@ Course, there's still a fair chunk for me to parse.
 
 [opml]: https://indieweb.org/OPML
 
-![Screenshot from 2022-03-13 07-57-59.png](../assets/Screenshot_from_2022-03-13_07-57-59_1647183496460_0.png "OPML export for this page")
+![Screenshot from 2022-03-13 07-57-59.png](/assets/img/Screenshot_from_2022-03-13_07-57-59_1647183496460_0.png "OPML export for this page")
 
 Is it my imagination, or is there _less_ useful information here than in the standard Markdown export?
 
@@ -127,6 +127,6 @@ All things considered, the regular JSON export is probably my best bet. It and E
 
 ## What next?
 
-The very next step was turning the page I wrote into the post you're reading. I may eventually turn my notes for that experience into its own post. Other than that,  I'll probably take a look at the structure of my Logseq graph to see what bits I might want to make public and how.
+The very next step was turning the page I wrote into the post you're reading. I may eventually turn my notes for that experience into its own post. Other than that, I'll probably take a look at the structure of my Logseq graph to see what bits I might want to make public and how.
 
 Or I might just make this export knowledge part of the toolkit in my entropy-fighting battle with myself, bouncing between tools and PKMs like a ferret on a ping pong table.
